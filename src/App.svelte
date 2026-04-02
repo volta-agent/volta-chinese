@@ -309,6 +309,7 @@
  }
  
  function markKnown() {
+ if (!currentCard) return;
  if (!progress[currentCard.hanzi]) {
  progress[currentCard.hanzi] = { known: 0, unknown: 0 };
  }
@@ -318,6 +319,7 @@
  }
  
  function markUnknown() {
+ if (!currentCard) return;
  if (!progress[currentCard.hanzi]) {
  progress[currentCard.hanzi] = { known: 0, unknown: 0 };
  }
@@ -441,7 +443,12 @@
  </div>
 
  <div class="card-actions">
- <button type="button" class="btn-unknown" onclick={markUnknown}>
+ <button 
+ type="button" 
+ class="btn-unknown" 
+ onclick={markUnknown}
+ ontouchend={(e) => { e.preventDefault(); markUnknown(); }}
+ >
  Don't Know
  </button>
  <button 
@@ -452,7 +459,12 @@
  >
  🔊
  </button>
- <button type="button" class="btn-known" onclick={markKnown}>
+ <button 
+ type="button" 
+ class="btn-known" 
+ onclick={markKnown}
+ ontouchend={(e) => { e.preventDefault(); markKnown(); }}
+ >
  Know It
  </button>
  </div>
