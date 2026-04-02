@@ -445,9 +445,8 @@
  <div class="card-actions">
  <button 
  type="button" 
- class="btn-unknown" 
- onclick={markUnknown}
- ontouchend={(e) => { e.preventDefault(); markUnknown(); }}
+ class="btn-unknown"
+ onclick={() => { console.log('Unknown clicked'); markUnknown(); }}
  >
  Don't Know
  </button>
@@ -461,9 +460,8 @@
  </button>
  <button 
  type="button" 
- class="btn-known" 
- onclick={markKnown}
- ontouchend={(e) => { e.preventDefault(); markKnown(); }}
+ class="btn-known"
+ onclick={() => { console.log('Known clicked'); markKnown(); }}
  >
  Know It
  </button>
