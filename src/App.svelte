@@ -23,10 +23,19 @@
     { level: 5, name: 'HSK 5', count: 1300, desc: 'Advanced' }
   ];
   
-  onMount(() => {
-    loadProgress();
-    checkPremium();
-  });
+ onMount(() => {
+ loadProgress();
+ checkPremium();
+ 
+ // Preload voices for speech synthesis
+ if ('speechSynthesis' in window) {
+ speechSynthesis.getVoices();
+ // Some browsers need this event
+ speechSynthesis.onvoiceschanged = () => {
+ speechSynthesis.getVoices();
+ };
+ }
+ });
   
   function loadProgress() {
     try {
@@ -59,14 +68,32 @@
     }
   }
   
-  function speak(text) {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-CN';
-      utterance.rate = 0.9;
-      speechSynthesis.speak(utterance);
-    }
-  }
+ function speak(text) {
+ if (!('speechSynthesis' in window)) {
+ console.warn('Speech synthesis not supported');
+ return;
+ }
+ 
+ // Cancel any ongoing speech
+ speechSynthesis.cancel();
+ 
+ const utterance = new SpeechSynthesisUtterance(text);
+ utterance.lang = 'zh-CN';
+ utterance.rate = 0.85;
+ 
+ // Try to find a Chinese voice
+ const voices = speechSynthesis.getVoices();
+ const zhVoice = voices.find(v => v.lang.startsWith('zh'));
+ if (zhVoice) {
+ utterance.voice = zhVoice;
+ }
+ 
+ utterance.onerror = (e) => {
+ console.error('Speech error:', e);
+ };
+ 
+ speechSynthesis.speak(utterance);
+ }
   
   function getWordsForLevel(level) {
     // For now, only HSK 1 is loaded
