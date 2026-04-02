@@ -30,29 +30,10 @@
     { level: 5, name: 'HSK 5', count: 1300, desc: 'Advanced' }
   ];
   
-  let voicesLoaded = $state(false);
-  
-  onMount(() => {
-    loadProgress();
-    checkPremium();
-    
-    // Preload voices for speech synthesis
-    if ('speechSynthesis' in window) {
-      const loadVoices = () => {
-        const voices = speechSynthesis.getVoices();
-        if (voices.length > 0) {
-          voicesLoaded = true;
-          console.log('Voices loaded:', voices.filter(v => v.lang.startsWith('zh')).map(v => v.name));
-        }
-      };
-      
-      loadVoices();
-      speechSynthesis.onvoiceschanged = loadVoices;
-      
-      // Force load on some browsers
-      setTimeout(loadVoices, 100);
-    }
-  });
+ onMount(() => {
+ loadProgress();
+ checkPremium();
+ });
   
   function loadProgress() {
     try {
@@ -84,49 +65,50 @@
     }
   }
   
-  function speak(text) {
-    audioStatus = 'Playing...';
-    
-    if (!('speechSynthesis' in window)) {
-      audioStatus = 'Not supported';
-      alert('Speech synthesis not supported in this browser.');
-      return;
-    }
-    
-    // Cancel any ongoing speech
-    speechSynthesis.cancel();
-    
-    // Small delay after cancel
-    setTimeout(() => {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'zh-CN';
-      utterance.rate = 0.8;
-      
-      // Try to find a Chinese voice
-      const voices = speechSynthesis.getVoices();
-      const zhVoices = voices.filter(v => v.lang.startsWith('zh'));
-      if (zhVoices.length > 0) {
-        // Prefer female voice if available
-        const femaleVoice = zhVoices.find(v => v.name.toLowerCase().includes('female'));
-        utterance.voice = femaleVoice || zhVoices[0];
-      }
-      
-      utterance.onstart = () => {
-        audioStatus = 'Playing...';
-      };
-      
-      utterance.onend = () => {
-        audioStatus = '';
-      };
-      
-      utterance.onerror = (e) => {
-        console.error('Speech error:', e);
-        audioStatus = 'Error: ' + e.error;
-      };
-      
-      speechSynthesis.speak(utterance);
-    }, 50);
-  }
+ function speak(text) {
+ audioStatus = 'Playing...';
+ 
+ if (!('speechSynthesis' in window)) {
+ audioStatus = '';
+ alert('Speech synthesis not supported in this browser.');
+ return;
+ }
+ 
+ try {
+ // Cancel any ongoing speech
+ speechSynthesis.cancel();
+ 
+ const utterance = new SpeechSynthesisUtterance(text);
+ utterance.lang = 'zh-CN';
+ utterance.rate = 0.8;
+ utterance.pitch = 1;
+ 
+ // Try to find a Chinese voice
+ const voices = speechSynthesis.getVoices();
+ const zhVoice = voices.find(v => v.lang.startsWith('zh'));
+ if (zhVoice) {
+ utterance.voice = zhVoice;
+ }
+ 
+ utterance.onstart = () => {
+ audioStatus = 'Playing...';
+ };
+ 
+ utterance.onend = () => {
+ audioStatus = '';
+ };
+ 
+ utterance.onerror = (e) => {
+ console.error('Speech error:', e);
+ audioStatus = 'Error';
+ };
+ 
+ speechSynthesis.speak(utterance);
+ } catch (e) {
+ console.error('Speech exception:', e);
+ audioStatus = 'Error';
+ }
+ }
   
   function getWordsForLevel(level) {
     if (level === 1) return hsk1;
@@ -204,18 +186,15 @@
       <span class="logo">汉</span>
       <span class="brand-text">Volta Chinese</span>
     </div>
-    <div class="nav-controls">
-      {#if !voicesLoaded}
-        <span class="voices-loading">Loading audio...</span>
-      {/if}
-      <label class="toggle">
-        <input type="checkbox" bind:checked={showPinyin}>
-        <span class="toggle-label">Pinyin</span>
-      </label>
-      <button class="btn-premium" onclick={() => currentView = 'premium'}>
-        {isPremium ? '★ Premium' : 'Premium'}
-      </button>
-    </div>
+ <div class="nav-controls">
+ <label class="toggle">
+ <input type="checkbox" bind:checked={showPinyin}>
+ <span class="toggle-label">Pinyin</span>
+ </label>
+ <button class="btn-premium" onclick={() => currentView = 'premium'}>
+ {isPremium ? '★ Premium' : 'Premium'}
+ </button>
+ </div>
   </nav>
 
   {#if currentView === 'home'}
