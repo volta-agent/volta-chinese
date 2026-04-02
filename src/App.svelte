@@ -229,6 +229,26 @@
  currentView = 'flashcard';
  }
  
+ function startMistakeReview(level) {
+ currentLevel = level;
+ const words = getWordsForLevel(level);
+ // Filter to words that have been marked wrong more than right
+ const mistakes = words.filter(w => {
+ const p = progress[w.hanzi];
+ if (!p) return false;
+ return p.unknown > p.known;
+ });
+ studyCards = mistakes.slice(0, 20);
+ if (studyCards.length === 0) {
+ alert('No mistakes to review! Keep practicing and mistakes will appear here.');
+ return;
+ }
+ cardIndex = 0;
+ currentCard = studyCards[0];
+ showAnswer = false;
+ currentView = 'flashcard';
+ }
+ 
  function startCharacterWriting(level) {
  writingMode = 'character';
  const words = getSingleCharWords(level);
@@ -438,6 +458,14 @@
  disabled={lvl.level > 1 && !isPremium}
  >
  Flashcards
+ </button>
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={() => startMistakeReview(lvl.level)}
+ disabled={lvl.level > 1 && !isPremium}
+ >
+ Review Mistakes
  </button>
  </div>
  </div>
