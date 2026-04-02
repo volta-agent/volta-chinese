@@ -67,6 +67,69 @@
  localStorage.setItem('volta-chinese-progress', JSON.stringify(progress));
  }
  
+ // Spaced repetition functions (SM-2 inspired)
+ function getDueCards(level) {
+ const words = getWordsForLevel(level);
+ const now = Date.now();
+ 
+ return words.filter(word => {
+ const p = progress[word.hanzi];
+ if (!p) return true; // Never studied = due now
+ if (!p.nextReview) return true; // No next review set = due now
+ return p.nextReview <= now; // Past due date = due now
+ });
+ }
+ 
+ function getReviewPriority(word) {
+ const p = progress[word.hanzi];
+ if (!p) return 0; // New words = highest priority
+ if (!p.nextReview) return 0;
+ const overdue = Date.now() - p.nextReview;
+ return Math.max(0, overdue / (1000 * 60 * 60)); // Hours overdue
+ }
+ 
+ function updateSpacedRepetition(hanzi, known) {
+ if (!progress[hanzi]) {
+ progress[hanzi] = { known: 0, unknown: 0, interval: 1, easeFactor: 2.5, nextReview: Date.now() };
+ }
+ 
+ const p = progress[hanzi];
+ if (known) {
+ p.known++;
+ // SM-2: increase interval based on ease factor
+ if (p.interval === 1) {
+ p.interval = 1; // 1 day
+ } else if (p.interval === 2) {
+ p.interval = 6; // 6 days
+ } else {
+ p.interval = Math.round(p.interval * p.easeFactor);
+ }
+ p.easeFactor = Math.max(1.3, p.easeFactor + 0.1);
+ } else {
+ p.unknown++;
+ // Reset on failure
+ p.interval = 1;
+ p.easeFactor = Math.max(1.3, p.easeFactor - 0.2);
+ }
+ 
+ // Set next review time
+ p.nextReview = Date.now() + (p.interval * 24 * 60 * 60 * 1000);
+ saveProgress();
+ }
+ 
+ function getStudyCards(level, mode = 'due') {
+ const words = mode === 'due' ? getDueCards(level) : getWordsForLevel(level);
+ 
+ // Sort by priority (overdue first, then new, then scheduled)
+ const sorted = words.sort((a, b) => {
+ const pa = getReviewPriority(a);
+ const pb = getReviewPriority(b);
+ return pb - pa;
+ });
+ 
+ return sorted;
+ }
+ 
  function checkPremium() {
  const key = localStorage.getItem('volta-chinese-premium');
  if (key && validatePremiumKey(key)) {
@@ -157,8 +220,9 @@
  }
  
  function startFlashcards(level) {
- const words = getWordsForLevel(level);
- studyCards = shuffleArray([...words]).slice(0, 20);
+ currentLevel = level;
+ const words = getStudyCards(level, 'due');
+ studyCards = words.slice(0, 20);
  cardIndex = 0;
  currentCard = studyCards[0];
  showAnswer = false;
@@ -315,21 +379,13 @@
  
  function markKnown() {
  if (!currentCard) return;
- if (!progress[currentCard.hanzi]) {
- progress[currentCard.hanzi] = { known: 0, unknown: 0 };
- }
- progress[currentCard.hanzi].known++;
- saveProgress();
+ updateSpacedRepetition(currentCard.hanzi, true);
  nextCard();
  }
  
  function markUnknown() {
  if (!currentCard) return;
- if (!progress[currentCard.hanzi]) {
- progress[currentCard.hanzi] = { known: 0, unknown: 0 };
- }
- progress[currentCard.hanzi].unknown++;
- saveProgress();
+ updateSpacedRepetition(currentCard.hanzi, false);
  nextCard();
  }
  
