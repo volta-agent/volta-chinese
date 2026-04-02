@@ -21,9 +21,10 @@
  let writingCard = $state(null);
  let writingIndex = $state(0);
  let writingCards = $state([]);
- let showStrokeHint = $state(false);
+ let writingMode = $state('character'); // 'character' or 'word'
+ let currentCharIndex = $state(0); // For multi-char words, which char we're on
  let hanziWriterInstance = $state(null);
- let drawingCanvasReady = $state(false);
+ let strokeFeedback = $state('');
  
  const LEVELS = [
  { level: 1, name: 'HSK 1', count: 150, desc: 'Beginner' },
@@ -32,6 +33,17 @@
  { level: 4, name: 'HSK 4', count: 600, desc: 'Upper Intermediate' },
  { level: 5, name: 'HSK 5', count: 1300, desc: 'Advanced' }
  ];
+ 
+ // Separate words by character count
+ function getSingleCharWords(level) {
+ const words = level === 1 ? hsk1 : [];
+ return words.filter(w => w.hanzi.length === 1);
+ }
+ 
+ function getMultiCharWords(level) {
+ const words = level === 1 ? hsk1 : [];
+ return words.filter(w => w.hanzi.length > 1);
+ }
  
  onMount(() => {
  loadProgress();
@@ -71,7 +83,6 @@
  function speak(text) {
  audioStatus = 'Loading...';
  
- // Use Web Speech API with proper voice loading
  if ('speechSynthesis' in window) {
  let voices = speechSynthesis.getVoices();
  
@@ -84,7 +95,6 @@
  utterance.rate = 0.8;
  utterance.pitch = 1;
  
- // Find best Chinese voice
  voices = speechSynthesis.getVoices();
  const zhVoice = voices.find(v => v.lang.includes('zh') || v.lang.includes('cmn'));
  if (zhVoice) {
@@ -111,7 +121,6 @@
  }
  };
  
- // Voices might need to be loaded first
  if (voices.length === 0) {
  speechSynthesis.onvoiceschanged = doSpeak;
  setTimeout(() => {
@@ -151,14 +160,27 @@
  currentView = 'flashcard';
  }
  
- function startWriting(level) {
- const words = getWordsForLevel(level);
+ function startCharacterWriting(level) {
+ writingMode = 'character';
+ const words = getSingleCharWords(level);
+ writingCards = shuffleArray([...words]).slice(0, 15);
+ writingIndex = 0;
+ currentCharIndex = 0;
+ writingCard = writingCards[0];
+ hanziWriterInstance = null;
+ strokeFeedback = '';
+ currentView = 'writing';
+ }
+ 
+ function startWordWriting(level) {
+ writingMode = 'word';
+ const words = getMultiCharWords(level);
  writingCards = shuffleArray([...words]).slice(0, 10);
  writingIndex = 0;
+ currentCharIndex = 0;
  writingCard = writingCards[0];
- showStrokeHint = false;
  hanziWriterInstance = null;
- drawingCanvasReady = false;
+ strokeFeedback = '';
  currentView = 'writing';
  }
  
@@ -172,20 +194,55 @@
  }
  }
  
+ // Get current character to write (for multi-char, it's one at a time)
+ function getCurrentChar() {
+ if (!writingCard) return null;
+ if (writingMode === 'character') {
+ return writingCard.hanzi;
+ }
+ return writingCard.hanzi[currentCharIndex];
+ }
+ 
+ function getTotalChars() {
+ if (!writingCard) return 1;
+ return writingCard.hanzi.length;
+ }
+ 
+ function nextWritingChar() {
+ if (writingMode === 'character') {
+ // Single char mode - move to next word
+ nextWritingCard();
+ } else {
+ // Multi-char mode - check if more chars in current word
+ if (currentCharIndex < writingCard.hanzi.length - 1) {
+ // More chars in this word
+ currentCharIndex++;
+ hanziWriterInstance = null;
+ strokeFeedback = '';
+ } else {
+ // Word complete, move to next word
+ nextWritingCard();
+ }
+ }
+ }
+ 
  function nextWritingCard() {
  writingIndex++;
  if (writingIndex < writingCards.length) {
  writingCard = writingCards[writingIndex];
- showStrokeHint = false;
+ currentCharIndex = 0;
  hanziWriterInstance = null;
- drawingCanvasReady = false;
+ strokeFeedback = '';
  } else {
  currentView = 'complete';
  }
  }
  
  function initHanziWriter() {
- if (!writingCard || hanziWriterInstance) return;
+ if (!writingCard) return;
+ 
+ const char = getCurrentChar();
+ if (!char) return;
  
  setTimeout(() => {
  const targetEl = document.getElementById('hanzi-writer-target');
@@ -197,7 +254,7 @@
  try {
  targetEl.innerHTML = '';
  
- hanziWriterInstance = HanziWriter.create('hanzi-writer-target', writingCard.hanzi, {
+ hanziWriterInstance = HanziWriter.create('hanzi-writer-target', char, {
  width: 200,
  height: 200,
  showOutline: true,
@@ -212,24 +269,27 @@
  // Start quiz mode for drawing practice
  hanziWriterInstance.quiz({
  onMistake: (strokeData) => {
- console.log('Mistake on stroke', strokeData.strokeNum);
+ strokeFeedback = `Try again! Stroke ${strokeData.strokeNum + 1}`;
  },
  onCorrect: (strokeData) => {
- console.log('Correct stroke', strokeData.strokeNum);
+ strokeFeedback = `Good! Stroke ${strokeData.strokeNum + 1}`;
  },
  onComplete: (summaryData) => {
- console.log('Quiz completed!', summaryData);
+ const accuracy = Math.round((summaryData.numStrokes / summaryData.totalStrokes) * 100);
+ if (accuracy >= 80) {
+ strokeFeedback = 'Perfect! ✓';
+ } else {
+ strokeFeedback = `${accuracy}% accuracy - good try!`;
+ }
  }
  });
- 
- drawingCanvasReady = true;
  } catch (e) {
  console.error('Hanzi Writer error:', e);
  }
  }, 50);
  }
  
- function playStrokeAnimation() {
+ function showStrokeHint() {
  if (hanziWriterInstance) {
  hanziWriterInstance.showCharacter();
  hanziWriterInstance.animateCharacter({
@@ -237,13 +297,18 @@
  hanziWriterInstance.hideCharacter();
  hanziWriterInstance.quiz({
  onMistake: (strokeData) => {
- console.log('Mistake on stroke', strokeData.strokeNum);
+ strokeFeedback = `Try again! Stroke ${strokeData.strokeNum + 1}`;
  },
  onCorrect: (strokeData) => {
- console.log('Correct stroke', strokeData.strokeNum);
+ strokeFeedback = `Good! Stroke ${strokeData.strokeNum + 1}`;
  },
  onComplete: (summaryData) => {
- console.log('Quiz completed!', summaryData);
+ const accuracy = Math.round((summaryData.numStrokes / summaryData.totalStrokes) * 100);
+ if (accuracy >= 80) {
+ strokeFeedback = 'Perfect! ✓';
+ } else {
+ strokeFeedback = `${accuracy}% accuracy - good try!`;
+ }
  }
  });
  }
@@ -269,7 +334,7 @@
  nextCard();
  }
  
- // Initialize Hanzi Writer when entering writing view
+ // Initialize Hanzi Writer when entering writing view or changing char
  $effect(() => {
  if (currentView === 'writing' && writingCard) {
  initHanziWriter();
@@ -319,17 +384,39 @@
  >
  Flashcards
  </button>
- <button 
- type="button"
- class="btn-secondary"
- onclick={() => startWriting(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Writing
- </button>
  </div>
  </div>
  {/each}
+ </section>
+
+ <section class="writing-modes">
+ <h2>Writing Practice</h2>
+ <div class="writing-mode-cards">
+ <div class="writing-mode-card">
+ <h3>Single Characters</h3>
+ <p class="mode-desc">Practice writing individual characters. Great for beginners.</p>
+ <p class="mode-count">{getSingleCharWords(1).length} characters</p>
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={() => startCharacterWriting(1)}
+ >
+ Practice
+ </button>
+ </div>
+ <div class="writing-mode-card">
+ <h3>Word Building</h3>
+ <p class="mode-desc">Write each character in multi-character words.</p>
+ <p class="mode-count">{getMultiCharWords(1).length} words</p>
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={() => startWordWriting(1)}
+ >
+ Practice
+ </button>
+ </div>
+ </div>
  </section>
 
  {:else if currentView === 'flashcard' && currentCard}
@@ -391,11 +478,22 @@
  <div class="progress-bar">
  <div class="progress-fill" style="width: {(writingIndex / writingCards.length) * 100}%"></div>
  </div>
- <p class="progress-text">{writingIndex + 1} / {writingCards.length}</p>
+ <p class="progress-text">
+ {#if writingMode === 'word'}
+ Character {currentCharIndex + 1}/{getTotalChars()} · Word {writingIndex + 1}/{writingCards.length}
+ {:else}
+ {writingIndex + 1} / {writingCards.length}
+ {/if}
+ </p>
 
  <div class="writing-container">
  <div class="writing-prompt">
+ {#if writingMode === 'word'}
+ <p class="prompt-label">Write character {currentCharIndex + 1} of:</p>
+ <p class="prompt-word">{writingCard.hanzi.split('').join(' ')}</p>
+ {:else}
  <p class="prompt-label">Write this character:</p>
+ {/if}
  <p class="prompt-meaning">{writingCard.meaning}</p>
  {#if showPinyin}
  <p class="prompt-pinyin">{writingCard.pinyin}</p>
@@ -403,21 +501,20 @@
  </div>
  
  <div class="writing-area">
- <div class="character-reference" class:hidden={!showStrokeHint}>
- <span class="ref-char">{writingCard.hanzi}</span>
- </div>
  <div class="writing-grid" id="hanzi-writer-target">
- {#if !drawingCanvasReady}
- <p class="writing-hint">Loading stroke data...</p>
+ <p class="writing-hint">Loading...</p>
+ </div>
+ </div>
+ 
+ {#if strokeFeedback}
+ <p class="stroke-feedback">{strokeFeedback}</p>
  {/if}
- </div>
- </div>
  
  <div class="writing-actions">
  <button 
  type="button"
  class="btn-audio" 
- onclick={() => speak(writingCard.hanzi)}
+ onclick={() => speak(getCurrentChar())}
  title="Play audio"
  >
  🔊
@@ -425,12 +522,16 @@
  <button 
  type="button"
  class="btn-secondary" 
- onclick={() => { showStrokeHint = !showStrokeHint; if (showStrokeHint) playStrokeAnimation(); }}
+ onclick={showStrokeHint}
  >
- {showStrokeHint ? 'Hide' : 'Show'} Answer
+ Show Strokes
  </button>
- <button type="button" class="btn-primary" onclick={nextWritingCard}>
- Skip
+ <button type="button" class="btn-primary" onclick={nextWritingChar}>
+ {#if writingMode === 'word' && currentCharIndex < writingCard.hanzi.length - 1}
+ Next Character
+ {:else}
+ Next
+ {/if}
  </button>
  </div>
  </div>
@@ -709,6 +810,48 @@
  cursor: not-allowed;
  }
  
+ /* Writing Modes Section */
+ .writing-modes {
+ margin-top: 3rem;
+ padding-top: 2rem;
+ border-top: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ 
+ .writing-modes h2 {
+ text-align: center;
+ margin-bottom: 1.5rem;
+ color: #a0a0a0;
+ }
+ 
+ .writing-mode-cards {
+ display: grid;
+ gap: 1rem;
+ }
+ 
+ .writing-mode-card {
+ background: rgba(255, 255, 255, 0.05);
+ border-radius: 12px;
+ padding: 1.5rem;
+ text-align: center;
+ }
+ 
+ .writing-mode-card h3 {
+ font-size: 1.2rem;
+ margin-bottom: 0.5rem;
+ }
+ 
+ .mode-desc {
+ color: #a0a0a0;
+ font-size: 0.9rem;
+ margin-bottom: 0.5rem;
+ }
+ 
+ .mode-count {
+ color: #ffd93d;
+ font-size: 0.85rem;
+ margin-bottom: 1rem;
+ }
+ 
  /* Flashcard View */
  .flashcard-view {
  display: flex;
@@ -872,7 +1015,7 @@
  display: flex;
  flex-direction: column;
  align-items: center;
- gap: 2rem;
+ gap: 1.5rem;
  }
  
  .writing-prompt {
@@ -885,32 +1028,27 @@
  margin-bottom: 0.5rem;
  }
  
+ .prompt-word {
+ font-size: 2.5rem;
+ margin-bottom: 0.5rem;
+ letter-spacing: 0.5rem;
+ color: #ff6b6b;
+ }
+ 
  .prompt-meaning {
- font-size: 1.5rem;
+ font-size: 1.3rem;
  margin-bottom: 0.5rem;
  }
  
  .prompt-pinyin {
  color: #ffd93d;
- font-size: 1.2rem;
+ font-size: 1.1rem;
  }
  
  .writing-area {
  display: flex;
  flex-direction: column;
  align-items: center;
- gap: 1rem;
- }
- 
- .character-reference {
- display: flex;
- align-items: center;
- justify-content: center;
- }
- 
- .ref-char {
- font-size: 5rem;
- color: rgba(255, 107, 107, 0.3);
  }
  
  .writing-grid {
@@ -930,6 +1068,14 @@
  font-size: 0.9rem;
  text-align: center;
  padding: 1rem;
+ }
+ 
+ .stroke-feedback {
+ text-align: center;
+ font-size: 1.1rem;
+ color: #4ade80;
+ font-weight: 500;
+ min-height: 1.5rem;
  }
  
  .writing-actions {
