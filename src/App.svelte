@@ -2,6 +2,12 @@
  import { onMount } from 'svelte';
  import HanziWriter from 'hanzi-writer';
  import hsk1 from './lib/data/hsk1.json';
+ import hsk2 from './lib/data/hsk2.json';
+ import hsk3 from './lib/data/hsk3.json';
+ import hsk4 from './lib/data/hsk4.json';
+ import hsk5 from './lib/data/hsk5.json';
+ 
+ const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -27,21 +33,21 @@
  let strokeFeedback = $state('');
  
  const LEVELS = [
- { level: 1, name: 'HSK 1', count: 150, desc: 'Beginner' },
- { level: 2, name: 'HSK 2', count: 150, desc: 'Elementary' },
- { level: 3, name: 'HSK 3', count: 300, desc: 'Intermediate' },
- { level: 4, name: 'HSK 4', count: 600, desc: 'Upper Intermediate' },
- { level: 5, name: 'HSK 5', count: 1300, desc: 'Advanced' }
+ { level: 1, name: 'HSK 1', count: hsk1.length, desc: 'Beginner' },
+ { level: 2, name: 'HSK 2', count: hsk2.length, desc: 'Elementary' },
+ { level: 3, name: 'HSK 3', count: hsk3.length, desc: 'Intermediate' },
+ { level: 4, name: 'HSK 4', count: hsk4.length, desc: 'Upper Intermediate' },
+ { level: 5, name: 'HSK 5', count: hsk5.length, desc: 'Advanced' }
  ];
  
  // Separate words by character count
  function getSingleCharWords(level) {
- const words = level === 1 ? hsk1 : [];
+ const words = HSK_DATA[level] || [];
  return words.filter(w => w.hanzi.length === 1);
  }
  
  function getMultiCharWords(level) {
- const words = level === 1 ? hsk1 : [];
+ const words = HSK_DATA[level] || [];
  return words.filter(w => w.hanzi.length > 1);
  }
  
@@ -139,8 +145,7 @@
  }
  
  function getWordsForLevel(level) {
- if (level === 1) return hsk1;
- return [];
+ return HSK_DATA[level] || [];
  }
  
  function shuffleArray(array) {
