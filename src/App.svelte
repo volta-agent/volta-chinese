@@ -149,6 +149,41 @@
  }
  }
  
+ function exportProgress() {
+ const data = {
+ progress: progress,
+ exportDate: new Date().toISOString(),
+ version: '1.0'
+ };
+ const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+ const url = URL.createObjectURL(blob);
+ const a = document.createElement('a');
+ a.href = url;
+ a.download = `volta-chinese-progress-${new Date().toISOString().split('T')[0]}.json`;
+ a.click();
+ URL.revokeObjectURL(url);
+ }
+ 
+ function importProgress(event) {
+ const file = event.target.files[0];
+ if (!file) return;
+ 
+ const reader = new FileReader();
+ reader.onload = (e) => {
+ try {
+ const data = JSON.parse(e.target.result);
+ if (data.progress) {
+ progress = data.progress;
+ saveProgress();
+ alert('Progress imported successfully!');
+ }
+ } catch (err) {
+ alert('Invalid file format');
+ }
+ };
+ reader.readAsText(file);
+ }
+ 
  function speak(text) {
  audioStatus = 'Loading...';
  
@@ -715,6 +750,22 @@
  <div class="btc-address">
  <p>Bitcoin:</p>
  <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
+ </div>
+ 
+ <div class="export-section" style="margin-top: 1.5rem;">
+ <h3>Progress Export</h3>
+ <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;">
+ Export or import your learning progress:
+ </p>
+ <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+ <button type="button" class="btn-secondary" onclick={exportProgress}>
+ Export Progress
+ </button>
+ <label class="btn-secondary" style="cursor: pointer; display: inline-block; padding: 0.75rem 1rem;">
+ Import Progress
+ <input type="file" accept=".json" onchange={importProgress} style="display: none;">
+ </label>
+ </div>
  </div>
  </div>
  {/if}
