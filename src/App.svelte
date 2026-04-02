@@ -8,12 +8,19 @@
   let progress = $state({});
   let isPremium = $state(false);
   let premiumKey = $state('');
+  let audioStatus = $state('');
   
   // Flashcard state
   let currentCard = $state(null);
   let cardIndex = $state(0);
   let showAnswer = $state(false);
   let studyCards = $state([]);
+  
+  // Writing state
+  let writingCard = $state(null);
+  let writingIndex = $state(0);
+  let writingCards = $state([]);
+  let showStrokeHint = $state(false);
   
   const LEVELS = [
     { level: 1, name: 'HSK 1', count: 150, desc: 'Beginner' },
@@ -23,19 +30,29 @@
     { level: 5, name: 'HSK 5', count: 1300, desc: 'Advanced' }
   ];
   
- onMount(() => {
- loadProgress();
- checkPremium();
- 
- // Preload voices for speech synthesis
- if ('speechSynthesis' in window) {
- speechSynthesis.getVoices();
- // Some browsers need this event
- speechSynthesis.onvoiceschanged = () => {
- speechSynthesis.getVoices();
- };
- }
- });
+  let voicesLoaded = $state(false);
+  
+  onMount(() => {
+    loadProgress();
+    checkPremium();
+    
+    // Preload voices for speech synthesis
+    if ('speechSynthesis' in window) {
+      const loadVoices = () => {
+        const voices = speechSynthesis.getVoices();
+        if (voices.length > 0) {
+          voicesLoaded = true;
+          console.log('Voices loaded:', voices.filter(v => v.lang.startsWith('zh')).map(v => v.name));
+        }
+      };
+      
+      loadVoices();
+      speechSynthesis.onvoiceschanged = loadVoices;
+      
+      // Force load on some browsers
+      setTimeout(loadVoices, 100);
+    }
+  });
   
   function loadProgress() {
     try {
@@ -57,7 +74,6 @@
   }
   
   function validatePremiumKey(key) {
-    // Simple validation - in production would verify against server
     return key && key.length >= 8;
   }
   
@@ -68,37 +84,53 @@
     }
   }
   
- function speak(text) {
- if (!('speechSynthesis' in window)) {
- console.warn('Speech synthesis not supported');
- return;
- }
- 
- // Cancel any ongoing speech
- speechSynthesis.cancel();
- 
- const utterance = new SpeechSynthesisUtterance(text);
- utterance.lang = 'zh-CN';
- utterance.rate = 0.85;
- 
- // Try to find a Chinese voice
- const voices = speechSynthesis.getVoices();
- const zhVoice = voices.find(v => v.lang.startsWith('zh'));
- if (zhVoice) {
- utterance.voice = zhVoice;
- }
- 
- utterance.onerror = (e) => {
- console.error('Speech error:', e);
- };
- 
- speechSynthesis.speak(utterance);
- }
+  function speak(text) {
+    audioStatus = 'Playing...';
+    
+    if (!('speechSynthesis' in window)) {
+      audioStatus = 'Not supported';
+      alert('Speech synthesis not supported in this browser.');
+      return;
+    }
+    
+    // Cancel any ongoing speech
+    speechSynthesis.cancel();
+    
+    // Small delay after cancel
+    setTimeout(() => {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'zh-CN';
+      utterance.rate = 0.8;
+      
+      // Try to find a Chinese voice
+      const voices = speechSynthesis.getVoices();
+      const zhVoices = voices.filter(v => v.lang.startsWith('zh'));
+      if (zhVoices.length > 0) {
+        // Prefer female voice if available
+        const femaleVoice = zhVoices.find(v => v.name.toLowerCase().includes('female'));
+        utterance.voice = femaleVoice || zhVoices[0];
+      }
+      
+      utterance.onstart = () => {
+        audioStatus = 'Playing...';
+      };
+      
+      utterance.onend = () => {
+        audioStatus = '';
+      };
+      
+      utterance.onerror = (e) => {
+        console.error('Speech error:', e);
+        audioStatus = 'Error: ' + e.error;
+      };
+      
+      speechSynthesis.speak(utterance);
+    }, 50);
+  }
   
   function getWordsForLevel(level) {
-    // For now, only HSK 1 is loaded
     if (level === 1) return hsk1;
-    return []; // Will add other levels later
+    return [];
   }
   
   function startFlashcards(level) {
@@ -108,6 +140,15 @@
     currentCard = studyCards[0];
     showAnswer = false;
     currentView = 'flashcard';
+  }
+  
+  function startWriting(level) {
+    const words = getWordsForLevel(level);
+    writingCards = shuffleArray([...words]).slice(0, 10);
+    writingIndex = 0;
+    writingCard = writingCards[0];
+    showStrokeHint = false;
+    currentView = 'writing';
   }
   
   function shuffleArray(array) {
@@ -124,7 +165,16 @@
       currentCard = studyCards[cardIndex];
       showAnswer = false;
     } else {
-      // Complete
+      currentView = 'complete';
+    }
+  }
+  
+  function nextWritingCard() {
+    writingIndex++;
+    if (writingIndex < writingCards.length) {
+      writingCard = writingCards[writingIndex];
+      showStrokeHint = false;
+    } else {
       currentView = 'complete';
     }
   }
@@ -155,6 +205,9 @@
       <span class="brand-text">Volta Chinese</span>
     </div>
     <div class="nav-controls">
+      {#if !voicesLoaded}
+        <span class="voices-loading">Loading audio...</span>
+      {/if}
       <label class="toggle">
         <input type="checkbox" bind:checked={showPinyin}>
         <span class="toggle-label">Pinyin</span>
@@ -190,6 +243,7 @@
             </button>
             <button 
               class="btn-secondary"
+              onclick={() => startWriting(lvl.level)}
               disabled={lvl.level > 1 && !isPremium}
             >
               Writing
@@ -232,12 +286,70 @@
         <button class="btn-unknown" onclick={markUnknown}>
           Don't Know
         </button>
-        <button class="btn-audio" onclick={() => speak(currentCard.hanzi)}>
+        <button 
+          class="btn-audio" 
+          onclick={() => speak(currentCard.hanzi)}
+          title="Play audio"
+        >
           🔊
         </button>
         <button class="btn-known" onclick={markKnown}>
           Know It
         </button>
+      </div>
+      {#if audioStatus}
+        <p class="audio-status">{audioStatus}</p>
+      {/if}
+    </div>
+
+  {:else if currentView === 'writing' && writingCard}
+    <div class="writing-view">
+      <button class="back-btn" onclick={() => currentView = 'home'}>
+        ← Back
+      </button>
+      
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: {(writingIndex / writingCards.length) * 100}%"></div>
+      </div>
+      <p class="progress-text">{writingIndex + 1} / {writingCards.length}</p>
+
+      <div class="writing-container">
+        <div class="writing-prompt">
+          <p class="prompt-label">Write this character:</p>
+          <p class="prompt-meaning">{writingCard.meaning}</p>
+          {#if showPinyin}
+            <p class="prompt-pinyin">{writingCard.pinyin}</p>
+          {/if}
+        </div>
+        
+        <div class="writing-area">
+          <div class="character-reference" class:hidden={!showStrokeHint}>
+            <span class="ref-char">{writingCard.hanzi}</span>
+          </div>
+          <div class="writing-grid">
+            <!-- Placeholder for drawing - simplified for now -->
+            <p class="writing-hint">Draw the character on paper or tablet</p>
+          </div>
+        </div>
+        
+        <div class="writing-actions">
+          <button 
+            class="btn-audio" 
+            onclick={() => speak(writingCard.hanzi)}
+            title="Play audio"
+          >
+            🔊
+          </button>
+          <button 
+            class="btn-secondary" 
+            onclick={() => showStrokeHint = !showStrokeHint}
+          >
+            {showStrokeHint ? 'Hide' : 'Show'} Answer
+          </button>
+          <button class="btn-primary" onclick={nextWritingCard}>
+            Next
+          </button>
+        </div>
       </div>
     </div>
 
@@ -365,6 +477,11 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+
+  .voices-loading {
+    font-size: 0.8rem;
+    color: #ffd93d;
   }
 
   .toggle {
@@ -507,7 +624,7 @@
   }
 
   /* Flashcard styles */
-  .flashcard-view {
+  .flashcard-view, .writing-view {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -652,6 +769,91 @@
 
   .btn-audio:hover {
     background: #3f4346;
+  }
+
+  .audio-status {
+    color: #ffd93d;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+
+  /* Writing view styles */
+  .writing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .writing-prompt {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .prompt-label {
+    color: #8b98a5;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .prompt-meaning {
+    font-size: 1.5rem;
+    color: #e7e9ea;
+    margin-bottom: 0.25rem;
+  }
+
+  .prompt-pinyin {
+    color: #ffd93d;
+    font-size: 1rem;
+  }
+
+  .writing-area {
+    width: 200px;
+    height: 200px;
+    background: #1a1f25;
+    border: 2px solid #2f3336;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .writing-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .writing-hint {
+    color: #8b98a5;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .character-reference {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .character-reference.hidden {
+    display: none;
+  }
+
+  .ref-char {
+    font-size: 6rem;
+    color: rgba(255, 107, 107, 0.3);
+  }
+
+  .writing-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   /* Complete view */
@@ -816,6 +1018,9 @@
     }
     .card-hanzi {
       font-size: 3rem;
+    }
+    .ref-char {
+      font-size: 4rem;
     }
   }
 </style>
