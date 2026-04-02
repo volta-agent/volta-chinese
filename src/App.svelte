@@ -66,16 +66,11 @@
   }
   
  function speak(text) {
- audioStatus = 'Playing...';
+ audioStatus = 'Loading...';
  
- if (!('speechSynthesis' in window)) {
- audioStatus = '';
- alert('Speech synthesis not supported in this browser.');
- return;
- }
- 
+ // Try Web Speech API first
+ if ('speechSynthesis' in window) {
  try {
- // Cancel any ongoing speech
  speechSynthesis.cancel();
  
  const utterance = new SpeechSynthesisUtterance(text);
@@ -83,7 +78,6 @@
  utterance.rate = 0.8;
  utterance.pitch = 1;
  
- // Try to find a Chinese voice
  const voices = speechSynthesis.getVoices();
  const zhVoice = voices.find(v => v.lang.startsWith('zh'));
  if (zhVoice) {
@@ -99,15 +93,52 @@
  };
  
  utterance.onerror = (e) => {
- console.error('Speech error:', e);
- audioStatus = 'Error';
+ console.log('Web Speech failed, trying audio fallback:', e.error);
+ playGoogleTTS(text);
  };
  
  speechSynthesis.speak(utterance);
- } catch (e) {
- console.error('Speech exception:', e);
- audioStatus = 'Error';
+ 
+ // Timeout fallback - if speech doesn't start in 2s, use Google TTS
+ setTimeout(() => {
+ if (audioStatus === 'Loading...') {
+ speechSynthesis.cancel();
+ playGoogleTTS(text);
  }
+ }, 2000);
+ 
+ return;
+ } catch (e) {
+ console.log('Web Speech exception:', e);
+ }
+ }
+ 
+ // Fallback to Google TTS
+ playGoogleTTS(text);
+ }
+ 
+ function playGoogleTTS(text) {
+ audioStatus = 'Playing...';
+ 
+ // Use Google Translate TTS API
+ const audio = new Audio();
+ const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=zh-CN&client=tw-ob`;
+ 
+ audio.src = url;
+ audio.oncanplaythrough = () => {
+ audio.play().catch(e => {
+ console.error('Audio play failed:', e);
+ audioStatus = 'Error';
+ });
+ };
+ audio.onended = () => {
+ audioStatus = '';
+ };
+ audio.onerror = (e) => {
+ console.error('Audio error:', e);
+ audioStatus = 'Error';
+ };
+ audio.load();
  }
   
   function getWordsForLevel(level) {
