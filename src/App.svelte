@@ -275,12 +275,8 @@
  strokeFeedback = `Good! Stroke ${strokeData.strokeNum + 1}`;
  },
  onComplete: (summaryData) => {
- const accuracy = Math.round((summaryData.numStrokes / summaryData.totalStrokes) * 100);
- if (accuracy >= 80) {
- strokeFeedback = 'Perfect! ✓';
- } else {
- strokeFeedback = `${accuracy}% accuracy - good try!`;
- }
+ console.log('Quiz complete:', summaryData);
+ strokeFeedback = 'Complete! ✓';
  }
  });
  } catch (e) {
@@ -303,12 +299,8 @@
  strokeFeedback = `Good! Stroke ${strokeData.strokeNum + 1}`;
  },
  onComplete: (summaryData) => {
- const accuracy = Math.round((summaryData.numStrokes / summaryData.totalStrokes) * 100);
- if (accuracy >= 80) {
- strokeFeedback = 'Perfect! ✓';
- } else {
- strokeFeedback = `${accuracy}% accuracy - good try!`;
- }
+ console.log('Quiz complete:', summaryData);
+ strokeFeedback = 'Complete! ✓';
  }
  });
  }
