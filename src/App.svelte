@@ -446,7 +446,7 @@
  <button 
  type="button" 
  class="btn-unknown"
- onclick={() => { console.log('Unknown clicked'); markUnknown(); }}
+ onclick={() => markUnknown()}
  >
  Don't Know
  </button>
@@ -461,7 +461,7 @@
  <button 
  type="button" 
  class="btn-known"
- onclick={() => { console.log('Known clicked'); markKnown(); }}
+ onclick={() => markKnown()}
  >
  Know It
  </button>
