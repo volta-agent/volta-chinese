@@ -948,10 +948,16 @@
  font-size: 1rem;
  font-weight: 500;
  transition: all 0.2s;
+ -webkit-tap-highlight-color: transparent;
+ touch-action: manipulation;
  }
  
  .btn-known:hover {
  background: #22c55e;
+ }
+ 
+ .btn-known:active {
+ background: #16a34a;
  }
  
  .btn-unknown {
@@ -964,10 +970,16 @@
  font-size: 1rem;
  font-weight: 500;
  transition: all 0.2s;
+ -webkit-tap-highlight-color: transparent;
+ touch-action: manipulation;
  }
  
  .btn-unknown:hover {
  background: #ef4444;
+ }
+ 
+ .btn-unknown:active {
+ background: #dc2626;
  }
  
  .btn-audio {
@@ -984,10 +996,16 @@
  display: flex;
  align-items: center;
  justify-content: center;
+ -webkit-tap-highlight-color: transparent;
+ touch-action: manipulation;
  }
  
  .btn-audio:hover {
  background: rgba(255, 255, 255, 0.2);
+ }
+ 
+ .btn-audio:active {
+ background: rgba(255, 255, 255, 0.3);
  }
  
  .audio-status {
