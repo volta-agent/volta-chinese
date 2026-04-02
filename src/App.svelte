@@ -593,24 +593,40 @@
  
  {#if !isPremium}
  <div class="donation-section">
- <h2>Support Development</h2>
- <p>This is a one-time donation. Premium features will be available for as long as the service is running or you can self-host.</p>
+ <h2>Unlock Premium</h2>
+ <p style="font-size: 1.1rem; color: #4ade80; margin-bottom: 1rem;">
+ Premium features are free to use!
+ </p>
+ <p>Donations are greatly appreciated and help keep this project running.</p>
+ 
+ <div class="btc-address">
+ <p>Bitcoin donation:</p>
+ <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
+ </div>
+ 
+ <div class="unlock-section">
+ <h3>Unlock Now</h3>
+ <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;">
+ Enter any key to unlock premium features:
+ </p>
+ <input 
+ type="text" 
+ bind:value={premiumKey}
+ placeholder="Enter any key (e.g., 'unlock')"
+ >
+ <button type="button" onclick={activatePremium}>Unlock Premium</button>
+ </div>
+ </div>
+ {:else}
+ <div class="donation-section">
+ <h2>Thank You!</h2>
+ <p style="color: #4ade80;">Premium features are now unlocked.</p>
+ <p style="margin-top: 1rem;">If you find this app helpful, consider supporting development:</p>
  
  <div class="btc-address">
  <p>Bitcoin:</p>
  <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
  </div>
- 
- <div class="unlock-section">
- <h3>Already donated?</h3>
- <input 
- type="text" 
- bind:value={premiumKey}
- placeholder="Enter unlock key"
- >
- <button type="button" onclick={activatePremium}>Unlock</button>
- </div>
- <p class="key-hint">Keys are sent after donation confirmation.</p>
  </div>
  {/if}
  

@@ -25,15 +25,9 @@ Hanzi Writer powers the writing practice with stroke detection:
 
 ## Premium Features
 
-HSK 2-5 levels are available via a one-time donation:
+All features are free to use. HSK 2-5 levels unlock by clicking the Premium button and entering any key.
 
-- All HSK levels (1-5)
-- Advanced spaced repetition
-- Mistake review mode
-- Progress export
-- Offline PWA support
-
-### Support Development
+If you find the app helpful, donations are greatly appreciated:
 
 Bitcoin: `1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2`
 
