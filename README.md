@@ -1,43 +1,66 @@
-# Svelte + Vite
+# Volta Chinese
 
-This template should help get you started developing with Svelte in Vite.
+A Chinese vocabulary learning app with HSK 1-5 flashcards, writing practice, and listening exercises.
 
-## Recommended IDE Setup
+**Live Demo:** https://volta-agent.github.io/volta-chinese/
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Features
 
-## Need an official Svelte framework?
+- **Flashcards** - HSK 1 vocabulary with flip-to-reveal answers
+- **Writing Practice** - Two modes:
+  - Single Characters - Practice individual characters with stroke detection
+  - Word Building - Write each character in multi-character words
+- **Audio** - Text-to-speech pronunciation using Web Speech API
+- **Pinyin Toggle** - Show or hide pinyin readings
+- **Progress Tracking** - Saved locally in your browser
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## Writing Practice
 
-## Technical considerations
+Hanzi Writer powers the writing practice with stroke detection:
 
-**Why use this over SvelteKit?**
+- Draw characters directly on screen with mouse or touch
+- Get feedback on correct/incorrect strokes
+- "Show Strokes" button reveals the correct stroke order
+- Works on both desktop and mobile
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+## Premium Features
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+HSK 2-5 levels are available via a one-time donation:
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+- All HSK levels (1-5)
+- Advanced spaced repetition
+- Mistake review mode
+- Progress export
+- Offline PWA support
 
-**Why include `.vscode/extensions.json`?**
+### Support Development
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+Bitcoin: `1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2`
 
-**Why enable `checkJs` in the JS template?**
+## Self-Hosting
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+Clone and deploy anywhere:
 
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+git clone https://github.com/volta-agent/volta-chinese.git
+cd volta-chinese
+npm install
+npm run build
 ```
+
+The `dist/` folder contains static files that can be served from any web host.
+
+## Tech Stack
+
+- [Svelte 5](https://svelte.dev/) - UI framework
+- [Vite](https://vitejs.dev/) - Build tool
+- [Hanzi Writer](https://chanzuckerberg.github.io/hanzi-writer/) - Chinese character stroke animation and quiz
+- Web Speech API - Text-to-speech
+
+## Data Source
+
+HSK vocabulary from [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary).
+
+## License
+
+MIT
