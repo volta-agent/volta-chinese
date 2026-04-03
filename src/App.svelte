@@ -614,31 +614,33 @@ let currentSentenceWord = $state(null); // The word being studied
 
  <section class="writing-modes">
  <h2>Writing Practice</h2>
- <div class="writing-mode-cards">
- <div class="writing-mode-card">
- <h3>Single Characters</h3>
- <p class="mode-desc">Practice writing individual characters. Great for beginners.</p>
- <p class="mode-count">{getSingleCharWords(1).length} characters</p>
+ <p class="section-desc">Select a level to practice writing characters and words.</p>
+ <div class="writing-level-grid">
+ {#each LEVELS as lvl}
+ <div class="writing-level-card">
+ <h3>{lvl.name}</h3>
+ <p class="level-count">{getSingleCharWords(lvl.level).length} single chars</p>
+ <p class="level-count">{getMultiCharWords(lvl.level).length} words</p>
+ <div class="writing-actions">
  <button 
  type="button"
  class="btn-secondary"
- onclick={() => startCharacterWriting(1)}
+ onclick={() => startCharacterWriting(lvl.level)}
+ disabled={lvl.level > 1 && !isPremium}
  >
- Practice
+ Single Chars
  </button>
- </div>
- <div class="writing-mode-card">
- <h3>Word Building</h3>
- <p class="mode-desc">Write each character in multi-character words.</p>
- <p class="mode-count">{getMultiCharWords(1).length} words</p>
  <button 
  type="button"
  class="btn-secondary"
- onclick={() => startWordWriting(1)}
+ onclick={() => startWordWriting(lvl.level)}
+ disabled={lvl.level > 1 && !isPremium}
  >
- Practice
+ Word Building
  </button>
  </div>
+ </div>
+ {/each}
  </div>
  </section>
 
@@ -1201,33 +1203,49 @@ let currentSentenceWord = $state(null); // The word being studied
  border-top: 1px solid rgba(255, 255, 255, 0.1);
  }
  
- .writing-modes h2 {
+.writing-modes h2 {
  text-align: center;
- margin-bottom: 1.5rem;
+ margin-bottom: 0.5rem;
  color: #a0a0a0;
  }
- 
- .writing-mode-cards {
+
+ .section-desc {
+ text-align: center;
+ color: #666;
+ font-size: 0.9rem;
+ margin-bottom: 1.5rem;
+ }
+
+ .writing-level-grid {
  display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
  gap: 1rem;
  }
- 
- .writing-mode-card {
+
+ .writing-level-card {
  background: rgba(255, 255, 255, 0.05);
  border-radius: 12px;
  padding: 1.5rem;
  text-align: center;
  }
- 
- .writing-mode-card h3 {
+
+ .writing-level-card h3 {
  font-size: 1.2rem;
  margin-bottom: 0.5rem;
+ color: #fff;
  }
- 
- .mode-desc {
+
+ .level-count {
  color: #a0a0a0;
- font-size: 0.9rem;
- margin-bottom: 0.5rem;
+ font-size: 0.85rem;
+ margin: 0.25rem 0;
+ }
+
+ .writing-actions {
+ margin-top: 1rem;
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
  }
  
  .mode-count {
