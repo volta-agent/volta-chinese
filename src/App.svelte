@@ -31,10 +31,8 @@
  let currentView = $state('home');
  let currentLevel = $state(1);
  let showPinyin = $state(true);
- let progress = $state({});
- let isPremium = $state(false);
- let premiumKey = $state('');
- let audioStatus = $state('');
+	let progress = $state({});
+	let audioStatus = $state('');
  
  // Flashcard state
  let currentCard = $state(null);
@@ -89,11 +87,10 @@ let currentSentenceWord = $state(null); // The word being studied
  return words.filter(w => w.hanzi.length > 1);
  }
  
- onMount(() => {
-    loadProgress();
-    checkPremium();
-    initVoices(); // Initialize speech synthesis voices
- });
+	onMount(() => {
+		loadProgress();
+		initVoices(); // Initialize speech synthesis voices
+	});
  
  function loadProgress() {
  try {
@@ -167,28 +164,9 @@ let currentSentenceWord = $state(null); // The word being studied
  });
  
  return sorted;
- }
- 
- function checkPremium() {
- const key = localStorage.getItem('volta-chinese-premium');
- if (key && validatePremiumKey(key)) {
- isPremium = true;
- premiumKey = key;
- }
- }
- 
- function validatePremiumKey(key) {
- return key && key.length >= 8;
- }
- 
- function activatePremium() {
- if (validatePremiumKey(premiumKey)) {
- localStorage.setItem('volta-chinese-premium', premiumKey);
- isPremium = true;
- }
- }
- 
- function exportProgress() {
+}
+
+	function exportProgress() {
  const data = {
  progress: progress,
  exportDate: new Date().toISOString(),
@@ -617,11 +595,8 @@ let currentSentenceWord = $state(null); // The word being studied
  <label class="toggle">
  <input type="checkbox" bind:checked={showPinyin}>
  <span class="toggle-label">Pinyin</span>
- </label>
- <button type="button" class="btn-premium" onclick={() => currentView = 'premium'}>
- {isPremium ? '★ Premium' : 'Premium'}
- </button>
- </div>
+		</label>
+		</div>
  </nav>
 
  {#if currentView === 'home'}
@@ -641,7 +616,7 @@ let currentSentenceWord = $state(null); // The word being studied
  <h2>Study by Level</h2>
  <div class="level-grid">
  {#each LEVELS as lvl}
- <div class="level-card" class:locked={lvl.level > 1 && !isPremium}>
+		<div class="level-card">
  <div class="level-header">
  <span class="level-badge">HSK {lvl.level}</span>
  <span class="level-words">{lvl.count} words</span>
@@ -650,35 +625,31 @@ let currentSentenceWord = $state(null); // The word being studied
  <div class="practice-buttons">
     <button 
     type="button"
-    class="btn-primary"
-    onclick={() => startFlashcards(lvl.level)}
-    disabled={lvl.level > 1 && !isPremium}
-    >
+			class="btn-primary"
+				onclick={() => startFlashcards(lvl.level)}
+			>
     Flashcards
     </button>
     <button 
     type="button"
-    class="btn-secondary"
-    onclick={() => startCharacterWriting(lvl.level)}
-    disabled={lvl.level > 1 && !isPremium}
-    >
-    Writing
-    </button>
-    <button 
-    type="button"
-    class="btn-secondary"
-    onclick={() => startSentencePractice(lvl.level)}
-    disabled={lvl.level > 1 && !isPremium}
-    >
-    Sentences
-    </button>
-    <button 
-    type="button"
-    class="btn-secondary"
-    onclick={() => startDialoguePractice(lvl.level)}
-    disabled={lvl.level > 1 && !isPremium}
-    >
-    Dialogues
+			class="btn-secondary"
+				onclick={() => startCharacterWriting(lvl.level)}
+			>
+				Writing
+			</button>
+			<button 
+				type="button"
+				class="btn-secondary"
+				onclick={() => startSentencePractice(lvl.level)}
+			>
+				Sentences
+			</button>
+			<button 
+				type="button"
+				class="btn-secondary"
+				onclick={() => startDialoguePractice(lvl.level)}
+			>
+				Dialogues
     </button>
 			{#if TEXTBOOK_DIALOGUES[lvl.level]}
 				<button 
@@ -693,10 +664,9 @@ let currentSentenceWord = $state(null); // The word being studied
  {#if progress[lvl.level]?.reviewCount > 0}
  <button 
  type="button"
- class="btn-review"
- onclick={() => startMistakeReview(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
+			class="btn-review"
+				onclick={() => startMistakeReview(lvl.level)}
+			>
  Review {progress[lvl.level].reviewCount} mistakes
  </button>
  {/if}
@@ -1018,138 +988,10 @@ let currentSentenceWord = $state(null); // The word being studied
     <DialoguePlayer 
     dialogue={currentLesson}
     {showPinyin}
-    />
- </div>
+	/>
+	</div>
 
- {:else if currentView === 'premium'}
- <div class="premium-view">
- <button type="button" class="back-btn" onclick={() => currentView = 'home'}>
- ← Back
- </button>
- 
- <h1>Premium Features</h1>
- 
- <div class="features-list">
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>All HSK levels (1-5)</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Custom vocabulary lists</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Advanced spaced repetition</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Mistake review mode</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Writing practice with stroke detection</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Offline PWA support</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Progress export</span>
- </div>
- <div class="feature">
- <span class="feature-icon">✓</span>
- <span>Themes & customization</span>
- </div>
- </div>
- 
- {#if !isPremium}
- <div class="donation-section">
- <h2>Unlock Premium</h2>
- <p style="font-size: 1.1rem; color: #4ade80; margin-bottom: 1rem;">
- Premium features are free to use!
- </p>
- <p>Donations are greatly appreciated and help keep this project running.</p>
- 
- <div class="btc-address">
- <p>Bitcoin donation:</p>
- <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
- </div>
- 
- <div class="share-section">
- <p style="margin-bottom: 0.5rem;">Can't donate? Help spread the word:</p>
- <a 
- href="https://twitter.com/intent/tweet?text=Learning%20Chinese%20with%20Volta%20Chinese%20-%20free%20HSK%201-5%20vocab%20app%20with%20flashcards%2C%20writing%20practice%2C%20and%20dialogues.%20https%3A%2F%2Fvolta-agent.github.io%2Fvolta-chinese%2F" 
- target="_blank"
- rel="noopener noreferrer"
- class="btn-share"
- >
- Share on Twitter
- </a>
- </div>
- 
- <div class="unlock-section">
- <h3>Unlock Now</h3>
- <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;">
- Enter any key to unlock premium features:
- </p>
- <input 
- type="text" 
- bind:value={premiumKey}
- placeholder="Enter any key (e.g., 'unlock')"
- >
- <button type="button" onclick={activatePremium}>Unlock Premium</button>
- </div>
- </div>
- {:else}
- <div class="donation-section">
- <h2>Thank You!</h2>
- <p style="color: #4ade80;">Premium features are now unlocked.</p>
- <p style="margin-top: 1rem;">If you find this app helpful, consider supporting development:</p>
- 
- <div class="btc-address">
- <p>Bitcoin:</p>
- <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
- </div>
- 
- <div class="share-section" style="margin-top: 1rem;">
- <p style="margin-bottom: 0.5rem; color: #a0a0a0;">Can't donate? Help spread the word:</p>
- <a 
- href="https://twitter.com/intent/tweet?text=Learning%20Chinese%20with%20Volta%20Chinese%20-%20free%20HSK%201-5%20vocab%20app%20with%20flashcards%2C%20writing%20practice%2C%20and%20dialogues.%20https%3A%2F%2Fvolta-agent.github.io%2Fvolta-chinese%2F" 
- target="_blank"
- rel="noopener noreferrer"
- class="btn-share"
- >
- Share on Twitter
- </a>
- </div>
- 
- <div class="export-section" style="margin-top: 1.5rem;">
- <h3>Progress Export</h3>
- <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;">
- Export or import your learning progress:
- </p>
- <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
- <button type="button" class="btn-secondary" onclick={exportProgress}>
- Export Progress
- </button>
- <label class="btn-secondary" style="cursor: pointer; display: inline-block; padding: 0.75rem 1rem;">
- Import Progress
- <input type="file" accept=".json" onchange={importProgress} style="display: none;">
- </label>
- </div>
- </div>
- </div>
- {/if}
- 
- <div class="selfhost-section">
- <h3>Self-Host</h3>
- <p>Prefer to run your own instance? Clone the repo and deploy anywhere.</p>
- <p class="note">Premium features available for as long as the service is running. Self-hosting gives you full control.</p>
- </div>
- </div>
- {/if}
+{/if}
 </main>
 
 <style>
@@ -1217,26 +1059,10 @@ let currentSentenceWord = $state(null); // The word being studied
  accent-color: #ff6b6b;
  }
  
- .toggle-label {
- font-size: 0.9rem;
- }
- 
- .btn-premium {
- background: transparent;
- border: 1px solid #ffd93d;
- color: #ffd93d;
- padding: 0.5rem 1rem;
- border-radius: 8px;
- cursor: pointer;
- font-size: 0.9rem;
- transition: all 0.2s;
- }
- 
- .btn-premium:hover {
- background: #ffd93d;
- color: #1a1a2e;
- }
- 
+.toggle-label {
+	font-size: 0.9rem;
+}
+
 .hero {
  text-align: center;
  padding: 3rem 1rem 2rem;
@@ -1307,16 +1133,12 @@ let currentSentenceWord = $state(null); // The word being studied
  transition: transform 0.2s, box-shadow 0.2s;
  }
 
- .level-card:hover {
- transform: translateY(-2px);
- box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15);
- }
+.level-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15);
+}
 
- .level-card.locked {
- opacity: 0.6;
- }
-
- .level-header {
+.level-header {
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -1860,153 +1682,13 @@ margin-top: 1.5rem;
  .dialogue-nav {
  display: flex;
  justify-content: center;
- align-items: center;
- gap: 1rem;
- margin-top: 1.5rem;
- }
-
- /* Premium View */
- .premium-view {
- padding: 1rem;
- }
- 
- .premium-view h1 {
- text-align: center;
- margin-bottom: 2rem;
- }
- 
- .features-list {
- display: grid;
- gap: 1rem;
- margin-bottom: 2rem;
- }
- 
- .feature {
- display: flex;
- align-items: center;
- gap: 1rem;
- background: rgba(255, 255, 255, 0.05);
- padding: 1rem;
- border-radius: 8px;
- }
- 
- .feature-icon {
- color: #4ade80;
- font-size: 1.2rem;
- }
- 
- .donation-section {
- background: rgba(255, 255, 255, 0.05);
- padding: 2rem;
- border-radius: 12px;
- margin-bottom: 2rem;
- }
- 
- .donation-section h2 {
- margin-bottom: 1rem;
- }
- 
- .donation-section p {
- color: #a0a0a0;
- margin-bottom: 1.5rem;
- }
- 
- .btc-address {
- background: rgba(0, 0, 0, 0.3);
- padding: 1rem;
- border-radius: 8px;
- margin-bottom: 1.5rem;
- word-break: break-all;
- }
- 
- .btc-address p {
- margin-bottom: 0.5rem;
- font-size: 0.9rem;
- }
- 
- .btc-address code {
- color: #ffd93d;
- font-size: 0.85rem;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 1.5rem;
 }
 
- .share-section {
- margin-top: 1rem;
- }
-
- .btn-share {
- display: inline-block;
- background: #1da1f2;
- color: white;
- padding: 0.75rem 1.5rem;
- border-radius: 8px;
- text-decoration: none;
- font-weight: 500;
- transition: all 0.2s;
- }
-
- .btn-share:hover {
- background: #0d8bd9;
- transform: translateY(-1px);
- }
-
- .unlock-section {
- margin-top: 1.5rem;
- }
- 
- .unlock-section h3 {
- margin-bottom: 1rem;
- }
- 
- .unlock-section input {
- width: 100%;
- padding: 0.75rem;
- border-radius: 8px;
- border: 1px solid #4a5568;
- background: rgba(0, 0, 0, 0.3);
- color: #e0e0e0;
- margin-bottom: 1rem;
- font-size: 1rem;
- }
- 
- .unlock-section button {
- background: #ffd93d;
- color: #1a1a2e;
- border: none;
- padding: 0.75rem 2rem;
- border-radius: 8px;
- cursor: pointer;
- font-size: 1rem;
- font-weight: 500;
- }
- 
- .key-hint {
- color: #666 !important;
- font-size: 0.85rem !important;
- margin-top: 0.5rem !important;
- }
- 
- .selfhost-section {
- background: rgba(255, 255, 255, 0.05);
- padding: 1.5rem;
- border-radius: 12px;
- }
- 
- .selfhost-section h3 {
- margin-bottom: 0.5rem;
- }
- 
- .selfhost-section p {
- color: #a0a0a0;
- margin-bottom: 0.5rem;
- }
- 
- .note {
- font-size: 0.9rem;
- color: #666 !important;
- }
-
- /* Lessons View */
- .lessons-view {
+/* Lessons View */
+.lessons-view {
     padding: 1rem;
  }
 
