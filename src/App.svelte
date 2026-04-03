@@ -288,12 +288,13 @@ let currentSentenceWord = $state(null); // The word being studied
     }
  }
 
- // Lesson navigation functions
- function startLessons(level) {
-    currentLessonLevel = level;
-    loadLessonProgress(level);
-    currentView = 'lessons';
- }
+	// Lesson navigation functions
+	function startLessons(level) {
+		currentLessonLevel = level;
+		loadLessonProgress(level);
+		currentView = 'lessons';
+		setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 0);
+	}
 
  function loadLessonProgress(level) {
     try {
