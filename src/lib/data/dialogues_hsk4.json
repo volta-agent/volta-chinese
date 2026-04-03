@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Career Discussion",
+    "level": 4,
+    "lines": [
+      {"speaker": "A", "chinese": "你觉得现在的工作怎么样？", "pinyin": "Nǐ juéde xiànzài de gōngzuò zěnmeyàng?", "english": "How do you feel about your current job?"},
+      {"speaker": "B", "chinese": "还不错，但是有时候压力比较大，经常要加班。", "pinyin": "Hái búcuò, dànshì yǒushíhou yālì bǐjiào dà, jīngcháng yào jiābān.", "english": "Not bad, but sometimes the pressure is high and I often have to work overtime."},
+      {"speaker": "A", "chinese": "你有没有想过换个工作？", "pinyin": "Nǐ yǒu méiyǒu xiǎngguo huàn ge gōngzuò?", "english": "Have you thought about changing jobs?"},
+      {"speaker": "B", "chinese": "考虑过，但是还没有找到合适的机会。", "pinyin": "Kǎolǜ guo, dànshì hái méiyǒu zhǎodào héshì de jīhuì.", "english": "I've considered it, but haven't found a suitable opportunity yet."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Education System",
+    "level": 4,
+    "lines": [
+      {"speaker": "A", "chinese": "你觉得中国的教育制度有什么优缺点？", "pinyin": "Nǐ juéde Zhōngguó de jiàoyù zhìdù yǒu shénme yōuquēdiǎn?", "english": "What do you think are the pros and cons of China's education system?"},
+      {"speaker": "B", "chinese": "优点是基础知识扎实，缺点是学生压力太大。", "pinyin": "Yōudiǎn shì jīchǔ zhīshì zhāshi, quēdiǎn shì xuéshēng yālì tài dà.", "english": "The advantage is solid basic knowledge, the disadvantage is too much pressure on students."},
+      {"speaker": "A", "chinese": "那你觉得应该怎么改进？", "pinyin": "Nà nǐ juéde yīnggāi zěnme gǎijìn?", "english": "So how do you think it should be improved?"},
+      {"speaker": "B", "chinese": "应该更重视培养学生的创造力和独立思考能力。", "pinyin": "Yīnggāi gèng zhòngshì péiyǎng xuéshēng de chuàngzàolì hé dúlì sīkǎo nénglì.", "english": "We should pay more attention to developing students' creativity and independent thinking."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Technology and Life",
+    "level": 4,
+    "lines": [
+      {"speaker": "A", "chinese": "现在智能手机对我们的生活影响很大。", "pinyin": "Xiànzài zhìnéng shǒujī duì wǒmen de shēnghuó yǐngxiǎng hěn dà.", "english": "Smartphones have a big impact on our lives now."},
+      {"speaker": "B", "chinese": "是啊，无论是购物、支付还是社交，都离不开手机了。", "pinyin": "Shì a, wúlùn shì gòuwù, zhīfù háishì shèjiāo, dōu líbùkāi shǒujī le.", "english": "Yes, whether it's shopping, payment or socializing, we can't live without phones now."},
+      {"speaker": "A", "chinese": "这既是方便，也是一种依赖。", "pinyin": "Zhè jìshì fāngbiàn, yě shì yī zhǒng yīlài.", "english": "This is both convenient and a form of dependence."},
+      {"speaker": "B", "chinese": "对，我们应该合理使用，不能让技术控制了我们的生活。", "pinyin": "Duì, wǒmen yīnggāi hélǐ shǐyòng, bùnéng ràng jìshù kòngzhì le wǒmen de shēnghuó.", "english": "Right, we should use it reasonably and not let technology control our lives."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Healthy Living",
+    "level": 4,
+    "lines": [
+      {"speaker": "A", "chinese": "你看起来最近瘦了不少，有什么秘诀吗？", "pinyin": "Nǐ kànqǐlái zuìjìn shòule bùshǎo, yǒu shénme mìjué ma?", "english": "You look like you've lost weight recently. Any secrets?"},
+      {"speaker": "B", "chinese": "主要是坚持锻炼和注意饮食。", "pinyin": "Zhǔyào shì jiānchí duànliàn hé zhùyì yǐnshí.", "english": "Mainly persisting in exercise and watching my diet."},
+      {"speaker": "A", "chinese": "具体是怎么做的？", "pinyin": "Jùtǐ shì zěnme zuò de?", "english": "What exactly did you do?"},
+      {"speaker": "B", "chinese": "每天跑步半小时，少吃油腻的，多吃蔬菜水果。", "pinyin": "Měitiān pǎobù bàn xiǎoshí, shǎo chī yóunì de, duō chī shūcài shuǐguǒ.", "english": "Jog for half an hour every day, eat less oily food, and more vegetables and fruits."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cultural Exchange",
+    "level": 4,
+    "lines": [
+      {"speaker": "A", "chinese": "你觉得中西文化最大的区别是什么？", "pinyin": "Nǐ juéde Zhōngxī wénhuà zuìdà de qūbié shì shénme?", "english": "What do you think is the biggest difference between Chinese and Western cultures?"},
+      {"speaker": "B", "chinese": "我认为是个人主义和集体主义的差异。", "pinyin": "Wǒ rènwéi shì gèrénzhǔyì hé jítǐzhǔyì de chāyì.", "english": "I think it's the difference between individualism and collectivism."},
+      {"speaker": "A", "chinese": "能举个例子吗？", "pinyin": "Néng jǔ ge lìzi ma?", "english": "Can you give an example?"},
+      {"speaker": "B", "chinese": "比如在家庭方面，中国人更重视家庭关系，而西方人更强调个人独立。", "pinyin": "Bǐrú zài jiātíng fāngmiàn, Zhōngguórén gèng zhòngshì jiātíng guānxi, ér Xīfāngrén gèng qiángdiào gèrén dúlì.", "english": "For example, in family matters, Chinese people value family relationships more, while Westerners emphasize personal independence."}
+    ]
+  }
+]

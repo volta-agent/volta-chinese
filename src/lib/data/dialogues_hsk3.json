@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Job Interview",
+    "level": 3,
+    "lines": [
+      {"speaker": "A", "chinese": "请介绍一下你自己。", "pinyin": "Qǐng jièshào yīxià nǐ zìjǐ.", "english": "Please introduce yourself."},
+      {"speaker": "B", "chinese": "我叫张明，今年二十五岁，毕业于北京大学。", "pinyin": "Wǒ jiào Zhāng Míng, jīnnián èrshíwǔ suì, bìyè yú Běijīng Dàxué.", "english": "My name is Zhang Ming, I'm 25 years old, and I graduated from Peking University."},
+      {"speaker": "A", "chinese": "你为什么想在我们公司工作？", "pinyin": "Nǐ wèishénme xiǎng zài wǒmen gōngsī gōngzuò?", "english": "Why do you want to work at our company?"},
+      {"speaker": "B", "chinese": "我对贵公司的业务很感兴趣，相信这里能给我提供发展的机会。", "pinyin": "Wǒ duì guì gōngsī de yèwù hěn gǎn xìngqù, xiāngxìn zhèlǐ néng gěi wǒ tígōng fāzhǎn de jīhuì.", "english": "I'm interested in your company's business and believe it can provide me with opportunities for development."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Renting an Apartment",
+    "level": 3,
+    "lines": [
+      {"speaker": "A", "chinese": "您好，我想租房子。", "pinyin": "Nín hǎo, wǒ xiǎng zū fángzi.", "english": "Hello, I want to rent an apartment."},
+      {"speaker": "B", "chinese": "您想租什么样的房子？", "pinyin": "Nín xiǎng zū shénme yàng de fángzi?", "english": "What kind of apartment are you looking for?"},
+      {"speaker": "A", "chinese": "离地铁站近一点儿的，一室一厅。", "pinyin": "Lí dìtiězhàn jìn yīdiǎnr de, yī shì yī tīng.", "english": "One close to the subway station, one bedroom and one living room."},
+      {"speaker": "B", "chinese": "正好有一套，月租三千五，您想看看吗？", "pinyin": "Zhènghǎo yǒu yī tào, yuèzū sānqiān wǔ, nín xiǎng kànkan ma?", "english": "There happens to be one available, 3500 per month. Would you like to see it?"}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Travel Plans",
+    "level": 3,
+    "lines": [
+      {"speaker": "A", "chinese": "假期你打算去哪儿旅游？", "pinyin": "Jiàqī nǐ dǎsuàn qù nǎr lǚyóu?", "english": "Where do you plan to travel during the holiday?"},
+      {"speaker": "B", "chinese": "我想去西安，看看兵马俑。", "pinyin": "Wǒ xiǎng qù Xī'ān, kànkan Bīngmǎyǒng.", "english": "I want to go to Xi'an to see the Terracotta Warriors."},
+      {"speaker": "A", "chinese": "打算去几天？怎么去？", "pinyin": "Dǎsuàn qù jǐ tiān? Zěnme qù?", "english": "How many days? How will you get there?"},
+      {"speaker": "B", "chinese": "计划三天，坐高铁去比较方便。", "pinyin": "Jìhuà sān tiān, zuò gāotiě qù bǐjiào fāngbiàn.", "english": "Planning for three days, taking the high-speed train is more convenient."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "At the Bank",
+    "level": 3,
+    "lines": [
+      {"speaker": "A", "chinese": "请问，我想办一张银行卡。", "pinyin": "Qǐngwèn, wǒ xiǎng bàn yī zhāng yínhángkǎ.", "english": "Excuse me, I want to open a bank card."},
+      {"speaker": "B", "chinese": "好的，请出示您的身份证和护照。", "pinyin": "Hǎo de, qǐng chūshì nín de shēnfènzhèng hé hùzhào.", "english": "Sure, please show your ID card and passport."},
+      {"speaker": "A", "chinese": "这是我的证件。大概需要多长时间？", "pinyin": "Zhè shì wǒ de zhèngjiàn. Dàgài xūyào duō cháng shíjiān?", "english": "Here are my documents. About how long will it take?"},
+      {"speaker": "B", "chinese": "大概十五分钟。请先填一下这张表格。", "pinyin": "Dàgài shíwǔ fēnzhōng. Qǐng xiān tián yīxià zhè zhāng biǎogé.", "english": "About 15 minutes. Please fill out this form first."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Environmental Protection",
+    "level": 3,
+    "lines": [
+      {"speaker": "A", "chinese": "最近空气污染很严重。", "pinyin": "Zuìjìn kōngqì wūrǎn hěn yánzhòng.", "english": "Air pollution has been serious lately."},
+      {"speaker": "B", "chinese": "是啊，我们应该多坐公共交通，少开车。", "pinyin": "Shì a, wǒmen yīnggāi duō zuò gōnggòng jiāotōng, shǎo kāichē.", "english": "Yes, we should take more public transportation and drive less."},
+      {"speaker": "A", "chinese": "除了这个，还有什么办法保护环境？", "pinyin": "Chúle zhège, háiyǒu shénme bànfǎ bǎohù huánjìng?", "english": "Besides that, what else can we do to protect the environment?"},
+      {"speaker": "B", "chinese": "节约用水用电，减少垃圾也很重要。", "pinyin": "Jiéyuē yòngshuǐ yòngdiàn, jiǎnshǎo lājī yě hěn zhòngyào.", "english": "Saving water and electricity, and reducing waste are also important."}
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Economic Development",
+    "level": 5,
+    "lines": [
+      {"speaker": "A", "chinese": "你觉得中国经济未来的发展前景如何？", "pinyin": "Nǐ juéde Zhōngguó jīngjì wèilái de fāzhǎn qiánjǐng rúhé?", "english": "What do you think about China's future economic development prospects?"},
+      {"speaker": "B", "chinese": "总体来看，虽然面临一些挑战，但仍然保持稳定增长的趋势。", "pinyin": "Zǒngtǐ láikàn, suīrán miànlín yīxiē tiǎozhàn, dàn réngrán bǎochí wěndìng zēngzhǎng de qūshì.", "english": "Overall, although facing some challenges, it still maintains a stable growth trend."},
+      {"speaker": "A", "chinese": "你觉得最大的挑战是什么？", "pinyin": "Nǐ juéde zuìdà de tiǎozhàn shì shénme?", "english": "What do you think is the biggest challenge?"},
+      {"speaker": "B", "chinese": "我认为是经济结构的调整和产业升级，以及环境保护与经济发展的平衡。", "pinyin": "Wǒ rènwéi shì jīngjì jiégòu de tiáozhěng hé chǎnyè shēngjí, yǐjí huánjìng bǎohù yǔ jīngjì fāzhǎn de pínghéng.", "english": "I think it's economic structural adjustment and industrial upgrading, as well as balancing environmental protection with economic development."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Artificial Intelligence",
+    "level": 5,
+    "lines": [
+      {"speaker": "A", "chinese": "人工智能会对就业市场产生什么样的影响？", "pinyin": "Rén gōng zhìnéng huì duì jiùyè shìchǎng chǎnshēng shénme yàng de yǐngxiǎng?", "english": "What impact will artificial intelligence have on the job market?"},
+      {"speaker": "B", "chinese": "短期内会造成某些岗位的消失，但同时也会创造新的就业机会。", "pinyin": "Duǎnqī nèi huì zàochéng mǒuxiē gǎngwèi de xiāoshī, dàn tóngshí yě huì chuàngzào xīn de jiùyè jīhuì.", "english": "In the short term, it will cause some jobs to disappear, but at the same time it will also create new employment opportunities."},
+      {"speaker": "A", "chinese": "那我们应该如何应对这种变化？", "pinyin": "Nà wǒmen yīnggāi rúhé yìngduì zhè zhǒng biànhuà?", "english": "So how should we respond to these changes?"},
+      {"speaker": "B", "chinese": "最重要的是不断学习新技能，提高自己的竞争力，适应时代的变化。", "pinyin": "Zuì zhòngyào de shì búduàn xuéxí xīn jìnéng, tígāo zìjǐ de jìngzhēnglì, shìyìng shídài de biànhuà.", "english": "The most important thing is to keep learning new skills, improve your competitiveness, and adapt to the changing times."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Philosophy of Life",
+    "level": 5,
+    "lines": [
+      {"speaker": "A", "chinese": "你认为什么样的人生才是有意义的？", "pinyin": "Nǐ rènwéi shénme yàng de rénshēng cái shì yǒu yìyì de?", "english": "What kind of life do you think is meaningful?"},
+      {"speaker": "B", "chinese": "我觉得能够追求自己的理想，同时对社会有所贡献的人生是有意义的。", "pinyin": "Wǒ juéde nénggòu zhuīqiú zìjǐ de lǐxiǎng, tóngshí duì shèhuì yǒusuǒ gòngxiàn de rénshēng shì yǒu yìyì de.", "english": "I think a life where one can pursue their ideals while contributing to society is meaningful."},
+      {"speaker": "A", "chinese": "那如果理想和现实发生冲突怎么办？", "pinyin": "Nà rúguǒ lǐxiǎng hé xiànshí fāshēng chōngtū zěnmebàn?", "english": "What if ideals conflict with reality?"},
+      {"speaker": "B", "chinese": "需要在理想和现实之间找到平衡，既不放弃追求，也要脚踏实地。", "pinyin": "Xūyào zài lǐxiǎng hé xiànshí zhījiān zhǎodào pínghéng, jì bú fàngqì zhuīqiú, yě yào jiǎotàshídì.", "english": "We need to find a balance between ideals and reality, not giving up pursuit while remaining grounded."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Globalization",
+    "level": 5,
+    "lines": [
+      {"speaker": "A", "chinese": "你怎么看待全球化带来的影响？", "pinyin": "Nǐ zěnme kàndài quánqiúhuà dàilái de yǐngxiǎng?", "english": "What do you think about the impact of globalization?"},
+      {"speaker": "B", "chinese": "全球化既带来了机遇也带来了挑战，促进了文化交流但也造成了某些传统文化的消失。", "pinyin": "Quánqiúhuà jì dàilái le jīyù yě dàilái le tiǎozhàn, cùjìn le wénhuà jiāoliú dàn yě zàochéng le mǒuxiē chuántǒng wénhuà de xiāoshī.", "english": "Globalization brings both opportunities and challenges, promoting cultural exchange but also causing the disappearance of some traditional cultures."},
+      {"speaker": "A", "chinese": "那我们应该如何保护传统文化？", "pinyin": "Nà wǒmen yīnggāi rúhé bǎohù chuántǒng wénhuà?", "english": "So how should we protect traditional culture?"},
+      {"speaker": "B", "chinese": "既要传承传统文化的精髓，也要让它与现代社会相结合，焕发新的生命力。", "pinyin": "Jì yào chuánchéng chuántǒng wénhuà de jīngsuǐ, yě yào ràng tā yǔ xiàndài shèhuì xiāng jiéhé, huànfā xīn de shēngmìnglì.", "english": "We should both inherit the essence of traditional culture and combine it with modern society to give it new vitality."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mental Health",
+    "level": 5,
+    "lines": [
+      {"speaker": "A", "chinese": "现在越来越多的人开始关注心理健康问题。", "pinyin": "Xiànzài yuèláiyuè duō de rén kāishǐ guānzhù xīnlǐ jiànkāng wèntí.", "english": "More and more people are paying attention to mental health issues now."},
+      {"speaker": "B", "chinese": "是的，这反映了社会观念的进步，人们不再把心理问题当作难以启齿的事情。", "pinyin": "Shì de, zhè fǎnyìng le shèhuì guānniàn de jìnbù, rénmen bú zài bǎ xīnlǐ wèntí dàngzuò nányǐ qǐchǐ de shìqing.", "english": "Yes, this reflects the progress of social attitudes. People no longer see mental issues as taboo."},
+      {"speaker": "A", "chinese": "你认为保持心理健康最重要的方法是什么？", "pinyin": "Nǐ rènwéi bǎochí xīnlǐ jiànkāng zuì zhòngyào de fāngfǎ shì shénme?", "english": "What do you think is the most important way to maintain mental health?"},
+      {"speaker": "B", "chinese": "学会调节情绪，保持良好的人际关系，必要时寻求专业帮助都很重要。", "pinyin": "Xuéhuì tiáojié qíngxù, bǎochí liánghǎo de rénjì guānxi, bìyào shí xúnqiú zhuānyè bāngzhù dōu hěn zhòngyào.", "english": "Learning to regulate emotions, maintaining good relationships, and seeking professional help when necessary are all important."}
+    ]
+  }
+]

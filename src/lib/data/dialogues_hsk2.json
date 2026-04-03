@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Weather",
+    "level": 2,
+    "lines": [
+      {"speaker": "A", "chinese": "今天天气怎么样？", "pinyin": "Jīntiān tiānqì zěnmeyàng?", "english": "How's the weather today?"},
+      {"speaker": "B", "chinese": "今天天气很好，不冷也不热。", "pinyin": "Jīntiān tiānqì hěn hǎo, bù lěng yě bú rè.", "english": "The weather is nice today, not cold and not hot."},
+      {"speaker": "A", "chinese": "明天呢？", "pinyin": "Míngtiān ne?", "english": "What about tomorrow?"},
+      {"speaker": "B", "chinese": "明天可能下雨，记得带伞。", "pinyin": "Míngtiān kěnéng xià yǔ, jìde dài sǎn.", "english": "It might rain tomorrow, remember to bring an umbrella."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Plans for the Weekend",
+    "level": 2,
+    "lines": [
+      {"speaker": "A", "chinese": "周末你有什么计划？", "pinyin": "Zhōumò nǐ yǒu shénme jìhuà?", "english": "Do you have plans for the weekend?"},
+      {"speaker": "B", "chinese": "我想去看电影。你想一起去吗？", "pinyin": "Wǒ xiǎng qù kàn diànyǐng. Nǐ xiǎng yīqǐ qù ma?", "english": "I want to watch a movie. Do you want to go together?"},
+      {"speaker": "A", "chinese": "好啊！什么时候去？", "pinyin": "Hǎo a! Shénme shíhou qù?", "english": "Sure! When should we go?"},
+      {"speaker": "B", "chinese": "周六下午三点，怎么样？", "pinyin": "Zhōuliù xiàwǔ sān diǎn, zěnmeyàng?", "english": "Saturday at 3pm, how about that?"}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "At the Hospital",
+    "level": 2,
+    "lines": [
+      {"speaker": "A", "chinese": "你怎么了？", "pinyin": "Nǐ zěnme le?", "english": "What's wrong?"},
+      {"speaker": "B", "chinese": "我头疼，还有点儿发烧。", "pinyin": "Wǒ tóu téng, háiyǒu yǒudiǎnr fāshāo.", "english": "I have a headache and a slight fever."},
+      {"speaker": "A", "chinese": "你去医院看过医生了吗？", "pinyin": "Nǐ qù yīyuàn kàn guo yīshēng le ma?", "english": "Have you seen a doctor at the hospital?"},
+      {"speaker": "B", "chinese": "还没有，我下午去。", "pinyin": "Hái méiyǒu, wǒ xiàwǔ qù.", "english": "Not yet, I'll go this afternoon."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hobbies",
+    "level": 2,
+    "lines": [
+      {"speaker": "A", "chinese": "你有什么爱好？", "pinyin": "Nǐ yǒu shénme àihào?", "english": "What are your hobbies?"},
+      {"speaker": "B", "chinese": "我喜欢听音乐和看书。你呢？", "pinyin": "Wǒ xǐhuan tīng yīnyuè hé kànshū. Nǐ ne?", "english": "I like listening to music and reading. And you?"},
+      {"speaker": "A", "chinese": "我喜欢运动，特别是打篮球。", "pinyin": "Wǒ xǐhuan yùndòng, tèbié shì dǎ lánqiú.", "english": "I like sports, especially playing basketball."},
+      {"speaker": "B", "chinese": "太棒了！我们可以一起打球。", "pinyin": "Tài bàng le! Wǒmen kěyǐ yīqǐ dǎ qiú.", "english": "Great! We can play together."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Birthday Party",
+    "level": 2,
+    "lines": [
+      {"speaker": "A", "chinese": "你生日是什么时候？", "pinyin": "Nǐ shēngrì shì shénme shíhou?", "english": "When is your birthday?"},
+      {"speaker": "B", "chinese": "我的生日是五月十五号。", "pinyin": "Wǒ de shēngrì shì wǔyuè shíwǔ hào.", "english": "My birthday is May 15th."},
+      {"speaker": "A", "chinese": "今年你打算怎么过生日？", "pinyin": "Jīnnián nǐ dǎsuàn zěnme guò shēngrì?", "english": "How do you plan to celebrate your birthday this year?"},
+      {"speaker": "B", "chinese": "我想请朋友们来家里吃饭。", "pinyin": "Wǒ xiǎng qǐng péngyoumen lái jiālǐ chīfàn.", "english": "I want to invite friends over for dinner."}
+    ]
+  }
+]

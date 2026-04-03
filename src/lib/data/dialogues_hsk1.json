@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Greetings",
+    "level": 1,
+    "lines": [
+      {"speaker": "A", "chinese": "你好！", "pinyin": "Nǐ hǎo!", "english": "Hello!"},
+      {"speaker": "B", "chinese": "你好！你叫什么名字？", "pinyin": "Nǐ hǎo! Nǐ jiào shénme míngzi?", "english": "Hello! What's your name?"},
+      {"speaker": "A", "chinese": "我叫李明。你呢？", "pinyin": "Wǒ jiào Lǐ Míng. Nǐ ne?", "english": "My name is Li Ming. And you?"},
+      {"speaker": "B", "chinese": "我叫王华。很高兴认识你。", "pinyin": "Wǒ jiào Wáng Huá. Hěn gāoxìng rènshi nǐ.", "english": "My name is Wang Hua. Nice to meet you."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "At the Restaurant",
+    "level": 1,
+    "lines": [
+      {"speaker": "A", "chinese": "你想吃什么？", "pinyin": "Nǐ xiǎng chī shénme?", "english": "What do you want to eat?"},
+      {"speaker": "B", "chinese": "我想吃饺子。你呢？", "pinyin": "Wǒ xiǎng chī jiǎozi. Nǐ ne?", "english": "I want to eat dumplings. And you?"},
+      {"speaker": "A", "chinese": "我想吃米饭和菜。", "pinyin": "Wǒ xiǎng chī mǐfàn hé cài.", "english": "I want to eat rice and vegetables."},
+      {"speaker": "B", "chinese": "好的，我们去吃饭吧。", "pinyin": "Hǎo de, wǒmen qù chīfàn ba.", "english": "Okay, let's go eat."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Asking for Directions",
+    "level": 1,
+    "lines": [
+      {"speaker": "A", "chinese": "请问，邮局在哪儿？", "pinyin": "Qǐngwèn, yóujú zài nǎr?", "english": "Excuse me, where is the post office?"},
+      {"speaker": "B", "chinese": "邮局在学校旁边。", "pinyin": "Yóujú zài xuéxiào pángbiān.", "english": "The post office is next to the school."},
+      {"speaker": "A", "chinese": "远吗？", "pinyin": "Yuǎn ma?", "english": "Is it far?"},
+      {"speaker": "B", "chinese": "不远，走路十分钟。", "pinyin": "Bù yuǎn, zǒulù shí fēnzhōng.", "english": "Not far, ten minutes on foot."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Shopping",
+    "level": 1,
+    "lines": [
+      {"speaker": "A", "chinese": "这个多少钱？", "pinyin": "Zhège duōshao qián?", "english": "How much is this?"},
+      {"speaker": "B", "chinese": "五十块。", "pinyin": "Wǔshí kuài.", "english": "Fifty yuan."},
+      {"speaker": "A", "chinese": "太贵了。便宜一点儿，好吗？", "pinyin": "Tài guì le. Piányi yīdiǎnr, hǎo ma?", "english": "Too expensive. Can you make it cheaper?"},
+      {"speaker": "B", "chinese": "好的，四十块。", "pinyin": "Hǎo de, sìshí kuài.", "english": "Okay, forty yuan."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Family",
+    "level": 1,
+    "lines": [
+      {"speaker": "A", "chinese": "你家有几口人？", "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?", "english": "How many people are in your family?"},
+      {"speaker": "B", "chinese": "我家有三口人。爸爸、妈妈和我。", "pinyin": "Wǒ jiā yǒu sān kǒu rén. Bàba, māma hé wǒ.", "english": "My family has three people. Dad, mom, and me."},
+      {"speaker": "A", "chinese": "你爸爸做什么工作？", "pinyin": "Nǐ bàba zuò shénme gōngzuò?", "english": "What does your dad do?"},
+      {"speaker": "B", "chinese": "他是老师。", "pinyin": "Tā shì lǎoshī.", "english": "He is a teacher."}
+    ]
+  }
+]

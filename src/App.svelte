@@ -11,9 +11,15 @@
  import sentences3 from './lib/data/sentences_hsk3.json';
  import sentences4 from './lib/data/sentences_hsk4.json';
  import sentences5 from './lib/data/sentences_hsk5.json';
+ import dialogues1 from './lib/data/dialogues_hsk1.json';
+ import dialogues2 from './lib/data/dialogues_hsk2.json';
+ import dialogues3 from './lib/data/dialogues_hsk3.json';
+ import dialogues4 from './lib/data/dialogues_hsk4.json';
+ import dialogues5 from './lib/data/dialogues_hsk5.json';
  
  const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
  const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
+ const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -43,8 +49,13 @@
  let sentenceIndex = $state(0);
  let currentSentence = $state(null);
  let showSentenceAnswer = $state(false);
- let currentSentenceWord = $state(null); // The word being studied
- 
+let currentSentenceWord = $state(null); // The word being studied
+
+ // Dialogue state
+ let currentDialogue = $state(null);
+ let dialogueLineIndex = $state(0);
+ let showDialogueTranslation = $state(false);
+
  const LEVELS = [
  { level: 1, name: 'HSK 1', count: hsk1.length, desc: 'Beginner' },
  { level: 2, name: 'HSK 2', count: hsk2.length, desc: 'Elementary' },
@@ -232,6 +243,33 @@
  showSentenceAnswer = false;
  } else {
  currentView = 'home';
+ }
+ }
+
+ function startDialoguePractice(level) {
+ currentLevel = level;
+ const dialogues = DIALOGUE_DATA[level];
+ if (dialogues && dialogues.length > 0) {
+ currentDialogue = dialogues[Math.floor(Math.random() * dialogues.length)];
+ dialogueLineIndex = 0;
+ showDialogueTranslation = false;
+ currentView = 'dialogue';
+ }
+ }
+
+ function nextDialogueLine() {
+ if (dialogueLineIndex < currentDialogue.lines.length - 1) {
+ dialogueLineIndex++;
+ showDialogueTranslation = false;
+ } else {
+ currentView = 'home';
+ }
+ }
+
+ function prevDialogueLine() {
+ if (dialogueLineIndex > 0) {
+ dialogueLineIndex--;
+ showDialogueTranslation = false;
  }
  }
  
@@ -561,6 +599,14 @@
  >
  Sentences
  </button>
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={() => startDialoguePractice(lvl.level)}
+ disabled={lvl.level > 1 && !isPremium}
+ >
+ Dialogues
+ </button>
  </div>
  </div>
  {/each}
@@ -777,6 +823,74 @@
  onclick={nextSentenceCard}
  >
  Next Sentence
+ </button>
+ </div>
+ {#if audioStatus}
+ <p class="audio-status">{audioStatus}</p>
+ {/if}
+ </div>
+
+ {:else if currentView === 'dialogue' && currentDialogue}
+ <div class="dialogue-view">
+ <button type="button" class="back-btn" onclick={() => currentView = 'home'}>
+ ← Back
+ </button>
+ 
+ <div class="dialogue-header">
+ <h2>{currentDialogue.title}</h2>
+ <p class="dialogue-level">HSK {currentDialogue.level}</p>
+ </div>
+
+ <div class="dialogue-progress">
+ {#each currentDialogue.lines as line, i}
+ <div 
+ class="dialogue-line {i === dialogueLineIndex ? 'active' : ''} {i < dialogueLineIndex ? 'completed' : ''}"
+>
+ {#if i <= dialogueLineIndex}
+ <div class="speaker">{line.speaker}</div>
+ <div class="line-chinese" onclick={() => speak(line.chinese)}>{line.chinese}</div>
+ {#if showDialogueTranslation || i < dialogueLineIndex}
+ <div class="line-english">{line.english}</div>
+ <div class="line-pinyin">{line.pinyin}</div>
+ {:else}
+ <button 
+ type="button"
+ class="btn-hint"
+ onclick={() => showDialogueTranslation = true}
+ >
+ Show Translation
+ </button>
+ {/if}
+ {:else}
+ <div class="line-locked">???</div>
+ {/if}
+ </div>
+ {/each}
+ </div>
+
+ <div class="dialogue-nav">
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={prevDialogueLine}
+ disabled={dialogueLineIndex === 0}
+ >
+ ← Previous
+ </button>
+ <button 
+ type="button"
+ class="btn-audio"
+ onclick={() => speak(currentDialogue.lines[dialogueLineIndex].chinese)}
+ title="Play audio"
+ >
+ 🔊
+ </button>
+ <button 
+ type="button"
+ class="btn-primary"
+ onclick={nextDialogueLine}
+ >
+ {dialogueLineIndex === currentDialogue.lines.length - 1 ? 'Finish' : 'Next →'}
  </button>
  </div>
  {#if audioStatus}
@@ -1449,9 +1563,114 @@
  display: flex;
  justify-content: center;
  gap: 1rem;
+margin-top: 1.5rem;
+ }
+
+ /* Dialogue View */
+ .dialogue-view {
+ padding: 2rem;
+ max-width: 800px;
+ margin: 0 auto;
+ }
+
+ .dialogue-header {
+ text-align: center;
+ margin-bottom: 2rem;
+ }
+
+ .dialogue-header h2 {
+ font-size: 1.8rem;
+ color: #fff;
+ margin-bottom: 0.5rem;
+ }
+
+ .dialogue-level {
+ color: #4ade80;
+ font-size: 0.9rem;
+ }
+
+ .dialogue-progress {
+ margin: 2rem 0;
+ }
+
+ .dialogue-line {
+ background: #16213e;
+ border-radius: 12px;
+ padding: 1rem 1.5rem;
+ margin-bottom: 0.75rem;
+ transition: all 0.3s;
+ border: 2px solid transparent;
+ }
+
+ .dialogue-line.active {
+ border-color: #4ade80;
+ transform: scale(1.02);
+ }
+
+ .dialogue-line.completed {
+ opacity: 0.7;
+ }
+
+ .speaker {
+ font-size: 0.85rem;
+ color: #4ade80;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ }
+
+ .line-chinese {
+ font-size: 1.4rem;
+ color: #fff;
+ cursor: pointer;
+ margin-bottom: 0.5rem;
+ }
+
+ .line-chinese:hover {
+ text-decoration: underline;
+ }
+
+ .line-english {
+ font-size: 1rem;
+ color: #a0a0a0;
+ margin-bottom: 0.25rem;
+ }
+
+ .line-pinyin {
+ font-size: 0.85rem;
+ color: #666;
+ font-style: italic;
+ }
+
+ .line-locked {
+ color: #555;
+ text-align: center;
+ padding: 1rem;
+ }
+
+ .btn-hint {
+ background: transparent;
+ border: 1px dashed #555;
+ color: #888;
+ padding: 0.5rem 1rem;
+ border-radius: 6px;
+ cursor: pointer;
+ font-size: 0.85rem;
+ margin-top: 0.5rem;
+ }
+
+ .btn-hint:hover {
+ border-color: #4ade80;
+ color: #4ade80;
+ }
+
+ .dialogue-nav {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
  margin-top: 1.5rem;
  }
- 
+
  /* Premium View */
  .premium-view {
  padding: 1rem;
