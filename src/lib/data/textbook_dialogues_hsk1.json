@@ -1,0 +1,912 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "title": "谢谢你",
+    "title_pinyin": "Xièxie nǐ",
+    "title_english": "Thank you",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "谢谢！",
+        "pinyin": "Xièxie!",
+        "english": "Thank you!"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "不谢！",
+        "pinyin": "Bú xiè!",
+        "english": "Sure!"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "A",
+        "chinese": "谢谢你！",
+        "pinyin": "Xièxie nǐ!",
+        "english": "Thank you!"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "不客气！",
+        "pinyin": "Bú kèqi!",
+        "english": "You're welcome!"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "A",
+        "chinese": "再见！",
+        "pinyin": "Zàijiàn!",
+        "english": "Goodbye!"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "再见！",
+        "pinyin": "Zàijiàn!",
+        "english": "Goodbye!"
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "谢谢", "pinyin": "xièxie", "pos": "v.", "definition": "to thank" },
+      { "hanzi": "不", "pinyin": "bù", "pos": "adv.", "definition": "no, not" },
+      { "hanzi": "不客气", "pinyin": "bú kèqi", "pos": "", "definition": "you're welcome, don't mention it" },
+      { "hanzi": "再见", "pinyin": "zàijiàn", "pos": "v.", "definition": "to see you around" }
+    ],
+    "grammar": [
+      {
+        "topic": "Basic greetings",
+        "explanation": "谢谢 is used to express gratitude. 不客气 is the standard response.",
+        "examples": [
+          { "chinese": "谢谢你！", "pinyin": "Xièxie nǐ!", "english": "Thank you!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lesson": 2,
+    "title": "你叫什么名字",
+    "title_pinyin": "Nǐ jiào shénme míngzi",
+    "title_english": "What's your name",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你叫什么名字？",
+        "pinyin": "Nǐ jiào shénme míngzi?",
+        "english": "What's your name?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我叫李月。",
+        "pinyin": "Wǒ jiào Lǐ Yuè.",
+        "english": "My name is Li Yue."
+      },
+      {
+        "dialogue": 2,
+        "location": "在教室 (In the classroom)",
+        "speaker": "A",
+        "chinese": "你是老师吗？",
+        "pinyin": "Nǐ shì lǎoshī ma?",
+        "english": "Are you a teacher?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "我不是老师，我是学生。",
+        "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+        "english": "I'm not a teacher, I'm a student."
+      },
+      {
+        "dialogue": 3,
+        "location": "在学校 (At school)",
+        "speaker": "A",
+        "chinese": "你是中国人吗？",
+        "pinyin": "Nǐ shì Zhōngguó rén ma?",
+        "english": "Are you Chinese?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "我不是中国人，我是美国人。",
+        "pinyin": "Wǒ bú shì Zhōngguó rén, wǒ shì Měiguó rén.",
+        "english": "I'm not Chinese, I'm American."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "叫", "pinyin": "jiào", "pos": "v.", "definition": "to call, to be called" },
+      { "hanzi": "什么", "pinyin": "shénme", "pos": "pron.", "definition": "what" },
+      { "hanzi": "名字", "pinyin": "míngzi", "pos": "n.", "definition": "name" },
+      { "hanzi": "我", "pinyin": "wǒ", "pos": "pron.", "definition": "I, me" },
+      { "hanzi": "是", "pinyin": "shì", "pos": "v.", "definition": "to be" },
+      { "hanzi": "老师", "pinyin": "lǎoshī", "pos": "n.", "definition": "teacher" },
+      { "hanzi": "吗", "pinyin": "ma", "pos": "part.", "definition": "used at the end of a question" },
+      { "hanzi": "学生", "pinyin": "xuésheng", "pos": "n.", "definition": "student" },
+      { "hanzi": "人", "pinyin": "rén", "pos": "n.", "definition": "human, person" }
+    ],
+    "proper_nouns": [
+      { "hanzi": "李月", "pinyin": "Lǐ Yuè", "definition": "Li Yue, name of a person" },
+      { "hanzi": "中国", "pinyin": "Zhōngguó", "definition": "China" },
+      { "hanzi": "美国", "pinyin": "Měiguó", "definition": "the United States of America" }
+    ],
+    "grammar": [
+      {
+        "topic": "疑问代词“什么” (The Interrogative Pronoun '什么')",
+        "explanation": "The interrogative pronoun '什么' is used in interrogative sentences, serving as the object by itself or together with a nominal element following it.",
+        "examples": [
+          { "chinese": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzi?", "english": "What's your name?" },
+          { "chinese": "这是什么？", "pinyin": "Zhè shì shénme?", "english": "What is this?" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "lesson": 3,
+    "title": "她是谁",
+    "title_pinyin": "Tā shì shéi",
+    "title_english": "Who is she",
+    "location": "在教室 (In the classroom)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "她是谁？",
+        "pinyin": "Tā shì shéi?",
+        "english": "Who is she?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "她是我的汉语老师，她叫李月。",
+        "pinyin": "Tā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè.",
+        "english": "She is my Chinese teacher. Her name is Li Yue."
+      },
+      {
+        "dialogue": 2,
+        "location": "在图书馆 (In the library)",
+        "speaker": "A",
+        "chinese": "你是哪国人？",
+        "pinyin": "Nǐ shì nǎ guó rén?",
+        "english": "Which country are you from?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "我是美国人。你呢？",
+        "pinyin": "Wǒ shì Měiguó rén. Nǐ ne?",
+        "english": "I'm American. What about you?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "A",
+        "chinese": "我是中国人。",
+        "pinyin": "Wǒ shì Zhōngguó rén.",
+        "english": "I'm Chinese."
+      },
+      {
+        "dialogue": 3,
+        "location": "看照片 (Looking at a photo)",
+        "speaker": "A",
+        "chinese": "他是谁？",
+        "pinyin": "Tā shì shéi?",
+        "english": "Who is he?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "他是我同学。",
+        "pinyin": "Tā shì wǒ tóngxué.",
+        "english": "He is my classmate."
+      },
+      {
+        "dialogue": 3,
+        "speaker": "A",
+        "chinese": "她呢？她是你的同学吗？",
+        "pinyin": "Tā ne? Tā shì nǐ de tóngxué ma?",
+        "english": "What about her? Is she your classmate?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "她不是我同学，她是我朋友。",
+        "pinyin": "Tā bú shì wǒ tóngxué, tā shì wǒ péngyou.",
+        "english": "She isn't my classmate, she is my friend."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "她", "pinyin": "tā", "pos": "pron.", "definition": "she, her" },
+      { "hanzi": "谁", "pinyin": "shéi", "pos": "pron.", "definition": "who, whom" },
+      { "hanzi": "的", "pinyin": "de", "pos": "part.", "definition": "used after an attribute" },
+      { "hanzi": "汉语", "pinyin": "Hànyǔ", "pos": "n.", "definition": "Chinese (language)" },
+      { "hanzi": "哪", "pinyin": "nǎ", "pos": "pron.", "definition": "which" },
+      { "hanzi": "国", "pinyin": "guó", "pos": "n.", "definition": "country, nation" },
+      { "hanzi": "呢", "pinyin": "ne", "pos": "part.", "definition": "used at the end of a question" },
+      { "hanzi": "他", "pinyin": "tā", "pos": "pron.", "definition": "he, him" },
+      { "hanzi": "同学", "pinyin": "tóngxué", "pos": "n.", "definition": "classmate" },
+      { "hanzi": "朋友", "pinyin": "péngyou", "pos": "n.", "definition": "friend" }
+    ],
+    "grammar": [
+      {
+        "topic": "疑问代词“谁”“哪” (The Interrogative Pronouns '谁' and '哪')",
+        "explanation": "The interrogative pronoun '谁' is used to ask about the name or identity of a person. '哪' is used to ask about selection among options.",
+        "examples": [
+          { "chinese": "她是谁？", "pinyin": "Tā shì shéi?", "english": "Who is she?" },
+          { "chinese": "你是哪国人？", "pinyin": "Nǐ shì nǎ guó rén?", "english": "Which country are you from?" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "lesson": 4,
+    "title": "你家有几口人",
+    "title_pinyin": "Nǐ jiā yǒu jǐ kǒu rén",
+    "title_english": "How many people are in your family",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你家有几口人？",
+        "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+        "english": "How many people are there in your family?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我家有三口人。",
+        "pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+        "english": "There are three people in my family."
+      },
+      {
+        "dialogue": 2,
+        "location": "在办公室 (In the office)",
+        "speaker": "A",
+        "chinese": "你女儿几岁了？",
+        "pinyin": "Nǐ nǚ'ér jǐ suì le?",
+        "english": "How old is your daughter?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "她今年四岁了。",
+        "pinyin": "Tā jīnnián sì suì le.",
+        "english": "She is four years old."
+      },
+      {
+        "dialogue": 3,
+        "location": "在办公室 (In the office)",
+        "speaker": "A",
+        "chinese": "李老师多大了？",
+        "pinyin": "Lǐ lǎoshī duō dà le?",
+        "english": "How old is Professor Li?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "她今年五十岁了。",
+        "pinyin": "Tā jīnnián wǔshí suì le.",
+        "english": "She is 50 years old."
+      },
+      {
+        "dialogue": 3,
+        "speaker": "A",
+        "chinese": "她女儿呢？",
+        "pinyin": "Tā nǚ'ér ne?",
+        "english": "What about her daughter?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "她女儿今年二十岁。",
+        "pinyin": "Tā nǚ'ér jīnnián èrshí suì.",
+        "english": "Her daughter is 20."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "家", "pinyin": "jiā", "pos": "n.", "definition": "family" },
+      { "hanzi": "有", "pinyin": "yǒu", "pos": "v.", "definition": "to have, there be" },
+      { "hanzi": "口", "pinyin": "kǒu", "pos": "m.", "definition": "a measure word for members of families, etc." },
+      { "hanzi": "女儿", "pinyin": "nǚ'ér", "pos": "n.", "definition": "daughter" },
+      { "hanzi": "几", "pinyin": "jǐ", "pos": "pron.", "definition": "how many" },
+      { "hanzi": "岁", "pinyin": "suì", "pos": "m.", "definition": "year (of age)" },
+      { "hanzi": "了", "pinyin": "le", "pos": "part.", "definition": "used at the end of or in the middle of a sentence to indicate a change or a new circumstance" },
+      { "hanzi": "今年", "pinyin": "jīnnián", "pos": "n.", "definition": "this year" },
+      { "hanzi": "多", "pinyin": "duō", "pos": "adv.", "definition": "indicating degree or extent" },
+      { "hanzi": "大", "pinyin": "dà", "pos": "adj.", "definition": "(of age) old" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 5,
+    "lesson": 7,
+    "title": "今天几号",
+    "title_pinyin": "Jīntiān jǐ hào",
+    "title_english": "What's the date today",
+    "location": "在银行 (In a bank)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "请问，今天几号？",
+        "pinyin": "Qǐngwèn, jīntiān jǐ hào?",
+        "english": "Excuse me, what's the date today?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "今天九月一号。",
+        "pinyin": "Jīntiān jiǔ yuè yī hào.",
+        "english": "It's September 1st."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "今天星期几？",
+        "pinyin": "Jīntiān xīngqī jǐ?",
+        "english": "What day is it today?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "星期三。",
+        "pinyin": "Xīngqī sān.",
+        "english": "It's Wednesday."
+      },
+      {
+        "dialogue": 2,
+        "location": "看日历 (Looking at a calendar)",
+        "speaker": "A",
+        "chinese": "昨天是几月几号？",
+        "pinyin": "Zuótiān shì jǐ yuè jǐ hào?",
+        "english": "What was the date yesterday?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "昨天是八月三十一号，星期二。",
+        "pinyin": "Zuótiān shì bā yuè sānshíyī hào, xīngqī èr.",
+        "english": "It was Tuesday, August 31st."
+      },
+      {
+        "dialogue": 2,
+        "speaker": "A",
+        "chinese": "明天呢？",
+        "pinyin": "Míngtiān ne?",
+        "english": "What about tomorrow?"
+      },
+      {
+        "dialogue": 2,
+        "speaker": "B",
+        "chinese": "明天是九月二号，星期四。",
+        "pinyin": "Míngtiān shì jiǔ yuè èr hào, xīngqī sì.",
+        "english": "It's Thursday, September 2nd."
+      },
+      {
+        "dialogue": 3,
+        "location": "在咖啡馆儿 (In a coffee house)",
+        "speaker": "A",
+        "chinese": "明天星期六，你去学校吗？",
+        "pinyin": "Míngtiān xīngqī liù, nǐ qù xuéxiào ma?",
+        "english": "Tomorrow is Saturday. Will you go to school?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "我去学校。",
+        "pinyin": "Wǒ qù xuéxiào.",
+        "english": "Yes, I will."
+      },
+      {
+        "dialogue": 3,
+        "speaker": "A",
+        "chinese": "你去学校做什么？",
+        "pinyin": "Nǐ qù xuéxiào zuò shénme?",
+        "english": "What are you going to do there?"
+      },
+      {
+        "dialogue": 3,
+        "speaker": "B",
+        "chinese": "我去学校看书。",
+        "pinyin": "Wǒ qù xuéxiào kàn shū.",
+        "english": "I'm going there to do some reading."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "请", "pinyin": "qǐng", "pos": "v.", "definition": "(polite) please" },
+      { "hanzi": "问", "pinyin": "wèn", "pos": "v.", "definition": "to ask, to inquire" },
+      { "hanzi": "今天", "pinyin": "jīntiān", "pos": "n.", "definition": "today" },
+      { "hanzi": "号", "pinyin": "hào", "pos": "n.", "definition": "(for date of month) number" },
+      { "hanzi": "月", "pinyin": "yuè", "pos": "n.", "definition": "month" },
+      { "hanzi": "星期", "pinyin": "xīngqī", "pos": "n.", "definition": "week" },
+      { "hanzi": "昨天", "pinyin": "zuótiān", "pos": "n.", "definition": "yesterday" },
+      { "hanzi": "明天", "pinyin": "míngtiān", "pos": "n.", "definition": "tomorrow" },
+      { "hanzi": "去", "pinyin": "qù", "pos": "v.", "definition": "to go" },
+      { "hanzi": "学校", "pinyin": "xuéxiào", "pos": "n.", "definition": "school" },
+      { "hanzi": "看", "pinyin": "kàn", "pos": "v.", "definition": "to look at, to watch, to read" },
+      { "hanzi": "书", "pinyin": "shū", "pos": "n.", "definition": "book" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 6,
+    "lesson": 8,
+    "title": "我想喝茶",
+    "title_pinyin": "Wǒ xiǎng hē chá",
+    "title_english": "I'd like some tea",
+    "location": "在饭馆儿 (In a restaurant)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你想喝什么？",
+        "pinyin": "Nǐ xiǎng hē shénme?",
+        "english": "What would you like to drink?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我想喝茶。",
+        "pinyin": "Wǒ xiǎng hē chá.",
+        "english": "I'd like some tea."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "english": "What would you like to eat?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我想吃米饭。",
+        "pinyin": "Wǒ xiǎng chī mǐfàn.",
+        "english": "I'd like rice."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "想", "pinyin": "xiǎng", "pos": "mod.", "definition": "to want, would like" },
+      { "hanzi": "喝", "pinyin": "hē", "pos": "v.", "definition": "to drink" },
+      { "hanzi": "茶", "pinyin": "chá", "pos": "n.", "definition": "tea" },
+      { "hanzi": "吃", "pinyin": "chī", "pos": "v.", "definition": "to eat" },
+      { "hanzi": "米饭", "pinyin": "mǐfàn", "pos": "n.", "definition": "cooked rice" }
+    ],
+    "grammar": [
+      {
+        "topic": "Modal verb 想 (to want)",
+        "explanation": "想 is used to express desire or intention. It can be followed by a verb to indicate what someone wants to do.",
+        "examples": [
+          { "chinese": "我想喝茶。", "pinyin": "Wǒ xiǎng hē chá.", "english": "I want to drink tea." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "lesson": 5,
+    "title": "我会说汉语",
+    "title_pinyin": "Wǒ huì shuō Hànyǔ",
+    "title_english": "I can speak Chinese",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你会说汉语吗？",
+        "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+        "english": "Can you speak Chinese?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我会说汉语。",
+        "pinyin": "Wǒ huì shuō Hànyǔ.",
+        "english": "Yes, I can."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你妈妈会说汉语吗？",
+        "pinyin": "Nǐ māma huì shuō Hànyǔ ma?",
+        "english": "Can your mother speak Chinese?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "她不会说。",
+        "pinyin": "Tā bú huì shuō.",
+        "english": "No, she can't."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "会", "pinyin": "huì", "pos": "mod.", "definition": "can, to be able to" },
+      { "hanzi": "说", "pinyin": "shuō", "pos": "v.", "definition": "to speak, to say" },
+      { "hanzi": "妈妈", "pinyin": "māma", "pos": "n.", "definition": "mother" }
+    ],
+    "grammar": [
+      {
+        "topic": "Modal verb 会 (can/able to)",
+        "explanation": "会 is used before a verb to indicate an ability acquired through learning. Its negative form is 不会.",
+        "examples": [
+          { "chinese": "我会说汉语。", "pinyin": "Wǒ huì shuō Hànyǔ.", "english": "I can speak Chinese." },
+          { "chinese": "我不会做中国菜。", "pinyin": "Wǒ bú huì zuò Zhōngguó cài.", "english": "I can't cook Chinese food." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "lesson": 9,
+    "title": "我能坐这儿吗",
+    "title_pinyin": "Wǒ néng zuò zhèr ma",
+    "title_english": "Can I sit here",
+    "location": "在办公室 (In the office)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "桌子上有什么？",
+        "pinyin": "Zhuōzi shàng yǒu shénme?",
+        "english": "What are there on the desk?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "桌子上有一个电脑和一本书。",
+        "pinyin": "Zhuōzi shàng yǒu yí ge diànnǎo hé yì běn shū.",
+        "english": "There is a computer and a book."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "杯子在哪儿？",
+        "pinyin": "Bēizi zài nǎr?",
+        "english": "Where is the cup?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "杯子在桌子里。",
+        "pinyin": "Bēizi zài zhuōzi lǐ.",
+        "english": "It's in the desk."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "桌子", "pinyin": "zhuōzi", "pos": "n.", "definition": "desk, table" },
+      { "hanzi": "上", "pinyin": "shàng", "pos": "n.", "definition": "up, above" },
+      { "hanzi": "电脑", "pinyin": "diànnǎo", "pos": "n.", "definition": "computer" },
+      { "hanzi": "和", "pinyin": "hé", "pos": "conj.", "definition": "and" },
+      { "hanzi": "本", "pinyin": "běn", "pos": "m.", "definition": "a measure word for books" },
+      { "hanzi": "里", "pinyin": "lǐ", "pos": "n.", "definition": "inner, inside, interior" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 9,
+    "lesson": 11,
+    "title": "现在几点",
+    "title_pinyin": "Xiànzài jǐ diǎn",
+    "title_english": "What's the time now",
+    "location": "在图书馆 (In the library)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "现在几点？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "english": "What's the time now?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "现在十点十分。",
+        "pinyin": "Xiànzài shí diǎn shí fēn.",
+        "english": "It's ten past ten."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "中午几点吃饭？",
+        "pinyin": "Zhōngwǔ jǐ diǎn chī fàn?",
+        "english": "When shall we have our lunch?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "十二点吃饭。",
+        "pinyin": "Shí'èr diǎn chī fàn.",
+        "english": "At twelve o'clock."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "现在", "pinyin": "xiànzài", "pos": "n.", "definition": "now" },
+      { "hanzi": "点", "pinyin": "diǎn", "pos": "m.", "definition": "o'clock" },
+      { "hanzi": "分", "pinyin": "fēn", "pos": "m.", "definition": "minute" },
+      { "hanzi": "中午", "pinyin": "zhōngwǔ", "pos": "n.", "definition": "noon" },
+      { "hanzi": "吃饭", "pinyin": "chī fàn", "pos": "v.", "definition": "to eat a meal" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 10,
+    "lesson": 13,
+    "title": "明天天气怎么样",
+    "title_pinyin": "Míngtiān tiānqì zěnmeyàng",
+    "title_english": "What will the weather be like tomorrow",
+    "location": "在路上 (On the road)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "昨天北京的天气怎么样？",
+        "pinyin": "Zuótiān Běijīng de tiānqì zěnmeyàng?",
+        "english": "How was the weather in Beijing yesterday?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "太热了。",
+        "pinyin": "Tài rè le.",
+        "english": "It was too hot."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "明天呢？明天天气怎么样？",
+        "pinyin": "Míngtiān ne? Míngtiān tiānqì zěnmeyàng?",
+        "english": "What about tomorrow? What will the weather be like tomorrow?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "明天天气很好，不冷不热。",
+        "pinyin": "Míngtiān tiānqì hěn hǎo, bù lěng bú rè.",
+        "english": "It will be fine, neither cold nor hot."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "天气", "pinyin": "tiānqì", "pos": "n.", "definition": "weather" },
+      { "hanzi": "怎么样", "pinyin": "zěnmeyàng", "pos": "pron.", "definition": "how (indicating nature, condition or manner)" },
+      { "hanzi": "太", "pinyin": "tài", "pos": "adv.", "definition": "too, excessively" },
+      { "hanzi": "热", "pinyin": "rè", "pos": "adj.", "definition": "hot" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 11,
+    "lesson": 14,
+    "title": "他在学做中国菜呢",
+    "title_pinyin": "Tā zài xué zuò Zhōngguó cài ne",
+    "title_english": "He is learning to cook Chinese food",
+    "location": "打电话 (On the phone)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "喂，你在做什么呢？",
+        "pinyin": "Wéi, nǐ zài zuò shénme ne?",
+        "english": "Hello, what are you doing?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我在看书呢。",
+        "pinyin": "Wǒ zài kàn shū ne.",
+        "english": "I'm reading."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "大卫也在看书吗？",
+        "pinyin": "Dàwèi yě zài kàn shū ma?",
+        "english": "Is David reading too?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "他没看书，他在学做中国菜呢。",
+        "pinyin": "Tā méi kàn shū, tā zài xué zuò Zhōngguó cài ne.",
+        "english": "No, he isn't. He is learning to cook Chinese food."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "喂", "pinyin": "wéi", "pos": "int.", "definition": "hello, hey" },
+      { "hanzi": "也", "pinyin": "yě", "pos": "adv.", "definition": "also, too" },
+      { "hanzi": "学习", "pinyin": "xuéxí", "pos": "v.", "definition": "to study, to learn" }
+    ],
+    "proper_nouns": [
+      { "hanzi": "大卫", "pinyin": "Dàwèi", "definition": "David" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 12,
+    "lesson": 15,
+    "title": "我买了一些苹果",
+    "title_pinyin": "Wǒ mǎile yìxiē píngguǒ",
+    "title_english": "I bought some apples",
+    "location": "在宿舍 (In the dormitory)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "昨天上午你去哪儿了？",
+        "pinyin": "Zuótiān shàngwǔ nǐ qù nǎr le?",
+        "english": "Where did you go yesterday morning?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我去商店买东西了。",
+        "pinyin": "Wǒ qù shāngdiàn mǎi dōngxi le.",
+        "english": "I went shopping."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你买什么了？",
+        "pinyin": "Nǐ mǎi shénme le?",
+        "english": "What did you buy?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我买了一点儿苹果。",
+        "pinyin": "Wǒ mǎile yìdiǎnr píngguǒ.",
+        "english": "I bought some apples."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "东西", "pinyin": "dōngxi", "pos": "n.", "definition": "thing, stuff" },
+      { "hanzi": "一点儿", "pinyin": "yìdiǎnr", "pos": "num.-m.", "definition": "a few, a little" },
+      { "hanzi": "苹果", "pinyin": "píngguǒ", "pos": "n.", "definition": "apple" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 13,
+    "lesson": 6,
+    "title": "你儿子在哪儿工作",
+    "title_pinyin": "Nǐ érzi zài nǎr gōngzuò",
+    "title_english": "Where does your son work",
+    "location": "在家 (At home)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "小猫在哪儿？",
+        "pinyin": "Xiǎo māo zài nǎr?",
+        "english": "Where is the kitty?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "小猫在那儿。",
+        "pinyin": "Xiǎo māo zài nàr.",
+        "english": "The kitty is over there."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "小狗在哪儿？",
+        "pinyin": "Xiǎo gǒu zài nǎr?",
+        "english": "Where is the puppy?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "小狗在椅子下面。",
+        "pinyin": "Xiǎo gǒu zài yǐzi xiàmian.",
+        "english": "The puppy is under the chair."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "小", "pinyin": "xiǎo", "pos": "adj.", "definition": "small, little" },
+      { "hanzi": "猫", "pinyin": "māo", "pos": "n.", "definition": "cat" },
+      { "hanzi": "在", "pinyin": "zài", "pos": "v.", "definition": "to be in/on/at" },
+      { "hanzi": "那儿", "pinyin": "nàr", "pos": "pron.", "definition": "there" },
+      { "hanzi": "狗", "pinyin": "gǒu", "pos": "n.", "definition": "dog" },
+      { "hanzi": "椅子", "pinyin": "yǐzi", "pos": "n.", "definition": "chair" },
+      { "hanzi": "下面", "pinyin": "xiàmian", "pos": "n.", "definition": "under, below" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 14,
+    "lesson": 10,
+    "title": "我会做中国菜",
+    "title_pinyin": "Wǒ huì zuò Zhōngguó cài",
+    "title_english": "I can cook Chinese food",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你会做什么？",
+        "pinyin": "Nǐ huì zuò shénme?",
+        "english": "What can you do?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我会做中国菜。",
+        "pinyin": "Wǒ huì zuò Zhōngguó cài.",
+        "english": "I can cook Chinese food."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你会写汉字吗？",
+        "pinyin": "Nǐ huì xiě Hànzì ma?",
+        "english": "Can you write Chinese characters?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我会写汉字。",
+        "pinyin": "Wǒ huì xiě Hànzì.",
+        "english": "Yes, I can write Chinese characters."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "做", "pinyin": "zuò", "pos": "v.", "definition": "to do, to make" },
+      { "hanzi": "中国菜", "pinyin": "Zhōngguó cài", "pos": "n.", "definition": "Chinese food" },
+      { "hanzi": "写", "pinyin": "xiě", "pos": "v.", "definition": "to write" },
+      { "hanzi": "汉字", "pinyin": "Hànzì", "pos": "n.", "definition": "Chinese character" }
+    ],
+    "grammar": []
+  },
+  {
+    "id": 15,
+    "lesson": 12,
+    "title": "我的汉语不好",
+    "title_pinyin": "Wǒ de Hànyǔ bù hǎo",
+    "title_english": "My Chinese is not good",
+    "location": "在学校 (At school)",
+    "lines": [
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "你的汉语怎么样？",
+        "pinyin": "Nǐ de Hànyǔ zěnmeyàng?",
+        "english": "How is your Chinese?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "我的汉语不太好。",
+        "pinyin": "Wǒ de Hànyǔ bú tài hǎo.",
+        "english": "My Chinese is not very good."
+      },
+      {
+        "dialogue": 1,
+        "speaker": "A",
+        "chinese": "这个字怎么写？",
+        "pinyin": "Zhè ge zì zěnme xiě?",
+        "english": "How do you write this character?"
+      },
+      {
+        "dialogue": 1,
+        "speaker": "B",
+        "chinese": "这样写。",
+        "pinyin": "Zhèyàng xiě.",
+        "english": "Write it like this."
+      }
+    ],
+    "vocabulary": [
+      { "hanzi": "怎么样", "pinyin": "zěnmeyàng", "pos": "pron.", "definition": "how" },
+      { "hanzi": "太", "pinyin": "tài", "pos": "adv.", "definition": "too, very" },
+      { "hanzi": "怎么", "pinyin": "zěnme", "pos": "pron.", "definition": "how" },
+      { "hanzi": "这样", "pinyin": "zhèyàng", "pos": "pron.", "definition": "like this" }
+    ],
+    "grammar": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"id": 1, "lesson": 1, "title": "九月去北京旅游最好", "location": "在学校", "topics": ["旅游", "天气", "时间"], "words": 15, "grammar": ["助动词'要'", "程度副词'最'"]},
+  {"id": 2, "lesson": 2, "title": "你很少生病", "location": "在运动场", "topics": ["健康", "运动", "日常习惯"], "words": 18, "grammar": ["'是不是'问句", "代词'每'"]},
+  {"id": 3, "lesson": 3, "title": "这块手表是你的吗", "location": "在房间", "topics": ["物品", "价格", "归属"], "words": 20, "grammar": ["疑问代词'多少'", "'的'字短语"]},
+  {"id": 4, "lesson": 4, "title": "生日快乐", "location": "在教室", "topics": ["生日", "礼物", "感谢"], "words": 16, "grammar": ["'是...的'句型", "动词'送'"]},
+  {"id": 5, "lesson": 5, "title": "我们下午去看电影", "location": "在教室", "topics": ["邀请", "电影", "安排"], "words": 22, "grammar": ["副词'再'", "'好吗'问句"]},
+  {"id": 6, "lesson": 6, "title": "不要看电视了", "location": "在家里", "topics": ["家庭", "学习", "劝阻"], "words": 24, "grammar": ["祈使句'不要...了'", "介词'对'"]},
+  {"id": 7, "lesson": 7, "title": "王芳昨天和你一起唱歌的人是谁", "location": "在歌厅", "topics": ["朋友", "介绍", "关系"], "words": 20, "grammar": ["'是...的'强调句", "疑问代词'谁'"]},
+  {"id": 8, "lesson": 8, "title": "你每天早上几点起床", "location": "在教室", "topics": ["作息", "比较", "健康"], "words": 25, "grammar": ["状态补语", "'得'字结构"]},
+  {"id": 9, "lesson": 9, "title": "门开着呢", "location": "在办公室", "topics": ["办公室", "拜访", "状态"], "words": 18, "grammar": ["动态助词'着'", "状态表达"]},
+  {"id": 10, "lesson": 10, "title": "听说你有女朋友了", "location": "在运动场", "topics": ["感情", "朋友", "描述"], "words": 22, "grammar": ["听说", "'的'字结构做定语"]},
+  {"id": 11, "lesson": 11, "title": "请问，这儿离新京宾馆远吗", "location": "在路上", "topics": ["问路", "宾馆", "方向"], "words": 18, "grammar": ["介词'离'", "动词'到'"]},
+  {"id": 12, "lesson": 12, "title": "明天天气怎么样", "location": "在房间", "topics": ["天气", "运动", "计划"], "words": 20, "grammar": ["关联词'虽然...但是'", "情态动词'能'"]},
+  {"id": 13, "lesson": 13, "title": "你在这个商店买过东西吗", "location": "在商店", "topics": ["购物", "价格", "经历"], "words": 16, "grammar": ["动态助词'过'", "数词'百'"]},
+  {"id": 14, "lesson": 14, "title": "新年你准备做什么", "location": "在朋友家", "topics": ["新年", "旅游", "票务"], "words": 24, "grammar": ["时间表达", "助动词'想'"]},
+  {"id": 15, "lesson": 15, "title": "时间过得真快", "location": "在公司", "topics": ["时间", "感谢", "公司"], "words": 18, "grammar": ["程度副词'真'", "副词'更'"]}
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "title": "在学校",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在学校",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "我 要去北京旅游，你觉得什么 时候去最好?Jiuyue qu Béijing 心you zui huo.",
+        "pinyin": "shénme shihou qu zui huo?",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "九 月去北京旅游最好。为“什么?",
+        "pinyin": "Wei shénme?Jit yué de Beijing tiangi bu léng ye bu re.",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "九月的北京 天气不冷 URI,",
+        "pinyin": "English Version",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "I’m thinking of a trip to Beijing. |.",
+        "pinyin": "When do you think is the best time?",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "September is the best time to visit 2.",
+        "pinyin": "",
+        "english": "Beijing.                                 3."
+      },
+      {
+        "speaker": "A",
+        "chinese": "Why?",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "Because it’s neither cold nor hot 4.觉得  juéde vv. to think, to feel最   zui adv. most, to the greatest为什么“wei shenme why也，   yé adv. also, tooWER 什么 运动?",
+        "pinyin": "New WordsBG  luyéuv. to travel, to takea tripextentNi xihuan shénme yundong?",
+        "english": "there in September.                           5.ARR Looking at a picture @ o:-2A:W6 zuixihuan ti zuqiu."
+      },
+      {
+        "speaker": "B",
+        "chinese": "我 最喜欢踢足球。",
+        "pinyin": "Xiowu women yigi qu ti zuqiu ba.",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "下午 我们一起去足足球吧。",
+        "pinyin": "Huo a!",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "aerat",
+        "pinyin": "English Version                          New Words",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "What sport do you like?                   6. 运动         yundong nv.",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "I like playing football.                                                           sport; to take physical",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "Let’s go to play football this                                                exercise, to work outafternoon.                                     7.踢足球 ti zuqit to play football",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "Great!                                   8. 一起       yigi adv. together",
+        "pinyin": "",
+        "english": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lesson": 2,
+    "title": "在运动场",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在运动场",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "(RA 天几点起 床?",
+        "pinyin": "Wo meitian lit didn gi chudng.",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "我每天六点起床。",
+        "pinyin": "English Version                      New Words",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "You seldom get sick. I guess you | 4 44 shéngbing v to fall ill, to be sicklike doing sports, don’t you?          2 每        méi pron. every, each",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "Yes. I go out for a jog every 3. 时上   zuoshang _n. morningmorning.                                  4跑步”puobu v torun, to jog",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "What time do you get up?            5 起床 qichudng v. to get up, to get out",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "I get up at six every day.                                                       of bed",
+        "pinyin": "RCE EE A                                 Chi yao le ma? Xidnzdi shénti zenmeyaung?",
+        "english": "PRES inthe hospital D 022"
+      },
+      {
+        "speaker": "A",
+        "chinese": "BY? 现在身体 怎么样?",
+        "pinyin": "Chile. Xidnzdi hdo dué le.Shénme shihou néng chi yuan?",
+        "english": "By, Rew eT:"
+      },
+      {
+        "speaker": "A",
+        "chinese": "什么 时候能出 院?",
+        "pinyin": "Yishéng shud xia ge xingqi.English Version                           New Words",
+        "english": "B ES #%. FAR."
+      },
+      {
+        "speaker": "A",
+        "chinese": "Did you take your medicine? How 6, 药      yao n. medicine, drugdo you feel now?                               7. 身体 shénti n， body",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "Yes, I did. I feel much better now.        8. BE cho yudn — to leave hospital, to",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "A",
+        "chinese": "When can you leave the hospital?                                         be discharged from",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "Next week according to the doctor.                                           hospital出         chu vy. tocome/go out",
+        "pinyin": "",
+        "english": "10"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "lesson": 3,
+    "title": "在动词后面",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在动词后面",
+    "lines": []
+  },
+  {
+    "id": 4,
+    "lesson": 4,
+    "title": "在已经知道事情发生的情况下",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在已经知道事情发生的情况下",
+    "lines": []
+  },
+  {
+    "id": 5,
+    "lesson": 5,
+    "title": "在家休息吧",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在家休息吧",
+    "lines": [
+      {
+        "speaker": "B",
+        "chinese": "635(2) A: 这件衣服大吗?",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "还行，不太大。(3) A: 昨天的考试怎么样?",
+        "pinyin": "",
+        "english": ""
+      },
+      {
+        "speaker": "B",
+        "chinese": "我觉得听和说还可以，读和写不好。程度副词“有点儿” The Adverbial Modifier “有点儿?”“有点儿+形容词/动词”，一般表示说话人消极、不满的情绪。例如The structure“有点儿 + adjective/verb” indicates the speaker’s negative mood or(1) 今天天气有点儿冷。(2) 我昨天有点儿累。(3)(这件衣服) 有点儿大。                                          |aa eee 根据课文内容回答问题 Answer the questions based on the dialogs.国 今天晚上他们在哪儿吃饭? Jintian wanshang tamen zai nar chi fan?",
+        "pinyin": "Exercises                     .            eswa            as",
+        "english": "complaint. For example:a >] 4) ABBR XM Role-play the dialogs.36"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "lesson": 6,
+    "title": "在某个范围内的每个成员",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在某个范围内的每个成员",
+    "lines": []
+  },
+  {
+    "id": 7,
+    "lesson": 7,
+    "title": "在睡觉",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在睡觉",
+    "lines": []
+  },
+  {
+    "id": 8,
+    "lesson": 8,
+    "title": "",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "",
+    "lines": []
+  },
+  {
+    "id": 9,
+    "lesson": 9,
+    "title": "在动词后边",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在动词后边",
+    "lines": []
+  },
+  {
+    "id": 10,
+    "lesson": 10,
+    "title": "在做什么",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在做什么",
+    "lines": []
+  },
+  {
+    "id": 11,
+    "lesson": 11,
+    "title": "",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "",
+    "lines": []
+  },
+  {
+    "id": 12,
+    "lesson": 12,
+    "title": "在形式上党",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在形式上党",
+    "lines": []
+  },
+  {
+    "id": 13,
+    "lesson": 13,
+    "title": "在动词前加",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在动词前加",
+    "lines": []
+  },
+  {
+    "id": 14,
+    "lesson": 14,
+    "title": "在动词前边加",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "在动词前边加",
+    "lines": []
+  },
+  {
+    "id": 15,
+    "lesson": 15,
+    "title": "",
+    "title_pinyin": "",
+    "title_english": "",
+    "location": "",
+    "lines": []
+  }
+]

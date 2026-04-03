@@ -1,6 +1,7 @@
 <script>
  import { onMount } from 'svelte';
  import HanziWriter from 'hanzi-writer';
+ import { speakWord, speakDialogueLine, initVoices } from './lib/utils/audio-service.js';
  import hsk1 from './lib/data/hsk1.json';
  import hsk2 from './lib/data/hsk2.json';
  import hsk3 from './lib/data/hsk3.json';
@@ -16,10 +17,16 @@
  import dialogues3 from './lib/data/dialogues_hsk3.json';
  import dialogues4 from './lib/data/dialogues_hsk4.json';
  import dialogues5 from './lib/data/dialogues_hsk5.json';
+ import textbookDialogues1 from './lib/data/textbook_dialogues_hsk1.json';
+ import textbookDialogues2 from './lib/data/textbook_dialogues_hsk2.json';
+ 
+ import LessonCard from './lib/components/LessonCard.svelte';
+ import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
  
  const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
  const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
  const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5 };
+ const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -56,6 +63,13 @@ let currentSentenceWord = $state(null); // The word being studied
  let dialogueLineIndex = $state(0);
  let showDialogueTranslation = $state(false);
 
+ // Lesson state (textbook dialogues)
+ let navigationMode = $state('free'); // 'free' or 'sequential'
+ let currentLesson = $state(null);
+ let currentLessonLevel = $state(1);
+ let lessonProgress = $state({}); // { lessonId: { completed: bool, progress: 0-100 } }
+ let dialoguePlayerRef = $state(null);
+
  const LEVELS = [
  { level: 1, name: 'HSK 1', count: hsk1.length, desc: 'Beginner' },
  { level: 2, name: 'HSK 2', count: hsk2.length, desc: 'Elementary' },
@@ -76,8 +90,9 @@ let currentSentenceWord = $state(null); // The word being studied
  }
  
  onMount(() => {
- loadProgress();
- checkPremium();
+    loadProgress();
+    checkPremium();
+    initVoices(); // Initialize speech synthesis voices
  });
  
  function loadProgress() {
@@ -267,68 +282,118 @@ let currentSentenceWord = $state(null); // The word being studied
  }
 
  function prevDialogueLine() {
- if (dialogueLineIndex > 0) {
- dialogueLineIndex--;
- showDialogueTranslation = false;
+    if (dialogueLineIndex > 0) {
+      dialogueLineIndex--;
+      showDialogueTranslation = false;
+    }
  }
+
+ // Lesson navigation functions
+ function startLessons(level) {
+    currentLessonLevel = level;
+    loadLessonProgress(level);
+    currentView = 'lessons';
+ }
+
+ function loadLessonProgress(level) {
+    try {
+      const saved = localStorage.getItem(`volta-chinese-lessons-${level}`);
+      if (saved) {
+        lessonProgress = JSON.parse(saved);
+      } else {
+        lessonProgress = {};
+      }
+    } catch (e) {
+      lessonProgress = {};
+    }
+ }
+
+ function saveLessonProgress() {
+    localStorage.setItem(`volta-chinese-lessons-${currentLessonLevel}`, JSON.stringify(lessonProgress));
+ }
+
+ function getLessonsForLevel(level) {
+    return TEXTBOOK_DIALOGUES[level] || [];
+ }
+
+ function isLessonLocked(lesson) {
+    if (navigationMode === 'free') return false;
+    // In sequential mode, must complete previous lessons
+    const lessons = getLessonsForLevel(currentLessonLevel);
+    const idx = lessons.findIndex(l => l.id === lesson.id);
+    if (idx === 0) return false;
+    const prevLesson = lessons[idx - 1];
+    return !lessonProgress[prevLesson.id]?.completed;
+ }
+
+ function getLessonProgress(lesson) {
+    return lessonProgress[lesson.id]?.progress || 0;
+ }
+
+ function isLessonCompleted(lesson) {
+    return lessonProgress[lesson.id]?.completed || false;
+ }
+
+ function startLesson(lesson) {
+    if (isLessonLocked(lesson)) return;
+    currentLesson = lesson;
+    currentView = 'lesson-player';
+ }
+
+ function onLessonLineChange(event) {
+    // Update progress as user goes through lines
+    const { line } = event.detail;
+    const totalLines = currentLesson.lines.length;
+    const progress = Math.round(((line + 1) / totalLines) * 100);
+    
+    if (!lessonProgress[currentLesson.id]) {
+      lessonProgress[currentLesson.id] = { completed: false, progress: 0 };
+    }
+    lessonProgress[currentLesson.id].progress = Math.max(
+      lessonProgress[currentLesson.id].progress,
+      progress
+    );
+    saveLessonProgress();
+ }
+
+ function onLessonComplete() {
+    if (!lessonProgress[currentLesson.id]) {
+      lessonProgress[currentLesson.id] = { completed: false, progress: 0 };
+    }
+    lessonProgress[currentLesson.id].completed = true;
+    lessonProgress[currentLesson.id].progress = 100;
+    saveLessonProgress();
+    
+    // In sequential mode, go to next lesson
+    if (navigationMode === 'sequential') {
+      const lessons = getLessonsForLevel(currentLessonLevel);
+      const idx = lessons.findIndex(l => l.id === currentLesson.id);
+      if (idx < lessons.length - 1) {
+        currentLesson = lessons[idx + 1];
+        // Reset handled by DialoguePlayer
+        currentView = 'lesson-player';
+        return;
+      }
+    }
+    currentView = 'lessons';
+ }
+
+ function toggleNavigationMode() {
+    navigationMode = navigationMode === 'free' ? 'sequential' : 'free';
  }
  
  function speak(text) {
- audioStatus = 'Loading...';
- 
- if ('speechSynthesis' in window) {
- let voices = speechSynthesis.getVoices();
- 
- const doSpeak = () => {
- try {
- speechSynthesis.cancel();
- 
- const utterance = new SpeechSynthesisUtterance(text);
- utterance.lang = 'zh-CN';
- utterance.rate = 0.8;
- utterance.pitch = 1;
- 
- voices = speechSynthesis.getVoices();
- const zhVoice = voices.find(v => v.lang.includes('zh') || v.lang.includes('cmn'));
- if (zhVoice) {
- utterance.voice = zhVoice;
- }
- 
- utterance.onstart = () => {
- audioStatus = 'Playing...';
- };
- 
- utterance.onend = () => {
- audioStatus = '';
- };
- 
- utterance.onerror = (e) => {
- console.log('Speech error:', e.error);
- audioStatus = '';
- };
- 
- speechSynthesis.speak(utterance);
- } catch (e) {
- console.log('Speech exception:', e);
- audioStatus = '';
- }
- };
- 
- if (voices.length === 0) {
- speechSynthesis.onvoiceschanged = doSpeak;
- setTimeout(() => {
- if (audioStatus === 'Loading...') {
- doSpeak();
- }
- }, 500);
- } else {
- doSpeak();
- }
- return;
- }
- 
- audioStatus = '';
- console.log('Speech synthesis not available');
+    audioStatus = 'Loading...';
+    
+    // Use audio service which prioritizes pre-generated MP3s, then Azure TTS, then Web Speech
+    speakWord(text)
+        .then(() => {
+        audioStatus = '';
+        })
+        .catch((e) => {
+        console.log('Speech error:', e);
+        audioStatus = '';
+        });
  }
  
  function getWordsForLevel(level) {
@@ -582,39 +647,48 @@ let currentSentenceWord = $state(null); // The word being studied
  </div>
  <p class="level-desc">{lvl.desc}</p>
  <div class="practice-buttons">
- <button 
- type="button"
- class="btn-primary"
- onclick={() => startFlashcards(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Flashcards
- </button>
- <button 
- type="button"
- class="btn-secondary"
- onclick={() => startCharacterWriting(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Writing
- </button>
- <button 
- type="button"
- class="btn-secondary"
- onclick={() => startSentencePractice(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Sentences
- </button>
- <button 
- type="button"
- class="btn-secondary"
- onclick={() => startDialoguePractice(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Dialogues
- </button>
- </div>
+    <button 
+    type="button"
+    class="btn-primary"
+    onclick={() => startFlashcards(lvl.level)}
+    disabled={lvl.level > 1 && !isPremium}
+    >
+    Flashcards
+    </button>
+    <button 
+    type="button"
+    class="btn-secondary"
+    onclick={() => startCharacterWriting(lvl.level)}
+    disabled={lvl.level > 1 && !isPremium}
+    >
+    Writing
+    </button>
+    <button 
+    type="button"
+    class="btn-secondary"
+    onclick={() => startSentencePractice(lvl.level)}
+    disabled={lvl.level > 1 && !isPremium}
+    >
+    Sentences
+    </button>
+    <button 
+    type="button"
+    class="btn-secondary"
+    onclick={() => startDialoguePractice(lvl.level)}
+    disabled={lvl.level > 1 && !isPremium}
+    >
+    Dialogues
+    </button>
+    {#if lvl.level === 1 && TEXTBOOK_DIALOGUES[1]}
+    <button 
+      type="button"
+      class="btn-lessons"
+      onclick={() => startLessons(lvl.level)}
+    >
+    Lessons (HSK1)
+    </button>
+    {/if}
+    </div>
  {#if progress[lvl.level]?.reviewCount > 0}
  <button 
  type="button"
@@ -884,6 +958,66 @@ let currentSentenceWord = $state(null); // The word being studied
  {#if audioStatus}
  <p class="audio-status">{audioStatus}</p>
  {/if}
+ </div>
+
+ {:else if currentView === 'lessons'}
+ <div class="lessons-view">
+    <button type="button" class="back-btn" onclick={() => currentView = 'home'}>
+    ← Back
+    </button>
+    
+    <div class="lessons-header">
+    <h1>HSK {currentLessonLevel} Lessons</h1>
+    <p class="lessons-subtitle">Learn from official HSK textbook dialogues</p>
+    
+    <div class="mode-toggle">
+      <span class="mode-label">Navigation:</span>
+      <button 
+      type="button"
+      class="mode-btn {navigationMode === 'free' ? 'active' : ''}"
+      onclick={() => navigationMode = 'free'}
+      >
+      Free Browse
+      </button>
+      <button 
+      type="button"
+      class="mode-btn {navigationMode === 'sequential' ? 'active' : ''}"
+      onclick={() => navigationMode = 'sequential'}
+      >
+      Sequential
+      </button>
+    </div>
+    {#if navigationMode === 'sequential'}
+      <p class="mode-hint">Complete lessons in order. Pass quizzes to unlock the next lesson.</p>
+    {:else}
+      <p class="mode-hint">Browse any lesson freely. Learn at your own pace.</p>
+    {/if}
+    </div>
+    
+    <div class="lessons-grid">
+    {#each getLessonsForLevel(currentLessonLevel) as lesson}
+      <div onclick={() => startLesson(lesson)}>
+      <LessonCard 
+      {lesson}
+      completed={isLessonCompleted(lesson)}
+      locked={isLessonLocked(lesson)}
+      progress={getLessonProgress(lesson)}
+      />
+      </div>
+    {/each}
+    </div>
+ </div>
+
+ {:else if currentView === 'lesson-player' && currentLesson}
+ <div class="lesson-player-view">
+    <button type="button" class="back-btn" onclick={() => currentView = 'lessons'}>
+    ← Back to Lessons
+    </button>
+    
+    <DialoguePlayer 
+    dialogue={currentLesson}
+    {showPinyin}
+    />
  </div>
 
  {:else if currentView === 'premium'}
@@ -1868,5 +2002,101 @@ margin-top: 1.5rem;
  .note {
  font-size: 0.9rem;
  color: #666 !important;
+ }
+
+ /* Lessons View */
+ .lessons-view {
+    padding: 1rem;
+ }
+
+ .lessons-header {
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+
+ .lessons-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+ }
+
+ .lessons-subtitle {
+    color: #a0a0a0;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .mode-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+ }
+
+ .mode-label {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+ }
+
+ .mode-btn {
+    background: transparent;
+    border: 1px solid #4a5568;
+    color: #a0a0a0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+ }
+
+ .mode-btn:hover {
+    border-color: #ff6b6b;
+    color: #ff6b6b;
+ }
+
+ .mode-btn.active {
+    background: #ff6b6b;
+    border-color: #ff6b6b;
+    color: white;
+ }
+
+ .mode-hint {
+    color: #666;
+    font-size: 0.85rem;
+    font-style: italic;
+ }
+
+ .lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+
+ .btn-lessons {
+    width: 100%;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    color: #1a1a2e;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    transition: all 0.2s;
+ }
+
+ .btn-lessons:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 222, 128, 0.3);
+ }
+
+ /* Lesson Player View */
+ .lesson-player-view {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
  }
 </style>

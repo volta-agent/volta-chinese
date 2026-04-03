@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "lesson": 1,
+    "title": "九月去北京旅游最好",
+    "location": "在学校",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "我要去北京旅游，你觉得什么时候去最好？",
+        "pinyin": "Wǒ yào qù Běijīng lǚyóu, nǐ juéde shénme shíhou qù zuì hǎo?",
+        "english": "I'm planning a trip to Beijing. When do you think is the best time to go?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "九月去北京旅游最好。",
+        "pinyin": "Jiǔyuè qù Běijīng lǚyóu zuì hǎo.",
+        "english": "September is the best time to visit Beijing."
+      },
+      {
+        "speaker": "A",
+        "chinese": "为什么？",
+        "pinyin": "Wèishénme?",
+        "english": "Why?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "九月的北京天气不冷也不热。",
+        "pinyin": "Jiǔyuè de Běijīng tiānqì bù lěng yě bú rè.",
+        "english": "The weather in Beijing in September is neither cold nor hot."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "lesson": 2,
+    "title": "你很少生病",
+    "location": "在运动场",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你很少生病，是不是喜欢运动？",
+        "pinyin": "Nǐ hěn shǎo shēngbìng, shì bu shì xǐhuan yùndòng?",
+        "english": "You seldom get sick. Do you like sports?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "是啊，我每天早上都要出去跑步。",
+        "pinyin": "Shì a, wǒ měitiān zǎoshang dōu yào chūqù pǎobù.",
+        "english": "Yes, I go out for a run every morning."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你每天几点起床？",
+        "pinyin": "Nǐ měitiān jǐ diǎn qǐchuáng?",
+        "english": "What time do you get up every day?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "我每天六点起床。",
+        "pinyin": "Wǒ měitiān liù diǎn qǐchuáng.",
+        "english": "I get up at six every day."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "lesson": 3,
+    "title": "这块手表是你的吗",
+    "location": "在房间",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "这块手表是你的吗？",
+        "pinyin": "Zhè kuài shǒubiǎo shì nǐ de ma?",
+        "english": "Is this watch yours?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "不是我的。是我爸爸的。",
+        "pinyin": "Bú shì wǒ de. Shì wǒ bàba de.",
+        "english": "It's not mine. It's my father's."
+      },
+      {
+        "speaker": "A",
+        "chinese": "多少钱买的？",
+        "pinyin": "Duōshao qián mǎi de?",
+        "english": "How much did it cost?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "三千多块。",
+        "pinyin": "Sānqiān duō kuài.",
+        "english": "More than three thousand yuan."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "lesson": 4,
+    "title": "生日快乐",
+    "location": "在教室",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "生日快乐！这是送给你的！",
+        "pinyin": "Shēngrì kuàilè! Zhè shì sòng gěi nǐ de!",
+        "english": "Happy birthday! This is for you!"
+      },
+      {
+        "speaker": "B",
+        "chinese": "是什么？是一本书吗？",
+        "pinyin": "Shì shénme? Shì yì běn shū ma?",
+        "english": "What is it? Is it a book?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "对，这本书是我写的。",
+        "pinyin": "Duì, zhè běn shū shì wǒ xiě de.",
+        "english": "Yes, this book was written by me."
+      },
+      {
+        "speaker": "B",
+        "chinese": "太谢谢你了！",
+        "pinyin": "Tài xièxie nǐ le!",
+        "english": "Thank you so much!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "lesson": 5,
+    "title": "我们下午去看电影",
+    "location": "在教室",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "我们下午去看电影，好吗？",
+        "pinyin": "Wǒmen xiàwǔ qù kàn diànyǐng, hǎo ma?",
+        "english": "Shall we go to see a movie this afternoon?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "今天下午我没有时间，明天下午再去吧。",
+        "pinyin": "Jīntiān xiàwǔ wǒ méiyǒu shíjiān, míngtiān xiàwǔ zài qù ba.",
+        "english": "I don't have time this afternoon. Let's go tomorrow afternoon."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你想看什么电影？",
+        "pinyin": "Nǐ xiǎng kàn shénme diànyǐng?",
+        "english": "What movie do you want to see?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "让我想想再告诉你。",
+        "pinyin": "Ràng wǒ xiǎngxiang zài gàosu nǐ.",
+        "english": "Let me think about it and tell you later."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "lesson": 6,
+    "title": "不要看电视了",
+    "location": "在家里",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "不要看电视了，明天上午还有汉语课呢。",
+        "pinyin": "Búyào kàn diànshì le, míngtiān shàngwǔ háiyǒu Hànyǔ kè ne.",
+        "english": "Stop watching TV. You have Chinese class tomorrow morning."
+      },
+      {
+        "speaker": "B",
+        "chinese": "看电视对学汉语有帮助。",
+        "pinyin": "Kàn diànshì duì xué Hànyǔ yǒu bāngzhù.",
+        "english": "Watching TV helps with learning Chinese."
+      },
+      {
+        "speaker": "A",
+        "chinese": "明天的课你都准备好了吗？",
+        "pinyin": "Míngtiān de kè nǐ dōu zhǔnbèi hǎo le ma?",
+        "english": "Are you prepared for tomorrow's class?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "都准备好了。",
+        "pinyin": "Dōu zhǔnbèi hǎo le.",
+        "english": "I'm all prepared."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "lesson": 7,
+    "title": "王芳昨天和你一起唱歌的人是谁",
+    "location": "在歌厅",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "王芳，昨天和你一起唱歌的人是谁？",
+        "pinyin": "Wáng Fāng, zuótiān hé nǐ yìqǐ chànggē de rén shì shéi?",
+        "english": "Wang Fang, who was the person singing with you yesterday?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "一个朋友。",
+        "pinyin": "Yí ge péngyou.",
+        "english": "A friend."
+      },
+      {
+        "speaker": "A",
+        "chinese": "什么朋友？是不是男朋友？",
+        "pinyin": "Shénme péngyou? Shì bu shì nánpéngyou?",
+        "english": "What kind of friend? Is it a boyfriend?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "不是不是，我同学介绍的，昨天第一次见。",
+        "pinyin": "Bú shì bú shì, wǒ tóngxué jièshào de, zuótiān dì yí cì jiàn.",
+        "english": "No, no. My classmate introduced us. It was the first time we met yesterday."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "lesson": 8,
+    "title": "你每天早上几点起床",
+    "location": "在教室",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你每天早上几点起床？",
+        "pinyin": "Nǐ měitiān zǎoshang jǐ diǎn qǐchuáng?",
+        "english": "What time do you get up every morning?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "六点多。",
+        "pinyin": "Liù diǎn duō.",
+        "english": "A little past six."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你比我早起一个小时。",
+        "pinyin": "Nǐ bǐ wǒ zǎo qǐ yí ge xiǎoshí.",
+        "english": "You get up an hour earlier than me."
+      },
+      {
+        "speaker": "B",
+        "chinese": "我睡得也早，我每天晚上十点就睡觉。早睡早起身体好。",
+        "pinyin": "Wǒ shuì de yě zǎo, wǒ měitiān wǎnshang shí diǎn jiù shuìjiào. Zǎo shuì zǎo qǐ shēntǐ hǎo.",
+        "english": "I also go to bed early. I go to sleep at ten every night. Early to bed and early to rise is good for health."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "lesson": 9,
+    "title": "门开着呢",
+    "location": "在办公室",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "门开着呢，请进。",
+        "pinyin": "Mén kāi zhe ne, qǐng jìn.",
+        "english": "The door is open, please come in."
+      },
+      {
+        "speaker": "B",
+        "chinese": "请问，张先生在吗？",
+        "pinyin": "Qǐngwèn, Zhāng xiānsheng zài ma?",
+        "english": "Excuse me, is Mr. Zhang here?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "他出去了。你下午再来吧。",
+        "pinyin": "Tā chūqù le. Nǐ xiàwǔ zài lái ba.",
+        "english": "He went out. Please come back in the afternoon."
+      },
+      {
+        "speaker": "B",
+        "chinese": "好的，谢谢！",
+        "pinyin": "Hǎo de, xièxie!",
+        "english": "Okay, thank you!"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "lesson": 10,
+    "title": "听说你有女朋友了",
+    "location": "在运动场",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "听说你有女朋友了？我认识她吗？",
+        "pinyin": "Tīngshuō nǐ yǒu nǚpéngyou le? Wǒ rènshi tā ma?",
+        "english": "I heard you have a girlfriend now. Do I know her?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "就是我们班那个长着两个大眼睛，非常爱笑的女孩儿。",
+        "pinyin": "Jiùshì wǒmen bān nàge zhǎngzhe liǎng ge dà yǎnjing, fēicháng ài xiào de nǚháir.",
+        "english": "She is the girl in our class with big eyes and a smiling face."
+      },
+      {
+        "speaker": "A",
+        "chinese": "她不是有男朋友吗？",
+        "pinyin": "Tā búshì yǒu nánpéngyou ma?",
+        "english": "She's already got a boyfriend, hasn't she?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "那个已经是她的前男友了。",
+        "pinyin": "Nàge yǐjīng shì tā de qián nánpéngyou le.",
+        "english": "That's her ex now."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "lesson": 11,
+    "title": "请问，这儿离新京宾馆远吗",
+    "location": "在路上",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "请问，这儿离新京宾馆远吗？",
+        "pinyin": "Qǐngwèn, zhèr lí Xīnjīng Bīnguǎn yuǎn ma?",
+        "english": "Excuse me, is Xinjing Hotel far from here?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "不远，走路二十分钟就到。",
+        "pinyin": "Bù yuǎn, zǒulù èrshí fēnzhōng jiù dào.",
+        "english": "Not far, about a 20 minutes' walk."
+      },
+      {
+        "speaker": "A",
+        "chinese": "你能告诉我怎么走吗？",
+        "pinyin": "Nǐ néng gàosu wǒ zěnme zǒu ma?",
+        "english": "Could you tell me how to get there?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "从这儿一直往前走，到了前面的路口再往右走。",
+        "pinyin": "Cóng zhèr yīzhí wǎng qián zǒu, dàole qiánmiàn de lùkǒu zài wǎng yòu zǒu.",
+        "english": "Walk straight ahead from here and turn right at the first crossing."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "lesson": 12,
+    "title": "明天天气怎么样",
+    "location": "在房间",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "明天天气怎么样？",
+        "pinyin": "Míngtiān tiānqì zěnmeyàng?",
+        "english": "How will the weather be tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "虽然是晴天，但是很冷。",
+        "pinyin": "Suīrán shì qíngtiān, dànshì hěn lěng.",
+        "english": "It will be fine, but cold."
+      },
+      {
+        "speaker": "A",
+        "chinese": "那还能去跑步吗？",
+        "pinyin": "Nà hái néng qù pǎobù ma?",
+        "english": "In that case, is it OK to go jogging?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "可以，但是你自己去吧，我还有很多事情要做。",
+        "pinyin": "Kěyǐ, dànshì nǐ zìjǐ qù ba, wǒ hái yǒu hěn duō shìqing yào zuò.",
+        "english": "I think so. But I'm afraid you have to go by yourself because I have a lot of work to do."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "lesson": 13,
+    "title": "你在这个商店买过东西吗",
+    "location": "在商店",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "你在这个商店买过东西吗？",
+        "pinyin": "Nǐ zài zhège shāngdiàn mǎiguò dōngxi ma?",
+        "english": "Have you ever bought anything in this store?"
+      },
+      {
+        "speaker": "B",
+        "chinese": "买过一次，这儿的东西还可以，就是不便宜。",
+        "pinyin": "Mǎiguò yí cì, zhèr de dōngxi hái kěyǐ, jiùshì bù piányi.",
+        "english": "Yes, once. Things here are pretty good, not cheap though."
+      },
+      {
+        "speaker": "A",
+        "chinese": "我喜欢这件衣服，但是觉得有点儿贵。",
+        "pinyin": "Wǒ xǐhuan zhè jiàn yīfu, dànshì juéde yǒudiǎnr guì.",
+        "english": "I like this garment, but I think it's a little expensive."
+      },
+      {
+        "speaker": "B",
+        "chinese": "两百块还可以，喜欢就买吧。",
+        "pinyin": "Liǎng bǎi kuài hái kěyǐ, xǐhuan jiù mǎi ba.",
+        "english": "Two hundred yuan is not that expensive. If you like it, just buy it."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "lesson": 14,
+    "title": "新年你准备做什么",
+    "location": "在朋友家",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "今天是十二月二十号，新年就要到了。",
+        "pinyin": "Jīntiān shì shí'èr yuè èrshí hào, xīnnián jiù yào dào le.",
+        "english": "Today is December 20th. The New Year is approaching."
+      },
+      {
+        "speaker": "B",
+        "chinese": "新年你准备做什么？",
+        "pinyin": "Xīnnián nǐ zhǔnbèi zuò shénme?",
+        "english": "What plans do you have for the New Year?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "我想去北京旅游，北京很不错，我去过一次。",
+        "pinyin": "Wǒ xiǎng qù Běijīng lǚyóu, Běijīng hěn búcuò, wǒ qùguo yí cì.",
+        "english": "I want to take a trip to Beijing. Beijing is a nice place. I've been there once."
+      },
+      {
+        "speaker": "B",
+        "chinese": "你买票了吗？",
+        "pinyin": "Nǐ mǎi piào le ma?",
+        "english": "Have you bought the ticket?"
+      },
+      {
+        "speaker": "A",
+        "chinese": "还没有呢，明天就去火车站买票。",
+        "pinyin": "Hái méiyǒu ne, míngtiān jiù qù huǒchēzhàn mǎi piào.",
+        "english": "Not yet. I'll go to the railway station to buy it tomorrow."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "lesson": 15,
+    "title": "时间过得真快",
+    "location": "在公司",
+    "lines": [
+      {
+        "speaker": "A",
+        "chinese": "时间过得真快，新的一年快到了！",
+        "pinyin": "Shíjiān guò de zhēn kuài, xīn de yì nián kuài yào dào le!",
+        "english": "How time flies! The New Year is approaching!"
+      },
+      {
+        "speaker": "B",
+        "chinese": "是啊，谢谢大家这一年对我的帮助！",
+        "pinyin": "Shì a, xièxie dàjiā zhè yì nián duì wǒ de bāngzhù!",
+        "english": "Yes. Thank you all for your help during the past year."
+      },
+      {
+        "speaker": "C",
+        "chinese": "希望我们的公司明年更好！",
+        "pinyin": "Xīwàng wǒmen de gōngsī míngnián gèng hǎo!",
+        "english": "I hope our company will become even better in the next year."
+      }
+    ]
+  }
+]

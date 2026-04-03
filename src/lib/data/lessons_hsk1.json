@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "title": "你好",
+    "title_pinyin": "Nǐ hǎo",
+    "title_english": "Hello",
+    "dialogues": [1],
+    "vocabulary": ["你", "好", "您", "你们", "对不起", "没关系"],
+    "grammar": ["Basic greetings"],
+    "exercises": []
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "谢谢你",
+    "title_pinyin": "Xièxie nǐ",
+    "title_english": "Thank you",
+    "dialogues": [1],
+    "vocabulary": ["谢谢", "不", "不客气", "再见"],
+    "grammar": ["Basic expressions"],
+    "exercises": []
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "你叫什么名字",
+    "title_pinyin": "Nǐ jiào shénme míngzi",
+    "title_english": "What's your name",
+    "dialogues": [2],
+    "vocabulary": ["叫", "什么", "名字", "我", "是", "老师", "吗", "学生", "人"],
+    "grammar": ["Interrogative pronoun 什么", "Question particle 吗"],
+    "exercises": []
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "她是谁",
+    "title_pinyin": "Tā shì shéi",
+    "title_english": "Who is she",
+    "dialogues": [3],
+    "vocabulary": ["她", "谁", "的", "汉语", "哪", "国", "呢", "他", "同学", "朋友"],
+    "grammar": ["Interrogative pronouns 谁 and 哪", "Possessive particle 的"],
+    "exercises": []
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "title": "你家有几口人",
+    "title_pinyin": "Nǐ jiā yǒu jǐ kǒu rén",
+    "title_english": "How many people are in your family",
+    "dialogues": [4],
+    "vocabulary": ["家", "有", "口", "女儿", "几", "岁", "了", "今年", "多", "大"],
+    "grammar": ["Verb 有 (to have)", "Measure words", "Particle 了"],
+    "exercises": []
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "title": "我的汉语不好",
+    "title_pinyin": "Wǒ de Hànyǔ bù hǎo",
+    "title_english": "My Chinese isn't good",
+    "dialogues": [],
+    "vocabulary": ["会", "说", "做", "菜", "很"],
+    "grammar": ["Modal verb 会", "Adjectival predicates"],
+    "exercises": []
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "title": "今天几号",
+    "title_pinyin": "Jīntiān jǐ hào",
+    "title_english": "What's the date today",
+    "dialogues": [5],
+    "vocabulary": ["请", "问", "今天", "号", "月", "星期", "昨天", "明天", "去", "学校", "看", "书"],
+    "grammar": ["Date expressions", "Time expressions"],
+    "exercises": []
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "title": "我想买苹果",
+    "title_pinyin": "Wǒ xiǎng mǎi píngguǒ",
+    "title_english": "I want to buy apples",
+    "dialogues": [],
+    "vocabulary": ["想", "买", "苹果", "多少钱", "块", "太", "贵", "便宜"],
+    "grammar": ["Expressing desire with 想", "Shopping vocabulary"],
+    "exercises": []
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "title": "我们要多少钱",
+    "title_pinyin": "Wǒmen yào duōshao qián",
+    "title_english": "How much money do we need",
+    "dialogues": [],
+    "vocabulary": ["我们", "要", "钱", "多少", "元", "可以"],
+    "grammar": ["Money expressions", "Modal verb 要"],
+    "exercises": []
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "title": "你会说英语吗",
+    "title_pinyin": "Nǐ huì shuō Yīngyǔ ma",
+    "title_english": "Can you speak English",
+    "dialogues": [],
+    "vocabulary": ["英语", "会", "说"],
+    "grammar": ["Modal verb 会 (ability)", "Languages"],
+    "exercises": []
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "title": "我喝茶",
+    "title_pinyin": "Wǒ hē chá",
+    "title_english": "I drink tea",
+    "dialogues": [],
+    "vocabulary": ["喝", "茶", "水", "吃", "饭", "喜欢"],
+    "grammar": ["Action verbs", "Expressing preferences"],
+    "exercises": []
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "title": "你怎么去学校",
+    "title_pinyin": "Nǐ zěnme qù xuéxiào",
+    "title_english": "How do you go to school",
+    "dialogues": [],
+    "vocabulary": ["怎么", "坐", "车", "公共汽车", "骑车"],
+    "grammar": ["Asking about manner/method", "Transportation"],
+    "exercises": []
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "title": "我在宿舍学习",
+    "title_pinyin": "Wǒ zài sùshè xuéxí",
+    "title_english": "I study in the dormitory",
+    "dialogues": [],
+    "vocabulary": ["在", "宿舍", "学习", "住", "哪儿"],
+    "grammar": ["Location expressions", "Progressive actions"],
+    "exercises": []
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "title": "你认识不认识他",
+    "title_pinyin": "Nǐ rènshi bu rènshi tā",
+    "title_english": "Do you know him",
+    "dialogues": [],
+    "vocabulary": ["认识", "知道", "介绍"],
+    "grammar": ["Affirmative-negative questions", "认识 vs 知道"],
+    "exercises": []
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "title": "我给你介绍一下",
+    "title_pinyin": "Wǒ gěi nǐ jièshào yīxià",
+    "title_english": "Let me introduce you",
+    "dialogues": [],
+    "vocabulary": ["给", "介绍", "一下"],
+    "grammar": ["Introduction patterns", "Reduplication"],
+    "exercises": []
+  }
+]
