@@ -679,15 +679,15 @@ let currentSentenceWord = $state(null); // The word being studied
     >
     Dialogues
     </button>
-    {#if lvl.level === 1 && TEXTBOOK_DIALOGUES[1]}
-    <button 
-      type="button"
-      class="btn-lessons"
-      onclick={() => startLessons(lvl.level)}
-    >
-    Lessons (HSK1)
-    </button>
-    {/if}
+			{#if TEXTBOOK_DIALOGUES[lvl.level]}
+				<button 
+					type="button"
+					class="btn-lessons"
+					onclick={() => startLessons(lvl.level)}
+				>
+					Lessons
+				</button>
+			{/if}
     </div>
  {#if progress[lvl.level]?.reviewCount > 0}
  <button 
