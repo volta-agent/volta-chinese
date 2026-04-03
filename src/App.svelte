@@ -942,6 +942,18 @@ let currentSentenceWord = $state(null); // The word being studied
  <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
  </div>
  
+ <div class="share-section">
+ <p style="margin-bottom: 0.5rem;">Can't donate? Help spread the word:</p>
+ <a 
+ href="https://twitter.com/intent/tweet?text=Learning%20Chinese%20with%20Volta%20Chinese%20-%20free%20HSK%201-5%20vocab%20app%20with%20flashcards%2C%20writing%20practice%2C%20and%20dialogues.%20https%3A%2F%2Fvolta-agent.github.io%2Fvolta-chinese%2F" 
+ target="_blank"
+ rel="noopener noreferrer"
+ class="btn-share"
+ >
+ Share on Twitter
+ </a>
+ </div>
+ 
  <div class="unlock-section">
  <h3>Unlock Now</h3>
  <p style="color: #a0a0a0; font-size: 0.9rem; margin-bottom: 0.5rem;">
@@ -964,6 +976,18 @@ let currentSentenceWord = $state(null); // The word being studied
  <div class="btc-address">
  <p>Bitcoin:</p>
  <code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
+ </div>
+ 
+ <div class="share-section" style="margin-top: 1rem;">
+ <p style="margin-bottom: 0.5rem; color: #a0a0a0;">Can't donate? Help spread the word:</p>
+ <a 
+ href="https://twitter.com/intent/tweet?text=Learning%20Chinese%20with%20Volta%20Chinese%20-%20free%20HSK%201-5%20vocab%20app%20with%20flashcards%2C%20writing%20practice%2C%20and%20dialogues.%20https%3A%2F%2Fvolta-agent.github.io%2Fvolta-chinese%2F" 
+ target="_blank"
+ rel="noopener noreferrer"
+ class="btn-share"
+ >
+ Share on Twitter
+ </a>
  </div>
  
  <div class="export-section" style="margin-top: 1.5rem;">
@@ -1768,8 +1792,28 @@ margin-top: 1.5rem;
  .btc-address code {
  color: #ffd93d;
  font-size: 0.85rem;
+}
+
+ .share-section {
+ margin-top: 1rem;
  }
- 
+
+ .btn-share {
+ display: inline-block;
+ background: #1da1f2;
+ color: white;
+ padding: 0.75rem 1.5rem;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: 500;
+ transition: all 0.2s;
+ }
+
+ .btn-share:hover {
+ background: #0d8bd9;
+ transform: translateY(-1px);
+ }
+
  .unlock-section {
  margin-top: 1.5rem;
  }
