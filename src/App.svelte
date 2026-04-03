@@ -1086,10 +1086,7 @@ let currentSentenceWord = $state(null); // The word being studied
  .hero h1 {
  font-size: 3rem;
  margin-bottom: 0.75rem;
- background: linear-gradient(135deg, #fff, #ff6b6b);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- background-clip: text;
+ color: #fff;
  }
 
  .subtitle {
