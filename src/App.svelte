@@ -591,13 +591,16 @@ let currentSentenceWord = $state(null); // The word being studied
  <span class="logo">汉</span>
  <span class="brand-text">Volta Chinese</span>
  </div>
- <div class="nav-controls">
- <label class="toggle">
- <input type="checkbox" bind:checked={showPinyin}>
- <span class="toggle-label">Pinyin</span>
-		</label>
+		<div class="nav-controls">
+			<label class="toggle">
+				<input type="checkbox" bind:checked={showPinyin}>
+				<span class="toggle-label">Pinyin</span>
+			</label>
+			<button type="button" class="btn-settings" onclick={() => currentView = 'settings'}>
+				⚙
+			</button>
 		</div>
- </nav>
+	</nav>
 
  {#if currentView === 'home'}
  <section class="hero">
@@ -991,6 +994,55 @@ let currentSentenceWord = $state(null); // The word being studied
 	/>
 	</div>
 
+{:else if currentView === 'settings'}
+	<div class="settings-view">
+		<button type="button" class="back-btn" onclick={() => currentView = 'home'}>
+			← Back
+		</button>
+		
+		<h1>Settings</h1>
+		
+		<section class="settings-section">
+			<h2>Backup Progress</h2>
+			<p>Export your learning progress to a file for safekeeping.</p>
+			<button type="button" class="btn-primary" onclick={exportProgress}>
+				Export Progress
+			</button>
+		</section>
+		
+		<section class="settings-section">
+			<h2>Restore Progress</h2>
+			<p>Import a previously exported progress file.</p>
+			<label class="btn-secondary" style="cursor: pointer; display: inline-block; padding: 0.75rem 1rem;">
+				Import Progress
+				<input type="file" accept=".json" onchange={importProgress} style="display: none;">
+			</label>
+		</section>
+		
+		<section class="settings-section">
+			<h2>Clear Progress</h2>
+			<p>Reset all your learning progress. This cannot be undone.</p>
+			<button type="button" class="btn-danger" onclick={() => {
+				if (confirm('Are you sure? This will delete all your progress!')) {
+					progress = {};
+					localStorage.removeItem('volta-chinese-progress');
+				}
+			}}>
+				Clear All Progress
+			</button>
+		</section>
+		
+		<section class="settings-section about">
+			<h2>About Volta Chinese</h2>
+			<p>Free HSK 1-5 vocabulary and dialogue practice app.</p>
+			<p class="donation-note">Enjoying the app? Consider supporting development:</p>
+			<div class="btc-address">
+				<span>BTC:</span>
+				<code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
+			</div>
+		</section>
+	</div>
+
 {/if}
 </main>
 
@@ -1061,6 +1113,22 @@ let currentSentenceWord = $state(null); // The word being studied
  
 .toggle-label {
 	font-size: 0.9rem;
+}
+
+.btn-settings {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color: #a0a0a0;
+	padding: 0.5rem 0.75rem;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 1.1rem;
+	transition: all 0.2s;
+}
+
+.btn-settings:hover {
+	border-color: #ff6b6b;
+	color: #ff6b6b;
 }
 
 .hero {
@@ -1685,6 +1753,76 @@ margin-top: 1.5rem;
 	align-items: center;
 	gap: 1rem;
 	margin-top: 1.5rem;
+}
+
+/* Settings View */
+.settings-view {
+	padding: 1rem;
+}
+
+.settings-view h1 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.settings-section {
+	background: rgba(255, 255, 255, 0.05);
+	padding: 1.5rem;
+	border-radius: 12px;
+	margin-bottom: 1.5rem;
+}
+
+.settings-section h2 {
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.settings-section p {
+	color: #a0a0a0;
+	margin-bottom: 1rem;
+	font-size: 0.95rem;
+}
+
+.btn-danger {
+	background: #ef4444;
+	color: white;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: all 0.2s;
+}
+
+.btn-danger:hover {
+	background: #dc2626;
+}
+
+.settings-section.about {
+	text-align: center;
+}
+
+.settings-section.about .donation-note {
+	color: #4ade80;
+	margin-top: 1rem;
+}
+
+.settings-section.about .btc-address {
+	background: rgba(0, 0, 0, 0.3);
+	padding: 1rem;
+	border-radius: 8px;
+	margin-top: 0.5rem;
+}
+
+.settings-section.about .btc-address span {
+	color: #a0a0a0;
+	margin-right: 0.5rem;
+}
+
+.settings-section.about .btc-address code {
+	color: #ffd93d;
+	font-size: 0.85rem;
 }
 
 /* Lessons View */
