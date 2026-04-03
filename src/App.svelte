@@ -560,21 +560,28 @@ let currentSentenceWord = $state(null); // The word being studied
 
  {#if currentView === 'home'}
  <section class="hero">
- <h1>Learn Chinese <em>Your Way</em></h1>
+ <h1>Volta Chinese</h1>
  <p class="subtitle">
- HSK 1-5 vocabulary with flashcards, writing practice, and listening exercises.
+ Master HSK 1-5 vocabulary with flashcards, writing, sentences, and dialogues.
  </p>
+ <div class="hero-stats">
+ <span>1500+ words</span>
+ <span>25 dialogues</span>
+ <span>500+ sentences</span>
+ </div>
  </section>
 
- <section class="levels">
- <h2>Choose Your Level</h2>
+ <section class="practice-section">
+ <h2>Study by Level</h2>
+ <div class="level-grid">
  {#each LEVELS as lvl}
  <div class="level-card" class:locked={lvl.level > 1 && !isPremium}>
- <div class="level-info">
- <h2>{lvl.name}</h2>
- <p class="level-desc">{lvl.desc} · {lvl.count} words</p>
+ <div class="level-header">
+ <span class="level-badge">HSK {lvl.level}</span>
+ <span class="level-words">{lvl.count} words</span>
  </div>
- <div class="level-actions">
+ <p class="level-desc">{lvl.desc}</p>
+ <div class="practice-buttons">
  <button 
  type="button"
  class="btn-primary"
@@ -586,10 +593,10 @@ let currentSentenceWord = $state(null); // The word being studied
  <button 
  type="button"
  class="btn-secondary"
- onclick={() => startMistakeReview(lvl.level)}
+ onclick={() => startCharacterWriting(lvl.level)}
  disabled={lvl.level > 1 && !isPremium}
  >
- Review Mistakes
+ Writing
  </button>
  <button 
  type="button"
@@ -608,37 +615,16 @@ let currentSentenceWord = $state(null); // The word being studied
  Dialogues
  </button>
  </div>
- </div>
- {/each}
- </section>
-
- <section class="writing-modes">
- <h2>Writing Practice</h2>
- <p class="section-desc">Select a level to practice writing characters and words.</p>
- <div class="writing-level-grid">
- {#each LEVELS as lvl}
- <div class="writing-level-card">
- <h3>{lvl.name}</h3>
- <p class="level-count">{getSingleCharWords(lvl.level).length} single chars</p>
- <p class="level-count">{getMultiCharWords(lvl.level).length} words</p>
- <div class="writing-actions">
+ {#if progress[lvl.level]?.reviewCount > 0}
  <button 
  type="button"
- class="btn-secondary"
- onclick={() => startCharacterWriting(lvl.level)}
+ class="btn-review"
+ onclick={() => startMistakeReview(lvl.level)}
  disabled={lvl.level > 1 && !isPremium}
  >
- Single Chars
+ Review {progress[lvl.level].reviewCount} mistakes
  </button>
- <button 
- type="button"
- class="btn-secondary"
- onclick={() => startWordWriting(lvl.level)}
- disabled={lvl.level > 1 && !isPremium}
- >
- Word Building
- </button>
- </div>
+ {/if}
  </div>
  {/each}
  </div>
@@ -1092,52 +1078,138 @@ let currentSentenceWord = $state(null); // The word being studied
  color: #1a1a2e;
  }
  
- .hero {
+.hero {
  text-align: center;
- padding: 2rem 0;
+ padding: 3rem 1rem 2rem;
  }
- 
+
  .hero h1 {
- font-size: 2.5rem;
- margin-bottom: 1rem;
+ font-size: 3rem;
+ margin-bottom: 0.75rem;
+ background: linear-gradient(135deg, #fff, #ff6b6b);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
  }
- 
- .hero h1 em {
- color: #ff6b6b;
- font-style: normal;
- }
- 
+
  .subtitle {
  color: #a0a0a0;
  font-size: 1.1rem;
+ margin-bottom: 1.5rem;
+ }
+
+ .hero-stats {
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+ flex-wrap: wrap;
+ }
+
+ .hero-stats span {
+ background: rgba(255, 107, 107, 0.15);
+ border: 1px solid rgba(255, 107, 107, 0.3);
+ padding: 0.5rem 1rem;
+ border-radius: 20px;
+ font-size: 0.9rem;
+ color: #ff8a8a;
  }
  
- .levels {
+.levels {
  margin-top: 2rem;
  }
- 
+
  .levels h2 {
  text-align: center;
  margin-bottom: 1.5rem;
  color: #a0a0a0;
  }
- 
- .level-card {
- background: rgba(255, 255, 255, 0.05);
- border-radius: 12px;
- padding: 1.5rem;
- margin-bottom: 1rem;
- display: flex;
- justify-content: space-between;
- align-items: center;
- gap: 1rem;
- flex-wrap: wrap;
+
+ /* Practice Section */
+ .practice-section {
+ margin-top: 2rem;
  }
- 
+
+ .practice-section h2 {
+ text-align: center;
+ margin-bottom: 1.5rem;
+ color: #a0a0a0;
+ }
+
+ .level-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: 1.5rem;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+
+ .level-card {
+ background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 255, 255, 0.05));
+ border: 1px solid rgba(255, 255, 255, 0.1);
+ border-radius: 16px;
+ padding: 1.5rem;
+ transition: transform 0.2s, box-shadow 0.2s;
+ }
+
+ .level-card:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15);
+ }
+
  .level-card.locked {
  opacity: 0.6;
  }
- 
+
+ .level-header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 0.5rem;
+ }
+
+ .level-badge {
+ background: #ff6b6b;
+ color: white;
+ padding: 0.25rem 0.75rem;
+ border-radius: 20px;
+ font-size: 0.85rem;
+ font-weight: 600;
+ }
+
+ .level-words {
+ color: #888;
+ font-size: 0.85rem;
+ }
+
+ .level-desc {
+ color: #a0a0a0;
+ font-size: 0.9rem;
+ margin-bottom: 1rem;
+ }
+
+ .practice-buttons {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 0.5rem;
+ }
+
+ .btn-review {
+ width: 100%;
+ background: transparent;
+ border: 1px dashed #ff6b6b;
+ color: #ff6b6b;
+ padding: 0.5rem;
+ border-radius: 6px;
+ cursor: pointer;
+ font-size: 0.85rem;
+ margin-top: 0.5rem;
+ transition: all 0.2s;
+ }
+
+ .btn-review:hover:not(:disabled) {
+ background: rgba(255, 107, 107, 0.1);
+ }
+
  .level-info h2 {
  font-size: 1.3rem;
  margin-bottom: 0.25rem;
@@ -1194,66 +1266,14 @@ let currentSentenceWord = $state(null); // The word being studied
  .btn-secondary:disabled {
  opacity: 0.5;
  cursor: not-allowed;
- }
- 
- /* Writing Modes Section */
- .writing-modes {
- margin-top: 3rem;
- padding-top: 2rem;
- border-top: 1px solid rgba(255, 255, 255, 0.1);
- }
- 
-.writing-modes h2 {
- text-align: center;
- margin-bottom: 0.5rem;
- color: #a0a0a0;
- }
+}
 
- .section-desc {
- text-align: center;
- color: #666;
- font-size: 0.9rem;
- margin-bottom: 1.5rem;
- }
-
- .writing-level-grid {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- gap: 1rem;
- }
-
- .writing-level-card {
- background: rgba(255, 255, 255, 0.05);
- border-radius: 12px;
- padding: 1.5rem;
- text-align: center;
- }
-
- .writing-level-card h3 {
- font-size: 1.2rem;
- margin-bottom: 0.5rem;
- color: #fff;
- }
-
- .level-count {
- color: #a0a0a0;
- font-size: 0.85rem;
- margin: 0.25rem 0;
- }
-
- .writing-actions {
- margin-top: 1rem;
- display: flex;
- flex-direction: column;
- gap: 0.5rem;
- }
- 
  .mode-count {
  color: #ffd93d;
  font-size: 0.85rem;
  margin-bottom: 1rem;
  }
- 
+
  /* Flashcard View */
  .flashcard-view {
  display: flex;
