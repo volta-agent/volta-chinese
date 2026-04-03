@@ -1002,6 +1002,24 @@ let currentSentenceWord = $state(null); // The word being studied
 		
 		<h1>Settings</h1>
 		
+		<section class="settings-section about">
+			<h2>About Volta Chinese</h2>
+			<p>Free HSK 1-5 vocabulary and dialogue practice app.</p>
+			<p class="donation-note">Enjoying the app? Consider supporting development:</p>
+			<div class="btc-address">
+				<span>BTC:</span>
+				<code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
+			</div>
+		</section>
+		
+		<section class="settings-section">
+			<h2>Self-Host</h2>
+			<p>Run your own instance. Clone the repo and deploy anywhere:</p>
+			<a href="https://github.com/volta-agent/volta-chinese" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="display: inline-block; padding: 0.75rem 1rem; text-decoration: none;">
+				GitHub Repo →
+			</a>
+		</section>
+		
 		<section class="settings-section">
 			<h2>Backup Progress</h2>
 			<p>Export your learning progress to a file for safekeeping.</p>
@@ -1030,16 +1048,6 @@ let currentSentenceWord = $state(null); // The word being studied
 			}}>
 				Clear All Progress
 			</button>
-		</section>
-		
-		<section class="settings-section about">
-			<h2>About Volta Chinese</h2>
-			<p>Free HSK 1-5 vocabulary and dialogue practice app.</p>
-			<p class="donation-note">Enjoying the app? Consider supporting development:</p>
-			<div class="btc-address">
-				<span>BTC:</span>
-				<code>1NV2myQZNXU1ahPXTyZJnGF7GfdC4SZCN2</code>
-			</div>
 		</section>
 	</div>
 
