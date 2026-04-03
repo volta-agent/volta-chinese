@@ -6,8 +6,14 @@
  import hsk3 from './lib/data/hsk3.json';
  import hsk4 from './lib/data/hsk4.json';
  import hsk5 from './lib/data/hsk5.json';
+ import sentences1 from './lib/data/sentences_hsk1.json';
+ import sentences2 from './lib/data/sentences_hsk2.json';
+ import sentences3 from './lib/data/sentences_hsk3.json';
+ import sentences4 from './lib/data/sentences_hsk4.json';
+ import sentences5 from './lib/data/sentences_hsk5.json';
  
  const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
+ const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -31,6 +37,13 @@
  let currentCharIndex = $state(0); // For multi-char words, which char we're on
  let hanziWriterInstance = $state(null);
  let strokeFeedback = $state('');
+ 
+ // Sentence state
+ let sentenceCards = $state([]);
+ let sentenceIndex = $state(0);
+ let currentSentence = $state(null);
+ let showSentenceAnswer = $state(false);
+ let currentSentenceWord = $state(null); // The word being studied
  
  const LEVELS = [
  { level: 1, name: 'HSK 1', count: hsk1.length, desc: 'Beginner' },
@@ -182,6 +195,44 @@
  }
  };
  reader.readAsText(file);
+ }
+ 
+ // Sentence practice functions
+ function startSentencePractice(level) {
+ currentLevel = level;
+ const sentences = SENTENCE_DATA[level] || [];
+ // Shuffle and pick 10
+ const shuffled = [...sentences].sort(() => Math.random() - 0.5);
+ sentenceCards = shuffled.slice(0, 10);
+ sentenceIndex = 0;
+ if (sentenceCards.length > 0) {
+ currentSentenceWord = sentenceCards[0];
+ // Pick a random sentence from the word's sentences
+ const idx = Math.floor(Math.random() * currentSentenceWord.c.length);
+ currentSentence = {
+ chinese: currentSentenceWord.c[idx],
+ english: currentSentenceWord.e[idx],
+ word: currentSentenceWord.w
+ };
+ }
+ showSentenceAnswer = false;
+ currentView = 'sentence';
+ }
+ 
+ function nextSentenceCard() {
+ sentenceIndex++;
+ if (sentenceIndex < sentenceCards.length) {
+ currentSentenceWord = sentenceCards[sentenceIndex];
+ const idx = Math.floor(Math.random() * currentSentenceWord.c.length);
+ currentSentence = {
+ chinese: currentSentenceWord.c[idx],
+ english: currentSentenceWord.e[idx],
+ word: currentSentenceWord.w
+ };
+ showSentenceAnswer = false;
+ } else {
+ currentView = 'home';
+ }
  }
  
  function speak(text) {
@@ -502,6 +553,14 @@
  >
  Review Mistakes
  </button>
+ <button 
+ type="button"
+ class="btn-secondary"
+ onclick={() => startSentencePractice(lvl.level)}
+ disabled={lvl.level > 1 && !isPremium}
+ >
+ Sentences
+ </button>
  </div>
  </div>
  {/each}
@@ -670,6 +729,59 @@
  <button type="button" class="btn-primary" onclick={() => currentView = 'home'}>
  Continue Learning
  </button>
+ </div>
+
+ {:else if currentView === 'sentence' && currentSentence}
+ <div class="sentence-view">
+ <button type="button" class="back-btn" onclick={() => currentView = 'home'}>
+ ← Back
+ </button>
+ 
+ <div class="progress-bar">
+ <div class="progress-fill" style="width: {(sentenceIndex / sentenceCards.length) * 100}%"></div>
+ </div>
+ <p class="progress-text">{sentenceIndex + 1} / {sentenceCards.length}</p>
+
+ <div class="sentence-container">
+ <div class="sentence-word">
+ <span class="word-label">Word:</span>
+ <span class="word-hanzi">{currentSentence.word}</span>
+ </div>
+ 
+ <div 
+ class="sentence-card"
+ onclick={() => showSentenceAnswer = !showSentenceAnswer}
+ role="button"
+ >
+ <div class="sentence-chinese">{currentSentence.chinese}</div>
+ {#if showSentenceAnswer}
+ <div class="sentence-english">{currentSentence.english}</div>
+ {:else}
+ <p class="card-hint">Tap to reveal translation</p>
+ {/if}
+ </div>
+ </div>
+
+ <div class="sentence-actions">
+ <button 
+ type="button"
+ class="btn-audio" 
+ onclick={() => speak(currentSentence.chinese)}
+ title="Play audio"
+ >
+ 🔊
+ </button>
+ <button 
+ type="button" 
+ class="btn-primary"
+ onclick={nextSentenceCard}
+ >
+ Next Sentence
+ </button>
+ </div>
+ {#if audioStatus}
+ <p class="audio-status">{audioStatus}</p>
+ {/if}
  </div>
 
  {:else if currentView === 'premium'}
@@ -1276,6 +1388,68 @@
  .complete-view p {
  color: #a0a0a0;
  margin-bottom: 2rem;
+ }
+
+ /* Sentence View */
+ .sentence-view {
+ padding: 2rem;
+ max-width: 800px;
+ margin: 0 auto;
+ }
+
+ .sentence-container {
+ margin: 2rem 0;
+ }
+
+ .sentence-word {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ margin-bottom: 1rem;
+ }
+
+ .word-label {
+ color: #a0a0a0;
+ font-size: 0.9rem;
+ }
+
+ .word-hanzi {
+ font-size: 1.5rem;
+ color: #4ade80;
+ font-weight: 500;
+ }
+
+ .sentence-card {
+ background: #16213e;
+ border-radius: 12px;
+ padding: 2rem;
+ cursor: pointer;
+ transition: transform 0.2s;
+ text-align: center;
+ }
+
+ .sentence-card:hover {
+ transform: scale(1.02);
+ }
+
+ .sentence-chinese {
+ font-size: 1.8rem;
+ line-height: 1.6;
+ color: #fff;
+ margin-bottom: 1rem;
+ }
+
+ .sentence-english {
+ font-size: 1.1rem;
+ color: #a0a0a0;
+ line-height: 1.5;
+ }
+
+ .sentence-actions {
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+ margin-top: 1.5rem;
  }
  
  /* Premium View */
