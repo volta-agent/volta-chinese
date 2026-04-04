@@ -1,11 +1,7 @@
 [
   {
     "lesson": 1,
-    "title": {
-      "chinese": "爱的细节",
-      "pinyin": "Ài de Xìjié",
-      "english": "Details of Love"
-    },
+    "title": "爱的细节",
     "location": "电台节目",
     "lines": [
       {
@@ -149,15 +145,13 @@
         "english": "unexpectedly"
       }
     ],
-    "id": "hsk5-lesson-1"
+    "id": "hsk5-lesson-1",
+    "title_pinyin": "Ài de Xìjié",
+    "title_english": "Details of Love"
   },
   {
     "lesson": 2,
-    "title": {
-      "chinese": "留串钥匙给父母",
-      "pinyin": "Liú Chuàn Yàoshi Gěi Fùmǔ",
-      "english": "Leaving a Bunch of Keys to Parents"
-    },
+    "title": "留串钥匙给父母",
     "location": "家庭对话",
     "lines": [
       {
@@ -258,15 +252,13 @@
         "english": "to have free time"
       }
     ],
-    "id": "hsk5-lesson-2"
+    "id": "hsk5-lesson-2",
+    "title_pinyin": "Liú Chuàn Yàoshi Gěi Fùmǔ",
+    "title_english": "Leaving a Bunch of Keys to Parents"
   },
   {
     "lesson": 3,
-    "title": {
-      "chinese": "人生有选择，一切可改变",
-      "pinyin": "Rénshēng Yǒu Xuǎnzé, Yíqiè Kě Gǎibiàn",
-      "english": "Having Choices in Life Makes Change Possible"
-    },
+    "title": "人生有选择，一切可改变",
     "location": "职业咨询",
     "lines": [
       {
@@ -353,15 +345,13 @@
         "english": "stable"
       }
     ],
-    "id": "hsk5-lesson-3"
+    "id": "hsk5-lesson-3",
+    "title_pinyin": "Rénshēng Yǒu Xuǎnzé, Yíqiè Kě Gǎibiàn",
+    "title_english": "Having Choices in Life Makes Change Possible"
   },
   {
     "lesson": 4,
-    "title": {
-      "chinese": "子路背米",
-      "pinyin": "Zǐlù Bēi Mǐ",
-      "english": "Zilu Carrying Rice"
-    },
+    "title": "子路背米",
     "location": "古代故事",
     "lines": [
       {
@@ -455,15 +445,13 @@
         "english": "while, taking advantage of"
       }
     ],
-    "id": "hsk5-lesson-4"
+    "id": "hsk5-lesson-4",
+    "title_pinyin": "Zǐlù Bēi Mǐ",
+    "title_english": "Zilu Carrying Rice"
   },
   {
     "lesson": 5,
-    "title": {
-      "chinese": "济南的泉水",
-      "pinyin": "Jǐnán de Quánshuǐ",
-      "english": "Spring Water in Ji'nan"
-    },
+    "title": "济南的泉水",
     "location": "旅游对话",
     "lines": [
       {
@@ -557,15 +545,13 @@
         "english": "to be worth"
       }
     ],
-    "id": "hsk5-lesson-5"
+    "id": "hsk5-lesson-5",
+    "title_pinyin": "Jǐnán de Quánshuǐ",
+    "title_english": "Spring Water in Ji'nan"
   },
   {
     "lesson": 6,
-    "title": {
-      "chinese": "除夕的由来",
-      "pinyin": "Chúxī de Yóulái",
-      "english": "Origin of Chuxi"
-    },
+    "title": "除夕的由来",
     "location": "家庭对话",
     "lines": [
       {
@@ -666,15 +652,13 @@
         "english": "firecracker"
       }
     ],
-    "id": "hsk5-lesson-6"
+    "id": "hsk5-lesson-6",
+    "title_pinyin": "Chúxī de Yóulái",
+    "title_english": "Origin of Chuxi"
   },
   {
     "lesson": 7,
-    "title": {
-      "chinese": "成语故事两则",
-      "pinyin": "Chéngyǔ Gùshì Liǎng Zé",
-      "english": "Two Idiom Stories"
-    },
+    "title": "成语故事两则",
     "location": "课堂对话",
     "lines": [
       {
@@ -775,15 +759,13 @@
         "english": "unnecessary, superfluous"
       }
     ],
-    "id": "hsk5-lesson-7"
+    "id": "hsk5-lesson-7",
+    "title_pinyin": "Chéngyǔ Gùshì Liǎng Zé",
+    "title_english": "Two Idiom Stories"
   },
   {
     "lesson": 8,
-    "title": {
-      "chinese": "'朝三暮四'的古今义",
-      "pinyin": "'Zhāo Sān Mù Sì' de Gǔjīn Yì",
-      "english": "Ancient and Modern Meanings of 'Three at Dawn, Four at Dusk'"
-    },
+    "title": "'朝三暮四'的古今义",
     "location": "课堂讨论",
     "lines": [
       {
@@ -877,15 +859,13 @@
         "english": "difference"
       }
     ],
-    "id": "hsk5-lesson-8"
+    "id": "hsk5-lesson-8",
+    "title_pinyin": "'Zhāo Sān Mù Sì' de Gǔjīn Yì",
+    "title_english": "Ancient and Modern Meanings of 'Three at Dawn, Four at Dusk'"
   },
   {
     "lesson": 9,
-    "title": {
-      "chinese": "别样鲁迅",
-      "pinyin": "Biéyàng Lǔxùn",
-      "english": "The Lu Xun You Don't Know"
-    },
+    "title": "别样鲁迅",
     "location": "文学讨论",
     "lines": [
       {
@@ -979,15 +959,13 @@
         "english": "deliberately"
       }
     ],
-    "id": "hsk5-lesson-9"
+    "id": "hsk5-lesson-9",
+    "title_pinyin": "Biéyàng Lǔxùn",
+    "title_english": "The Lu Xun You Don't Know"
   },
   {
     "lesson": 10,
-    "title": {
-      "chinese": "辩论的奇迹",
-      "pinyin": "Biànlùn de Qíjì",
-      "english": "Miracle of Debate"
-    },
+    "title": "辩论的奇迹",
     "location": "辩论赛",
     "lines": [
       {
@@ -1067,15 +1045,13 @@
         "english": "capital"
       }
     ],
-    "id": "hsk5-lesson-10"
+    "id": "hsk5-lesson-10",
+    "title_pinyin": "Biànlùn de Qíjì",
+    "title_english": "Miracle of Debate"
   },
   {
     "lesson": 11,
-    "title": {
-      "chinese": "闹钟的危害",
-      "pinyin": "Nàozhōng de Wēihài",
-      "english": "Harm of Alarm Clocks"
-    },
+    "title": "闹钟的危害",
     "location": "健康讲座",
     "lines": [
       {
@@ -1162,15 +1138,13 @@
         "english": "regular, rule"
       }
     ],
-    "id": "hsk5-lesson-11"
+    "id": "hsk5-lesson-11",
+    "title_pinyin": "Nàozhōng de Wēihài",
+    "title_english": "Harm of Alarm Clocks"
   },
   {
     "lesson": 12,
-    "title": {
-      "chinese": "海外用户玩儿微信",
-      "pinyin": "Hǎiwài Yònghù Wánr Wēixìn",
-      "english": "Overseas Users of WeChat"
-    },
+    "title": "海外用户玩儿微信",
     "location": "采访",
     "lines": [
       {
@@ -1264,15 +1238,13 @@
         "english": "interview"
       }
     ],
-    "id": "hsk5-lesson-12"
+    "id": "hsk5-lesson-12",
+    "title_pinyin": "Hǎiwài Yònghù Wánr Wēixìn",
+    "title_english": "Overseas Users of WeChat"
   },
   {
     "lesson": 13,
-    "title": {
-      "chinese": "锯掉生活的'篮底'",
-      "pinyin": "Jù Diào Shēnghuó de 'Lándǐ'",
-      "english": "Cutting Off the 'Bottom of the Basket' in Life"
-    },
+    "title": "锯掉生活的'篮底'",
     "location": "生活感悟",
     "lines": [
       {
@@ -1366,15 +1338,13 @@
         "english": "to perform, to bring into play"
       }
     ],
-    "id": "hsk5-lesson-13"
+    "id": "hsk5-lesson-13",
+    "title_pinyin": "Jù Diào Shēnghuó de 'Lándǐ'",
+    "title_english": "Cutting Off the 'Bottom of the Basket' in Life"
   },
   {
     "lesson": 14,
-    "title": {
-      "chinese": "北京的四合院",
-      "pinyin": "Běijīng de Sìhéyuàn",
-      "english": "Quadrangle Courtyards in Beijing"
-    },
+    "title": "北京的四合院",
     "location": "导游讲解",
     "lines": [
       {
@@ -1468,15 +1438,13 @@
         "english": "sufficient"
       }
     ],
-    "id": "hsk5-lesson-14"
+    "id": "hsk5-lesson-14",
+    "title_pinyin": "Běijīng de Sìhéyuàn",
+    "title_english": "Quadrangle Courtyards in Beijing"
   },
   {
     "lesson": 15,
-    "title": {
-      "chinese": "纸上谈兵",
-      "pinyin": "Zhǐshàng-tánbīng",
-      "english": "Being an Armchair Strategist"
-    },
+    "title": "纸上谈兵",
     "location": "成语故事",
     "lines": [
       {
@@ -1563,15 +1531,13 @@
         "english": "to detach from"
       }
     ],
-    "id": "hsk5-lesson-15"
+    "id": "hsk5-lesson-15",
+    "title_pinyin": "Zhǐshàng-tánbīng",
+    "title_english": "Being an Armchair Strategist"
   },
   {
     "lesson": 16,
-    "title": {
-      "chinese": "体重与节食",
-      "pinyin": "Tǐzhòng yǔ Jiéshí",
-      "english": "Weight and Diet"
-    },
+    "title": "体重与节食",
     "location": "健康咨询",
     "lines": [
       {
@@ -1665,15 +1631,13 @@
         "english": "balanced"
       }
     ],
-    "id": "hsk5-lesson-16"
+    "id": "hsk5-lesson-16",
+    "title_pinyin": "Tǐzhòng yǔ Jiéshí",
+    "title_english": "Weight and Diet"
   },
   {
     "lesson": 17,
-    "title": {
-      "chinese": "在最美好的时刻离开",
-      "pinyin": "Zài Zuì Měihǎo de Shíkè Líkāi",
-      "english": "Ending at the Best Moment"
-    },
+    "title": "在最美好的时刻离开",
     "location": "生活感悟",
     "lines": [
       {
@@ -1760,15 +1724,13 @@
         "english": "memory"
       }
     ],
-    "id": "hsk5-lesson-17"
+    "id": "hsk5-lesson-17",
+    "title_pinyin": "Zài Zuì Měihǎo de Shíkè Líkāi",
+    "title_english": "Ending at the Best Moment"
   },
   {
     "lesson": 18,
-    "title": {
-      "chinese": "抽象艺术：美还是不美",
-      "pinyin": "Chōuxiàng Yìshù: Měi Háishì Bù Měi",
-      "english": "Abstract Art: Beautiful or Not?"
-    },
+    "title": "抽象艺术：美还是不美",
     "location": "艺术讨论",
     "lines": [
       {
@@ -1862,15 +1824,13 @@
         "english": "subjective"
       }
     ],
-    "id": "hsk5-lesson-18"
+    "id": "hsk5-lesson-18",
+    "title_pinyin": "Chōuxiàng Yìshù: Měi Háishì Bù Měi",
+    "title_english": "Abstract Art: Beautiful or Not?"
   },
   {
     "lesson": 19,
-    "title": {
-      "chinese": "工作与生活",
-      "pinyin": "Gōngzuò yǔ Shēnghuó",
-      "english": "Work and Life"
-    },
+    "title": "工作与生活",
     "location": "职场对话",
     "lines": [
       {
@@ -1957,15 +1917,13 @@
         "english": "to relax"
       }
     ],
-    "id": "hsk5-lesson-19"
+    "id": "hsk5-lesson-19",
+    "title_pinyin": "Gōngzuò yǔ Shēnghuó",
+    "title_english": "Work and Life"
   },
   {
     "lesson": 20,
-    "title": {
-      "chinese": "保护环境",
-      "pinyin": "Bǎohù Huánjìng",
-      "english": "Protecting the Environment"
-    },
+    "title": "保护环境",
     "location": "环保讲座",
     "lines": [
       {
@@ -2066,6 +2024,8 @@
         "english": "public transportation"
       }
     ],
-    "id": "hsk5-lesson-20"
+    "id": "hsk5-lesson-20",
+    "title_pinyin": "Bǎohù Huánjìng",
+    "title_english": "Protecting the Environment"
   }
 ]
