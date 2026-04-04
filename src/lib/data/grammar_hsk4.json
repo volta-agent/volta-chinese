@@ -1,5 +1,5 @@
-{
-  "1": {
+[
+  {
     "lesson": 1,
     "title": "简单的爱情",
     "grammar_points": [
@@ -68,7 +68,7 @@
       }
     ]
   },
-  "2": {
+  {
     "lesson": 2,
     "title": "我坐火车去",
     "grammar_points": [
@@ -111,7 +111,7 @@
       }
     ]
   },
-  "3": {
+  {
     "lesson": 3,
     "title": "我把钱包忘在家里了",
     "grammar_points": [
@@ -154,7 +154,7 @@
       }
     ]
   },
-  "4": {
+  {
     "lesson": 4,
     "title": "收到你的信我非常高兴",
     "grammar_points": [
@@ -197,7 +197,7 @@
       }
     ]
   },
-  "5": {
+  {
     "lesson": 5,
     "title": "你看过京剧吗",
     "grammar_points": [
@@ -240,7 +240,7 @@
       }
     ]
   },
-  "6": {
+  {
     "lesson": 6,
     "title": "我在这儿等你",
     "grammar_points": [
@@ -283,7 +283,7 @@
       }
     ]
   },
-  "7": {
+  {
     "lesson": 7,
     "title": "我们骑自行车去",
     "grammar_points": [
@@ -326,7 +326,7 @@
       }
     ]
   },
-  "8": {
+  {
     "lesson": 8,
     "title": "我比你更喜欢爬山",
     "grammar_points": [
@@ -369,7 +369,7 @@
       }
     ]
   },
-  "9": {
+  {
     "lesson": 9,
     "title": "我看过那部电影",
     "grammar_points": [
@@ -417,7 +417,7 @@
       }
     ]
   },
-  "10": {
+  {
     "lesson": 10,
     "title": "我们过去帮帮他们",
     "grammar_points": [
@@ -460,7 +460,7 @@
       }
     ]
   },
-  "11": {
+  {
     "lesson": 11,
     "title": "桌子上放着很多饮料",
     "grammar_points": [
@@ -508,7 +508,7 @@
       }
     ]
   },
-  "12": {
+  {
     "lesson": 12,
     "title": "我问一下",
     "grammar_points": [
@@ -556,7 +556,7 @@
       }
     ]
   },
-  "13": {
+  {
     "lesson": 13,
     "title": "我想买一件衬衫",
     "grammar_points": [
@@ -604,7 +604,7 @@
       }
     ]
   },
-  "14": {
+  {
     "lesson": 14,
     "title": "还是便宜一点儿好",
     "grammar_points": [
@@ -647,7 +647,7 @@
       }
     ]
   },
-  "15": {
+  {
     "lesson": 15,
     "title": "你的汉语说得真不错",
     "grammar_points": [
@@ -695,7 +695,7 @@
       }
     ]
   },
-  "16": {
+  {
     "lesson": 16,
     "title": "这个地方跟我想的不一样",
     "grammar_points": [
@@ -743,7 +743,7 @@
       }
     ]
   },
-  "17": {
+  {
     "lesson": 17,
     "title": "这是谁的包",
     "grammar_points": [
@@ -786,7 +786,7 @@
       }
     ]
   },
-  "18": {
+  {
     "lesson": 18,
     "title": "我听说你最近很忙",
     "grammar_points": [
@@ -834,7 +834,7 @@
       }
     ]
   },
-  "19": {
+  {
     "lesson": 19,
     "title": "即使下雨我也要去",
     "grammar_points": [
@@ -877,7 +877,7 @@
       }
     ]
   },
-  "20": {
+  {
     "lesson": 20,
     "title": "除了太极拳以外，我还学会了跳舞",
     "grammar_points": [
@@ -925,4 +925,4 @@
       }
     ]
   }
-}
+]

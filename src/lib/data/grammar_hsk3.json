@@ -1,5 +1,5 @@
-{
-  "1": {
+[
+  {
     "lesson": 1,
     "title": "周末你有什么打算",
     "grammar_points": [
@@ -42,7 +42,7 @@
       }
     ]
   },
-  "2": {
+  {
     "lesson": 2,
     "title": "他什么时候回来",
     "grammar_points": [
@@ -80,7 +80,7 @@
       }
     ]
   },
-  "3": {
+  {
     "lesson": 3,
     "title": "天黑了，我们回去吧",
     "grammar_points": [
@@ -123,7 +123,7 @@
       }
     ]
   },
-  "4": {
+  {
     "lesson": 4,
     "title": "你怎么才来",
     "grammar_points": [
@@ -166,7 +166,7 @@
       }
     ]
   },
-  "5": {
+  {
     "lesson": 5,
     "title": "你吃过中药吗",
     "grammar_points": [
@@ -209,7 +209,7 @@
       }
     ]
   },
-  "6": {
+  {
     "lesson": 6,
     "title": "我只会说一点儿汉语",
     "grammar_points": [
@@ -247,7 +247,7 @@
       }
     ]
   },
-  "7": {
+  {
     "lesson": 7,
     "title": "你喝茶还是喝咖啡",
     "grammar_points": [
@@ -285,7 +285,7 @@
       }
     ]
   },
-  "8": {
+  {
     "lesson": 8,
     "title": "你们公司有多少人",
     "grammar_points": [
@@ -307,7 +307,7 @@
       }
     ]
   },
-  "9": {
+  {
     "lesson": 9,
     "title": "她长得什么样",
     "grammar_points": [
@@ -345,7 +345,7 @@
       }
     ]
   },
-  "10": {
+  {
     "lesson": 10,
     "title": "我把礼物放在桌子上了",
     "grammar_points": [
@@ -383,7 +383,7 @@
       }
     ]
   },
-  "11": {
+  {
     "lesson": 11,
     "title": "你怎么不开灯",
     "grammar_points": [
@@ -421,7 +421,7 @@
       }
     ]
   },
-  "12": {
+  {
     "lesson": 12,
     "title": "这件衬衫有点儿大",
     "grammar_points": [
@@ -464,7 +464,7 @@
       }
     ]
   },
-  "13": {
+  {
     "lesson": 13,
     "title": "我看不太清楚",
     "grammar_points": [
@@ -502,7 +502,7 @@
       }
     ]
   },
-  "14": {
+  {
     "lesson": 14,
     "title": "别把自行车放在门口",
     "grammar_points": [
@@ -524,7 +524,7 @@
       }
     ]
   },
-  "15": {
+  {
     "lesson": 15,
     "title": "我忘了带钱包",
     "grammar_points": [
@@ -562,7 +562,7 @@
       }
     ]
   },
-  "16": {
+  {
     "lesson": 16,
     "title": "我应该早点儿来",
     "grammar_points": [
@@ -605,7 +605,7 @@
       }
     ]
   },
-  "17": {
+  {
     "lesson": 17,
     "title": "谁比谁高",
     "grammar_points": [
@@ -643,7 +643,7 @@
       }
     ]
   },
-  "18": {
+  {
     "lesson": 18,
     "title": "我受到了表扬",
     "grammar_points": [
@@ -686,7 +686,7 @@
       }
     ]
   },
-  "19": {
+  {
     "lesson": 19,
     "title": "我还没决定",
     "grammar_points": [
@@ -713,7 +713,7 @@
       }
     ]
   },
-  "20": {
+  {
     "lesson": 20,
     "title": "他正在打电话",
     "grammar_points": [
@@ -756,4 +756,4 @@
       }
     ]
   }
-}
+]

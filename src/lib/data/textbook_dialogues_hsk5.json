@@ -1,5 +1,5 @@
-{
-  "1": {
+[
+  {
     "lesson": 1,
     "title": {
       "chinese": "爱的细节",
@@ -148,9 +148,10 @@
         "pinyin": "jūrán",
         "english": "unexpectedly"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-1"
   },
-  "2": {
+  {
     "lesson": 2,
     "title": {
       "chinese": "留串钥匙给父母",
@@ -256,9 +257,10 @@
         "pinyin": "yǒu kòng",
         "english": "to have free time"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-2"
   },
-  "3": {
+  {
     "lesson": 3,
     "title": {
       "chinese": "人生有选择，一切可改变",
@@ -350,9 +352,10 @@
         "pinyin": "wěndìng",
         "english": "stable"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-3"
   },
-  "4": {
+  {
     "lesson": 4,
     "title": {
       "chinese": "子路背米",
@@ -451,9 +454,10 @@
         "pinyin": "chèn",
         "english": "while, taking advantage of"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-4"
   },
-  "5": {
+  {
     "lesson": 5,
     "title": {
       "chinese": "济南的泉水",
@@ -552,9 +556,10 @@
         "pinyin": "zhídé",
         "english": "to be worth"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-5"
   },
-  "6": {
+  {
     "lesson": 6,
     "title": {
       "chinese": "除夕的由来",
@@ -660,9 +665,10 @@
         "pinyin": "biānpào",
         "english": "firecracker"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-6"
   },
-  "7": {
+  {
     "lesson": 7,
     "title": {
       "chinese": "成语故事两则",
@@ -768,9 +774,10 @@
         "pinyin": "duōyú",
         "english": "unnecessary, superfluous"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-7"
   },
-  "8": {
+  {
     "lesson": 8,
     "title": {
       "chinese": "'朝三暮四'的古今义",
@@ -869,9 +876,10 @@
         "pinyin": "chābié",
         "english": "difference"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-8"
   },
-  "9": {
+  {
     "lesson": 9,
     "title": {
       "chinese": "别样鲁迅",
@@ -970,9 +978,10 @@
         "pinyin": "gùyì",
         "english": "deliberately"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-9"
   },
-  "10": {
+  {
     "lesson": 10,
     "title": {
       "chinese": "辩论的奇迹",
@@ -1057,9 +1066,10 @@
         "pinyin": "zīběn",
         "english": "capital"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-10"
   },
-  "11": {
+  {
     "lesson": 11,
     "title": {
       "chinese": "闹钟的危害",
@@ -1151,9 +1161,10 @@
         "pinyin": "guīlǜ",
         "english": "regular, rule"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-11"
   },
-  "12": {
+  {
     "lesson": 12,
     "title": {
       "chinese": "海外用户玩儿微信",
@@ -1252,9 +1263,10 @@
         "pinyin": "cǎifǎng",
         "english": "interview"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-12"
   },
-  "13": {
+  {
     "lesson": 13,
     "title": {
       "chinese": "锯掉生活的'篮底'",
@@ -1353,9 +1365,10 @@
         "pinyin": "fāhuī",
         "english": "to perform, to bring into play"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-13"
   },
-  "14": {
+  {
     "lesson": 14,
     "title": {
       "chinese": "北京的四合院",
@@ -1454,9 +1467,10 @@
         "pinyin": "chōngzú",
         "english": "sufficient"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-14"
   },
-  "15": {
+  {
     "lesson": 15,
     "title": {
       "chinese": "纸上谈兵",
@@ -1548,9 +1562,10 @@
         "pinyin": "tuōlí",
         "english": "to detach from"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-15"
   },
-  "16": {
+  {
     "lesson": 16,
     "title": {
       "chinese": "体重与节食",
@@ -1649,9 +1664,10 @@
         "pinyin": "jūnhéng",
         "english": "balanced"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-16"
   },
-  "17": {
+  {
     "lesson": 17,
     "title": {
       "chinese": "在最美好的时刻离开",
@@ -1743,9 +1759,10 @@
         "pinyin": "huíyì",
         "english": "memory"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-17"
   },
-  "18": {
+  {
     "lesson": 18,
     "title": {
       "chinese": "抽象艺术：美还是不美",
@@ -1844,9 +1861,10 @@
         "pinyin": "zhǔguān",
         "english": "subjective"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-18"
   },
-  "19": {
+  {
     "lesson": 19,
     "title": {
       "chinese": "工作与生活",
@@ -1938,9 +1956,10 @@
         "pinyin": "fàngsōng",
         "english": "to relax"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-19"
   },
-  "20": {
+  {
     "lesson": 20,
     "title": {
       "chinese": "保护环境",
@@ -2046,6 +2065,7 @@
         "pinyin": "gōnggòng jiāotōng",
         "english": "public transportation"
       }
-    ]
+    ],
+    "id": "hsk5-lesson-20"
   }
-}
+]
