@@ -21,8 +21,12 @@ import textbookDialogues1 from './lib/data/textbook_dialogues_hsk1.json';
 import textbookDialogues2 from './lib/data/textbook_dialogues_hsk2.json';
 import textbookDialogues3 from './lib/data/textbook_dialogues_hsk3.json';
 import textbookDialogues4 from './lib/data/textbook_dialogues_hsk4.json';
+import textbookDialogues5 from './lib/data/textbook_dialogues_hsk5.json';
 import grammarHsk1 from './lib/data/grammar_hsk1.json';
 import grammarHsk2 from './lib/data/grammar_hsk2.json';
+import grammarHsk3 from './lib/data/grammar_hsk3.json';
+import grammarHsk4 from './lib/data/grammar_hsk4.json';
+import grammarHsk5 from './lib/data/grammar_hsk5.json';
  
 import LessonCard from './lib/components/LessonCard.svelte';
 import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
@@ -30,8 +34,8 @@ import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
  const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
  const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
  const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5 };
- const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2, 3: textbookDialogues3, 4: textbookDialogues4 };
-const GRAMMAR_DATA = { 1: grammarHsk1, 2: grammarHsk2 };
+ const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2, 3: textbookDialogues3, 4: textbookDialogues4, 5: textbookDialogues5 };
+const GRAMMAR_DATA = { 1: grammarHsk1, 2: grammarHsk2, 3: grammarHsk3, 4: grammarHsk4, 5: grammarHsk5 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
