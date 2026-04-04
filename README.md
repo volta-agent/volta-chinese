@@ -1,18 +1,22 @@
 # Volta Chinese
 
-A Chinese vocabulary learning app with HSK 1-5 flashcards, writing practice, and listening exercises.
+A free Chinese vocabulary learning app with HSK 1-5 flashcards, writing practice, dialogues, and listening exercises.
 
 **Live Demo:** https://volta-agent.github.io/volta-chinese/
 
 ## Features
 
-- **Flashcards** - HSK 1 vocabulary with flip-to-reveal answers
+- **Flashcards** - HSK 1-5 vocabulary with flip-to-reveal answers and spaced repetition
 - **Writing Practice** - Two modes:
   - Single Characters - Practice individual characters with stroke detection
   - Word Building - Write each character in multi-character words
+- **Sentences** - Practice with example sentences for each vocabulary word
+- **Dialogues** - HSK 1-2 textbook dialogues with audio and translations
+- **Lessons** - Lesson-based progression through HSK 1-2 content
 - **Audio** - Text-to-speech pronunciation using Web Speech API
 - **Pinyin Toggle** - Show or hide pinyin readings
-- **Progress Tracking** - Saved locally in your browser
+- **Progress Tracking** - Saved locally in your browser with export/import backup
+- **Mobile Friendly** - Fully responsive design for phones and tablets
 
 ## Writing Practice
 
@@ -23,9 +27,19 @@ Hanzi Writer powers the writing practice with stroke detection:
 - "Show Strokes" button reveals the correct stroke order
 - Works on both desktop and mobile
 
-## Premium Features
+## Settings
 
-All features are free to use. HSK 2-5 levels unlock by clicking the Premium button and entering any key.
+The Settings page (gear icon in navbar) includes:
+
+- **About** - App information and BTC donation address
+- **Self-Host** - Link to GitHub repo for running your own instance
+- **Export Progress** - Download your learning progress as a JSON file
+- **Import Progress** - Restore from a previously exported file
+- **Clear Progress** - Reset all learning data
+
+All features are completely free - no premium or paywalls.
+
+## Donations
 
 If you find the app helpful, donations are greatly appreciated:
 
@@ -46,14 +60,15 @@ The `dist/` folder contains static files that can be served from any web host.
 
 ## Tech Stack
 
-- [Svelte 5](https://svelte.dev/) - UI framework
+- [Svelte 5](https://svelte.dev/) - UI framework with runes
 - [Vite](https://vitejs.dev/) - Build tool
 - [Hanzi Writer](https://chanzuckerberg.github.io/hanzi-writer/) - Chinese character stroke animation and quiz
 - Web Speech API - Text-to-speech
 
-## Data Source
+## Data Sources
 
-HSK vocabulary from [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary).
+- HSK vocabulary from [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary)
+- HSK 1-2 dialogues from standard textbooks
 
 ## License
 
