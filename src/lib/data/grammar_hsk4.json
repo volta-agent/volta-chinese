@@ -1,0 +1,928 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": "简单的爱情",
+    "grammar_points": [
+      {
+        "name": "不仅...也/还/而且... (Not Only... But Also...)",
+        "explanation": "连词'不仅'用在第一个分句里，第二个分句常用'也/还/而且'呼应，表示递进关系。两个分句主语相同时，'不仅'在主语后；主语不同时，'不仅'在主语前。",
+        "examples": [
+          {
+            "chinese": "他不仅足球踢得好，性格也不错。",
+            "pinyin": "Tā bùjǐn zuúqiú tī de hǎo, xìnggé yě búcuò.",
+            "english": "Not only does he play football well, but he also has a good personality."
+          },
+          {
+            "chinese": "那里不仅风景很美，而且人也非常热情。",
+            "pinyin": "Nàlǐ bùjǐn fēngjǐng hěn měi, érqiě rén yě fēicháng rèqíng.",
+            "english": "Not only is the scenery beautiful there, but the people are also very warm."
+          },
+          {
+            "chinese": "这个城市不仅历史悠久，还有许多名胜古迹。",
+            "pinyin": "Zhège chéngshì bùjǐn lìshǐ yōujiǔ, hái yǒu xǔduō míngshèng gǔjì.",
+            "english": "This city not only has a long history but also many famous historical sites."
+          }
+        ]
+      },
+      {
+        "name": "\"从来\" (Always/All Along)",
+        "explanation": "副词'从来'表示从过去到现在都是这样，多用于否定句中，如'从来不'、'从来没'。",
+        "examples": [
+          {
+            "chinese": "他开会从来不迟到。",
+            "pinyin": "Tā kāihuì cónglái bù chídào.",
+            "english": "He never arrives late to meetings."
+          },
+          {
+            "chinese": "我从来没去过那个地方。",
+            "pinyin": "Wǒ cónglái méi qù guo nàge dìfang.",
+            "english": "I've never been to that place."
+          },
+          {
+            "chinese": "他从来都说真话。",
+            "pinyin": "Tā cónglái dōu shuō zhēnhuà.",
+            "english": "He always tells the truth."
+          }
+        ]
+      },
+      {
+        "name": "\"刚\" (Just)",
+        "explanation": "副词'刚'表示动作或情况发生在不久以前，用于主语后、动词前。",
+        "examples": [
+          {
+            "chinese": "我上午刚借的那本书，怎么不见了？",
+            "pinyin": "Wǒ shàngwǔ gāng jiè de nà běn shū, zěnme bú jiàn le?",
+            "english": "The book I just borrowed this morning, how come it's missing?"
+          },
+          {
+            "chinese": "他刚从会议室过来。",
+            "pinyin": "Tā gāng cóng huìyìshì guòlái.",
+            "english": "He just came from the meeting room."
+          },
+          {
+            "chinese": "我们刚认识的时候，话不多。",
+            "pinyin": "Wǒmen gāng rènshi de shíhou, huà bù duō.",
+            "english": "When we first met, we didn't talk much."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": "我坐火车去",
+    "grammar_points": [
+      {
+        "name": "\"有的...，有的...\" (Some... Others...)",
+        "explanation": "'有的'用于列举，表示一部分人或事物。",
+        "examples": [
+          {
+            "chinese": "同学们有的在看书，有的在写字。",
+            "pinyin": "Tóngxuémen yǒude zài kànshū, yǒude zài xiězì.",
+            "english": "Some students are reading, others are writing."
+          },
+          {
+            "chinese": "公园里的人，有的在跑步，有的在跳舞。",
+            "pinyin": "Gōngyuán lǐ de rén, yǒude zài pǎobù, yǒude zài tiàowǔ.",
+            "english": "In the park, some people are running, others are dancing."
+          }
+        ]
+      },
+      {
+        "name": "存现句 (Existential Sentences)",
+        "explanation": "表示某处存在、出现或消失了某人或某物。结构：处所词 + 动词 + 名词。",
+        "examples": [
+          {
+            "chinese": "桌子上放着一本书。",
+            "pinyin": "Zhuōzi shang fàng zhe yì běn shū.",
+            "english": "There is a book on the table."
+          },
+          {
+            "chinese": "前面走来一个人。",
+            "pinyin": "Qiánmian zǒulái yí ge rén.",
+            "english": "A person is walking towards us."
+          },
+          {
+            "chinese": "家里来了客人。",
+            "pinyin": "Jiālǐ lái le kèren.",
+            "english": "Guests have arrived at home."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": "我把钱包忘在家里了",
+    "grammar_points": [
+      {
+        "name": "\"把\"字句的扩展 (Extended Ba-Sentences)",
+        "explanation": "把字句的更多用法，强调动作对对象的影响或处置结果。",
+        "examples": [
+          {
+            "chinese": "我把钱包忘在家里了。",
+            "pinyin": "Wǒ bǎ qiánbāo wàng zài jiālǐ le.",
+            "english": "I left my wallet at home."
+          },
+          {
+            "chinese": "请把你的名字写在这里。",
+            "pinyin": "Qǐng bǎ nǐ de míngzi xiě zài zhèlǐ.",
+            "english": "Please write your name here."
+          },
+          {
+            "chinese": "他把那件事告诉了我。",
+            "pinyin": "Tā bǎ nà jiàn shì gàosu le wǒ.",
+            "english": "He told me about that matter."
+          }
+        ]
+      },
+      {
+        "name": "\"不得不\" (Have To/Cannot Help But)",
+        "explanation": "表示因某种原因而不得不做某事。",
+        "examples": [
+          {
+            "chinese": "因为没车了，他不得不走路回家。",
+            "pinyin": "Yīnwèi méi chē le, tā bùdébù zǒulù huíjiā.",
+            "english": "Because there were no more buses, he had to walk home."
+          },
+          {
+            "chinese": "我不得不承认我错了。",
+            "pinyin": "Wǒ bùdébù chéngrèn wǒ cuò le.",
+            "english": "I have to admit I was wrong."
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": "收到你的信我非常高兴",
+    "grammar_points": [
+      {
+        "name": "结果补语扩展 (Extended Complements of Result)",
+        "explanation": "更多的结果补语用法，如'完、好、到、见、懂'等。",
+        "examples": [
+          {
+            "chinese": "我看完了这本书。",
+            "pinyin": "Wǒ kànwán le zhè běn shū.",
+            "english": "I finished reading this book."
+          },
+          {
+            "chinese": "我没听懂他的话。",
+            "pinyin": "Wǒ méi tīngdǒng tā de huà.",
+            "english": "I didn't understand what he said."
+          },
+          {
+            "chinese": "他收到了我的信。",
+            "pinyin": "Tā shōudào le wǒ de xìn.",
+            "english": "He received my letter."
+          }
+        ]
+      },
+      {
+        "name": "\"原来\" (It Turns Out/Originally)",
+        "explanation": "表示发现真实情况，或者表示原来的状态。",
+        "examples": [
+          {
+            "chinese": "原来是你啊！我都没认出来。",
+            "pinyin": "Yuánlái shì nǐ a! Wǒ dōu méi rèn chūlái.",
+            "english": "It turns out it's you! I didn't recognize you."
+          },
+          {
+            "chinese": "原来这里是一片树林。",
+            "pinyin": "Yuánlái zhèlǐ shì yí piàn shùlín.",
+            "english": "Originally this was a forest."
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": "你看过京剧吗",
+    "grammar_points": [
+      {
+        "name": "动态助词\"过\" (Particle '过' for Experiences)",
+        "explanation": "'过'表示过去的经历，强调曾经有过某种经验。",
+        "examples": [
+          {
+            "chinese": "你看过京剧吗？",
+            "pinyin": "Nǐ kàn guo jīngjù ma?",
+            "english": "Have you ever seen Peking Opera?"
+          },
+          {
+            "chinese": "我去过一次北京。",
+            "pinyin": "Wǒ qù guo yí cì Běijīng.",
+            "english": "I've been to Beijing once."
+          },
+          {
+            "chinese": "他从来没吃过中国菜。",
+            "pinyin": "Tā cónglái méi chī guo Zhōngguó cài.",
+            "english": "He's never eaten Chinese food."
+          }
+        ]
+      },
+      {
+        "name": "\"倒是\" (Actually/On the Contrary)",
+        "explanation": "表示转折，引出与预期相反的情况。",
+        "examples": [
+          {
+            "chinese": "这个方法倒是很简单。",
+            "pinyin": "Zhège fāngfǎ dàoshì hěn jiǎndān.",
+            "english": "This method is actually quite simple."
+          },
+          {
+            "chinese": "我倒是想去，但是没时间。",
+            "pinyin": "Wǒ dàoshì xiǎng qù, dànshì méi shíjiān.",
+            "english": "I do want to go, but I don't have time."
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": "我在这儿等你",
+    "grammar_points": [
+      {
+        "name": "\"着\"的用法 (Usage of '着')",
+        "explanation": "助词'着'表示动作或状态的持续。",
+        "examples": [
+          {
+            "chinese": "门口站着一个人。",
+            "pinyin": "Ménkǒu zhàn zhe yí ge rén.",
+            "english": "There is a person standing at the door."
+          },
+          {
+            "chinese": "他正在看着书呢。",
+            "pinyin": "Tā zhèngzài kàn zhe shū ne.",
+            "english": "He is reading a book right now."
+          },
+          {
+            "chinese": "门开着，你可以进去。",
+            "pinyin": "Mén kāi zhe, nǐ kěyǐ jìnqù.",
+            "english": "The door is open, you can go in."
+          }
+        ]
+      },
+      {
+        "name": "\"在\"和\"正在\" (Comparison of '在' and '正在')",
+        "explanation": "'在'和'正在'都表示动作正在进行，'正在'更强调动作的进行状态。",
+        "examples": [
+          {
+            "chinese": "他在吃饭。",
+            "pinyin": "Tā zài chīfàn.",
+            "english": "He is eating."
+          },
+          {
+            "chinese": "他正在开会，请稍等。",
+            "pinyin": "Tā zhèngzài kāihuì, qǐng shāo děng.",
+            "english": "He is in a meeting, please wait a moment."
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": "我们骑自行车去",
+    "grammar_points": [
+      {
+        "name": "连动句 (Sentences with Serial Verbs)",
+        "explanation": "一个句子中有两个或多个动词短语，表示连续发生的动作或同时进行的活动。",
+        "examples": [
+          {
+            "chinese": "我们骑自行车去公园。",
+            "pinyin": "Wǒmen qí zìxíngchē qù gōngyuán.",
+            "english": "We ride bicycles to the park."
+          },
+          {
+            "chinese": "他去超市买菜。",
+            "pinyin": "Tā qù chāoshì mǎi cài.",
+            "english": "He goes to the supermarket to buy vegetables."
+          },
+          {
+            "chinese": "我坐飞机去北京出差。",
+            "pinyin": "Wǒ zuò fēijī qù Běijīng chūchāi.",
+            "english": "I'm taking a plane to Beijing for a business trip."
+          }
+        ]
+      },
+      {
+        "name": "\"顺便\" (Conveniently/On the Way)",
+        "explanation": "表示做某事时顺便做另一件事。",
+        "examples": [
+          {
+            "chinese": "我去超市买东西，顺便帮你买点水果。",
+            "pinyin": "Wǒ qù chāoshì mǎi dōngxi, shùnbiàn bāng nǐ mǎi diǎn shuǐguǒ.",
+            "english": "I'm going to the supermarket to buy things, I'll get some fruit for you too."
+          },
+          {
+            "chinese": "你回家的时候顺便把这封信寄了。",
+            "pinyin": "Nǐ huíjiā de shíhou shùnbiàn bǎ zhè fēng xìn jì le.",
+            "english": "Mail this letter on your way home."
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": "我比你更喜欢爬山",
+    "grammar_points": [
+      {
+        "name": "比较句的扩展 (Extended Comparative Sentences)",
+        "explanation": "更复杂的比较句，包括'A比B更+形容词'、'A没有B那么+形容词'等。",
+        "examples": [
+          {
+            "chinese": "我比你更喜欢爬山。",
+            "pinyin": "Wǒ bǐ nǐ gèng xǐhuan páshān.",
+            "english": "I like hiking more than you do."
+          },
+          {
+            "chinese": "今天没有昨天那么冷。",
+            "pinyin": "Jīntiān méiyǒu zuótiān nàme lěng.",
+            "english": "Today is not as cold as yesterday."
+          },
+          {
+            "chinese": "他的汉语说得跟我一样好。",
+            "pinyin": "Tā de Hànyǔ shuō de gēn wǒ yíyàng hǎo.",
+            "english": "He speaks Chinese as well as I do."
+          }
+        ]
+      },
+      {
+        "name": "\"更\"和\"最\" (Comparison of '更' and '最')",
+        "explanation": "'更'表示程度更深，用于两者比较；'最'表示最高程度，用于三者及以上比较。",
+        "examples": [
+          {
+            "chinese": "这件衣服比那件更漂亮。",
+            "pinyin": "Zhè jiàn yīfu bǐ nà jiàn gèng piàoliang.",
+            "english": "This dress is more beautiful than that one."
+          },
+          {
+            "chinese": "他是我们班里最高的学生。",
+            "pinyin": "Tā shì wǒmen bān lǐ zuì gāo de xuésheng.",
+            "english": "He is the tallest student in our class."
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": "我看过那部电影",
+    "grammar_points": [
+      {
+        "name": "\"过\"与\"了\"的比较 (Comparison of '过' and '了')",
+        "explanation": "'过'强调经历，'了'强调完成。",
+        "examples": [
+          {
+            "chinese": "我看过那部电影。（有这种经历）",
+            "pinyin": "Wǒ kàn guo nà bù diànyǐng.",
+            "english": "I have seen that movie. (experience)"
+          },
+          {
+            "chinese": "我看了那部电影。（完成了这件事）",
+            "pinyin": "Wǒ kàn le nà bù diànyǐng.",
+            "english": "I watched that movie. (completed action)"
+          },
+          {
+            "chinese": "你去过长城吗？",
+            "pinyin": "Nǐ qù guo Chángchéng ma?",
+            "english": "Have you been to the Great Wall?"
+          }
+        ]
+      },
+      {
+        "name": "\"又\"的多种用法 (Various Usages of '又')",
+        "explanation": "'又'可以表示重复、同时具有两种性质、或强调。",
+        "examples": [
+          {
+            "chinese": "他又迟到了。",
+            "pinyin": "Tā yòu chídào le.",
+            "english": "He was late again."
+          },
+          {
+            "chinese": "这个苹果又大又甜。",
+            "pinyin": "Zhège píngguǒ yòu dà yòu tián.",
+            "english": "This apple is both big and sweet."
+          },
+          {
+            "chinese": "我又不是你的老师。",
+            "pinyin": "Wǒ yòu búshì nǐ de lǎoshī.",
+            "english": "I'm not your teacher, you know."
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": "我们过去帮帮他们",
+    "grammar_points": [
+      {
+        "name": "趋向补语的引申义 (Extended Meanings of Directional Complements)",
+        "explanation": "'起来'可以表示开始、估计、评价等引申义。",
+        "examples": [
+          {
+            "chinese": "天气热起来了。",
+            "pinyin": "Tiānqì rè qǐlái le.",
+            "english": "The weather is getting hot."
+          },
+          {
+            "chinese": "这个看起来很好吃。",
+            "pinyin": "Zhège kàn qǐlái hěn hǎochī.",
+            "english": "This looks delicious."
+          },
+          {
+            "chinese": "说起来容易，做起来难。",
+            "pinyin": "Shuō qǐlái róngyì, zuò qǐlái nán.",
+            "english": "It's easier said than done."
+          }
+        ]
+      },
+      {
+        "name": "\"过去\" (Go Over)",
+        "explanation": "'过去'可以表示空间上的移动，也可以表示时间上的过去。",
+        "examples": [
+          {
+            "chinese": "我们过去帮帮他们。",
+            "pinyin": "Wǒmen guòqù bāngbang tāmen.",
+            "english": "Let's go over and help them."
+          },
+          {
+            "chinese": "事情已经过去了，别再想了。",
+            "pinyin": "Shìqing yǐjīng guòqù le, bié zài xiǎng le.",
+            "english": "It's all in the past, don't think about it anymore."
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": "桌子上放着很多饮料",
+    "grammar_points": [
+      {
+        "name": "存现句详解 (Detailed Existential Sentences)",
+        "explanation": "表示某处存在、出现或消失某人或某物。结构：地点 + 动词 + 着/了 + 名词。",
+        "examples": [
+          {
+            "chinese": "桌子上放着很多饮料。",
+            "pinyin": "Zhuōzi shang fàng zhe hěn duō yǐnliào.",
+            "english": "There are many drinks on the table."
+          },
+          {
+            "chinese": "墙上挂着一张画。",
+            "pinyin": "Qiáng shang guà zhe yì zhāng huà.",
+            "english": "There is a painting hanging on the wall."
+          },
+          {
+            "chinese": "昨天来了很多客人。",
+            "pinyin": "Zuótiān lái le hěn duō kèren.",
+            "english": "Many guests came yesterday."
+          }
+        ]
+      },
+      {
+        "name": "\"多\"和\"少\" (Many and Few)",
+        "explanation": "'多'和'少'可以作形容词或副词，表示数量。",
+        "examples": [
+          {
+            "chinese": "这里人很多。",
+            "pinyin": "Zhèlǐ rén hěn duō.",
+            "english": "There are many people here."
+          },
+          {
+            "chinese": "请多说几句。",
+            "pinyin": "Qǐng duō shuō jǐ jù.",
+            "english": "Please say a few more words."
+          },
+          {
+            "chinese": "少喝点酒。",
+            "pinyin": "Shǎo hē diǎn jiǔ.",
+            "english": "Drink less alcohol."
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": "我问一下",
+    "grammar_points": [
+      {
+        "name": "动词重叠 (Verb Reduplication)",
+        "explanation": "单音节动词重叠为AA式，双音节动词重叠为ABAB式，表示动作短暂、尝试或轻松。",
+        "examples": [
+          {
+            "chinese": "你看看这本书。",
+            "pinyin": "Nǐ kànkan zhè běn shū.",
+            "english": "Take a look at this book."
+          },
+          {
+            "chinese": "我想休息休息。",
+            "pinyin": "Wǒ xiǎng xiūxi xiūxi.",
+            "english": "I want to take a rest."
+          },
+          {
+            "chinese": "我们讨论讨论这个问题。",
+            "pinyin": "Wǒmen tǎolùn tǎolùn zhège wèntí.",
+            "english": "Let's discuss this problem."
+          }
+        ]
+      },
+      {
+        "name": "\"一下\" (A Bit/Briefly)",
+        "explanation": "动词 + 一下 表示动作短暂或轻松。",
+        "examples": [
+          {
+            "chinese": "我问一下。",
+            "pinyin": "Wǒ wèn yíxià.",
+            "english": "Let me ask briefly."
+          },
+          {
+            "chinese": "请你等一下。",
+            "pinyin": "Qǐng nǐ děng yíxià.",
+            "english": "Please wait a moment."
+          },
+          {
+            "chinese": "让我看一下。",
+            "pinyin": "Ràng wǒ kàn yíxià.",
+            "english": "Let me have a look."
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": "我想买一件衬衫",
+    "grammar_points": [
+      {
+        "name": "量词重叠 (Classifier Reduplication)",
+        "explanation": "量词重叠表示'每一'的意思，强调全部。",
+        "examples": [
+          {
+            "chinese": "个个都很漂亮。",
+            "pinyin": "Gège dōu hěn piàoliang.",
+            "english": "Every one is beautiful."
+          },
+          {
+            "chinese": "人人都知道这件事。",
+            "pinyin": "Rénrén dōu zhīdào zhè jiàn shì.",
+            "english": "Everyone knows about this."
+          },
+          {
+            "chinese": "件件都好。",
+            "pinyin": "Jiànjiàn dōu hǎo.",
+            "english": "Every piece is good."
+          }
+        ]
+      },
+      {
+        "name": "\"的\"字短语 (De-Phrases)",
+        "explanation": "形容词/动词 + 的 + 名词 构成的短语。",
+        "examples": [
+          {
+            "chinese": "我想买一件红色的。",
+            "pinyin": "Wǒ xiǎng mǎi yí jiàn hóngsè de.",
+            "english": "I want to buy a red one."
+          },
+          {
+            "chinese": "吃的是中国菜。",
+            "pinyin": "Chī de shì Zhōngguó cài.",
+            "english": "What we're eating is Chinese food."
+          },
+          {
+            "chinese": "穿黑衣服的那个人是我哥哥。",
+            "pinyin": "Chuān hēi yīfu de nà ge rén shì wǒ gēge.",
+            "english": "The person in black is my brother."
+          }
+        ]
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": "还是便宜一点儿好",
+    "grammar_points": [
+      {
+        "name": "\"一点儿\"和\"有一点儿\" (Comparison of '一点儿' and '有一点儿')",
+        "explanation": "'一点儿'用在形容词后表示程度或比较，'有一点儿'用在形容词前表示轻微的程度。",
+        "examples": [
+          {
+            "chinese": "这件衣服大了一点儿。",
+            "pinyin": "Zhè jiàn yīfu dà le yìdiǎnr.",
+            "english": "This dress is a bit too big."
+          },
+          {
+            "chinese": "今天有一点儿冷。",
+            "pinyin": "Jīntiān yǒu yìdiǎnr lěng.",
+            "english": "It's a bit cold today."
+          },
+          {
+            "chinese": "还是便宜一点儿好。",
+            "pinyin": "Háishì piányi yìdiǎnr hǎo.",
+            "english": "It's better to be a bit cheaper."
+          }
+        ]
+      },
+      {
+        "name": "\"还是...好\" (Had Better)",
+        "explanation": "表示经过比较后认为某个选择更好。",
+        "examples": [
+          {
+            "chinese": "还是坐火车去好。",
+            "pinyin": "Háishì zuò huǒchē qù hǎo.",
+            "english": "It's better to go by train."
+          },
+          {
+            "chinese": "还是早点儿去好。",
+            "pinyin": "Háishì zǎo diǎnr qù hǎo.",
+            "english": "It's better to go early."
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": "你的汉语说得真不错",
+    "grammar_points": [
+      {
+        "name": "程度补语扩展 (Extended Complements of Degree)",
+        "explanation": "动词/形容词 + 得 + 很/真/太... 表示程度。",
+        "examples": [
+          {
+            "chinese": "你的汉语说得真不错。",
+            "pinyin": "Nǐ de Hànyǔ shuō de zhēn búcuò.",
+            "english": "You speak Chinese really well."
+          },
+          {
+            "chinese": "他跑得很快。",
+            "pinyin": "Tā pǎo de hěn kuài.",
+            "english": "He runs very fast."
+          },
+          {
+            "chinese": "她高兴得跳了起来。",
+            "pinyin": "Tā gāoxìng de tiào le qǐlái.",
+            "english": "She was so happy she jumped up."
+          }
+        ]
+      },
+      {
+        "name": "\"真\"和\"很\" (Comparison of '真' and '很')",
+        "explanation": "'真'表示赞叹或惊讶，'很'是一般程度的表示。",
+        "examples": [
+          {
+            "chinese": "你真聪明！",
+            "pinyin": "Nǐ zhēn cōngming!",
+            "english": "You're so smart!"
+          },
+          {
+            "chinese": "他很聪明。",
+            "pinyin": "Tā hěn cōngming.",
+            "english": "He is very smart."
+          },
+          {
+            "chinese": "这里真美！",
+            "pinyin": "Zhèlǐ zhēn měi!",
+            "english": "This place is so beautiful!"
+          }
+        ]
+      }
+    ]
+  },
+  "16": {
+    "lesson": 16,
+    "title": "这个地方跟我想的不一样",
+    "grammar_points": [
+      {
+        "name": "\"跟...一样/不一样\" (Same As/Different From)",
+        "explanation": "表示两者相同或不同。",
+        "examples": [
+          {
+            "chinese": "这个地方跟我想的不一样。",
+            "pinyin": "Zhège dìfang gēn wǒ xiǎng de bù yíyàng.",
+            "english": "This place is different from what I imagined."
+          },
+          {
+            "chinese": "他的想法跟我一样。",
+            "pinyin": "Tā de xiǎngfǎ gēn wǒ yíyàng.",
+            "english": "His idea is the same as mine."
+          },
+          {
+            "chinese": "这里的天气跟南方不一样。",
+            "pinyin": "Zhèlǐ de tiānqì gēn nánfāng bù yíyàng.",
+            "english": "The weather here is different from the south."
+          }
+        ]
+      },
+      {
+        "name": "\"按\" (According To)",
+        "explanation": "介词，表示依据或按照。",
+        "examples": [
+          {
+            "chinese": "按你说的做。",
+            "pinyin": "Àn nǐ shuō de zuò.",
+            "english": "Do as you say."
+          },
+          {
+            "chinese": "按时完成作业。",
+            "pinyin": "Ànshí wánchéng zuòyè.",
+            "english": "Finish homework on time."
+          },
+          {
+            "chinese": "按计划进行。",
+            "pinyin": "Àn jìhuà jìnxíng.",
+            "english": "Proceed according to plan."
+          }
+        ]
+      }
+    ]
+  },
+  "17": {
+    "lesson": 17,
+    "title": "这是谁的包",
+    "grammar_points": [
+      {
+        "name": "疑问代词的非疑问用法 (Non-Interrogative Uses of Interrogative Pronouns)",
+        "explanation": "疑问代词可以表示任指或虚指。",
+        "examples": [
+          {
+            "chinese": "谁都不知道他去哪儿了。",
+            "pinyin": "Shéi dōu bù zhīdào tā qù nǎr le.",
+            "english": "No one knows where he went."
+          },
+          {
+            "chinese": "我想吃什么就吃什么。",
+            "pinyin": "Wǒ xiǎng chī shénme jiù chī shénme.",
+            "english": "I eat whatever I want."
+          },
+          {
+            "chinese": "哪儿也没去。",
+            "pinyin": "Nǎr yě méi qù.",
+            "english": "Didn't go anywhere."
+          }
+        ]
+      },
+      {
+        "name": "\"什么的\" (And So On)",
+        "explanation": "表示列举未尽。",
+        "examples": [
+          {
+            "chinese": "他喜欢打篮球、踢足球什么的。",
+            "pinyin": "Tā xǐhuan dǎ lánqiú, tī zuúqiú shénme de.",
+            "english": "He likes playing basketball, football, and so on."
+          },
+          {
+            "chinese": "家里有苹果、香蕉什么的。",
+            "pinyin": "Jiālǐ yǒu píngguǒ, xiāngjiāo shénme de.",
+            "english": "There are apples, bananas, and so on at home."
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "lesson": 18,
+    "title": "我听说你最近很忙",
+    "grammar_points": [
+      {
+        "name": "\"听说\"和\"据说\" (Hear/It Is Said)",
+        "explanation": "'听说'是听别人说，'据说'是根据传说或报道。",
+        "examples": [
+          {
+            "chinese": "我听说你最近很忙。",
+            "pinyin": "Wǒ tīngshuō nǐ zuìjìn hěn máng.",
+            "english": "I heard you've been very busy lately."
+          },
+          {
+            "chinese": "据说这个地方很美。",
+            "pinyin": "Jùshuō zhège dìfang hěn měi.",
+            "english": "It is said that this place is very beautiful."
+          },
+          {
+            "chinese": "我听说明天要下雨。",
+            "pinyin": "Wǒ tīngshuō míngtiān yào xiàyǔ.",
+            "english": "I heard it's going to rain tomorrow."
+          }
+        ]
+      },
+      {
+        "name": "\"最近\" (Recently)",
+        "explanation": "表示不久过去的一段时间或不久将来的时间。",
+        "examples": [
+          {
+            "chinese": "最近他工作很忙。",
+            "pinyin": "Zuìjìn tā gōngzuò hěn máng.",
+            "english": "He's been very busy at work recently."
+          },
+          {
+            "chinese": "最近有什么新闻吗？",
+            "pinyin": "Zuìjìn yǒu shénme xīnwén ma?",
+            "english": "Is there any news recently?"
+          },
+          {
+            "chinese": "最近我不太舒服。",
+            "pinyin": "Zuìjìn wǒ bú tài shūfu.",
+            "english": "I haven't been feeling well recently."
+          }
+        ]
+      }
+    ]
+  },
+  "19": {
+    "lesson": 19,
+    "title": "即使下雨我也要去",
+    "grammar_points": [
+      {
+        "name": "\"即使...也...\" (Even If... Still...)",
+        "explanation": "表示假设的让步，即使条件成立，结果也不会改变。",
+        "examples": [
+          {
+            "chinese": "即使下雨我也要去。",
+            "pinyin": "Jíshǐ xiàyǔ wǒ yě yào qù.",
+            "english": "Even if it rains, I will still go."
+          },
+          {
+            "chinese": "即使很累，他也要坚持工作。",
+            "pinyin": "Jíshǐ hěn lèi, tā yě yào jiānchí gōngzuò.",
+            "english": "Even if he's tired, he still keeps working."
+          },
+          {
+            "chinese": "即使失败了，也不要放弃。",
+            "pinyin": "Jíshǐ shībài le, yě bú yào fàngqì.",
+            "english": "Even if you fail, don't give up."
+          }
+        ]
+      },
+      {
+        "name": "\"无论...都...\" (No Matter... All...)",
+        "explanation": "表示在任何条件下结果都不变。",
+        "examples": [
+          {
+            "chinese": "无论多晚，他都要等她回来。",
+            "pinyin": "Wúlùn duō wǎn, tā dōu yào děng tā huílái.",
+            "english": "No matter how late, he will wait for her to come back."
+          },
+          {
+            "chinese": "无论你去哪儿，我都陪着你。",
+            "pinyin": "Wúlùn nǐ qù nǎr, wǒ dōu péi zhe nǐ.",
+            "english": "No matter where you go, I'll be with you."
+          }
+        ]
+      }
+    ]
+  },
+  "20": {
+    "lesson": 20,
+    "title": "除了太极拳以外，我还学会了跳舞",
+    "grammar_points": [
+      {
+        "name": "\"除了...以外，还/也/都...\" (Besides... Also/All...)",
+        "explanation": "表示添加或排除。",
+        "examples": [
+          {
+            "chinese": "除了太极拳以外，我还学会了跳舞。",
+            "pinyin": "Chúle tàijíquán yǐwài, wǒ hái xuéhuì le tiàowǔ.",
+            "english": "Besides Tai Chi, I also learned to dance."
+          },
+          {
+            "chinese": "除了他以外，大家都同意了。",
+            "pinyin": "Chúle tā yǐwài, dàjiā dōu tóngyì le.",
+            "english": "Except for him, everyone agreed."
+          },
+          {
+            "chinese": "除了中文，他还会说英语和日语。",
+            "pinyin": "Chúle Zhōngwén, tā hái huì shuō Yīngyǔ hé Rìyǔ.",
+            "english": "Besides Chinese, he can also speak English and Japanese."
+          }
+        ]
+      },
+      {
+        "name": "\"或者\"和\"还是\" (Comparison of '或者' and '还是')",
+        "explanation": "'或者'用于陈述句，'还是'用于疑问句。",
+        "examples": [
+          {
+            "chinese": "我想喝咖啡或者茶。",
+            "pinyin": "Wǒ xiǎng hē kāfēi huòzhě chá.",
+            "english": "I want to drink coffee or tea."
+          },
+          {
+            "chinese": "你想喝咖啡还是茶？",
+            "pinyin": "Nǐ xiǎng hē kāfēi háishì chá?",
+            "english": "Do you want to drink coffee or tea?"
+          },
+          {
+            "chinese": "你可以选择去或者不去。",
+            "pinyin": "Nǐ kěyǐ xuǎnzé qù huòzhě bú qù.",
+            "english": "You can choose to go or not to go."
+          }
+        ]
+      }
+    ]
+  }
+}

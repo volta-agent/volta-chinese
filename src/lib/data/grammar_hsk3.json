@@ -1,0 +1,759 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": "周末你有什么打算",
+    "grammar_points": [
+      {
+        "name": "简单的结果补语 (Simple Complement of Result)",
+        "explanation": "动词 + 结果补语 表示动作的结果。常用的结果补语有：完、好、见、到等。例如：写完、看好、听见、找到。",
+        "examples": [
+          {
+            "chinese": "作业都写完了。",
+            "pinyin": "Zuòyè dōu xiěwán le.",
+            "english": "I've finished all the homework."
+          },
+          {
+            "chinese": "我已经找好饭馆了。",
+            "pinyin": "Wǒ yǐjīng zhǎohǎo fànguǎn le.",
+            "english": "I've already found a restaurant."
+          },
+          {
+            "chinese": "我没看见他。",
+            "pinyin": "Wǒ méi kànjiàn tā.",
+            "english": "I didn't see him."
+          }
+        ]
+      },
+      {
+        "name": "还没...呢 (Not yet)",
+        "explanation": "还没 + 动词/形容词 + 呢 表示动作或状态还没有发生或完成。",
+        "examples": [
+          {
+            "chinese": "我还没想好要不要去呢。",
+            "pinyin": "Wǒ hái méi xiǎnghǎo yào bu yào qù ne.",
+            "english": "I haven't decided yet whether to go."
+          },
+          {
+            "chinese": "饭还没做好呢。",
+            "pinyin": "Fàn hái méi zuòhǎo ne.",
+            "english": "The food isn't ready yet."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": "他什么时候回来",
+    "grammar_points": [
+      {
+        "name": "时段的表达 (Expressing Duration of Time)",
+        "explanation": "表示动作持续的时间：动词 + 时段。表示在多长时间内完成：在 + 时段 + 内 + 动词。",
+        "examples": [
+          {
+            "chinese": "我学了一个小时汉语。",
+            "pinyin": "Wǒ xué le yí ge xiǎoshí Hànyǔ.",
+            "english": "I studied Chinese for an hour."
+          },
+          {
+            "chinese": "他在一个小时内写完了作业。",
+            "pinyin": "Tā zài yí ge xiǎoshí nèi xiěwán le zuòyè.",
+            "english": "He finished the homework within an hour."
+          }
+        ]
+      },
+      {
+        "name": "时间的表达 (Expressing Time)",
+        "explanation": "用'...的时候'表示动作发生的时间。'来/去 + 时间 + 的 + 动词'表示在某段时间内做某事。",
+        "examples": [
+          {
+            "chinese": "我来中国以前不会说汉语。",
+            "pinyin": "Wǒ lái Zhōngguó yǐqián bú huì shuō Hànyǔ.",
+            "english": "I couldn't speak Chinese before I came to China."
+          },
+          {
+            "chinese": "下班的时候，我给他打了个电话。",
+            "pinyin": "Xiàbān de shíhou, wǒ gěi tā dǎ le ge diànhuà.",
+            "english": "I called him when I got off work."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": "天黑了，我们回去吧",
+    "grammar_points": [
+      {
+        "name": "可能补语 (Complements of Possibility)",
+        "explanation": "动词 + 得/不 + 补语 表示动作能否达到某种结果。肯定形式：V+得+补语；否定形式：V+不+补语。",
+        "examples": [
+          {
+            "chinese": "这个字我看不清楚。",
+            "pinyin": "Zhège zì wǒ kàn bu qīngchu.",
+            "english": "I can't see this character clearly."
+          },
+          {
+            "chinese": "这个菜吃得完吗？",
+            "pinyin": "Zhège cài chī de wán ma?",
+            "english": "Can this dish be finished?"
+          },
+          {
+            "chinese": "我找得到那个地方。",
+            "pinyin": "Wǒ zhǎo de dào nàge dìfang.",
+            "english": "I can find that place."
+          }
+        ]
+      },
+      {
+        "name": "\"N+呢\"询问处所 (Using 'N+呢' to Ask about Location)",
+        "explanation": "名词 + 呢 表示询问人或事物在哪里。",
+        "examples": [
+          {
+            "chinese": "我的包呢？",
+            "pinyin": "Wǒ de bāo ne?",
+            "english": "Where is my bag?"
+          },
+          {
+            "chinese": "他呢？",
+            "pinyin": "Tā ne?",
+            "english": "Where is he?"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": "你怎么才来",
+    "grammar_points": [
+      {
+        "name": "\"刚\"和\"刚才\" (Comparison of '刚' and '刚才')",
+        "explanation": "'刚'是副词，表示动作刚刚发生，强调时间短。'刚才'是时间名词，表示不久前的时间。",
+        "examples": [
+          {
+            "chinese": "他刚走。",
+            "pinyin": "Tā gāng zǒu.",
+            "english": "He just left."
+          },
+          {
+            "chinese": "刚才他还是在这儿。",
+            "pinyin": "Gāngcái tā háishì zài zhèr.",
+            "english": "He was still here just now."
+          },
+          {
+            "chinese": "我刚吃完饭。",
+            "pinyin": "Wǒ gāng chīwán fàn.",
+            "english": "I just finished eating."
+          }
+        ]
+      },
+      {
+        "name": "\"才\"表示迟缓 ('才' Indicating Slowness)",
+        "explanation": "'才' + 动词 表示动作发生得比预期的晚或慢。",
+        "examples": [
+          {
+            "chinese": "你怎么才来？",
+            "pinyin": "Nǐ zěnme cái lái?",
+            "english": "Why are you only coming now?"
+          },
+          {
+            "chinese": "他八点上课，七点半才起床。",
+            "pinyin": "Tā bā diǎn shàngkè, qī diǎn bàn cái qǐchuáng.",
+            "english": "He has class at 8, but only got up at 7:30."
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": "你吃过中药吗",
+    "grammar_points": [
+      {
+        "name": "经历的表达 (Expressing Experiences)",
+        "explanation": "动词 + 过 表示过去的经历。否定用'没+动词+过'。疑问用'...动词+过...吗？'",
+        "examples": [
+          {
+            "chinese": "你吃过中药吗？",
+            "pinyin": "Nǐ chī guo zhōngyào ma?",
+            "english": "Have you ever taken Chinese medicine?"
+          },
+          {
+            "chinese": "我没去过北京。",
+            "pinyin": "Wǒ méi qù guo Běijīng.",
+            "english": "I've never been to Beijing."
+          },
+          {
+            "chinese": "他学过两年汉语。",
+            "pinyin": "Tā xué guo liǎng nián Hànyǔ.",
+            "english": "He studied Chinese for two years."
+          }
+        ]
+      },
+      {
+        "name": "程度补语 (Complement of Degree)",
+        "explanation": "动词/形容词 + 得 + 程度补语 表示动作达到的程度。",
+        "examples": [
+          {
+            "chinese": "他累得不想说话。",
+            "pinyin": "Tā lèi de bùxiǎng shuōhuà.",
+            "english": "He's so tired he doesn't want to talk."
+          },
+          {
+            "chinese": "她高兴得跳了起来。",
+            "pinyin": "Tā gāoxìng de tiào le qǐlái.",
+            "english": "She was so happy she jumped up."
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": "我只会说一点儿汉语",
+    "grammar_points": [
+      {
+        "name": "\"对...感兴趣\" (To Be Interested In)",
+        "explanation": "对 + 人/事物 + 感兴趣 表示对某人或某事物有兴趣。",
+        "examples": [
+          {
+            "chinese": "我对汉语很感兴趣。",
+            "pinyin": "Wǒ duì Hànyǔ hěn gǎn xìngqù.",
+            "english": "I'm very interested in Chinese."
+          },
+          {
+            "chinese": "他对音乐不感兴趣。",
+            "pinyin": "Tā duì yīnyuè bù gǎn xìngqù.",
+            "english": "He's not interested in music."
+          }
+        ]
+      },
+      {
+        "name": "\"一直\" (Always/All Along)",
+        "explanation": "'一直' + 动词/形容词 表示动作或状态持续不变。",
+        "examples": [
+          {
+            "chinese": "我一直住在这里。",
+            "pinyin": "Wǒ yìzhí zhù zài zhèlǐ.",
+            "english": "I've always lived here."
+          },
+          {
+            "chinese": "他一直在学习。",
+            "pinyin": "Tā yìzhí zài xuéxí.",
+            "english": "He's been studying all along."
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": "你喝茶还是喝咖啡",
+    "grammar_points": [
+      {
+        "name": "\"又...又...\" (Both... And...)",
+        "explanation": "又 + 形容词/动词 + 又 + 形容词/动词 表示同时具有两种性质或状态。",
+        "examples": [
+          {
+            "chinese": "这个苹果又大又甜。",
+            "pinyin": "Zhège píngguǒ yòu dà yòu tián.",
+            "english": "This apple is both big and sweet."
+          },
+          {
+            "chinese": "她又聪明又漂亮。",
+            "pinyin": "Tā yòu cōngming yòu piàoliang.",
+            "english": "She's both smart and beautiful."
+          }
+        ]
+      },
+      {
+        "name": "\"还是\" vs \"或者\" (Comparison of '还是' and '或者')",
+        "explanation": "'还是'用于疑问句，'或者'用于陈述句。两者都表示选择。",
+        "examples": [
+          {
+            "chinese": "你喝茶还是喝咖啡？",
+            "pinyin": "Nǐ hē chá háishì hē kāfēi?",
+            "english": "Do you want tea or coffee?"
+          },
+          {
+            "chinese": "我想喝茶或者咖啡。",
+            "pinyin": "Wǒ xiǎng hē chá huòzhě kāfēi.",
+            "english": "I want tea or coffee."
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": "你们公司有多少人",
+    "grammar_points": [
+      {
+        "name": "概数的表达 (Approximate Numbers)",
+        "explanation": "用'几'、'多'、'左右'、'差不多'等表示概数。",
+        "examples": [
+          {
+            "chinese": "我们公司有五百多人。",
+            "pinyin": "Wǒmen gōngsī yǒu wǔbǎi duō rén.",
+            "english": "Our company has more than 500 people."
+          },
+          {
+            "chinese": "会议大概两个小时左右。",
+            "pinyin": "Huìyì dàgài liǎng ge xiǎoshí zuǒyòu.",
+            "english": "The meeting is about two hours."
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": "她长得什么样",
+    "grammar_points": [
+      {
+        "name": "\"越A越B\" (The More... The More...)",
+        "explanation": "越 + 形容词/动词 + 越 + 形容词/动词 表示程度随着条件的变化而变化。",
+        "examples": [
+          {
+            "chinese": "天气越来越冷了。",
+            "pinyin": "Tiānqì yuè lái yuè lěng le.",
+            "english": "The weather is getting colder and colder."
+          },
+          {
+            "chinese": "他越学越有兴趣。",
+            "pinyin": "Tā yuè xué yuè yǒu xìngqù.",
+            "english": "The more he studies, the more interested he becomes."
+          }
+        ]
+      },
+      {
+        "name": "比较句1: A跟B一样 (Comparison 1: A is the Same as B)",
+        "explanation": "A + 跟 + B + 一样 + (形容词) 表示两者相同。",
+        "examples": [
+          {
+            "chinese": "他的汉语跟我一样好。",
+            "pinyin": "Tā de Hànyǔ gēn wǒ yíyàng hǎo.",
+            "english": "His Chinese is as good as mine."
+          },
+          {
+            "chinese": "这本书跟那本一样。",
+            "pinyin": "Zhè běn shū gēn nà běn yíyàng.",
+            "english": "This book is the same as that one."
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": "我把礼物放在桌子上了",
+    "grammar_points": [
+      {
+        "name": "\"把\"字句1: A把B + V (The Ba-Sentence 1)",
+        "explanation": "把字句强调对动作对象的处置或影响。结构：主语 + 把 + 宾语 + 动词 + 其他成分。",
+        "examples": [
+          {
+            "chinese": "我把书放在桌子上了。",
+            "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shang le.",
+            "english": "I put the book on the table."
+          },
+          {
+            "chinese": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guānshang.",
+            "english": "Please close the door."
+          }
+        ]
+      },
+      {
+        "name": "概数的表达2: 左右 (Approximate Numbers 2: '左右')",
+        "explanation": "数量词 + 左右 表示大约的数量。",
+        "examples": [
+          {
+            "chinese": "这个城市有五百万左右人口。",
+            "pinyin": "Zhège chéngshì yǒu wǔbǎi wàn zuǒyòu rénkǒu.",
+            "english": "This city has about 5 million people."
+          },
+          {
+            "chinese": "会议大约三个小时左右。",
+            "pinyin": "Huìyì dàgài sān ge xiǎoshí zuǒyòu.",
+            "english": "The meeting is about three hours."
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": "你怎么不开灯",
+    "grammar_points": [
+      {
+        "name": "\"才\" vs \"就\" (Comparison of '才' and '就')",
+        "explanation": "'才'表示动作发生得晚或慢，'就'表示动作发生得早或快。",
+        "examples": [
+          {
+            "chinese": "他八点才来。",
+            "pinyin": "Tā bā diǎn cái lái.",
+            "english": "He came at 8 (later than expected)."
+          },
+          {
+            "chinese": "他六点就来了。",
+            "pinyin": "Tā liù diǎn jiù lái le.",
+            "english": "He came at 6 (earlier than expected)."
+          }
+        ]
+      },
+      {
+        "name": "\"把\"字句2 (The Ba-Sentence 2)",
+        "explanation": "把字句中动词后带有'在/到/给'等介词短语表示动作的结果位置。",
+        "examples": [
+          {
+            "chinese": "我把车停在门口了。",
+            "pinyin": "Wǒ bǎ chē tíng zài ménkǒu le.",
+            "english": "I parked the car at the entrance."
+          },
+          {
+            "chinese": "把书给我。",
+            "pinyin": "Bǎ shū gěi wǒ.",
+            "english": "Give the book to me."
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": "这件衬衫有点儿大",
+    "grammar_points": [
+      {
+        "name": "复合趋向补语 (Compound Complements of Direction)",
+        "explanation": "动词 + 上/下/进/出/回/过 + 来/去 表示动作的方向。",
+        "examples": [
+          {
+            "chinese": "他走进来了。",
+            "pinyin": "Tā zǒu jìnlái le.",
+            "english": "He walked in."
+          },
+          {
+            "chinese": "请把书拿出去。",
+            "pinyin": "Qǐng bǎ shū ná chūqù.",
+            "english": "Please take the book out."
+          },
+          {
+            "chinese": "他跑上楼去了。",
+            "pinyin": "Tā pǎo shàng lóu qù le.",
+            "english": "He ran upstairs."
+          }
+        ]
+      },
+      {
+        "name": "\"先...，再/又...，然后...\" (First... Then... And Then...)",
+        "explanation": "表示动作的先后顺序。",
+        "examples": [
+          {
+            "chinese": "我先吃饭，再洗澡，然后睡觉。",
+            "pinyin": "Wǒ xiān chīfàn, zài xǐzǎo, ránhòu shuìjiào.",
+            "english": "I'll eat first, then shower, and then sleep."
+          },
+          {
+            "chinese": "你先写作业，再看电视。",
+            "pinyin": "Nǐ xiān xiě zuòyè, zài kàn diànshì.",
+            "english": "Do your homework first, then watch TV."
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": "我看不太清楚",
+    "grammar_points": [
+      {
+        "name": "比较句2: A比B+Adj+一点儿/一些/得多 (Comparison 2)",
+        "explanation": "表示两者程度的差异。'一点儿'表示差异小，'得多'表示差异大。",
+        "examples": [
+          {
+            "chinese": "今天比昨天冷一点儿。",
+            "pinyin": "Jīntiān bǐ zuótiān lěng yìdiǎnr.",
+            "english": "Today is a bit colder than yesterday."
+          },
+          {
+            "chinese": "他比我高得多。",
+            "pinyin": "Tā bǐ wǒ gāo de duō.",
+            "english": "He is much taller than me."
+          }
+        ]
+      },
+      {
+        "name": "\"把\"字句3 (The Ba-Sentence 3)",
+        "explanation": "把字句中动词后带有结果补语或趋向补语。",
+        "examples": [
+          {
+            "chinese": "我把作业写完了。",
+            "pinyin": "Wǒ bǎ zuòyè xiěwán le.",
+            "english": "I finished the homework."
+          },
+          {
+            "chinese": "把水果拿过来。",
+            "pinyin": "Bǎ shuǐguǒ ná guòlái.",
+            "english": "Bring the fruit over."
+          }
+        ]
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": "别把自行车放在门口",
+    "grammar_points": [
+      {
+        "name": "\"除了...以外，还...\" (Besides... Also...)",
+        "explanation": "表示除了提到的以外，还有其他的。",
+        "examples": [
+          {
+            "chinese": "除了汉语以外，我还学英语。",
+            "pinyin": "Chúle Hànyǔ yǐwài, wǒ hái xué Yīngyǔ.",
+            "english": "Besides Chinese, I also study English."
+          },
+          {
+            "chinese": "除了他以外，我们都去过。",
+            "pinyin": "Chúle tā yǐwài, wǒmen dōu qù guo.",
+            "english": "Except for him, we've all been there."
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": "我忘了带钱包",
+    "grammar_points": [
+      {
+        "name": "\"...得...的话，...就...\" (If... Then...)",
+        "explanation": "假设复句，表示如果某种情况发生，就会产生某种结果。",
+        "examples": [
+          {
+            "chinese": "如果你来的话，我就不去。",
+            "pinyin": "Rúguǒ nǐ lái de huà, wǒ jiù bú qù.",
+            "english": "If you come, I won't go."
+          },
+          {
+            "chinese": "要是下雨的话，比赛就取消。",
+            "pinyin": "Yàoshi xiàyǔ de huà, bǐsài jiù qǔxiāo.",
+            "english": "If it rains, the match will be cancelled."
+          }
+        ]
+      },
+      {
+        "name": "复杂的状态补语 (Complex Complements of State)",
+        "explanation": "动词 + 得 + 很 + 形容词/形容词短语 表示程度很高。",
+        "examples": [
+          {
+            "chinese": "他累得下了班就想睡觉。",
+            "pinyin": "Tā lèi de xià le bān jiù xiǎng shuìjiào.",
+            "english": "He's so tired that he wants to sleep right after work."
+          },
+          {
+            "chinese": "她高兴得不知道说什么好。",
+            "pinyin": "Tā gāoxìng de bù zhīdào shuō shénme hǎo.",
+            "english": "She was so happy she didn't know what to say."
+          }
+        ]
+      }
+    ]
+  },
+  "16": {
+    "lesson": 16,
+    "title": "我应该早点儿来",
+    "grammar_points": [
+      {
+        "name": "\"谁/什么/哪儿都...\" (Flexible Use of Interrogative Pronouns)",
+        "explanation": "疑问代词 + 都/也 表示全部否定或肯定。",
+        "examples": [
+          {
+            "chinese": "谁都知道这件事。",
+            "pinyin": "Shéi dōu zhīdào zhè jiàn shì.",
+            "english": "Everyone knows about this."
+          },
+          {
+            "chinese": "他什么都没说。",
+            "pinyin": "Tā shénme dōu méi shuō.",
+            "english": "He didn't say anything."
+          },
+          {
+            "chinese": "哪儿也没去。",
+            "pinyin": "Nǎr yě méi qù.",
+            "english": "Didn't go anywhere."
+          }
+        ]
+      },
+      {
+        "name": "双音节动词重叠 (Reduplication of Disyllabic Verbs)",
+        "explanation": "ABAB式表示动作时间短、尝试或轻松。",
+        "examples": [
+          {
+            "chinese": "我们讨论讨论这个问题。",
+            "pinyin": "Wǒmen tǎolùn tǎolùn zhège wèntí.",
+            "english": "Let's discuss this problem."
+          },
+          {
+            "chinese": "你休息休息吧。",
+            "pinyin": "Nǐ xiūxi xiūxi ba.",
+            "english": "Take a rest."
+          }
+        ]
+      }
+    ]
+  },
+  "17": {
+    "lesson": 17,
+    "title": "谁比谁高",
+    "grammar_points": [
+      {
+        "name": "\"不但...而且...\" (Not Only... But Also...)",
+        "explanation": "表示递进关系，后一分句比前一分句更进一层。",
+        "examples": [
+          {
+            "chinese": "他不但会说汉语，而且说得很好。",
+            "pinyin": "Tā búdàn huì shuō Hànyǔ, érqiě shuō de hěn hǎo.",
+            "english": "He not only speaks Chinese, but speaks it very well."
+          },
+          {
+            "chinese": "这个地方不但风景美，而且空气好。",
+            "pinyin": "Zhège dìfang búdàn fēngjǐng měi, érqiě kōngqì hǎo.",
+            "english": "This place not only has beautiful scenery but also good air."
+          }
+        ]
+      },
+      {
+        "name": "介词\"关于\" (The Preposition '关于')",
+        "explanation": "'关于' + 名词/名词短语 表示涉及的对象或话题。",
+        "examples": [
+          {
+            "chinese": "这是一本关于中国历史的书。",
+            "pinyin": "Zhè shì yì běn guānyú Zhōngguó lìshǐ de shū.",
+            "english": "This is a book about Chinese history."
+          },
+          {
+            "chinese": "关于这个问题，我们再讨论。",
+            "pinyin": "Guānyú zhège wèntí, wǒmen zài tǎolùn.",
+            "english": "Let's discuss this problem again."
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "lesson": 18,
+    "title": "我受到了表扬",
+    "grammar_points": [
+      {
+        "name": "趋向补语的引申义 (Extension of Complements of Direction)",
+        "explanation": "'起来'可以表示开始某种动作或状态，'下去'表示继续。",
+        "examples": [
+          {
+            "chinese": "天气热起来了。",
+            "pinyin": "Tiānqì rè qǐlái le.",
+            "english": "The weather is getting hot."
+          },
+          {
+            "chinese": "请你继续说下去。",
+            "pinyin": "Qǐng nǐ jìxù shuō xiàqù.",
+            "english": "Please continue speaking."
+          }
+        ]
+      },
+      {
+        "name": "\"刚\"、\"刚才\"、\"才\"的比较 (Comparison of '刚', '刚才', '才')",
+        "explanation": "'刚'是副词，'刚才'是时间名词，'才'强调迟缓或条件。",
+        "examples": [
+          {
+            "chinese": "我刚吃完饭。",
+            "pinyin": "Wǒ gāng chīwán fàn.",
+            "english": "I just finished eating."
+          },
+          {
+            "chinese": "刚才你还说不想去。",
+            "pinyin": "Gāngcái nǐ hái shuō bùxiǎng qù.",
+            "english": "Just now you said you didn't want to go."
+          },
+          {
+            "chinese": "他走了才五分钟。",
+            "pinyin": "Tā zǒu le cái wǔ fēnzhōng.",
+            "english": "He's only been gone five minutes."
+          }
+        ]
+      }
+    ]
+  },
+  "19": {
+    "lesson": 19,
+    "title": "我还没决定",
+    "grammar_points": [
+      {
+        "name": "\"被\"字句 (The Bei-Sentence)",
+        "explanation": "被动句，表示主语是动作的接受者。结构：主语 + 被 + 宾语 + 动词 + 其他成分。",
+        "examples": [
+          {
+            "chinese": "我的钱包被偷了。",
+            "pinyin": "Wǒ de qiánbāo bèi tōu le.",
+            "english": "My wallet was stolen."
+          },
+          {
+            "chinese": "他被老师表扬了。",
+            "pinyin": "Tā bèi lǎoshī biǎoyáng le.",
+            "english": "He was praised by the teacher."
+          },
+          {
+            "chinese": "门被风吹开了。",
+            "pinyin": "Mén bèi fēng chuī kāi le.",
+            "english": "The door was blown open by the wind."
+          }
+        ]
+      }
+    ]
+  },
+  "20": {
+    "lesson": 20,
+    "title": "他正在打电话",
+    "grammar_points": [
+      {
+        "name": "\"正在\" + V (In the Middle of Doing Something)",
+        "explanation": "'正在' + 动词 表示动作正在进行中。",
+        "examples": [
+          {
+            "chinese": "他正在打电话。",
+            "pinyin": "Tā zhèngzài dǎ diànhuà.",
+            "english": "He is making a phone call."
+          },
+          {
+            "chinese": "我正在吃饭。",
+            "pinyin": "Wǒ zhèngzài chīfàn.",
+            "english": "I am eating."
+          },
+          {
+            "chinese": "他们正在开会。",
+            "pinyin": "Tāmen zhèngzài kāihuì.",
+            "english": "They are having a meeting."
+          }
+        ]
+      },
+      {
+        "name": "动作的进行 (Progressive Aspect)",
+        "explanation": "用'正在...呢'、'...着呢'表示动作正在进行或状态持续。",
+        "examples": [
+          {
+            "chinese": "外面下着雨呢。",
+            "pinyin": "Wàimiàn xià zhe yǔ ne.",
+            "english": "It's raining outside."
+          },
+          {
+            "chinese": "他看着电视呢。",
+            "pinyin": "Tā kàn zhe diànshì ne.",
+            "english": "He is watching TV."
+          }
+        ]
+      }
+    ]
+  }
+}

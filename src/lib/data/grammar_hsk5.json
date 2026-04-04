@@ -1,0 +1,978 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": "爱的细节",
+    "grammar_points": [
+      {
+        "name": "\"如何\" (How)",
+        "explanation": "代词'如何'用来询问方式，也常用于句末，用来征求意见或询问状况。多用于书面语。",
+        "examples": [
+          {
+            "chinese": "我们明天举行会议，讨论这个问题该如何解决。",
+            "pinyin": "Wǒmen míngtiān jǔxíng huìyì, tǎolùn zhège wèntí gāi rúhé jiějué.",
+            "english": "We'll hold a meeting tomorrow to discuss how to solve this problem."
+          },
+          {
+            "chinese": "我们希望由你来负责解决这个问题，如何？",
+            "pinyin": "Wǒmen xīwàng yóu nǐ lái fùzé jiějué zhège wèntí, rúhé?",
+            "english": "We hope you'll take charge of solving this problem, how about it?"
+          },
+          {
+            "chinese": "最近工作情况如何？",
+            "pinyin": "Zuìjìn gōngzuò qíngkuàng rúhé?",
+            "english": "How is the work situation recently?"
+          }
+        ]
+      },
+      {
+        "name": "\"靠\" (To Lean/Rely On)",
+        "explanation": "动词'靠'常见格式为'靠着/在...'，表示身体的部分重量让别人或物体支撑。引申为依靠、依赖。",
+        "examples": [
+          {
+            "chinese": "他靠着桌子讲课。",
+            "pinyin": "Tā kàozhe zhuōzi jiǎngkè.",
+            "english": "He leans on the table while teaching."
+          },
+          {
+            "chinese": "在家靠父母，出门靠朋友。",
+            "pinyin": "Zài jiā kào fùmǔ, chūmén kào péngyou.",
+            "english": "At home rely on parents, away rely on friends."
+          },
+          {
+            "chinese": "我想买一个靠海的房子。",
+            "pinyin": "Wǒ xiǎng mǎi yí ge kào hǎi de fángzi.",
+            "english": "I want to buy a house near the sea."
+          }
+        ]
+      },
+      {
+        "name": "\"居然\" (Unexpectedly)",
+        "explanation": "副词'居然'表示没想到、出乎意料，强调结果与预期相反。",
+        "examples": [
+          {
+            "chinese": "这么简单的题，你居然也不会做？",
+            "pinyin": "Zhème jiǎndān de tí, nǐ jūrán yě bú huì zuò?",
+            "english": "Such a simple question, and you surprisingly can't do it?"
+          },
+          {
+            "chinese": "没想到居然在这儿碰到你！",
+            "pinyin": "Méi xiǎngdào jūrán zài zhèr pèngdào nǐ!",
+            "english": "Didn't expect to run into you here!"
+          },
+          {
+            "chinese": "她居然放弃了这次机会。",
+            "pinyin": "Tā jūrán fàngqì le zhè cì jīhuì.",
+            "english": "She unexpectedly gave up this opportunity."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": "留串钥匙给父母",
+    "grammar_points": [
+      {
+        "name": "\"以来\" (Since)",
+        "explanation": "'以来'表示从过去某时到现在，常与'自、从'等连用。",
+        "examples": [
+          {
+            "chinese": "改革开放以来，中国发生了很大变化。",
+            "pinyin": "Gǎigé kāifàng yǐlái, Zhōngguó fāshēng le hěn dà biànhuà.",
+            "english": "Since the reform and opening up, China has undergone great changes."
+          },
+          {
+            "chinese": "入学以来，他一直很努力。",
+            "pinyin": "Rùxué yǐlái, tā yìzhí hěn nǔlì.",
+            "english": "Since enrolling, he has always been very hardworking."
+          },
+          {
+            "chinese": "长期以来，这个问题一直没解决。",
+            "pinyin": "Chángqí yǐlái, zhège wèntí yìzhí méi jiějué.",
+            "english": "For a long time, this problem has remained unsolved."
+          }
+        ]
+      },
+      {
+        "name": "\"临\" (Just Before)",
+        "explanation": "'临'表示动作即将发生之前，常用于'临走、临别、临时'等。",
+        "examples": [
+          {
+            "chinese": "临走时，妈妈给了我一串钥匙。",
+            "pinyin": "Lín zǒu shí, māma gěi le wǒ yí chuàn yàoshi.",
+            "english": "Before leaving, Mom gave me a bunch of keys."
+          },
+          {
+            "chinese": "临别时，他们互相拥抱。",
+            "pinyin": "Línbié shí, tāmen hùxiāng yōngbào.",
+            "english": "At parting, they hugged each other."
+          },
+          {
+            "chinese": "临时有事情，所以我迟到了。",
+            "pinyin": "Línshí yǒu shìqing, suǒyǐ wǒ chídào le.",
+            "english": "Something came up temporarily, so I was late."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": "人生有选择，一切可改变",
+    "grammar_points": [
+      {
+        "name": "\"从而\" (Thus/Thereby)",
+        "explanation": "连词'从而'表示结果或进一步的行动，连接两个分句。",
+        "examples": [
+          {
+            "chinese": "他努力学习，从而取得了好成绩。",
+            "pinyin": "Tā nǔlì xuéxí, cóng'ér qǔdé le hǎo chéngjì.",
+            "english": "He studied hard, thereby achieving good grades."
+          },
+          {
+            "chinese": "改革开放促进了经济发展，从而提高了人民生活水平。",
+            "pinyin": "Gǎigé kāifàng cùjìn le jīngjì fāzhǎn, cóng'ér tígāo le rénmín shēnghuó shuǐpíng.",
+            "english": "Reform and opening up promoted economic development, thereby improving people's living standards."
+          },
+          {
+            "chinese": "他坚持锻炼身体，从而增强了体质。",
+            "pinyin": "Tā jiānchí duànliàn shēntǐ, cóng'ér zēngqiáng le tǐzhì.",
+            "english": "He persisted in exercising, thereby strengthening his constitution."
+          }
+        ]
+      },
+      {
+        "name": "\"毕竟\" (After All)",
+        "explanation": "副词'毕竟'表示终究、到底，强调根本事实。",
+        "examples": [
+          {
+            "chinese": "毕竟他还小，不懂事。",
+            "pinyin": "Bìjìng tā hái xiǎo, bù dǒngshì.",
+            "english": "After all, he's still young and doesn't understand things."
+          },
+          {
+            "chinese": "这毕竟是他的第一次尝试。",
+            "pinyin": "Zhè bìjìng shì tā de dì-yí cì chángshì.",
+            "english": "After all, this is his first attempt."
+          },
+          {
+            "chinese": "我们毕竟是朋友，应该互相帮助。",
+            "pinyin": "Wǒmen bìjìng shì péngyou, yīnggāi hùxiāng bāngzhù.",
+            "english": "We are friends after all, we should help each other."
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": "子路背米",
+    "grammar_points": [
+      {
+        "name": "\"作为\" (As)",
+        "explanation": "'作为'表示某种身份或角色，引出某种判断。",
+        "examples": [
+          {
+            "chinese": "作为儿子，应该孝顺父母。",
+            "pinyin": "Zuòwéi érzi, yīnggāi xiàoshùn fùmǔ.",
+            "english": "As a son, one should be filial to parents."
+          },
+          {
+            "chinese": "作为老师，他有责任教育好学生。",
+            "pinyin": "Zuòwéi lǎoshī, tā yǒu zérèn jiàoyù hǎo xuésheng.",
+            "english": "As a teacher, he has the responsibility to educate students well."
+          },
+          {
+            "chinese": "作为中国人，我为祖国感到骄傲。",
+            "pinyin": "Zuòwéi Zhōngguórén, wǒ wèi zǔguó gǎndào jiāo'ào.",
+            "english": "As a Chinese person, I feel proud of my motherland."
+          }
+        ]
+      },
+      {
+        "name": "\"曾经\" (Once/Formerly)",
+        "explanation": "副词'曾经'表示过去有过某种经历或情况。",
+        "examples": [
+          {
+            "chinese": "我曾经去过北京。",
+            "pinyin": "Wǒ céngjīng qù guo Běijīng.",
+            "english": "I have been to Beijing before."
+          },
+          {
+            "chinese": "这里曾经是一个小村庄。",
+            "pinyin": "Zhèlǐ céngjīng shì yí ge xiǎo cūnzhuāng.",
+            "english": "This used to be a small village."
+          },
+          {
+            "chinese": "他曾经是一名军人。",
+            "pinyin": "Tā céngjīng shì yì míng jūnrén.",
+            "english": "He was once a soldier."
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": "济南的泉水",
+    "grammar_points": [
+      {
+        "name": "\"以...著名\" (Famous For)",
+        "explanation": "结构'以+名词+著名'表示因某事物而有名。",
+        "examples": [
+          {
+            "chinese": "济南以泉水著名。",
+            "pinyin": "Jǐnán yǐ quánshuǐ zhùmíng.",
+            "english": "Ji'nan is famous for its springs."
+          },
+          {
+            "chinese": "中国以长城著名。",
+            "pinyin": "Zhōngguó yǐ Chángchéng zhùmíng.",
+            "english": "China is famous for the Great Wall."
+          },
+          {
+            "chinese": "这家餐厅以川菜著名。",
+            "pinyin": "Zhè jiā cāntīng yǐ chuāncài zhùmíng.",
+            "english": "This restaurant is famous for Sichuan cuisine."
+          }
+        ]
+      },
+      {
+        "name": "\"值得\" (Worth)",
+        "explanation": "'值得'表示某事物有价值，值得做或值得看。",
+        "examples": [
+          {
+            "chinese": "这本书值得一读。",
+            "pinyin": "Zhè běn shū zhídé yì dú.",
+            "english": "This book is worth reading."
+          },
+          {
+            "chinese": "这个地方值得一去。",
+            "pinyin": "Zhège dìfang zhídé yí qù.",
+            "english": "This place is worth visiting."
+          },
+          {
+            "chinese": "他的建议值得我们考虑。",
+            "pinyin": "Tā de jiànyì zhídé wǒmen kǎolǜ.",
+            "english": "His suggestion is worth our consideration."
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": "除夕的由来",
+    "grammar_points": [
+      {
+        "name": "\"原来\" (It Turns Out/Originally)",
+        "explanation": "'原来'表示发现真实情况，或者表示原来的状态。",
+        "examples": [
+          {
+            "chinese": "原来是这样！",
+            "pinyin": "Yuánlái shì zhèyàng!",
+            "english": "So that's how it is!"
+          },
+          {
+            "chinese": "原来这里是片树林。",
+            "pinyin": "Yuánlái zhèlǐ shì piàn shùlín.",
+            "english": "Originally this was a forest."
+          },
+          {
+            "chinese": "我原来不知道这件事。",
+            "pinyin": "Wǒ yuánlái bù zhīdào zhè jiàn shì.",
+            "english": "I didn't know about this originally."
+          }
+        ]
+      },
+      {
+        "name": "\"据说\" (It Is Said)",
+        "explanation": "'据说'表示根据传说或报道，引出某种说法。",
+        "examples": [
+          {
+            "chinese": "据说是他发明的。",
+            "pinyin": "Jùshuō shì tā fāmíng de.",
+            "english": "It is said that he invented it."
+          },
+          {
+            "chinese": "据说明天要下雨。",
+            "pinyin": "Jùshuō míngtiān yào xiàyǔ.",
+            "english": "It is said that it will rain tomorrow."
+          },
+          {
+            "chinese": "据说这个传统已有几千年历史。",
+            "pinyin": "Jùshuō zhège chuántǒng yǐ yǒu jǐ qiān nián lìshǐ.",
+            "english": "It is said that this tradition has thousands of years of history."
+          }
+        ]
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": "成语故事两则",
+    "grammar_points": [
+      {
+        "name": "\"反而\" (On the Contrary)",
+        "explanation": "副词'反而'表示结果与预期相反。",
+        "examples": [
+          {
+            "chinese": "他不但没生气，反而笑了。",
+            "pinyin": "Tā búdàn méi shēngqì, fǎn'ér xiào le.",
+            "english": "He wasn't angry, on the contrary, he laughed."
+          },
+          {
+            "chinese": "药吃了没好，反而更严重了。",
+            "pinyin": "Yào chī le méi hǎo, fǎn'ér gèng yánzhòng le.",
+            "english": "The medicine didn't help, on the contrary, it got worse."
+          },
+          {
+            "chinese": "帮忙反而帮了倒忙。",
+            "pinyin": "Bāngmáng fǎn'ér bāng le dàománg.",
+            "english": "Trying to help actually made things worse."
+          }
+        ]
+      },
+      {
+        "name": "\"彼此\" (Each Other)",
+        "explanation": "代词'彼此'表示双方或多方之间，相当于'互相'。",
+        "examples": [
+          {
+            "chinese": "他们彼此了解。",
+            "pinyin": "Tāmen bǐcǐ liǎojiě.",
+            "english": "They understand each other."
+          },
+          {
+            "chinese": "我们应该彼此尊重。",
+            "pinyin": "Wǒmen yīnggāi bǐcǐ zūnzhòng.",
+            "english": "We should respect each other."
+          },
+          {
+            "chinese": "他们彼此之间有很多共同点。",
+            "pinyin": "Tāmen bǐcǐ zhījiān yǒu hěn duō gòngtóngdiǎn.",
+            "english": "They have many things in common with each other."
+          }
+        ]
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": "'朝三暮四'的古今义",
+    "grammar_points": [
+      {
+        "name": "\"所谓\" (So-Called)",
+        "explanation": "形容词'所谓'表示所说的，常用于引出某个概念或名称。",
+        "examples": [
+          {
+            "chinese": "所谓的'朝三暮四'，原意是欺骗。",
+            "pinyin": "Suǒwèi de 'zhāo sān mù sì', yuányì shì qīpiàn.",
+            "english": "The so-called 'zhao san mu si' originally meant deception."
+          },
+          {
+            "chinese": "这就是所谓的'人情世故'。",
+            "pinyin": "Zhè jiùshì suǒwèi de 'rénqíng shìgù'.",
+            "english": "This is the so-called 'worldly wisdom'."
+          },
+          {
+            "chinese": "所谓的成功，因人而异。",
+            "pinyin": "Suǒwèi de chénggōng, yīn rén ér yì.",
+            "english": "So-called success varies from person to person."
+          }
+        ]
+      },
+      {
+        "name": "\"则\" (Then/Consequently)",
+        "explanation": "连词'则'表示结果或对比，常用于书面语。",
+        "examples": [
+          {
+            "chinese": "欲速则不达。",
+            "pinyin": "Yù sù zé bù dá.",
+            "english": "Haste makes waste."
+          },
+          {
+            "chinese": "知之为知之，不知为不知，是知也。",
+            "pinyin": "Zhī zhī wéi zhī zhī, bù zhī wéi bù zhī, shì zhì yě.",
+            "english": "Know what you know, know what you don't know, this is true knowledge."
+          },
+          {
+            "chinese": "思考而后行动，则事半功倍。",
+            "pinyin": "Sīkǎo ér hòu xíngdòng, zé shìbàn gōngbèi.",
+            "english": "Think before acting, then you'll get twice the result with half the effort."
+          }
+        ]
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": "别样鲁迅",
+    "grammar_points": [
+      {
+        "name": "\"其实\" (Actually)",
+        "explanation": "副词'其实'表示实际情况，用于引出真实情况。",
+        "examples": [
+          {
+            "chinese": "其实他是个很幽默的人。",
+            "pinyin": "Qíshí tā shì ge hěn yōumò de rén.",
+            "english": "Actually he is a very humorous person."
+          },
+          {
+            "chinese": "表面很严肃，其实很温和。",
+            "pinyin": "Biǎomiàn hěn yánsù, qíshí hěn wēnhé.",
+            "english": "Serious on the surface, but actually very gentle."
+          },
+          {
+            "chinese": "这个问题其实很简单。",
+            "pinyin": "Zhège wèntí qíshí hěn jiǎndān.",
+            "english": "This problem is actually very simple."
+          }
+        ]
+      },
+      {
+        "name": "\"不但...而且...\" (Not Only... But Also...)",
+        "explanation": "递进复句，表示进一层的意思。",
+        "examples": [
+          {
+            "chinese": "鲁迅不但是伟大的作家，而且是个有趣的人。",
+            "pinyin": "Lǔxùn búdàn shì wěidà de zuòjiā, érqiě shì ge yǒuqù de rén.",
+            "english": "Lu Xun was not only a great writer, but also an interesting person."
+          },
+          {
+            "chinese": "他不但会说英语，而且说得很好。",
+            "pinyin": "Tā búdàn huì shuō Yīngyǔ, érqiě shuō de hěn hǎo.",
+            "english": "He not only speaks English, but speaks it very well."
+          },
+          {
+            "chinese": "这里不但风景美，而且空气好。",
+            "pinyin": "Zhèlǐ búdàn fēngjǐng měi, érqiě kōngqì hǎo.",
+            "english": "Here not only is the scenery beautiful, but the air is good."
+          }
+        ]
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": "辩论的奇迹",
+    "grammar_points": [
+      {
+        "name": "\"究竟\" (Exactly/After All)",
+        "explanation": "副词'究竟'用于疑问句，表示追究，相当于'到底'。",
+        "examples": [
+          {
+            "chinese": "他究竟去哪儿了？",
+            "pinyin": "Tā jiūjìng qù nǎr le?",
+            "english": "Where exactly did he go?"
+          },
+          {
+            "chinese": "究竟谁是对的？",
+            "pinyin": "Jiūjìng shéi shì duì de?",
+            "english": "Who is right after all?"
+          },
+          {
+            "chinese": "这件事究竟该怎么办？",
+            "pinyin": "Zhè jiàn shì jiūjìng gāi zěnme bàn?",
+            "english": "How exactly should this matter be handled?"
+          }
+        ]
+      },
+      {
+        "name": "\"可见\" (It Can Be Seen)",
+        "explanation": "连词'可见'表示根据前面的事实可以得出结论。",
+        "examples": [
+          {
+            "chinese": "他每天都迟到，可见他不重视这份工作。",
+            "pinyin": "Tā měitiān dōu chídào, kějiàn tā bú zhòngshì zhè fèn gōngzuò.",
+            "english": "He's late every day, it can be seen that he doesn't value this job."
+          },
+          {
+            "chinese": "销量增长了，可见我们的策略是有效的。",
+            "pinyin": "Xiāoliàng zēngzhǎng le, kějiàn wǒmen de cèlüè shì yǒuxiào de.",
+            "english": "Sales have increased, it can be seen that our strategy is effective."
+          },
+          {
+            "chinese": "可见努力就会有回报。",
+            "pinyin": "Kějiàn nǔlì jiù huì yǒu huíbào.",
+            "english": "It can be seen that hard work will be rewarded."
+          }
+        ]
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": "闹钟的危害",
+    "grammar_points": [
+      {
+        "name": "\"长期\" (Long-Term)",
+        "explanation": "名词'长期'表示较长的时间，常作状语。",
+        "examples": [
+          {
+            "chinese": "长期这样会影响健康。",
+            "pinyin": "Chángqí zhèyàng huì yǐngxiǎng jiànkāng.",
+            "english": "Doing this long-term will affect health."
+          },
+          {
+            "chinese": "长期熬夜对身体不好。",
+            "pinyin": "Chángqí áoyè duì shēntǐ bù hǎo.",
+            "english": "Staying up late long-term is bad for the body."
+          },
+          {
+            "chinese": "他长期在外地工作。",
+            "pinyin": "Tā chángqí zài wàidì gōngzuò.",
+            "english": "He has been working out of town for a long time."
+          }
+        ]
+      },
+      {
+        "name": "\"最好\" (Had Better)",
+        "explanation": "副词'最好'表示建议，相当于'最好是'。",
+        "examples": [
+          {
+            "chinese": "你最好早点儿去。",
+            "pinyin": "Nǐ zuì hǎo zǎo diǎnr qù.",
+            "english": "You'd better go early."
+          },
+          {
+            "chinese": "最好养成规律的作息。",
+            "pinyin": "Zuì hǎo yǎngchéng guīlǜ de zuòxī.",
+            "english": "It's best to develop a regular sleep schedule."
+          },
+          {
+            "chinese": "我们最好先讨论一下。",
+            "pinyin": "Wǒmen zuì hǎo xiān tǎolùn yíxià.",
+            "english": "We'd better discuss it first."
+          }
+        ]
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": "海外用户玩儿微信",
+    "grammar_points": [
+      {
+        "name": "\"甚至\" (Even)",
+        "explanation": "副词'甚至'表示突出某事例，强调程度之深。",
+        "examples": [
+          {
+            "chinese": "他甚至不知道我的名字。",
+            "pinyin": "Tā shènzhì bù zhīdào wǒ de míngzi.",
+            "english": "He doesn't even know my name."
+          },
+          {
+            "chinese": "甚至连小孩都知道这个道理。",
+            "pinyin": "Shènzhì lián xiǎohái dōu zhīdào zhège dàolǐ.",
+            "english": "Even children know this principle."
+          },
+          {
+            "chinese": "她甚至想放弃。",
+            "pinyin": "Tā shènzhì xiǎng fàngqì.",
+            "english": "She even wanted to give up."
+          }
+        ]
+      },
+      {
+        "name": "\"不得不\" (Have To)",
+        "explanation": "副词'不得不'表示因某种原因而被迫做某事。",
+        "examples": [
+          {
+            "chinese": "因为没车了，他不得不走路回家。",
+            "pinyin": "Yīnwèi méi chē le, tā bùdébù zǒulù huíjiā.",
+            "english": "Because there were no more buses, he had to walk home."
+          },
+          {
+            "chinese": "我不得不承认我错了。",
+            "pinyin": "Wǒ bùdébù chéngrèn wǒ cuò le.",
+            "english": "I have to admit I was wrong."
+          },
+          {
+            "chinese": "因为下雨，我们不得不取消了活动。",
+            "pinyin": "Yīnwèi xiàyǔ, wǒmen bùdébù qǔxiāo le huódòng.",
+            "english": "Because of the rain, we had to cancel the event."
+          }
+        ]
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": "锯掉生活的'篮底'",
+    "grammar_points": [
+      {
+        "name": "\"限制\" (To Limit)",
+        "explanation": "动词'限制'表示约束、限定范围。",
+        "examples": [
+          {
+            "chinese": "不要让恐惧限制你的发展。",
+            "pinyin": "Búyào ràng kǒngjù xiànzhì nǐ de fāzhǎn.",
+            "english": "Don't let fear limit your development."
+          },
+          {
+            "chinese": "时间限制了我们能做的事情。",
+            "pinyin": "Shíjiān xiànzhì le wǒmen néng zuò de shìqing.",
+            "english": "Time limits what we can do."
+          },
+          {
+            "chinese": "这种想法限制了你的思维。",
+            "pinyin": "Zhè zhǒng xiǎngfǎ xiànzhì le nǐ de sīwéi.",
+            "english": "This kind of thinking limits your mind."
+          }
+        ]
+      },
+      {
+        "name": "\"发挥\" (To Bring Into Play)",
+        "explanation": "动词'发挥'表示表现出能力、作用等。",
+        "examples": [
+          {
+            "chinese": "要发挥自己的优势。",
+            "pinyin": "Yào fāhuī zìjǐ de yōushì.",
+            "english": "You should bring your advantages into play."
+          },
+          {
+            "chinese": "他在工作中发挥了重要作用。",
+            "pinyin": "Tā zài gōngzuò zhōng fāhuī le zhòngyào zuòyòng.",
+            "english": "He played an important role in the work."
+          },
+          {
+            "chinese": "这个方法发挥了很大的作用。",
+            "pinyin": "Zhège fāngfǎ fāhuī le hěn dà de zuòyòng.",
+            "english": "This method played a big role."
+          }
+        ]
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": "北京的四合院",
+    "grammar_points": [
+      {
+        "name": "\"讲究\" (To Pay Attention To)",
+        "explanation": "动词'讲究'表示重视、追求。",
+        "examples": [
+          {
+            "chinese": "四合院讲究对称。",
+            "pinyin": "Sìhéyuàn jiǎngjiu duìchèn.",
+            "english": "Courtyard houses emphasize symmetry."
+          },
+          {
+            "chinese": "中国人吃饭讲究色香味俱全。",
+            "pinyin": "Zhōngguórén chīfàn jiǎngjiu sè xiāng wèi jùquán.",
+            "english": "Chinese people pay attention to color, smell and taste when eating."
+          },
+          {
+            "chinese": "他生活很讲究。",
+            "pinyin": "Tā shēnghuó hěn jiǎngjiu.",
+            "english": "He is very particular about his lifestyle."
+          }
+        ]
+      },
+      {
+        "name": "\"往往\" (Often/Tend To)",
+        "explanation": "副词'往往'表示某种情况经常发生，有规律性。",
+        "examples": [
+          {
+            "chinese": "老年人往往早起。",
+            "pinyin": "Lǎoniánrén wǎngwǎng zǎoqǐ.",
+            "english": "Elderly people tend to get up early."
+          },
+          {
+            "chinese": "冬天往往比夏天冷。",
+            "pinyin": "Dōngtiān wǎngwǎng bǐ xiàtiān lěng.",
+            "english": "Winter tends to be colder than summer."
+          },
+          {
+            "chinese": "成功的人往往很努力。",
+            "pinyin": "Chénggōng de rén wǎngwǎng hěn nǔlì.",
+            "english": "Successful people tend to be hardworking."
+          }
+        ]
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": "纸上谈兵",
+    "grammar_points": [
+      {
+        "name": "\"只是\" (Only/Merely)",
+        "explanation": "副词'只是'表示仅仅是、不过是。",
+        "examples": [
+          {
+            "chinese": "他只是纸上谈兵，没有实战经验。",
+            "pinyin": "Tā zhǐshì zhǐshàng-tánbīng, méiyǒu shízhàn jīngyàn.",
+            "english": "He only talks strategy on paper, without real combat experience."
+          },
+          {
+            "chinese": "我只是随便说说，你别当真。",
+            "pinyin": "Wǒ zhǐshì suíbiàn shuōshuo, nǐ bié dàngzhēn.",
+            "english": "I'm just saying casually, don't take it seriously."
+          },
+          {
+            "chinese": "这只是一个开始。",
+            "pinyin": "Zhè zhǐshì yí ge kāishǐ.",
+            "english": "This is just a beginning."
+          }
+        ]
+      },
+      {
+        "name": "\"脱离\" (To Detach From)",
+        "explanation": "动词'脱离'表示离开、断绝某种关系或状态。",
+        "examples": [
+          {
+            "chinese": "理论不能脱离实际。",
+            "pinyin": "Lǐlùn bùnéng tuōlí shíjì.",
+            "english": "Theory cannot be detached from reality."
+          },
+          {
+            "chinese": "他脱离了危险。",
+            "pinyin": "Tā tuōlí le wēixiǎn.",
+            "english": "He is out of danger."
+          },
+          {
+            "chinese": "不要脱离群众。",
+            "pinyin": "Búyào tuōlí qúnzhòng.",
+            "english": "Don't detach yourself from the masses."
+          }
+        ]
+      }
+    ]
+  },
+  "16": {
+    "lesson": 16,
+    "title": "体重与节食",
+    "grammar_points": [
+      {
+        "name": "\"否则\" (Otherwise)",
+        "explanation": "连词'否则'表示如果不这样，就会产生某种结果。",
+        "examples": [
+          {
+            "chinese": "要注意饮食，否则会影响健康。",
+            "pinyin": "Yào zhùyì yǐnshí, fǒuzé huì yǐngxiǎng jiànkāng.",
+            "english": "Pay attention to diet, otherwise it will affect health."
+          },
+          {
+            "chinese": "要早点出发，否则会迟到。",
+            "pinyin": "Yào zǎodiǎn chūfā, fǒuzé huì chídào.",
+            "english": "Leave early, otherwise you'll be late."
+          },
+          {
+            "chinese": "努力学习，否则考试不会及格。",
+            "pinyin": "Nǔlì xuéxí, fǒuzé kǎoshì bú huì jígé.",
+            "english": "Study hard, otherwise you won't pass the exam."
+          }
+        ]
+      },
+      {
+        "name": "\"适当\" (Appropriate/Proper)",
+        "explanation": "形容词'适当'表示合适、恰当。",
+        "examples": [
+          {
+            "chinese": "要适当运动。",
+            "pinyin": "Yào shìdàng yùndòng.",
+            "english": "Exercise appropriately."
+          },
+          {
+            "chinese": "适当休息很重要。",
+            "pinyin": "Shìdàng xiūxi hěn zhòngyào.",
+            "english": "Proper rest is important."
+          },
+          {
+            "chinese": "用适当的方式表达意见。",
+            "pinyin": "Yòng shìdàng de fāngshì biǎodá yìjiàn.",
+            "english": "Express opinions in an appropriate way."
+          }
+        ]
+      }
+    ]
+  },
+  "17": {
+    "lesson": 17,
+    "title": "在最美好的时刻离开",
+    "grammar_points": [
+      {
+        "name": "\"来不及\" (Too Late To)",
+        "explanation": "'来不及'表示时间不够，无法做某事。",
+        "examples": [
+          {
+            "chinese": "再不走就来不及了。",
+            "pinyin": "Zài bù zǒu jiù láibuji le.",
+            "english": "If we don't leave now, it'll be too late."
+          },
+          {
+            "chinese": "后悔也来不及了。",
+            "pinyin": "Hòuhuǐ yě láibuji le.",
+            "english": "It's too late to regret now."
+          },
+          {
+            "chinese": "时间来不及，我们打车吧。",
+            "pinyin": "Shíjiān láibuji, wǒmen dǎ chē ba.",
+            "english": "We don't have enough time, let's take a taxi."
+          }
+        ]
+      },
+      {
+        "name": "\"与其...不如...\" (Rather Than... Better To...)",
+        "explanation": "选择复句，表示比较后选择后者。",
+        "examples": [
+          {
+            "chinese": "与其后悔，不如现在行动。",
+            "pinyin": "Yǔqí hòuhuǐ, bùrú xiànzài xíngdòng.",
+            "english": "Rather than regretting, better to act now."
+          },
+          {
+            "chinese": "与其抱怨，不如改变。",
+            "pinyin": "Yǔqí bàoyuàn, bùrú gǎibiàn.",
+            "english": "Rather than complaining, better to change."
+          },
+          {
+            "chinese": "与其等待，不如主动争取。",
+            "pinyin": "Yǔqí děngdài, bùrú zhǔdòng zhēngqǔ.",
+            "english": "Rather than waiting, better to actively pursue."
+          }
+        ]
+      }
+    ]
+  },
+  "18": {
+    "lesson": 18,
+    "title": "抽象艺术：美还是不美",
+    "grammar_points": [
+      {
+        "name": "\"所谓\" (So-Called)",
+        "explanation": "形容词'所谓'用于引出某种说法或概念，有时带有不认可的语气。",
+        "examples": [
+          {
+            "chinese": "所谓的'美'，每个人都有不同的理解。",
+            "pinyin": "Suǒwèi de 'měi', měi ge rén dōu yǒu bùtóng de lǐjiě.",
+            "english": "The so-called 'beauty', everyone has a different understanding."
+          },
+          {
+            "chinese": "所谓的成功是什么呢？",
+            "pinyin": "Suǒwèi de chénggōng shì shénme ne?",
+            "english": "What is so-called success?"
+          },
+          {
+            "chinese": "不要被所谓的'规则'限制了思维。",
+            "pinyin": "Búyào bèi suǒwèi de 'guīzé' xiànzhì le sīwéi.",
+            "english": "Don't let so-called 'rules' limit your thinking."
+          }
+        ]
+      },
+      {
+        "name": "\"也就是说\" (That Is To Say)",
+        "explanation": "连接词，用于解释说明。",
+        "examples": [
+          {
+            "chinese": "艺术没有标准答案，也就是说每个人都可以有自己的理解。",
+            "pinyin": "Yìshù méiyǒu biāozhǔn dá'àn, yě jiùshì shuō měi ge rén dōu kěyǐ yǒu zìjǐ de lǐjiě.",
+            "english": "Art has no standard answer, that is to say, everyone can have their own understanding."
+          },
+          {
+            "chinese": "他很忙，也就是说他没时间帮你。",
+            "pinyin": "Tā hěn máng, yě jiùshì shuō tā méi shíjiān bāng nǐ.",
+            "english": "He's very busy, that is to say, he doesn't have time to help you."
+          },
+          {
+            "chinese": "失败了，也就是说这种方法不行。",
+            "pinyin": "Shībài le, yě jiùshì shuō zhè zhǒng fāngfǎ bùxíng.",
+            "english": "It failed, that is to say, this method doesn't work."
+          }
+        ]
+      }
+    ]
+  },
+  "19": {
+    "lesson": 19,
+    "title": "工作与生活",
+    "grammar_points": [
+      {
+        "name": "\"只有...才...\" (Only... Can...)",
+        "explanation": "条件复句，表示唯一的条件。",
+        "examples": [
+          {
+            "chinese": "只有休息好，才能工作好。",
+            "pinyin": "Zhǐyǒu xiūxi hǎo, cái néng gōngzuò hǎo.",
+            "english": "Only when you rest well can you work well."
+          },
+          {
+            "chinese": "只有努力，才能成功。",
+            "pinyin": "Zhǐyǒu nǔlì, cái néng chénggōng.",
+            "english": "Only through hard work can you succeed."
+          },
+          {
+            "chinese": "只有坚持到底，才能看到结果。",
+            "pinyin": "Zhǐyǒu jiānchí dàodǐ, cái néng kàn dào jiéguǒ.",
+            "english": "Only by persisting to the end can you see results."
+          }
+        ]
+      },
+      {
+        "name": "\"否则\" (Otherwise)",
+        "explanation": "连词'否则'表示如果不这样，就会产生某种结果。",
+        "examples": [
+          {
+            "chinese": "要平衡工作和生活，否则身体会受不了。",
+            "pinyin": "Yào pínghéng gōngzuò hé shēnghuó, fǒuzé shēntǐ huì shòu bù liǎo.",
+            "english": "Balance work and life, otherwise your body won't be able to handle it."
+          },
+          {
+            "chinese": "要早点完成，否则来不及。",
+            "pinyin": "Yào zǎodiǎn wánchéng, fǒuzé láibuji.",
+            "english": "Finish early, otherwise there won't be enough time."
+          }
+        ]
+      }
+    ]
+  },
+  "20": {
+    "lesson": 20,
+    "title": "保护环境",
+    "grammar_points": [
+      {
+        "name": "\"尽量\" (As Much As Possible)",
+        "explanation": "副词'尽量'表示尽可能做某事。",
+        "examples": [
+          {
+            "chinese": "尽量选择公共交通出行。",
+            "pinyin": "Jǐnliàng xuǎnzé gōnggòng jiāotōng chūxíng.",
+            "english": "Choose public transport as much as possible."
+          },
+          {
+            "chinese": "尽量减少一次性物品的使用。",
+            "pinyin": "Jǐnliàng jiǎnshǎo yícìxìng wùpǐn de shǐyòng.",
+            "english": "Reduce the use of disposable items as much as possible."
+          },
+          {
+            "chinese": "尽量早睡早起。",
+            "pinyin": "Jǐnliàng zǎoshuì zǎoqǐ.",
+            "english": "Go to bed and get up early as much as possible."
+          }
+        ]
+      },
+      {
+        "name": "\"从...做起\" (Start From...)",
+        "explanation": "表示从某处开始行动。",
+        "examples": [
+          {
+            "chinese": "保护环境，从我做起。",
+            "pinyin": "Bǎohù huánjìng, cóng wǒ zuò qǐ.",
+            "english": "Protect the environment, start with yourself."
+          },
+          {
+            "chinese": "从小事做起。",
+            "pinyin": "Cóng xiǎoshì zuò qǐ.",
+            "english": "Start from small things."
+          },
+          {
+            "chinese": "从现在做起。",
+            "pinyin": "Cóng xiànzài zuò qǐ.",
+            "english": "Start from now."
+          }
+        ]
+      }
+    ]
+  }
+}

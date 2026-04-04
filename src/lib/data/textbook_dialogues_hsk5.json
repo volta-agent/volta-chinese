@@ -1,0 +1,2051 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": {
+      "chinese": "爱的细节",
+      "pinyin": "Ài de Xìjié",
+      "english": "Details of Love"
+    },
+    "location": "电台节目",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "主持人",
+        "chinese": "欢迎收听我们的节目。今天我们要选出最恩爱夫妻。",
+        "pinyin": "Huānyíng shōutīng wǒmen de jiémù. Jīntiān wǒmen yào xuǎn chū zuì ēn'ài fūqī.",
+        "english": "Welcome to our program. Today we will select the most loving couple."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "主持人",
+        "chinese": "第一对夫妻，请说说你们的故事。",
+        "pinyin": "Dì-yī duì fūqī, qǐng shuōshuo nǐmen de gùshì.",
+        "english": "First couple, please tell us your story."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "妻子",
+        "chinese": "我生病了，医生说我站起来的可能性很小。",
+        "pinyin": "Wǒ shēngbìng le, yīshēng shuō wǒ zhàn qǐlái de kěnéngxìng hěn xiǎo.",
+        "english": "I got sick, and the doctor said there was little chance I could stand up again."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "丈夫",
+        "chinese": "我带着她找了很多家医院，一直鼓励她。",
+        "pinyin": "Wǒ dàizhe tā zhǎo le hěn duō jiā yīyuàn, yìzhí gǔlì tā.",
+        "english": "I took her to many hospitals, always encouraging her."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "妻子",
+        "chinese": "在他的帮助下，我终于又站了起来。",
+        "pinyin": "Zài tā de bāngzhù xià, wǒ zhōngyú yòu zhàn le qǐlái.",
+        "english": "With his help, I finally stood up again."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "主持人",
+        "chinese": "第二对夫妻，请说说你们的婚姻生活。",
+        "pinyin": "Dì-èr duì fūqī, qǐng shuōshuo nǐmen de hūnyīn shēnghuó.",
+        "english": "Second couple, please tell us about your married life."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "妻子",
+        "chinese": "十几年来，我们从来没有红过脸、吵过架。",
+        "pinyin": "Shí jǐ nián lái, wǒmen cónglái méiyǒu hóng guo liǎn, chào guo jià.",
+        "english": "For over ten years, we have never blushed or argued."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "丈夫",
+        "chinese": "我们一直相亲相爱、相敬如宾。",
+        "pinyin": "Wǒmen yìzhí xiāngqīn-xiāng'ài, xiāngjìng-rúbīn.",
+        "english": "We have always loved and respected each other."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "主持人",
+        "chinese": "第三对夫妻呢？请进来。",
+        "pinyin": "Dì-sān duì fūqī ne? Qǐng jìnlái.",
+        "english": "What about the third couple? Please come in."
+      },
+      {
+        "dialogue_number": 10,
+        "speaker": "妻子",
+        "chinese": "小声点，我丈夫睡着了。他昨晚没睡好。",
+        "pinyin": "Xiǎoshēng diǎn, wǒ zhàngfu shuìzháo le. Tā zuówǎn méi shuì hǎo.",
+        "english": "Keep your voice down, my husband fell asleep. He didn't sleep well last night."
+      },
+      {
+        "dialogue_number": 11,
+        "speaker": "评委",
+        "chinese": "我们得听你们的叙述啊。",
+        "pinyin": "Wǒmen děi tīng nǐmen de xùshù a.",
+        "english": "We need to hear your story."
+      },
+      {
+        "dialogue_number": 12,
+        "speaker": "妻子",
+        "chinese": "那我们就不参加了。",
+        "pinyin": "Nà wǒmen jiù bù cānjiā le.",
+        "english": "Then we won't participate."
+      },
+      {
+        "dialogue_number": 13,
+        "speaker": "丈夫",
+        "chinese": "（醒来）不好意思，我家住一楼，蚊子多。昨晚我一直在为老婆赶蚊子。",
+        "pinyin": "(Xǐng lái) Bù hǎoyìsi, wǒjiā zhù yī lóu, wénzi duō. Zuówǎn wǒ yìzhí zài wèi lǎopo gǎn wénzi.",
+        "english": "(Waking up) Sorry, we live on the first floor, there are many mosquitoes. Last night I was chasing mosquitoes away for my wife."
+      },
+      {
+        "dialogue_number": 14,
+        "speaker": "主持人",
+        "chinese": "最后，评委们把最恩爱夫妻奖给了第三对夫妻。",
+        "pinyin": "Zuìhòu, píngwěimen bǎ zuì ēn'ài fūqī jiǎng gěi le dì-sān duì fūqī.",
+        "english": "Finally, the judges gave the most loving couple award to the third couple."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "细节",
+        "pinyin": "xìjié",
+        "english": "detail"
+      },
+      {
+        "chinese": "恩爱",
+        "pinyin": "ēn'ài",
+        "english": "loving (of couple)"
+      },
+      {
+        "chinese": "对比",
+        "pinyin": "duìbǐ",
+        "english": "to compare"
+      },
+      {
+        "chinese": "评委",
+        "pinyin": "píngwěi",
+        "english": "judge"
+      },
+      {
+        "chinese": "如何",
+        "pinyin": "rúhé",
+        "english": "how"
+      },
+      {
+        "chinese": "瘫痪",
+        "pinyin": "tānhuàn",
+        "english": "to be paralyzed"
+      },
+      {
+        "chinese": "离婚",
+        "pinyin": "líhūn",
+        "english": "to divorce"
+      },
+      {
+        "chinese": "居然",
+        "pinyin": "jūrán",
+        "english": "unexpectedly"
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": {
+      "chinese": "留串钥匙给父母",
+      "pinyin": "Liú Chuàn Yàoshi Gěi Fùmǔ",
+      "english": "Leaving a Bunch of Keys to Parents"
+    },
+    "location": "家庭对话",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "妈妈",
+        "chinese": "儿子，你什么时候搬家？",
+        "pinyin": "Érzi, nǐ shénme shíhou bānjiā?",
+        "english": "Son, when are you moving?"
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "儿子",
+        "chinese": "下周六。东西都准备好了。",
+        "pinyin": "Xià zhōu liù. Dōngxi dōu zhǔnbèi hǎo le.",
+        "english": "Next Saturday. Everything is ready."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "妈妈",
+        "chinese": "你一个人住，我有点儿担心。",
+        "pinyin": "Nǐ yí ge rén zhù, wǒ yǒudiǎnr dānxīn.",
+        "english": "I'm a bit worried about you living alone."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "儿子",
+        "chinese": "妈，我都二十五岁了，您放心吧。",
+        "pinyin": "Mā, wǒ dōu èrshíwǔ suì le, nín fàngxīn ba.",
+        "english": "Mom, I'm 25 already, don't worry."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "妈妈",
+        "chinese": "这串钥匙给你，这是我们家门的钥匙。",
+        "pinyin": "Zhè chuàn yàoshi gěi nǐ, zhè shì wǒmen jiā mén de yàoshi.",
+        "english": "Here's a key, this is the key to our house."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "儿子",
+        "chinese": "给我钥匙干什么？您不是有钥匙吗？",
+        "pinyin": "Gěi wǒ yàoshi gàn shénme? Nín búshì yǒu yàoshi ma?",
+        "english": "Why give me a key? Don't you have one?"
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "妈妈",
+        "chinese": "万一我们不在家，你也可以进来。",
+        "pinyin": "Wànyī wǒmen bú zài jiā, nǐ yě kěyǐ jìnlái.",
+        "english": "In case we're not home, you can still come in."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "儿子",
+        "chinese": "好的，我会好好保管的。",
+        "pinyin": "Hǎo de, wǒ huì hǎohǎo bǎoguǎn de.",
+        "english": "Okay, I'll keep it safe."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "妈妈",
+        "chinese": "有空就回来吃饭，别老在外面吃。",
+        "pinyin": "Yǒu kòng jiù huílái chīfàn, bié lǎo zài wàimiàn chī.",
+        "english": "Come back for meals when you have time, don't always eat out."
+      },
+      {
+        "dialogue_number": 10,
+        "speaker": "儿子",
+        "chinese": "知道了，妈。我会常回来的。",
+        "pinyin": "Zhīdào le, mā. Wǒ huì cháng huílái de.",
+        "english": "I know, Mom. I'll come back often."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "钥匙",
+        "pinyin": "yàoshi",
+        "english": "key"
+      },
+      {
+        "chinese": "万一",
+        "pinyin": "wànyī",
+        "english": "in case"
+      },
+      {
+        "chinese": "保管",
+        "pinyin": "bǎoguǎn",
+        "english": "to keep safe"
+      },
+      {
+        "chinese": "担心",
+        "pinyin": "dānxīn",
+        "english": "to worry"
+      },
+      {
+        "chinese": "有空",
+        "pinyin": "yǒu kòng",
+        "english": "to have free time"
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": {
+      "chinese": "人生有选择，一切可改变",
+      "pinyin": "Rénshēng Yǒu Xuǎnzé, Yíqiè Kě Gǎibiàn",
+      "english": "Having Choices in Life Makes Change Possible"
+    },
+    "location": "职业咨询",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "咨询师",
+        "chinese": "你好，请坐。有什么我可以帮你的？",
+        "pinyin": "Nǐhǎo, qǐng zuò. Yǒu shénme wǒ kěyǐ bāng nǐ de?",
+        "english": "Hello, please sit down. How can I help you?"
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "小王",
+        "chinese": "我最近很迷茫，不知道该选什么工作。",
+        "pinyin": "Wǒ zuìjìn hěn mímáng, bù zhīdào gāi xuǎn shénme gōngzuò.",
+        "english": "I've been lost lately, not sure what job to choose."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "咨询师",
+        "chinese": "你有什么兴趣和特长？",
+        "pinyin": "Nǐ yǒu shénme xìngqù hé tècháng?",
+        "english": "What are your interests and strengths?"
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "小王",
+        "chinese": "我喜欢画画，也喜欢跟人交流。",
+        "pinyin": "Wǒ xǐhuan huàhuà, yě xǐhuan gēn rén jiāoliú.",
+        "english": "I like drawing, and I also like communicating with people."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "咨询师",
+        "chinese": "那你有没有想过做设计或者广告？",
+        "pinyin": "Nà nǐ yǒu méiyǒu xiǎng guo zuò shèjì huòzhě guǎnggào?",
+        "english": "Have you thought about doing design or advertising?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "小王",
+        "chinese": "想过，但是我担心收入不稳定。",
+        "pinyin": "Xiǎng guo, dànshì wǒ dānxīn shōurù bù wěndìng.",
+        "english": "I have, but I'm worried about unstable income."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "咨询师",
+        "chinese": "人生有选择，一切可改变。只要你努力，一定能成功。",
+        "pinyin": "Rénshēng yǒu xuǎnzé, yíqiè kě gǎibiàn. Zhǐyào nǐ nǔlì, yídìng néng chénggōng.",
+        "english": "Life has choices, everything can change. As long as you work hard, you will succeed."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "小王",
+        "chinese": "谢谢您的鼓励，我会好好考虑的。",
+        "pinyin": "Xièxie nín de gǔlì, wǒ huì hǎohǎo kǎolǜ de.",
+        "english": "Thank you for your encouragement, I'll think about it carefully."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "选择",
+        "pinyin": "xuǎnzé",
+        "english": "choice; to choose"
+      },
+      {
+        "chinese": "迷茫",
+        "pinyin": "mímáng",
+        "english": "confused, lost"
+      },
+      {
+        "chinese": "特长",
+        "pinyin": "tècháng",
+        "english": "strength, specialty"
+      },
+      {
+        "chinese": "收入",
+        "pinyin": "shōurù",
+        "english": "income"
+      },
+      {
+        "chinese": "稳定",
+        "pinyin": "wěndìng",
+        "english": "stable"
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": {
+      "chinese": "子路背米",
+      "pinyin": "Zǐlù Bēi Mǐ",
+      "english": "Zilu Carrying Rice"
+    },
+    "location": "古代故事",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我给大家讲一个关于孝顺的故事。",
+        "pinyin": "Jīntiān wǒ gěi dàjiā jiǎng yí ge guānyú xiàoshùn de gùshì.",
+        "english": "Today I'll tell you a story about filial piety."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "老师",
+        "chinese": "孔子的学生子路，家里很穷。",
+        "pinyin": "Kǒngzǐ de xuésheng Zǐlù, jiālǐ hěn qióng.",
+        "english": "Confucius's student Zilu was very poor."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "为了让父母吃到米饭，他自己吃野菜。",
+        "pinyin": "Wèi le ràng fùmǔ chī dào mǐfàn, tā zìjǐ chī yěcài.",
+        "english": "To let his parents eat rice, he ate wild vegetables himself."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "老师",
+        "chinese": "他常常走到很远的地方背米回来给父母吃。",
+        "pinyin": "Tā chángcháng zǒu dào hěn yuǎn de dìfang bēi mǐ huílái gěi fùmǔ chī.",
+        "english": "He often walked far to carry rice back for his parents."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "学生",
+        "chinese": "子路真是一个孝顺的儿子。",
+        "pinyin": "Zǐlù zhēnshì yí ge xiàoshùn de érzi.",
+        "english": "Zilu was truly a filial son."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "是的。后来子路的父母去世了。",
+        "pinyin": "Shì de. Hòulái Zǐlù de fùmǔ qùshì le.",
+        "english": "Yes. Later Zilu's parents passed away."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "老师",
+        "chinese": "他在楚国做了大官，生活很好。",
+        "pinyin": "Tā zài Chǔguó zuò le dàguān, shēnghuó hěn hǎo.",
+        "english": "He became a high official in Chu, living very well."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "老师",
+        "chinese": "但他常常叹息：我还能为父母背米吗？",
+        "pinyin": "Dàn tā chángcháng tànxī: Wǒ hái néng wèi fùmǔ bēi mǐ ma?",
+        "english": "But he often sighed: Can I still carry rice for my parents?"
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "老师",
+        "chinese": "这个故事告诉我们：要趁父母在世时孝顺他们。",
+        "pinyin": "Zhège gùshì gàosu wǒmen: Yào chèn fùmǔ zàishì shí xiàoshùn tāmen.",
+        "english": "This story tells us: Be filial to parents while they are still alive."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "孝顺",
+        "pinyin": "xiàoshùn",
+        "english": "filial piety"
+      },
+      {
+        "chinese": "穷",
+        "pinyin": "qióng",
+        "english": "poor"
+      },
+      {
+        "chinese": "野菜",
+        "pinyin": "yěcài",
+        "english": "wild vegetables"
+      },
+      {
+        "chinese": "去世",
+        "pinyin": "qùshì",
+        "english": "to pass away"
+      },
+      {
+        "chinese": "趁",
+        "pinyin": "chèn",
+        "english": "while, taking advantage of"
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": {
+      "chinese": "济南的泉水",
+      "pinyin": "Jǐnán de Quánshuǐ",
+      "english": "Spring Water in Ji'nan"
+    },
+    "location": "旅游对话",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "导游",
+        "chinese": "欢迎来到济南。济南以泉水著名，有'泉城'之称。",
+        "pinyin": "Huānyíng lái dào Jǐnán. Jǐnán yǐ quánshuǐ zhùmíng, yǒu 'Quánchéng' zhī chēng.",
+        "english": "Welcome to Ji'nan. Ji'nan is famous for its springs, known as the 'City of Springs'."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "游客",
+        "chinese": "这里最有名的泉是什么？",
+        "pinyin": "Zhèlǐ zuì yǒumíng de quán shì shénme?",
+        "english": "What's the most famous spring here?"
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "导游",
+        "chinese": "最有名的是趵突泉，被称为'天下第一泉'。",
+        "pinyin": "Zuì yǒumíng de shì Bàotū Quán, bèi chēng wéi 'Tiānxià Dì-yī Quán'.",
+        "english": "The most famous is Baotu Spring, called 'Number One Spring Under Heaven'."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "游客",
+        "chinese": "为什么叫'趵突泉'？",
+        "pinyin": "Wèishénme jiào 'Bàotū Quán'?",
+        "english": "Why is it called 'Baotu Spring'?"
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "导游",
+        "chinese": "'趵突'是跳跃的意思，因为泉水从地下喷涌而出。",
+        "pinyin": "'Bàotū' shì tiàoyuè de yìsi, yīnwèi quánshuǐ cóng dìxià pēnyǒng ér chū.",
+        "english": "'Baotu' means jumping, because the spring water gushes up from underground."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "游客",
+        "chinese": "这里的泉水可以喝吗？",
+        "pinyin": "Zhèlǐ de quánshuǐ kěyǐ hē ma?",
+        "english": "Can we drink the spring water here?"
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "导游",
+        "chinese": "可以，这里的泉水很甜，很多人专门来这里打水。",
+        "pinyin": "Kěyǐ, zhèlǐ de quánshuǐ hěn tián, hěn duō rén zhuānmén lái zhèlǐ dǎ shuǐ.",
+        "english": "Yes, the spring water here is sweet, many people come specifically to get water."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "游客",
+        "chinese": "济南还有其他名胜吗？",
+        "pinyin": "Jǐnán hái yǒu qítā míngshèng ma?",
+        "english": "Are there other famous places in Ji'nan?"
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "导游",
+        "chinese": "还有大明湖和千佛山，都是值得一去的地方。",
+        "pinyin": "Hái yǒu Dàmíng Hú hé Qiānfó Shān, dōu shì zhídé yí qù de dìfang.",
+        "english": "There's also Daming Lake and Thousand Buddha Mountain, both worth visiting."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "泉水",
+        "pinyin": "quánshuǐ",
+        "english": "spring water"
+      },
+      {
+        "chinese": "著名",
+        "pinyin": "zhùmíng",
+        "english": "famous"
+      },
+      {
+        "chinese": "喷涌",
+        "pinyin": "pēnyǒng",
+        "english": "to gush"
+      },
+      {
+        "chinese": "专门",
+        "pinyin": "zhuānmén",
+        "english": "specifically"
+      },
+      {
+        "chinese": "值得",
+        "pinyin": "zhídé",
+        "english": "to be worth"
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": {
+      "chinese": "除夕的由来",
+      "pinyin": "Chúxī de Yóulái",
+      "english": "Origin of Chuxi"
+    },
+    "location": "家庭对话",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "孩子",
+        "chinese": "奶奶，为什么大年三十叫'除夕'？",
+        "pinyin": "Nǎinai, wèishénme Dànián Sānshí jiào 'Chúxī'?",
+        "english": "Grandma, why is the 30th of the lunar year called 'Chuxi'?"
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "奶奶",
+        "chinese": "这是一个古老的传说。",
+        "pinyin": "Zhè shì yí ge gǔlǎo de chuánshuō.",
+        "english": "This is an ancient legend."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "奶奶",
+        "chinese": "很久以前，有一个怪兽叫'夕'。",
+        "pinyin": "Hěn jiǔ yǐqián, yǒu yí ge guàishòu jiào 'Xī'.",
+        "english": "Long ago, there was a monster called 'Xi'."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "孩子",
+        "chinese": "怪兽？它做什么坏事？",
+        "pinyin": "Guàishòu? Tā zuò shénme huàishì?",
+        "english": "A monster? What bad things did it do?"
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "奶奶",
+        "chinese": "每年农历十二月三十晚上，它就出来吃人和牲畜。",
+        "pinyin": "Měi nián nónglì shí'èr yuè sānshí wǎnshang, tā jiù chūlái chī rén hé shēngchù.",
+        "english": "Every year on the night of the 30th of the 12th lunar month, it came out to eat people and livestock."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "孩子",
+        "chinese": "那怎么办？",
+        "pinyin": "Nà zěnme bàn?",
+        "english": "Then what?"
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "奶奶",
+        "chinese": "后来人们发现'夕'怕红色和响声。",
+        "pinyin": "Hòulái rénmen fāxiàn 'Xī' pà hóngsè hé xiǎngshēng.",
+        "english": "Later people discovered that 'Xi' was afraid of red and loud sounds."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "奶奶",
+        "chinese": "所以人们就在这天贴红纸、放鞭炮。",
+        "pinyin": "Suǒyǐ rénmen jiù zài zhè tiān tiē hóngzhǐ, fàng biānpào.",
+        "english": "So people put up red paper and set off firecrackers on this day."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "孩子",
+        "chinese": "原来是这样！所以叫'除夕'。",
+        "pinyin": "Yuánlái shì zhèyàng! Suǒyǐ jiào 'Chúxī'.",
+        "english": "So that's how it is! That's why it's called 'Chuxi' (getting rid of Xi)."
+      },
+      {
+        "dialogue_number": 10,
+        "speaker": "奶奶",
+        "chinese": "对，'除'就是除掉的意思。",
+        "pinyin": "Duì, 'chú' jiùshì chúdiào de yìsi.",
+        "english": "Yes, 'chu' means to get rid of."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "除夕",
+        "pinyin": "chúxī",
+        "english": "Chinese New Year's Eve"
+      },
+      {
+        "chinese": "由来",
+        "pinyin": "yóulái",
+        "english": "origin"
+      },
+      {
+        "chinese": "传说",
+        "pinyin": "chuánshuō",
+        "english": "legend"
+      },
+      {
+        "chinese": "怪兽",
+        "pinyin": "guàishòu",
+        "english": "monster"
+      },
+      {
+        "chinese": "鞭炮",
+        "pinyin": "biānpào",
+        "english": "firecracker"
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": {
+      "chinese": "成语故事两则",
+      "pinyin": "Chéngyǔ Gùshì Liǎng Zé",
+      "english": "Two Idiom Stories"
+    },
+    "location": "课堂对话",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我们学习两个成语故事。",
+        "pinyin": "Jīntiān wǒmen xuéxí liǎng ge chéngyǔ gùshì.",
+        "english": "Today we'll learn two idiom stories."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "老师",
+        "chinese": "第一个是'画蛇添足'。",
+        "pinyin": "Dì-yí ge shì 'Huàshé-tiānzú'.",
+        "english": "The first is 'drawing a snake and adding feet'."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "有人比赛画蛇，先画完的人给蛇添了脚。",
+        "pinyin": "Yǒu rén bǐsài huà shé, xiān huà wán de rén gěi shé tiān le jiǎo.",
+        "english": "Some people competed to draw snakes, and the first to finish added feet to the snake."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "老师",
+        "chinese": "结果反而输了，因为蛇没有脚。",
+        "pinyin": "Jiéguǒ fǎn'ér shū le, yīnwèi shé méiyǒu jiǎo.",
+        "english": "As a result, he lost, because snakes don't have feet."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "学生",
+        "chinese": "所以'画蛇添足'意思是做了多余的事？",
+        "pinyin": "Suǒyǐ 'Huàshé-tiānzú' yìsi shì zuò le duōyú de shì?",
+        "english": "So 'Hua she tian zu' means doing something unnecessary?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "对。第二个故事是'自相矛盾'。",
+        "pinyin": "Duì. Dì-èr ge gùshì shì 'Zìxiāng-máodùn'.",
+        "english": "Correct. The second story is 'contradicting oneself'."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "老师",
+        "chinese": "有个人卖矛又卖盾，说他的矛什么都能刺穿。",
+        "pinyin": "Yǒu ge rén mài máo yòu mài dùn, shuō tā de máo shénme dōu néng cìchuān.",
+        "english": "A person selling both spears and shields said his spear could pierce anything."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "老师",
+        "chinese": "又说他的盾什么都刺不穿。",
+        "pinyin": "Yòu shuō tā de dùn shénme dōu cì bu chuān.",
+        "english": "He also said his shield couldn't be pierced by anything."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "学生",
+        "chinese": "有人问他用自己的矛刺自己的盾会怎么样？",
+        "pinyin": "Yǒu rén wèn tā yòng zìjǐ de máo cì zìjǐ de dùn huì zěnme yàng?",
+        "english": "Someone asked him what would happen if he used his own spear to pierce his own shield?"
+      },
+      {
+        "dialogue_number": 10,
+        "speaker": "老师",
+        "chinese": "是的，他回答不上来了。",
+        "pinyin": "Shì de, tā huídá bu shànglái le.",
+        "english": "Yes, he couldn't answer."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "成语",
+        "pinyin": "chéngyǔ",
+        "english": "idiom"
+      },
+      {
+        "chinese": "画蛇添足",
+        "pinyin": "huàshé-tiānzú",
+        "english": "to draw a snake and add feet (gild the lily)"
+      },
+      {
+        "chinese": "自相矛盾",
+        "pinyin": "zìxiāng-máodùn",
+        "english": "to contradict oneself"
+      },
+      {
+        "chinese": "矛盾",
+        "pinyin": "máodùn",
+        "english": "contradiction; spear and shield"
+      },
+      {
+        "chinese": "多余",
+        "pinyin": "duōyú",
+        "english": "unnecessary, superfluous"
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": {
+      "chinese": "'朝三暮四'的古今义",
+      "pinyin": "'Zhāo Sān Mù Sì' de Gǔjīn Yì",
+      "english": "Ancient and Modern Meanings of 'Three at Dawn, Four at Dusk'"
+    },
+    "location": "课堂讨论",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我们来讨论'朝三暮四'这个成语。",
+        "pinyin": "Jīntiān wǒmen lái tǎolùn 'Zhāo sān mù sì' zhège chéngyǔ.",
+        "english": "Today let's discuss the idiom 'Zhao san mu si'."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "老师",
+        "chinese": "古时候有人养猴子，早上给猴子三个果子，晚上给四个。",
+        "pinyin": "Gǔshíhou yǒu rén yǎng hóuzi, zǎoshang gěi hóuzi sān ge guǒzi, wǎnshang gěi sì ge.",
+        "english": "In ancient times, someone raised monkeys, giving them three fruits in the morning and four at night."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "猴子们很生气，于是他改成早上四个，晚上三个。",
+        "pinyin": "Hóuzimen hěn shēngqì, yúshì tā gǎi chéng zǎoshang sì ge, wǎnshang sān ge.",
+        "english": "The monkeys were angry, so he changed it to four in the morning and three at night."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "学生",
+        "chinese": "猴子们就高兴了？",
+        "pinyin": "Hóuzimen jiù gāoxìng le?",
+        "english": "Then the monkeys were happy?"
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "老师",
+        "chinese": "是的，但实际上总数还是七个。",
+        "pinyin": "Shì de, dàn shíjìshang zǒngshù háishì qī ge.",
+        "english": "Yes, but actually the total was still seven."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "所以古义是用欺骗的手段蒙蔽别人。",
+        "pinyin": "Suǒyǐ gǔyì shì yòng qīpiàn de shǒuduàn méngbì biérén.",
+        "english": "So the ancient meaning is to use deception to fool others."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "学生",
+        "chinese": "那现在的意思呢？",
+        "pinyin": "Nà xiànzài de yìsi ne?",
+        "english": "What about the modern meaning?"
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "老师",
+        "chinese": "现在'朝三暮四'形容反复无常，经常改变主意。",
+        "pinyin": "Xiànzài 'Zhāo sān mù sì' xíngróng fǎnfù-wúcháng, jīngcháng gǎibiàn zhǔyì.",
+        "english": "Now 'Zhao san mu si' describes being fickle, often changing one's mind."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "学生",
+        "chinese": "原来古今意思差别这么大。",
+        "pinyin": "Yuánlái gǔjīn yìsi chābié zhème dà.",
+        "english": "So the difference between ancient and modern meanings is so big."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "朝三暮四",
+        "pinyin": "zhāo sān mù sì",
+        "english": "fickle, capricious (lit. three at dawn, four at dusk)"
+      },
+      {
+        "chinese": "古今",
+        "pinyin": "gǔjīn",
+        "english": "ancient and modern"
+      },
+      {
+        "chinese": "欺骗",
+        "pinyin": "qīpiàn",
+        "english": "to deceive"
+      },
+      {
+        "chinese": "反复无常",
+        "pinyin": "fǎnfù-wúcháng",
+        "english": "fickle, changeable"
+      },
+      {
+        "chinese": "差别",
+        "pinyin": "chābié",
+        "english": "difference"
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": {
+      "chinese": "别样鲁迅",
+      "pinyin": "Biéyàng Lǔxùn",
+      "english": "The Lu Xun You Don't Know"
+    },
+    "location": "文学讨论",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我们聊聊鲁迅，一个不一样的鲁迅。",
+        "pinyin": "Jīntiān wǒmen liáoliaio Lǔxùn, yí ge bù yíyàng de Lǔxùn.",
+        "english": "Today let's talk about Lu Xun, a different Lu Xun."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "学生",
+        "chinese": "鲁迅不是写文章很严肃吗？",
+        "pinyin": "Lǔxùn búshì xiě wénzhāng hěn yánsù ma?",
+        "english": "Isn't Lu Xun very serious in his writing?"
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "其实生活中鲁迅很有幽默感。",
+        "pinyin": "Qíshí shēnghuó zhōng Lǔxùn hěn yǒu yōumò gǎn.",
+        "english": "Actually in life, Lu Xun had a great sense of humor."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "老师",
+        "chinese": "他喜欢给朋友起外号，也喜欢开玩笑。",
+        "pinyin": "Tā xǐhuan gěi péngyou qǐ wàihào, yě xǐhuan kāi wánxiào.",
+        "english": "He liked giving nicknames to friends and making jokes."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "学生",
+        "chinese": "真的吗？能举个例子吗？",
+        "pinyin": "Zhēn de ma? Néng jǔ ge lìzi ma?",
+        "english": "Really? Can you give an example?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "有一次朋友请他吃饭，他故意迟到了。",
+        "pinyin": "Yǒu yí cì péngyou qǐng tā chīfàn, tā gùyì chídào le.",
+        "english": "Once a friend invited him to dinner, and he deliberately arrived late."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "老师",
+        "chinese": "他告诉朋友他路上遇到鬼了，所以晚了。",
+        "pinyin": "Tā gàosu péngyou tā lùshang yù dào guǐ le, suǒyǐ wǎn le.",
+        "english": "He told his friend he met a ghost on the way, that's why he was late."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "学生",
+        "chinese": "哈哈，鲁迅真有意思。",
+        "pinyin": "Hāhā, Lǔxùn zhēn yǒu yìsi.",
+        "english": "Haha, Lu Xun is really interesting."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "老师",
+        "chinese": "所以他不仅是伟大的作家，也是个有趣的人。",
+        "pinyin": "Suǒyǐ tā bújin shì wěidà de zuòjiā, yě shì ge yǒuqù de rén.",
+        "english": "So he was not only a great writer, but also an interesting person."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "别样",
+        "pinyin": "biéyàng",
+        "english": "different, special"
+      },
+      {
+        "chinese": "严肃",
+        "pinyin": "yánsù",
+        "english": "serious"
+      },
+      {
+        "chinese": "幽默",
+        "pinyin": "yōumò",
+        "english": "humor"
+      },
+      {
+        "chinese": "外号",
+        "pinyin": "wàihào",
+        "english": "nickname"
+      },
+      {
+        "chinese": "故意",
+        "pinyin": "gùyì",
+        "english": "deliberately"
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": {
+      "chinese": "辩论的奇迹",
+      "pinyin": "Biànlùn de Qíjì",
+      "english": "Miracle of Debate"
+    },
+    "location": "辩论赛",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "主持人",
+        "chinese": "欢迎来到辩论赛决赛。今天的题目是：大学生应该先就业还是先创业？",
+        "pinyin": "Huānyíng lái dào biànlùnsài juésài. Jīntiān de tímù shì: Dàxuésheng yīnggāi xiān jiùyè háishì xiān chuàngyè?",
+        "english": "Welcome to the debate finals. Today's topic: Should college students first get a job or start a business?"
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "正方",
+        "chinese": "我方认为应该先就业。就业能积累经验，为以后创业打好基础。",
+        "pinyin": "Wǒ fāng rènwéi yīnggāi xiān jiùyè. Jiùyè néng jīlěi jīngyàn, wèi yǐhòu chuàngyè dǎ hǎo jīchǔ.",
+        "english": "Our side thinks we should first get a job. Employment helps accumulate experience, laying a foundation for future entrepreneurship."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "反方",
+        "chinese": "我方认为应该先创业。年轻是最大的资本，趁年轻去追梦更重要。",
+        "pinyin": "Wǒ fāng rènwéi yīnggāi xiān chuàngyè. Niánqīng shì zuì dà de zīběn, chèn niánqīng qù zhuī mèng gèng zhòngyào.",
+        "english": "Our side thinks we should start a business first. Youth is the greatest capital, pursuing dreams while young is more important."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "正方",
+        "chinese": "但创业失败率很高，没有经验的大学生更容易失败。",
+        "pinyin": "Dàn chuàngyè shībàilǜ hěn gāo, méiyǒu jīngyàn de dàxuésheng gèng róngyì shībài.",
+        "english": "But the failure rate of entrepreneurship is high, college students without experience are more likely to fail."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "反方",
+        "chinese": "失败也是一种经验。不尝试怎么知道自己不行？",
+        "pinyin": "Shībài yě shì yì zhǒng jīngyàn. Bù chángshì zěnme zhīdào zìjǐ bù xíng?",
+        "english": "Failure is also a kind of experience. How do you know you can't do it without trying?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "主持人",
+        "chinese": "双方辩论都很精彩。评委们正在打分。",
+        "pinyin": "Shuāngfāng biànlùn dōu hěn jīngcǎi. Píngwěimen zhèngzài dǎ fēn.",
+        "english": "Both sides debated brilliantly. The judges are scoring."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "主持人",
+        "chinese": "结果出来了！双方打成平手，都是冠军！",
+        "pinyin": "Jiéguǒ chūlái le! Shuāngfāng dǎ chéng píngshǒu, dōu shì guànjūn!",
+        "english": "The results are out! Both sides tied, both are champions!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "辩论",
+        "pinyin": "biànlùn",
+        "english": "debate"
+      },
+      {
+        "chinese": "就业",
+        "pinyin": "jiùyè",
+        "english": "employment"
+      },
+      {
+        "chinese": "创业",
+        "pinyin": "chuàngyè",
+        "english": "to start a business"
+      },
+      {
+        "chinese": "积累",
+        "pinyin": "jīlěi",
+        "english": "to accumulate"
+      },
+      {
+        "chinese": "资本",
+        "pinyin": "zīběn",
+        "english": "capital"
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": {
+      "chinese": "闹钟的危害",
+      "pinyin": "Nàozhōng de Wēihài",
+      "english": "Harm of Alarm Clocks"
+    },
+    "location": "健康讲座",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "医生",
+        "chinese": "大家好，今天我们来聊聊闹钟对健康的影响。",
+        "pinyin": "Dàjiā hǎo, jīntiān wǒmen lái liáoliaio nàozhōng duì jiànkāng de yǐngxiǎng.",
+        "english": "Hello everyone, today let's talk about the impact of alarm clocks on health."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "听众",
+        "chinese": "闹钟不是帮我们起床吗？怎么会有危害？",
+        "pinyin": "Nàozhōng búshì bāng wǒmen qǐchuáng ma? Zěnme huì yǒu wēihài?",
+        "english": "Don't alarm clocks help us wake up? How can they be harmful?"
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "医生",
+        "chinese": "突然被闹钟叫醒，心跳会加快，血压会升高。",
+        "pinyin": "Tūrán bèi nàozhōng jiàoxǐng, xīntiào huì jiākuài, xuèyā huì shēnggāo.",
+        "english": "Being suddenly woken by an alarm causes heart rate to increase and blood pressure to rise."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "医生",
+        "chinese": "长期这样可能增加心脏病风险。",
+        "pinyin": "Chángqí zhèyàng kěnéng zēngjiā xīnzàngbìng fēngxiǎn.",
+        "english": "Long-term this may increase the risk of heart disease."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "听众",
+        "chinese": "那我们应该怎么起床？",
+        "pinyin": "Nà wǒmen yīnggāi zěnme qǐchuáng?",
+        "english": "Then how should we wake up?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "医生",
+        "chinese": "最好养成规律的作息时间，自然醒。",
+        "pinyin": "Zuì hǎo yǎngchéng guīlǜ de zuòxī shíjiān, zìrán xǐng.",
+        "english": "It's best to develop a regular sleep schedule and wake up naturally."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "医生",
+        "chinese": "如果必须用闹钟，可以选声音柔和的。",
+        "pinyin": "Rúguǒ bìxū yòng nàozhōng, kěyǐ xuǎn shēngyīn róuhé de.",
+        "english": "If you must use an alarm, choose one with a gentle sound."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "听众",
+        "chinese": "谢谢医生的建议。",
+        "pinyin": "Xièxie yīshēng de jiànyì.",
+        "english": "Thank you for the advice, doctor."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "危害",
+        "pinyin": "wēihài",
+        "english": "harm"
+      },
+      {
+        "chinese": "突然",
+        "pinyin": "tūrán",
+        "english": "sudden"
+      },
+      {
+        "chinese": "心跳",
+        "pinyin": "xīntiào",
+        "english": "heartbeat"
+      },
+      {
+        "chinese": "血压",
+        "pinyin": "xuèyā",
+        "english": "blood pressure"
+      },
+      {
+        "chinese": "规律",
+        "pinyin": "guīlǜ",
+        "english": "regular, rule"
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": {
+      "chinese": "海外用户玩儿微信",
+      "pinyin": "Hǎiwài Yònghù Wánr Wēixìn",
+      "english": "Overseas Users of WeChat"
+    },
+    "location": "采访",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "记者",
+        "chinese": "你好，请问你来自哪个国家？",
+        "pinyin": "Nǐhǎo, qǐngwèn nǐ láizì nǎ ge guójiā?",
+        "english": "Hello, which country are you from?"
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "外国用户",
+        "chinese": "我来自美国，来中国三年了。",
+        "pinyin": "Wǒ láizì Měiguó, lái Zhōngguó sān nián le.",
+        "english": "I'm from the US, I've been in China for three years."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "记者",
+        "chinese": "你用微信吗？觉得怎么样？",
+        "pinyin": "Nǐ yòng Wēixìn ma? Juéde zěnme yàng?",
+        "english": "Do you use WeChat? What do you think of it?"
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "外国用户",
+        "chinese": "用啊，我觉得微信太方便了。",
+        "pinyin": "Yòng a, wǒ juéde Wēixìn tài fāngbiàn le.",
+        "english": "Yes, I think WeChat is so convenient."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "记者",
+        "chinese": "你最喜欢微信的什么功能？",
+        "pinyin": "Nǐ zuì xǐhuan Wēixìn de shénme gōngnéng?",
+        "english": "What feature of WeChat do you like most?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "外国用户",
+        "chinese": "我最喜欢支付功能，买东西不用带钱包。",
+        "pinyin": "Wǒ zuì xǐhuan zhīfù gōngnéng, mǎi dōngxi búyòng dài qiánbāo.",
+        "english": "I like the payment feature most, I don't need to carry a wallet when shopping."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "记者",
+        "chinese": "你的朋友也用微信吗？",
+        "pinyin": "Nǐ de péngyou yě yòng Wēixìn ma?",
+        "english": "Do your friends also use WeChat?"
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "外国用户",
+        "chinese": "是的，微信让我们更容易联系。",
+        "pinyin": "Shì de, Wēixìn ràng wǒmen gèng róngyì liánxì.",
+        "english": "Yes, WeChat makes it easier for us to stay in touch."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "记者",
+        "chinese": "谢谢你接受采访。",
+        "pinyin": "Xièxie nǐ jiēshòu cǎifǎng.",
+        "english": "Thank you for accepting the interview."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "海外",
+        "pinyin": "hǎiwài",
+        "english": "overseas"
+      },
+      {
+        "chinese": "用户",
+        "pinyin": "yònghù",
+        "english": "user"
+      },
+      {
+        "chinese": "功能",
+        "pinyin": "gōngnéng",
+        "english": "function, feature"
+      },
+      {
+        "chinese": "支付",
+        "pinyin": "zhīfù",
+        "english": "payment"
+      },
+      {
+        "chinese": "采访",
+        "pinyin": "cǎifǎng",
+        "english": "interview"
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": {
+      "chinese": "锯掉生活的'篮底'",
+      "pinyin": "Jù Diào Shēnghuó de 'Lándǐ'",
+      "english": "Cutting Off the 'Bottom of the Basket' in Life"
+    },
+    "location": "生活感悟",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "小李",
+        "chinese": "最近工作压力很大，我总是担心失败。",
+        "pinyin": "Zuìjìn gōngzuò yālì hěn dà, wǒ zǒngshì dānxīn shībài.",
+        "english": "Recently work pressure is high, I'm always worried about failure."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "朋友",
+        "chinese": "我给你讲个故事吧。有个人去打篮球。",
+        "pinyin": "Wǒ gěi nǐ jiǎng ge gùshì ba. Yǒu ge rén qù dǎ lánqiú.",
+        "english": "Let me tell you a story. Someone went to play basketball."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "朋友",
+        "chinese": "他在篮下练习投篮，怎么也投不进。",
+        "pinyin": "Tā zài lánxià liànxí tóulán, zěnme yě tóu bú jìn.",
+        "english": "He practiced shooting under the basket, but couldn't make any shots."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "朋友",
+        "chinese": "他很着急，觉得自己太差了。",
+        "pinyin": "Tā hěn zháojí, juéde zìjǐ tài chà le.",
+        "english": "He was anxious, thinking he was too bad."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "朋友",
+        "chinese": "这时教练走过来，把篮底的网剪掉了。",
+        "pinyin": "Zhèshí jiàoliàn zǒu guòlái, bǎ lándǐ de wǎng jiǎn diào le.",
+        "english": "Then the coach came over and cut off the net at the bottom of the basket."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "小李",
+        "chinese": "为什么要剪掉篮底？",
+        "pinyin": "Wèishénme yào jiǎn diào lándǐ?",
+        "english": "Why cut off the basket bottom?"
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "朋友",
+        "chinese": "教练说：篮底限制了你的发挥。",
+        "pinyin": "Jiàoliàn shuō: Lándǐ xiànzhì le nǐ de fāhuī.",
+        "english": "The coach said: The basket bottom limits your performance."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "朋友",
+        "chinese": "剪掉篮底后，投篮就变成了一种享受。",
+        "pinyin": "Jiǎn diào lándǐ hòu, tóulán jiù biànchéng le yì zhǒng xiǎngshòu.",
+        "english": "After cutting off the bottom, shooting became an enjoyment."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "小李",
+        "chinese": "我明白了，我也要剪掉心中的'篮底'。",
+        "pinyin": "Wǒ míngbai le, wǒ yě yào jiǎn diào xīn zhōng de 'lándǐ'.",
+        "english": "I understand, I should also cut off the 'basket bottom' in my heart."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "锯",
+        "pinyin": "jù",
+        "english": "to saw"
+      },
+      {
+        "chinese": "篮底",
+        "pinyin": "lándǐ",
+        "english": "basket bottom"
+      },
+      {
+        "chinese": "压力",
+        "pinyin": "yālì",
+        "english": "pressure"
+      },
+      {
+        "chinese": "限制",
+        "pinyin": "xiànzhì",
+        "english": "to limit"
+      },
+      {
+        "chinese": "发挥",
+        "pinyin": "fāhuī",
+        "english": "to perform, to bring into play"
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": {
+      "chinese": "北京的四合院",
+      "pinyin": "Běijīng de Sìhéyuàn",
+      "english": "Quadrangle Courtyards in Beijing"
+    },
+    "location": "导游讲解",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "导游",
+        "chinese": "欢迎来到北京四合院。",
+        "pinyin": "Huānyíng lái dào Běijīng sìhéyuàn.",
+        "english": "Welcome to a Beijing courtyard house."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "导游",
+        "chinese": "四合院是北京传统建筑，有几百年的历史。",
+        "pinyin": "Sìhéyuàn shì Běijīng chuántǒng jiànzhù, yǒu jǐ bǎi nián de lìshǐ.",
+        "english": "Courtyard houses are traditional Beijing architecture, with hundreds of years of history."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "游客",
+        "chinese": "为什么叫'四合院'？",
+        "pinyin": "Wèishénme jiào 'sìhéyuàn'?",
+        "english": "Why is it called 'siheyuan'?"
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "导游",
+        "chinese": "因为房子围成一个四方形，中间是院子。",
+        "pinyin": "Yīnwèi fángzi wéi chéng yí ge sìfāngxíng, zhōngjiān shì yuànzi.",
+        "english": "Because the houses form a square, with a courtyard in the middle."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "导游",
+        "chinese": "'四'是四面,'合'是合在一起。",
+        "pinyin": "'Sì' shì sìmiàn, 'hé' shì hé zài yìqǐ.",
+        "english": "'Si' means four sides, 'he' means coming together."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "游客",
+        "chinese": "四合院有什么特点？",
+        "pinyin": "Sìhéyuàn yǒu shénme tèdiǎn?",
+        "english": "What are the characteristics of courtyard houses?"
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "导游",
+        "chinese": "四合院讲究对称，有正房、厢房、倒座房。",
+        "pinyin": "Sìhéyuàn jiǎngjiu duìchèn, yǒu zhèngfáng, xiāngfáng, dàozuòfáng.",
+        "english": "Courtyard houses emphasize symmetry, with main rooms, side rooms, and reverse-facing rooms."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "导游",
+        "chinese": "正房朝南，冬天阳光充足，夏天凉快。",
+        "pinyin": "Zhèngfáng cháo nán, dōngtiān yángguāng chōngzú, xiàtiān liángkuài.",
+        "english": "The main room faces south, sunny in winter and cool in summer."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "游客",
+        "chinese": "四合院真是中国古代建筑的智慧啊。",
+        "pinyin": "Sìhéyuàn zhēnshì Zhōngguó gǔdài jiànzhù de zhìhuì a.",
+        "english": "Courtyard houses really show the wisdom of ancient Chinese architecture."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "四合院",
+        "pinyin": "sìhéyuàn",
+        "english": "courtyard house"
+      },
+      {
+        "chinese": "建筑",
+        "pinyin": "jiànzhù",
+        "english": "architecture"
+      },
+      {
+        "chinese": "对称",
+        "pinyin": "duìchèn",
+        "english": "symmetry"
+      },
+      {
+        "chinese": "正房",
+        "pinyin": "zhèngfáng",
+        "english": "main room"
+      },
+      {
+        "chinese": "充足",
+        "pinyin": "chōngzú",
+        "english": "sufficient"
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": {
+      "chinese": "纸上谈兵",
+      "pinyin": "Zhǐshàng-tánbīng",
+      "english": "Being an Armchair Strategist"
+    },
+    "location": "成语故事",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我们学习成语'纸上谈兵'。",
+        "pinyin": "Jīntiān wǒmen xuéxí chéngyǔ 'Zhǐshàng-tánbīng'.",
+        "english": "Today we learn the idiom 'Zhi shang tan bing'."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "老师",
+        "chinese": "战国时期，赵国有个将军叫赵括。",
+        "pinyin": "Zhànguó shíqī, Zhàoguó yǒu ge jiāngjūn jiào Zhào Kuò.",
+        "english": "During the Warring States period, Zhao State had a general named Zhao Kuo."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "他从小学习兵法，谈起打仗头头是道。",
+        "pinyin": "Tā cóng xiǎo xuéxí bīngfǎ, tán qǐ dǎzhàng tóutou-shìdào.",
+        "english": "He studied military strategy from childhood, speaking about warfare very logically."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "学生",
+        "chinese": "那他一定很厉害吧？",
+        "pinyin": "Nà tā yídìng hěn lìhai ba?",
+        "english": "Then he must be very formidable?"
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "老师",
+        "chinese": "不，他只是纸上谈兵，没有实战经验。",
+        "pinyin": "Bù, tā zhǐshì zhǐshàng-tánbīng, méiyǒu shízhàn jīngyàn.",
+        "english": "No, he only talked strategy on paper, without real combat experience."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "第一次带兵打仗，就被秦军打败，四十万赵军投降。",
+        "pinyin": "Dì-yí cì dàibīng dǎzhàng, jiù bèi Qínjūn dǎbài, sìshí wàn Zhàojūn tóuxiáng.",
+        "english": "The first time he led troops to battle, he was defeated by the Qin army, and 400,000 Zhao soldiers surrendered."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "学生",
+        "chinese": "所以'纸上谈兵'意思是只会说不会做？",
+        "pinyin": "Suǒyǐ 'Zhǐshàng-tánbīng' yìsi shì zhǐ huì shuō bú huì zuò?",
+        "english": "So 'Zhi shang tan bing' means only being able to talk but not do?"
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "老师",
+        "chinese": "对，形容理论脱离实际，只空谈不实践。",
+        "pinyin": "Duì, xíngróng lǐlùn tuōlí shíjì, zhǐ kōngtán bù shíjiàn.",
+        "english": "Yes, describing theory detached from reality, only empty talk without practice."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "纸上谈兵",
+        "pinyin": "zhǐshàng-tánbīng",
+        "english": "armchair strategy (lit. discussing military on paper)"
+      },
+      {
+        "chinese": "兵法",
+        "pinyin": "bīngfǎ",
+        "english": "military strategy"
+      },
+      {
+        "chinese": "实战",
+        "pinyin": "shízhàn",
+        "english": "actual combat"
+      },
+      {
+        "chinese": "投降",
+        "pinyin": "tóuxiáng",
+        "english": "to surrender"
+      },
+      {
+        "chinese": "脱离",
+        "pinyin": "tuōlí",
+        "english": "to detach from"
+      }
+    ]
+  },
+  "16": {
+    "lesson": 16,
+    "title": {
+      "chinese": "体重与节食",
+      "pinyin": "Tǐzhòng yǔ Jiéshí",
+      "english": "Weight and Diet"
+    },
+    "location": "健康咨询",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "医生",
+        "chinese": "你的体重有些超标，需要注意饮食。",
+        "pinyin": "Nǐ de tǐzhòng yǒuxiē chāobiāo, xūyào zhùyì yǐnshí.",
+        "english": "Your weight is somewhat above standard, you need to pay attention to your diet."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "患者",
+        "chinese": "我想减肥，是不是要节食？",
+        "pinyin": "Wǒ xiǎng jiǎnféi, shì búshì yào jiéshí?",
+        "english": "I want to lose weight, should I go on a diet?"
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "医生",
+        "chinese": "节食减肥不健康，容易反弹。",
+        "pinyin": "Jiéshí jiǎnféi bú jiànkāng, róngyì fǎntán.",
+        "english": "Dieting to lose weight is unhealthy and easy to rebound."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "患者",
+        "chinese": "那应该怎么办？",
+        "pinyin": "Nà yīnggāi zěnme bàn?",
+        "english": "Then what should I do?"
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "医生",
+        "chinese": "要均衡饮食，少吃油腻和甜食。",
+        "pinyin": "Yào jūnhéng yǐnshí, shǎo chī yóunì hé tiánshí.",
+        "english": "You need a balanced diet, eat less greasy and sweet foods."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "医生",
+        "chinese": "多吃蔬菜水果，适量运动。",
+        "pinyin": "Duō chī shūcài shuǐguǒ, shìliàng yùndòng.",
+        "english": "Eat more vegetables and fruits, exercise moderately."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "患者",
+        "chinese": "运动有什么建议吗？",
+        "pinyin": "Yùndòng yǒu shénme jiànyì ma?",
+        "english": "Any suggestions for exercise?"
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "医生",
+        "chinese": "每周运动三到五次，每次半小时以上。",
+        "pinyin": "Měi zhōu yùndòng sān dào wǔ cì, měi cì bàn xiǎoshí yǐshàng.",
+        "english": "Exercise 3-5 times a week, at least half an hour each time."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "患者",
+        "chinese": "谢谢医生，我会按照您的建议做的。",
+        "pinyin": "Xièxie yīshēng, wǒ huì ànzhào nín de jiànyì zuò de.",
+        "english": "Thank you doctor, I'll follow your advice."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "体重",
+        "pinyin": "tǐzhòng",
+        "english": "body weight"
+      },
+      {
+        "chinese": "节食",
+        "pinyin": "jiéshí",
+        "english": "to diet"
+      },
+      {
+        "chinese": "超标",
+        "pinyin": "chāobiāo",
+        "english": "exceeding the standard"
+      },
+      {
+        "chinese": "反弹",
+        "pinyin": "fǎntán",
+        "english": "to rebound"
+      },
+      {
+        "chinese": "均衡",
+        "pinyin": "jūnhéng",
+        "english": "balanced"
+      }
+    ]
+  },
+  "17": {
+    "lesson": 17,
+    "title": {
+      "chinese": "在最美好的时刻离开",
+      "pinyin": "Zài Zuì Měihǎo de Shíkè Líkāi",
+      "english": "Ending at the Best Moment"
+    },
+    "location": "生活感悟",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "小张",
+        "chinese": "你看过那部电影吗？结局很完美。",
+        "pinyin": "Nǐ kàn guo nà bù diànyǐng ma? Jiéjú hěn wánměi.",
+        "english": "Have you seen that movie? The ending is perfect."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "朋友",
+        "chinese": "看了。导演在最美好的时刻结束了故事。",
+        "pinyin": "Kàn le. Dǎoyǎn zài zuì měihǎo de shíkè jiéshù le gùshì.",
+        "english": "Yes. The director ended the story at the most beautiful moment."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "小张",
+        "chinese": "是啊，让人回味无穷。",
+        "pinyin": "Shì a, ràng rén huíwèi-wúqióng.",
+        "english": "Yes, leaving endless aftertaste."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "朋友",
+        "chinese": "生活也是这样，有时候需要学会离开。",
+        "pinyin": "Shēnghuó yě shì zhèyàng, yǒu shíhou xūyào xuéhuì líkāi.",
+        "english": "Life is the same, sometimes you need to learn to leave."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "小张",
+        "chinese": "什么意思？",
+        "pinyin": "Shénme yìsi?",
+        "english": "What do you mean?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "朋友",
+        "chinese": "在最好的时候结束，留下美好的回忆。",
+        "pinyin": "Zài zuì hǎo de shíhou jiéshù, liú xià měihǎo de huíyì.",
+        "english": "End at the best time, leaving beautiful memories."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "朋友",
+        "chinese": "不要等到一切都变得不好了才离开。",
+        "pinyin": "Búyào děng dào yíqiè dōu biàn de bù hǎo le cái líkāi.",
+        "english": "Don't wait until everything goes bad before leaving."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "小张",
+        "chinese": "这是生活的智慧。",
+        "pinyin": "Zhè shì shēnghuó de zhìhuì.",
+        "english": "This is the wisdom of life."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "时刻",
+        "pinyin": "shíkè",
+        "english": "moment"
+      },
+      {
+        "chinese": "结局",
+        "pinyin": "jiéjú",
+        "english": "ending"
+      },
+      {
+        "chinese": "导演",
+        "pinyin": "dǎoyǎn",
+        "english": "director"
+      },
+      {
+        "chinese": "回味无穷",
+        "pinyin": "huíwèi-wúqióng",
+        "english": "to have endless aftertaste"
+      },
+      {
+        "chinese": "回忆",
+        "pinyin": "huíyì",
+        "english": "memory"
+      }
+    ]
+  },
+  "18": {
+    "lesson": 18,
+    "title": {
+      "chinese": "抽象艺术：美还是不美",
+      "pinyin": "Chōuxiàng Yìshù: Měi Háishì Bù Měi",
+      "english": "Abstract Art: Beautiful or Not?"
+    },
+    "location": "艺术讨论",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "老师",
+        "chinese": "今天我们来讨论抽象艺术。",
+        "pinyin": "Jīntiān wǒmen lái tǎolùn chōuxiàng yìshù.",
+        "english": "Today let's discuss abstract art."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "学生",
+        "chinese": "抽象艺术我看不懂，不知道画的是什么。",
+        "pinyin": "Chōuxiàng yìshù wǒ kàn bu dǒng, bù zhīdào huà de shì shénme.",
+        "english": "I don't understand abstract art, I don't know what's being painted."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "老师",
+        "chinese": "抽象艺术不是要画出具体的东西。",
+        "pinyin": "Chōuxiàng yìshù búshì yào huà chū jùtǐ de dōngxi.",
+        "english": "Abstract art isn't about painting specific things."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "老师",
+        "chinese": "它用颜色、形状、线条表达情感和想法。",
+        "pinyin": "Tā yòng yánsè, xíngzhuàng, xiàntiáo biǎodá qínggǎn hé xiǎngfǎ.",
+        "english": "It uses color, shape, and lines to express emotions and ideas."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "学生",
+        "chinese": "那怎么判断它美不美？",
+        "pinyin": "Nà zěnme pànduàn tā měi bu měi?",
+        "english": "Then how do we judge if it's beautiful?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "老师",
+        "chinese": "艺术没有标准答案。",
+        "pinyin": "Yìshù méiyǒu biāozhǔn dá'àn.",
+        "english": "Art has no standard answer."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "老师",
+        "chinese": "每个人看同一幅画，感受可能完全不同。",
+        "pinyin": "Měi ge rén kàn tóng yì fú huà, gǎnshòu kěnéng wánquán bùtóng.",
+        "english": "Each person looking at the same painting may feel completely different."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "学生",
+        "chinese": "所以艺术是主观的。",
+        "pinyin": "Suǒyǐ yìshù shì zhǔguān de.",
+        "english": "So art is subjective."
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "老师",
+        "chinese": "对，重要的是你的感受，而不是标准答案。",
+        "pinyin": "Duì, zhòngyào de shì nǐ de gǎnshòu, ér búshì biāozhǔn dá'àn.",
+        "english": "Yes, what matters is your feeling, not the standard answer."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "抽象",
+        "pinyin": "chōuxiàng",
+        "english": "abstract"
+      },
+      {
+        "chinese": "艺术",
+        "pinyin": "yìshù",
+        "english": "art"
+      },
+      {
+        "chinese": "具体",
+        "pinyin": "jùtǐ",
+        "english": "concrete, specific"
+      },
+      {
+        "chinese": "线条",
+        "pinyin": "xiàntiáo",
+        "english": "line"
+      },
+      {
+        "chinese": "主观",
+        "pinyin": "zhǔguān",
+        "english": "subjective"
+      }
+    ]
+  },
+  "19": {
+    "lesson": 19,
+    "title": {
+      "chinese": "工作与生活",
+      "pinyin": "Gōngzuò yǔ Shēnghuó",
+      "english": "Work and Life"
+    },
+    "location": "职场对话",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "经理",
+        "chinese": "最近你经常加班，要注意身体。",
+        "pinyin": "Zuìjìn nǐ jīngcháng jiābān, yào zhùyì shēntǐ.",
+        "english": "You've been working overtime a lot lately, take care of your health."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "员工",
+        "chinese": "谢谢经理关心，我会注意的。",
+        "pinyin": "Xièxie jīnglǐ guānxīn, wǒ huì zhùyì de.",
+        "english": "Thank you for your concern, manager. I'll be careful."
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "经理",
+        "chinese": "工作重要，但生活也很重要。",
+        "pinyin": "Gōngzuò zhòngyào, dàn shēnghuó yě hěn zhòngyào.",
+        "english": "Work is important, but life is also important."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "员工",
+        "chinese": "我明白，但最近项目太多。",
+        "pinyin": "Wǒ míngbai, dàn zuìjìn xiàngmù tài duō.",
+        "english": "I understand, but there are too many projects recently."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "经理",
+        "chinese": "要学会平衡工作和生活。",
+        "pinyin": "Yào xuéhuì pínghéng gōngzuò hé shēnghuó.",
+        "english": "You need to learn to balance work and life."
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "经理",
+        "chinese": "休息好才能工作好。",
+        "pinyin": "Xiūxi hǎo cái néng gōngzuò hǎo.",
+        "english": "Only when you rest well can you work well."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "员工",
+        "chinese": "您说得对，我会调整的。",
+        "pinyin": "Nín shuō de duì, wǒ huì tiáozhěng de.",
+        "english": "You're right, I'll make adjustments."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "经理",
+        "chinese": "周末有时间和家人出去放松一下。",
+        "pinyin": "Zhōumò yǒu shíjiān hé jiārén chūqù fàngsōng yíxià.",
+        "english": "Take time this weekend to relax with your family."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "加班",
+        "pinyin": "jiābān",
+        "english": "to work overtime"
+      },
+      {
+        "chinese": "项目",
+        "pinyin": "xiàngmù",
+        "english": "project"
+      },
+      {
+        "chinese": "平衡",
+        "pinyin": "pínghéng",
+        "english": "balance"
+      },
+      {
+        "chinese": "调整",
+        "pinyin": "tiáozhěng",
+        "english": "to adjust"
+      },
+      {
+        "chinese": "放松",
+        "pinyin": "fàngsōng",
+        "english": "to relax"
+      }
+    ]
+  },
+  "20": {
+    "lesson": 20,
+    "title": {
+      "chinese": "保护环境",
+      "pinyin": "Bǎohù Huánjìng",
+      "english": "Protecting the Environment"
+    },
+    "location": "环保讲座",
+    "lines": [
+      {
+        "dialogue_number": 1,
+        "speaker": "讲师",
+        "chinese": "大家好，今天我们讨论环境保护。",
+        "pinyin": "Dàjiā hǎo, jīntiān wǒmen tǎolùn huánjìng bǎohù.",
+        "english": "Hello everyone, today we discuss environmental protection."
+      },
+      {
+        "dialogue_number": 2,
+        "speaker": "听众",
+        "chinese": "我们能做些什么呢？",
+        "pinyin": "Wǒmen néng zuò xiē shénme ne?",
+        "english": "What can we do?"
+      },
+      {
+        "dialogue_number": 3,
+        "speaker": "讲师",
+        "chinese": "首先，减少使用一次性物品。",
+        "pinyin": "Shǒuxiān, jiǎnshǎo shǐyòng yícìxìng wùpǐn.",
+        "english": "First, reduce the use of disposable items."
+      },
+      {
+        "dialogue_number": 4,
+        "speaker": "讲师",
+        "chinese": "比如购物时带自己的袋子，不用塑料袋。",
+        "pinyin": "Bǐrú gòuwù shí dài zìjǐ de dàizi, búyòng sùliàodài.",
+        "english": "For example, bring your own bag when shopping, don't use plastic bags."
+      },
+      {
+        "dialogue_number": 5,
+        "speaker": "听众",
+        "chinese": "还有什么？",
+        "pinyin": "Hái yǒu shénme?",
+        "english": "What else?"
+      },
+      {
+        "dialogue_number": 6,
+        "speaker": "讲师",
+        "chinese": "节约用水用电，随手关灯关水。",
+        "pinyin": "Jiéyuē yòngshuǐ yòngdiàn, suíshǒu guān dēng guān shuǐ.",
+        "english": "Save water and electricity, turn off lights and water when not in use."
+      },
+      {
+        "dialogue_number": 7,
+        "speaker": "讲师",
+        "chinese": "出行时尽量选择公共交通或自行车。",
+        "pinyin": "Chūxíng shí jǐnliàng xuǎnzé gōnggòng jiāotōng huò zìxíngchē.",
+        "english": "Choose public transport or bicycle when traveling."
+      },
+      {
+        "dialogue_number": 8,
+        "speaker": "听众",
+        "chinese": "这些小事真的有用吗？",
+        "pinyin": "Zhèxiē xiǎoshì zhēn de yǒuyòng ma?",
+        "english": "Are these small things really useful?"
+      },
+      {
+        "dialogue_number": 9,
+        "speaker": "讲师",
+        "chinese": "每个人做一点点，加起来就是很大的改变。",
+        "pinyin": "Měi ge rén zuò yìdiǎndiǎn, jiā qǐlái jiùshì hěn dà de gǎibiàn.",
+        "english": "Everyone doing a little bit adds up to a big change."
+      },
+      {
+        "dialogue_number": 10,
+        "speaker": "讲师",
+        "chinese": "保护环境，从我做起。",
+        "pinyin": "Bǎohù huánjìng, cóng wǒ zuò qǐ.",
+        "english": "Protect the environment, start with yourself."
+      }
+    ],
+    "vocabulary": [
+      {
+        "chinese": "环境",
+        "pinyin": "huánjìng",
+        "english": "environment"
+      },
+      {
+        "chinese": "保护",
+        "pinyin": "bǎohù",
+        "english": "to protect"
+      },
+      {
+        "chinese": "一次性",
+        "pinyin": "yícìxìng",
+        "english": "disposable"
+      },
+      {
+        "chinese": "节约",
+        "pinyin": "jiéyuē",
+        "english": "to save"
+      },
+      {
+        "chinese": "公共交通",
+        "pinyin": "gōnggòng jiāotōng",
+        "english": "public transportation"
+      }
+    ]
+  }
+}
