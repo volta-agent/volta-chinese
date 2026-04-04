@@ -11,8 +11,8 @@ A free Chinese vocabulary learning app with HSK 1-5 flashcards, writing practice
   - Single Characters - Practice individual characters with stroke detection
   - Word Building - Write each character in multi-character words
 - **Sentences** - Practice with example sentences for each vocabulary word
-- **Dialogues** - HSK 1-2 textbook dialogues with audio and translations
-- **Lessons** - Lesson-based progression through HSK 1-2 content
+- **Dialogues** - HSK 1-2 textbook dialogues with audio and translations (HSK 3-5 coming soon)
+- **Lessons** - Lesson-based progression through HSK 1-2 content (HSK 3-5 coming soon)
 - **Audio** - Text-to-speech pronunciation using Web Speech API
 - **Pinyin Toggle** - Show or hide pinyin readings
 - **Progress Tracking** - Saved locally in your browser with export/import backup

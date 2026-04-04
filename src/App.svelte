@@ -647,22 +647,30 @@ let currentSentenceWord = $state(null); // The word being studied
 			>
 				Sentences
 			</button>
+		<button 
+			type="button"
+			class="btn-secondary"
+			onclick={() => startDialoguePractice(lvl.level)}
+		>
+			Dialogues
+ </button>
+		{#if TEXTBOOK_DIALOGUES[lvl.level]}
 			<button 
 				type="button"
-				class="btn-secondary"
-				onclick={() => startDialoguePractice(lvl.level)}
+				class="btn-lessons"
+				onclick={() => startLessons(lvl.level)}
 			>
-				Dialogues
-    </button>
-			{#if TEXTBOOK_DIALOGUES[lvl.level]}
-				<button 
-					type="button"
-					class="btn-lessons"
-					onclick={() => startLessons(lvl.level)}
-				>
-					Lessons
-				</button>
-			{/if}
+				Lessons
+			</button>
+		{:else}
+			<button 
+				type="button"
+				class="btn-lessons-disabled"
+				disabled
+			>
+				Lessons (coming soon)
+			</button>
+		{/if}
     </div>
  {#if progress[lvl.level]?.reviewCount > 0}
  <button 
@@ -1928,10 +1936,22 @@ margin-top: 1.5rem;
     transition: all 0.2s;
  }
 
- .btn-lessons:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(74, 222, 128, 0.3);
- }
+.btn-lessons:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(74, 222, 128, 0.3);
+}
+
+.btn-lessons-disabled {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.1);
+	color: #666;
+	border: 1px dashed rgba(255, 255, 255, 0.2);
+	padding: 0.75rem;
+	border-radius: 8px;
+	font-size: 0.95rem;
+	cursor: not-allowed;
+	opacity: 0.7;
+}
 
  /* Lesson Player View */
 .lesson-player-view {
