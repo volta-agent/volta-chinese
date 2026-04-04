@@ -1837,6 +1837,7 @@ margin-top: 1.5rem;
 .settings-section.about .btc-address code {
 	color: #ffd93d;
 	font-size: 0.85rem;
+	word-break: break-all;
 }
 
 /* Lessons View */
