@@ -1061,19 +1061,25 @@ let currentSentenceWord = $state(null); // The word being studied
  padding: 0;
  }
  
- :global(body) {
- font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
- background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
- color: #e0e0e0;
- min-height: 100vh;
- }
- 
- main {
- min-height: 100vh;
- padding: 1rem;
- max-width: 600px;
- margin: 0 auto;
- }
+	:global(body) {
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+		background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+		color: #e0e0e0;
+		min-height: 100vh;
+		overflow-x: hidden;
+	}
+	
+	:global(#app) {
+		min-height: 100vh;
+		background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+	}
+	
+	main {
+		min-height: 100vh;
+		padding: 1rem;
+		max-width: 600px;
+		margin: 0 auto;
+	}
  
  .navbar {
  display: flex;
@@ -1193,15 +1199,19 @@ let currentSentenceWord = $state(null); // The word being studied
  color: #a0a0a0;
  }
 
- .level-grid {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
- gap: 1.5rem;
- max-width: 1200px;
- margin: 0 auto;
- }
+.level-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+}
 
- .level-card {
+@media (min-width: 640px) {
+	.level-grid {
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	}
+}
+
+.level-card {
  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 255, 255, 0.05));
  border: 1px solid rgba(255, 255, 255, 0.1);
  border-radius: 16px;
@@ -1376,10 +1386,9 @@ let currentSentenceWord = $state(null); // The word being studied
  .flashcard {
  background: rgba(255, 255, 255, 0.1);
  border-radius: 16px;
- padding: 3rem 2rem;
- min-height: 250px;
- min-width: 280px;
- display: flex;
+	padding: 3rem 2rem;
+	min-height: 250px;
+	display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
@@ -1548,10 +1557,9 @@ let currentSentenceWord = $state(null); // The word being studied
  .writing-grid {
  background: rgba(255, 255, 255, 0.05);
  border: 2px solid rgba(255, 255, 255, 0.1);
- border-radius: 12px;
- min-height: 220px;
- min-width: 220px;
- display: flex;
+	border-radius: 12px;
+	min-height: 220px;
+	display: flex;
  align-items: center;
  justify-content: center;
  position: relative;
@@ -1597,11 +1605,10 @@ let currentSentenceWord = $state(null); // The word being studied
  }
 
  /* Sentence View */
- .sentence-view {
- padding: 2rem;
- max-width: 800px;
- margin: 0 auto;
- }
+.sentence-view {
+	padding: 2rem;
+	padding-bottom: 6rem;
+}
 
  .sentence-container {
  margin: 2rem 0;
@@ -1659,11 +1666,10 @@ margin-top: 1.5rem;
  }
 
  /* Dialogue View */
- .dialogue-view {
- padding: 2rem;
- max-width: 800px;
- margin: 0 auto;
- }
+.dialogue-view {
+	padding: 2rem;
+	padding-bottom: 6rem;
+}
 
  .dialogue-header {
  text-align: center;
@@ -1897,11 +1903,15 @@ margin-top: 1.5rem;
 
  .lessons-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    max-width: 900px;
-    margin: 0 auto;
- }
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+	.lessons-grid {
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	}
+}
 
  .btn-lessons {
     width: 100%;
@@ -1923,9 +1933,8 @@ margin-top: 1.5rem;
  }
 
  /* Lesson Player View */
- .lesson-player-view {
-    padding: 1rem;
-    max-width: 800px;
-    margin: 0 auto;
- }
+.lesson-player-view {
+	padding: 1rem;
+	padding-bottom: 6rem;
+}
 </style>
