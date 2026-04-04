@@ -17,16 +17,21 @@
  import dialogues3 from './lib/data/dialogues_hsk3.json';
  import dialogues4 from './lib/data/dialogues_hsk4.json';
  import dialogues5 from './lib/data/dialogues_hsk5.json';
- import textbookDialogues1 from './lib/data/textbook_dialogues_hsk1.json';
- import textbookDialogues2 from './lib/data/textbook_dialogues_hsk2.json';
+import textbookDialogues1 from './lib/data/textbook_dialogues_hsk1.json';
+import textbookDialogues2 from './lib/data/textbook_dialogues_hsk2.json';
+import textbookDialogues3 from './lib/data/textbook_dialogues_hsk3.json';
+import textbookDialogues4 from './lib/data/textbook_dialogues_hsk4.json';
+import grammarHsk1 from './lib/data/grammar_hsk1.json';
+import grammarHsk2 from './lib/data/grammar_hsk2.json';
  
- import LessonCard from './lib/components/LessonCard.svelte';
- import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
+import LessonCard from './lib/components/LessonCard.svelte';
+import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
  
  const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
  const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
  const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5 };
- const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2 };
+ const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2, 3: textbookDialogues3, 4: textbookDialogues4 };
+const GRAMMAR_DATA = { 1: grammarHsk1, 2: grammarHsk2 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -608,11 +613,11 @@ let currentSentenceWord = $state(null); // The word being studied
  <p class="subtitle">
  Master HSK 1-5 vocabulary with flashcards, writing, sentences, and dialogues.
  </p>
- <div class="hero-stats">
- <span>1500+ words</span>
- <span>25 dialogues</span>
- <span>500+ sentences</span>
- </div>
+<div class="hero-stats">
+					<span>6736 words</span>
+					<span>25 dialogues</span>
+					<span>2500 sentences</span>
+			</div>
  </section>
 
  <section class="practice-section">
@@ -990,16 +995,17 @@ let currentSentenceWord = $state(null); // The word being studied
     </div>
  </div>
 
- {:else if currentView === 'lesson-player' && currentLesson}
- <div class="lesson-player-view">
-    <button type="button" class="back-btn" onclick={() => currentView = 'lessons'}>
-    ← Back to Lessons
-    </button>
-    
-    <DialoguePlayer 
-    dialogue={currentLesson}
-    {showPinyin}
-	/>
+{:else if currentView === 'lesson-player' && currentLesson}
+	<div class="lesson-player-view">
+		<button type="button" class="back-btn" onclick={() => currentView = 'lessons'}>
+			← Back to Lessons
+		</button>
+		
+		<DialoguePlayer 
+			dialogue={currentLesson}
+			{showPinyin}
+			grammar={GRAMMAR_DATA[currentLessonLevel]?.[currentLesson.lesson?.toString() || '1']}
+		/>
 	</div>
 
 {:else if currentView === 'settings'}

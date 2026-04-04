@@ -1,0 +1,379 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": "你好",
+    "grammar_points": [
+      {
+        "name": "基本问候语 (Basic Greetings)",
+        "explanation": "你好 (nǐ hǎo) is the most common greeting in Chinese. It can be used at any time of day.",
+        "examples": [
+          {"chinese": "你好！\", \"pinyin\": \"Nǐ hǎo!\", \"english\": \"Hello!"},
+          {"chinese": "您好！\", \"pinyin\": \"Nín hǎo!\", \"english\": \"Hello (polite)!"}
+        ]
+      },
+      {
+        "name": "礼貌用语 (Polite Expressions)",
+        "explanation": "谢谢 (xièxie) expresses gratitude. 不客气 (bú kèqi) is the standard response. 对不起 (duìbuqǐ) is used to apologize, and 没关系 (méi guānxi) means 'it's okay'.",
+        "examples": [
+          {"chinese": "谢谢！\", \"pinyin\": \"Xièxie!\", \"english\": \"Thank you!"},
+          {"chinese": "不客气！\", \"pinyin\": \"Bú kèqi!\", \"english\": \"You're welcome!"},
+          {"chinese": "对不起！\", \"pinyin\": \"Duìbuqǐ!\", \"english\": \"Sorry!"},
+          {"chinese": "没关系！\", \"pinyin\": \"Méi guānxi!\", \"english\": \"It's okay!"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": "谢谢你",
+    "grammar_points": [
+      {
+        "name": "感谢与回应 (Expressing Thanks and Responses)",
+        "explanation": "谢谢你 (xièxie nǐ) or just 谢谢 expresses thanks. Common responses include 不客气 (bú kèqi), 不谢 (bú xiè), or 没关系 (méi guānxi).",
+        "examples": [
+          {"chinese": "谢谢你！\", \"pinyin\": \"Xièxie nǐ!\", \"english\": \"Thank you!"},
+          {"chinese": "不客气！\", \"pinyin\": \"Bú kèqi!\", \"english\": \"You're welcome!"}
+        ]
+      },
+      {
+        "name": "告别 (Farewells)",
+        "explanation": "再见 (zàijiàn) is the standard way to say goodbye.",
+        "examples": [
+          {"chinese": "再见！\", \"pinyin\": \"Zàijiàn!\", \"english\": \"Goodbye!"}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": "你叫什么名字",
+    "grammar_points": [
+      {
+        "name": "疑问代词\"什么\" (Interrogative Pronoun 什么)",
+        "explanation": "疑问代词\"什么\"表示疑问，用在疑问句中可直接做宾语，或者与后接名词性成分一起做宾语。The interrogative pronoun 什么 is used in interrogative sentences, serving as the object by itself or together with a nominal element following it.",
+        "examples": [
+          {"chinese": "你叫什么名字？\", \"pinyin\": \"Nǐ jiào shénme míngzi?\", \"english\": \"What's your name?"},
+          {"chinese": "这是什么？\", \"pinyin\": \"Zhè shì shénme?\", \"english\": \"What is this?"},
+          {"chinese": "这是什么书？\", \"pinyin\": \"Zhè shì shénme shū?\", \"english\": \"What book is this?"}
+        ]
+      },
+      {
+        "name": "\"是\"字句 (The 是 Sentence)",
+        "explanation": "\"是\"字句是由\"是\"构成的判断句，用于表达人或事物等于什么或者属于什么。其否定形式是在\"是\"前加上否定副词\"不\"。A 是 sentence is a determinative sentence with 是, indicating what somebody or something equals or belongs to. The negative is formed by adding 不 before 是.",
+        "examples": [
+          {"chinese": "李月是老师。\", \"pinyin\": \"Lǐ Yuè shì lǎoshī.\", \"english\": \"Li Yue is a teacher."},
+          {"chinese": "我是美国人。\", \"pinyin\": \"Wǒ shì Měiguó rén.\", \"english\": \"I am American."},
+          {"chinese": "我不是老师。\", \"pinyin\": \"Wǒ bú shì lǎoshī.\", \"english\": \"I am not a teacher."}
+        ]
+      },
+      {
+        "name": "用\"吗\"的疑问句 (Interrogative Sentences with 吗)",
+        "explanation": "疑问助词\"吗\"表示疑问语气，用在陈述句句尾构成疑问句。The particle 吗 indicates an interrogative mood. When added at the end of a declarative sentence, it turns the statement into a question.",
+        "examples": [
+          {"chinese": "你是美国人吗？\", \"pinyin\": \"Nǐ shì Měiguó rén ma?\", \"english\": \"Are you American?"},
+          {"chinese": "你是中国人吗？\", \"pinyin\": \"Nǐ shì Zhōngguó rén ma?\", \"english\": \"Are you Chinese?"},
+          {"chinese": "你是老师吗？\", \"pinyin\": \"Nǐ shì lǎoshī ma?\", \"english\": \"Are you a teacher?"}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": "她是谁",
+    "grammar_points": [
+      {
+        "name": "疑问代词\"谁\" (Interrogative Pronoun 谁)",
+        "explanation": "谁 (shéi/shuí) is used to ask about people. It can be the subject or object in a sentence.",
+        "examples": [
+          {"chinese": "她是谁？\", \"pinyin\": \"Tā shì shéi?\", \"english\": \"Who is she?"},
+          {"chinese": "你是谁？\", \"pinyin\": \"Nǐ shì shéi?\", \"english\": \"Who are you?"}
+        ]
+      },
+      {
+        "name": "疑问代词\"哪\" (Interrogative Pronoun 哪)",
+        "explanation": "哪 (nǎ) is used to ask about choices or options. It must be followed by a measure word and noun.",
+        "examples": [
+          {"chinese": "你是哪国人？\", \"pinyin\": \"Nǐ shì nǎ guó rén?\", \"english\": \"Which country are you from?"},
+          {"chinese": "你是哪个班的？\", \"pinyin\": \"Nǐ shì nǎ ge bān de?\", \"english\": \"Which class are you in?"}
+        ]
+      },
+      {
+        "name": "结构助词\"的\" (Structural Particle 的)",
+        "explanation": "的 is used to show possession or attribution. It connects a modifier to a noun.",
+        "examples": [
+          {"chinese": "我的朋友\", \"pinyin\": \"wǒ de péngyou\", \"english\": \"my friend"},
+          {"chinese": "她的书\", \"pinyin\": \"tā de shū\", \"english\": \"her book"},
+          {"chinese": "汉语老师\", \"pinyin\": \"Hànyǔ lǎoshī\", \"english\": \"Chinese teacher"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": "你家有几口人",
+    "grammar_points": [
+      {
+        "name": "动词\"有\" (Verb 有)",
+        "explanation": "有 (yǒu) means 'to have' or 'there is/are'. The negative is 没有 (méiyǒu), not 不有.",
+        "examples": [
+          {"chinese": "我家有三口人。\", \"pinyin\": \"Wǒ jiā yǒu sān kǒu rén.\", \"english\": \"My family has three people."},
+          {"chinese": "我没有弟弟。\", \"pinyin\": \"Wǒ méiyǒu dìdi.\", \"english\": \"I don't have a younger brother."},
+          {"chinese": "教室里有学生。\", \"pinyin\": \"Jiàoshì li yǒu xuésheng.\", \"english\": \"There are students in the classroom."}
+        ]
+      },
+      {
+        "name": "量词 (Measure Words)",
+        "explanation": "Chinese uses measure words between numbers and nouns. Different nouns require different measure words. 口 (kǒu) is used for family members, 个 (gè) is the most common general measure word.",
+        "examples": [
+          {"chinese": "三口人\", \"pinyin\": \"sān kǒu rén\", \"english\": \"three family members"},
+          {"chinese": "一个朋友\", \"pinyin\": \"yí ge péngyou\", \"english\": \"one friend"},
+          {"chinese": "两个女儿\", \"pinyin\": \"liǎng ge nǚ'ér\", \"english\": \"two daughters"}
+        ]
+      },
+      {
+        "name": "助词\"了\" (Particle 了)",
+        "explanation": "了 indicates a change of state or completed action. After numbers, it shows the number has been reached.",
+        "examples": [
+          {"chinese": "我女儿今年八岁了。\", \"pinyin\": \"Wǒ nǚ'ér jīnnián bā suì le.\", \"english\": \"My daughter is eight years old this year."},
+          {"chinese": "我有两本书了。\", \"pinyin\": \"Wǒ yǒu liǎng běn shū le.\", \"english\": \"I now have two books."}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": "我的汉语不好",
+    "grammar_points": [
+      {
+        "name": "能愿动词\"会\" (Modal Verb 会)",
+        "explanation": "会 (huì) expresses ability or skill learned through practice. It indicates knowing how to do something.",
+        "examples": [
+          {"chinese": "我会说汉语。\", \"pinyin\": \"Wǒ huì shuō Hànyǔ.\", \"english\": \"I can speak Chinese."},
+          {"chinese": "你会做中国菜吗？\", \"pinyin\": \"Nǐ huì zuò Zhōngguó cài ma?\", \"english\": \"Can you cook Chinese food?"},
+          {"chinese": "我不会游泳。\", \"pinyin\": \"Wǒ bú huì yóuyǒng.\", \"english\": \"I can't swim."}
+        ]
+      },
+      {
+        "name": "形容词谓语句 (Adjectival Predicates)",
+        "explanation": "In Chinese, adjectives can function as predicates without a verb. 很 (hěn) is often added for rhythm, not necessarily emphasis.",
+        "examples": [
+          {"chinese": "我的汉语不好。\", \"pinyin\": \"Wǒ de Hànyǔ bù hǎo.\", \"english\": \"My Chinese is not good."},
+          {"chinese": "她很漂亮。\", \"pinyin\": \"Tā hěn piàoliang.\", \"english\": \"She is very pretty."},
+          {"chinese": "今天很冷。\", \"pinyin\": \"Jīntiān hěn lěng.\", \"english\": \"Today is very cold."}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": "今天几号",
+    "grammar_points": [
+      {
+        "name": "日期表达 (Date Expressions)",
+        "explanation": "Chinese dates are expressed from largest to smallest unit: year, month, day. Use 号 (hào) or 日 (rì) for days in spoken and written Chinese respectively.",
+        "examples": [
+          {"chinese": "二零二六年四月三日\", \"pinyin\": \"Èr líng èr liù nián sì yuè sān hào\", \"english\": \"April 3, 2026"},
+          {"chinese": "今天几号？\", \"pinyin\": \"Jīntiān jǐ hào?\", \"english\": \"What's the date today?"},
+          {"chinese": "三月八号\", \"pinyin\": \"Sān yuè bā hào\", \"english\": \"March 8th"}
+        ]
+      },
+      {
+        "name": "星期表达 (Days of the Week)",
+        "explanation": "Use 星期 (xīngqī) or 周 (zhōu) followed by numbers 1-6 for Monday through Saturday. Sunday is 星期日/天 or 周日/天.",
+        "examples": [
+          {"chinese": "星期一\", \"pinyin\": \"xīngqī yī\", \"english\": \"Monday"},
+          {"chinese": "星期日\", \"pinyin\": \"xīngqī rì\", \"english\": \"Sunday"},
+          {"chinese": "今天星期几？\", \"pinyin\": \"Jīntiān xīngqī jǐ?\", \"english\": \"What day is it today?"}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": "我想买苹果",
+    "grammar_points": [
+      {
+        "name": "能愿动词\"想\" (Modal Verb 想)",
+        "explanation": "想 (xiǎng) expresses desire or intention to do something. It's softer than 要 (yào).",
+        "examples": [
+          {"chinese": "我想买苹果。\", \"pinyin\": \"Wǒ xiǎng mǎi píngguǒ.\", \"english\": \"I want to buy apples."},
+          {"chinese": "你想吃什么？\", \"pinyin\": \"Nǐ xiǎng chī shénme?\", \"english\": \"What do you want to eat?"},
+          {"chinese": "我想去中国。\", \"pinyin\": \"Wǒ xiǎng qù Zhōngguó.\", \"english\": \"I want to go to China."}
+        ]
+      },
+      {
+        "name": "钱的表达 (Money Expressions)",
+        "explanation": "Chinese uses 块 (kuài) for yuan in spoken Chinese. 元 (yuán) is the formal written form. 多少钱 (duōshao qián) asks about price.",
+        "examples": [
+          {"chinese": "这个多少钱？\", \"pinyin\": \"Zhège duōshao qián?\", \"english\": \"How much is this?"},
+          {"chinese": "五块钱。\", \"pinyin\": \"Wǔ kuài qián.\", \"english\": \"Five yuan."},
+          {"chinese": "太贵了！\", \"pinyin\": \"Tài guì le!\", \"english\": \"Too expensive!"}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": "我们要多少钱",
+    "grammar_points": [
+      {
+        "name": "能愿动词\"要\" (Modal Verb 要)",
+        "explanation": "要 (yào) expresses strong desire or intention. It's more direct than 想.",
+        "examples": [
+          {"chinese": "我要这个。\", \"pinyin\": \"Wǒ yào zhège.\", \"english\": \"I want this one."},
+          {"chinese": "你要去哪儿？\", \"pinyin\": \"Nǐ yào qù nǎr?\", \"english\": \"Where are you going?"},
+          {"chinese": "我要一杯咖啡。\", \"pinyin\": \"Wǒ yào yì bēi kāfēi.\", \"english\": \"I would like a cup of coffee."}
+        ]
+      },
+      {
+        "name": "助动词\"可以\" (Modal Verb 可以)",
+        "explanation": "可以 (kěyǐ) expresses permission or possibility. It asks if something is allowed or possible.",
+        "examples": [
+          {"chinese": "我可以进来吗？\", \"pinyin\": \"Wǒ kěyǐ jìnlái ma?\", \"english\": \"May I come in?"},
+          {"chinese": "这里可以停车。\", \"pinyin\": \"Zhèli kěyǐ tíngchē.\", \"english\": \"You can park here."}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": "你会说英语吗",
+    "grammar_points": [
+      {
+        "name": "能愿动词\"会\"表示能力 (Modal Verb 会 for Ability)",
+        "explanation": "会 (huì) indicates learned ability or skill. Unlike 能 (néng) which indicates physical possibility, 会 means you have learned how to do something.",
+        "examples": [
+          {"chinese": "你会说英语吗？\", \"pinyin\": \"Nǐ huì shuō Yīngyǔ ma?\", \"english\": \"Can you speak English?"},
+          {"chinese": "我会写汉字。\", \"pinyin\": \"Wǒ huì xiě Hànzì.\", \"english\": \"I can write Chinese characters."},
+          {"chinese": "他不会开车。\", \"pinyin\": \"Tā bú huì kāichē.\", \"english\": \"He can't drive."}
+        ]
+      },
+      {
+        "name": "语言名称 (Language Names)",
+        "explanation": "Language names in Chinese are formed by adding 语 (yǔ) or 文 (wén) to country names.",
+        "examples": [
+          {"chinese": "汉语/中文\", \"pinyin\": \"Hànyǔ/Zhōngwén\", \"english\": \"Chinese"},
+          {"chinese": "英语\", \"pinyin\": \"Yīngyǔ\", \"english\": \"English"},
+          {"chinese": "日语\", \"pinyin\": \"Rìyǔ\", \"english\": \"Japanese"}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": "我喝茶",
+    "grammar_points": [
+      {
+        "name": "动作动词 (Action Verbs)",
+        "explanation": "Action verbs like 喝 (hē - drink), 吃 (chī - eat), 看 (kàn - see/read) describe actions.",
+        "examples": [
+          {"chinese": "我喝茶。\", \"pinyin\": \"Wǒ hē chá.\", \"english\": \"I drink tea."},
+          {"chinese": "我吃米饭。\", \"pinyin\": \"Wǒ chī mǐfàn.\", \"english\": \"I eat rice."},
+          {"chinese": "我看书。\", \"pinyin\": \"Wǒ kàn shū.\", \"english\": \"I read books."}
+        ]
+      },
+      {
+        "name": "表达喜好 (Expressing Preferences)",
+        "explanation": "喜欢 (xǐhuan) expresses liking something. 不喜欢 (bù xǐhuan) is the negative.",
+        "examples": [
+          {"chinese": "我喜欢喝茶。\", \"pinyin\": \"Wǒ xǐhuan hē chá.\", \"english\": \"I like drinking tea."},
+          {"chinese": "我不喜欢吃苹果。\", \"pinyin\": \"Wǒ bù xǐhuan chī píngguǒ.\", \"english\": \"I don't like eating apples."}
+        ]
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": "你怎么去学校",
+    "grammar_points": [
+      {
+        "name": "疑问代词\"怎么\" (Interrogative Pronoun 怎么)",
+        "explanation": "怎么 (zěnme) asks about manner or method. It's used to ask 'how' something is done.",
+        "examples": [
+          {"chinese": "你怎么去学校？\", \"pinyin\": \"Nǐ zěnme qù xuéxiào?\", \"english\": \"How do you go to school?"},
+          {"chinese": "这个字怎么读？\", \"pinyin\": \"Zhège zì zěnme dú?\", \"english\": \"How do you read this character?"},
+          {"chinese": "怎么说？\", \"pinyin\": \"Zěnme shuō?\", \"english\": \"How do you say it?"}
+        ]
+      },
+      {
+        "name": "交通方式 (Transportation)",
+        "explanation": "Use 坐 (zuò) or 骑 (qí) to express mode of transportation. 坐 is for vehicles you sit in, 骑 is for bikes/motorcycles.",
+        "examples": [
+          {"chinese": "我坐公共汽车去学校。\", \"pinyin\": \"Wǒ zuò gōnggòng qìchē qù xuéxiào.\", \"english\": \"I take the bus to school."},
+          {"chinese": "我骑车去。\", \"pinyin\": \"Wǒ qíchē qù.\", \"english\": \"I ride a bike there."},
+          {"chinese": "我走路去。\", \"pinyin\": \"Wǒ zǒulù qù.\", \"english\": \"I walk there."}
+        ]
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": "我在宿舍学习",
+    "grammar_points": [
+      {
+        "name": "介词\"在\"表示地点 (Preposition 在 for Location)",
+        "explanation": "在 (zài) indicates location where an action takes place. It comes before the verb in Chinese.",
+        "examples": [
+          {"chinese": "我在宿舍学习。\", \"pinyin\": \"Wǒ zài sùshè xuéxí.\", \"english\": \"I study in the dormitory."},
+          {"chinese": "他在图书馆看书。\", \"pinyin\": \"Tā zài túshūguǎn kàn shū.\", \"english\": \"He reads in the library."},
+          {"chinese": "我们在餐厅吃饭。\", \"pinyin\": \"Wǒmen zài cāntīng chīfàn.\", \"english\": \"We eat in the cafeteria."}
+        ]
+      },
+      {
+        "name": "住表示居住 (Verb 住 for Living)",
+        "explanation": "住 (zhù) means to live or reside somewhere.",
+        "examples": [
+          {"chinese": "我住在北京。\", \"pinyin\": \"Wǒ zhù zài Běijīng.\", \"english\": \"I live in Beijing."},
+          {"chinese": "你住在哪儿？\", \"pinyin\": \"Nǐ zhù zài nǎr?\", \"english\": \"Where do you live?"}
+        ]
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": "你认识不认识他",
+    "grammar_points": [
+      {
+        "name": "正反疑问句 (Affirmative-Negative Questions)",
+        "explanation": "To form a yes/no question, you can repeat the verb in positive and negative form. This is called a V-not-V question.",
+        "examples": [
+          {"chinese": "你认识不认识他？\", \"pinyin\": \"Nǐ rènshi bu rènshi tā?\", \"english\": \"Do you know him?"},
+          {"chinese": "你去不去？\", \"pinyin\": \"Nǐ qù bu qù?\", \"english\": \"Are you going?"},
+          {"chinese": "他是不是老师？\", \"pinyin\": \"Tā shì bu shì lǎoshī?\", \"english\": \"Is he a teacher?"}
+        ]
+      },
+      {
+        "name": "认识 vs 知道 (To Know a Person vs To Know a Fact)",
+        "explanation": "认识 (rènshi) means to know or be acquainted with a person. 知道 (zhīdao) means to know a fact or information.",
+        "examples": [
+          {"chinese": "我认识他。\", \"pinyin\": \"Wǒ rènshi tā.\", \"english\": \"I know him (as a person)."},
+          {"chinese": "我知道他的名字。\", \"pinyin\": \"Wǒ zhīdao tā de míngzi.\", \"english\": \"I know his name (as a fact)."}
+        ]
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": "我给你介绍一下",
+    "grammar_points": [
+      {
+        "name": "介词\"给\" (Preposition 给)",
+        "explanation": "给 (gěi) introduces the beneficiary or recipient of an action. It can mean 'for' or 'to'.",
+        "examples": [
+          {"chinese": "我给你介绍一下。\", \"pinyin\": \"Wǒ gěi nǐ jièshào yīxià.\", \"english\": \"Let me introduce you."},
+          {"chinese": "我给你买一本书。\", \"pinyin\": \"Wǒ gěi nǐ mǎi yì běn shū.\", \"english\": \"I'll buy a book for you."},
+          {"chinese": "我给妈妈打电话。\", \"pinyin\": \"Wǒ gěi māma dǎ diànhuà.\", \"english\": \"I'll call my mother."}
+        ]
+      },
+      {
+        "name": "动词重叠 (Verb Reduplication)",
+        "explanation": "Single-syllable verbs can be reduplicated to indicate a brief, casual action. Adding 一 (yī) makes it more natural: V一V.",
+        "examples": [
+          {"chinese": "介绍一下\", \"pinyin\": \"jièshào yīxià\", \"english\": \"briefly introduce"},
+          {"chinese": "看一下\", \"pinyin\": \"kàn yīxià\", \"english\": \"take a quick look"},
+          {"chinese": "想一想\", \"pinyin\": \"xiǎng yīxiǎng\", \"english\": \"think about it briefly"}
+        ]
+      }
+    ]
+  }
+}

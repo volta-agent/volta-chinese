@@ -1,0 +1,510 @@
+{
+  "1": {
+    "lesson": 1,
+    "title": "九月九号去北京",
+    "grammar_points": [
+      {
+        "name": "助动词\"要\" (Auxiliary Verb 要)",
+        "explanation": "用在动词前，表示有做某件事情的愿望。When used before a verb, it indicates the desire to do something. 否定形式一般为\"不想\" (The negative form is usually 不想).",
+        "examples": [
+          {"chinese": "王方要学习英语。\", \"pinyin\": \"Wáng Fāng yào xuéxí Yīngyǔ.\", \"english\": \"Wang Fang wants to study English."},
+          {"chinese": "我要吃米饭。\", \"pinyin\": \"Wǒ yào chī mǐfàn.\", \"english\": \"I want to eat rice."},
+          {"chinese": "我不想去。\", \"pinyin\": \"Wǒ bù xiǎng qù.\", \"english\": \"I don't want to go."}
+        ]
+      },
+      {
+        "name": "程度副词\"最\" (Adverb of Degree 最)",
+        "explanation": "表示在同类事物中或某方面占第一位。It means being the first among things of the same kind or in a certain aspect.",
+        "examples": [
+          {"chinese": "大卫的汉语最好。\", \"pinyin\": \"Dàwèi de Hànyǔ zuì hǎo.\", \"english\": \"David's Chinese is the best."},
+          {"chinese": "我最喜欢吃米饭。\", \"pinyin\": \"Wǒ zuì xǐhuan chī mǐfàn.\", \"english\": \"I like eating rice the most."},
+          {"chinese": "它的眼睛最漂亮。\", \"pinyin\": \"Tā de yǎnjing zuì piàoliang.\", \"english\": \"Its eyes are the most beautiful."}
+        ]
+      },
+      {
+        "name": "概数的表达: 几、多 (Approximate Numbers with 几 and 多)",
+        "explanation": "几表示10以内的不定个数，后边要有量词。多表示超过某数量。几 indicates an indefinite number less than 10, followed by a measure word. 多 indicates exceeding a certain quantity.",
+        "examples": [
+          {"chinese": "车上有几个人。\", \"pinyin\": \"Chē shang yǒu jǐ ge rén.\", \"english\": \"There are a few people on the bus."},
+          {"chinese": "我想买几本书。\", \"pinyin\": \"Wǒ xiǎng mǎi jǐ běn shū.\", \"english\": \"I want to buy a few books."},
+          {"chinese": "五十多个人\", \"pinyin\": \"wǔshí duō ge rén\", \"english\": \"more than fifty people"}
+        ]
+      }
+    ]
+  },
+  "2": {
+    "lesson": 2,
+    "title": "我每天六点起床",
+    "grammar_points": [
+      {
+        "name": "时间状语 (Time Adverbials)",
+        "explanation": "时间词作状语时，既可以在主语前，也可以在主语后。When a time word serves as an adverbial, it can come either before or after the subject.",
+        "examples": [
+          {"chinese": "我每天六点起床。\", \"pinyin\": \"Wǒ měitiān liù diǎn qǐchuáng.\", \"english\": \"I get up at six every day."},
+          {"chinese": "明天我们去上海。\", \"pinyin\": \"Míngtiān wǒmen qù Shànghǎi.\", \"english\": \"Tomorrow we're going to Shanghai."},
+          {"chinese": "昨天我没有去上课。\", \"pinyin\": \"Zuótiān wǒ méiyǒu qù shàngkè.\", \"english\": \"Yesterday I didn't go to class."}
+        ]
+      },
+      {
+        "name": "介词\"跟\" (Preposition 跟)",
+        "explanation": "跟引进动作的对象，相当于\"和\"。跟 introduces the object of an action, similar to 和 (with).",
+        "examples": [
+          {"chinese": "我跟朋友一起去。\", \"pinyin\": \"Wǒ gēn péngyou yīqǐ qù.\", \"english\": \"I'm going with my friend."},
+          {"chinese": "你跟谁说话？\", \"pinyin\": \"Nǐ gēn shéi shuōhuà?\", \"english\": \"Who are you talking to?"},
+          {"chinese": "我想跟你学习汉语。\", \"pinyin\": \"Wǒ xiǎng gēn nǐ xuéxí Hànyǔ.\", \"english\": \"I want to study Chinese with you."}
+        ]
+      },
+      {
+        "name": "介词\"给\" (Preposition 给)",
+        "explanation": "给引进动作的接受者。给 introduces the recipient of an action.",
+        "examples": [
+          {"chinese": "我给妈妈打电话。\", \"pinyin\": \"Wǒ gěi māma dǎ diànhuà.\", \"english\": \"I'll call my mother."},
+          {"chinese": "他给我买了一个礼物。\", \"pinyin\": \"Tā gěi wǒ mǎi le yí ge lǐwù.\", \"english\": \"He bought me a gift."}
+        ]
+      }
+    ]
+  },
+  "3": {
+    "lesson": 3,
+    "title": "你家离公司远吗",
+    "grammar_points": [
+      {
+        "name": "疑问代词\"怎么\" (Interrogative Pronoun 怎么)",
+        "explanation": "怎么询问动作的方式或方法。怎么 asks about the manner or method of an action.",
+        "examples": [
+          {"chinese": "你怎么去公司？\", \"pinyin\": \"Nǐ zěnme qù gōngsī?\", \"english\": \"How do you go to the company?"},
+          {"chinese": "这个词怎么读？\", \"pinyin\": \"Zhège cí zěnme dú?\", \"english\": \"How do you read this word?"}
+        ]
+      },
+      {
+        "name": "量词的重叠 (Reduplication of Measure Words)",
+        "explanation": "量词重叠表示\"每一\"的意思。When a measure word is reduplicated, it means 'every'.",
+        "examples": [
+          {"chinese": "人人都要学习。\", \"pinyin\": \"Rénrén dōu yào xuéxí.\", \"english\": \"Everyone needs to study."},
+          {"chinese": "他天天来。\", \"pinyin\": \"Tā tiāntiān lái.\", \"english\": \"He comes every day."},
+          {"chinese": "个个都喜欢。\", \"pinyin\": \"Gège dōu xǐhuan.\", \"english\": \"Everyone likes it."}
+        ]
+      },
+      {
+        "name": "关联词\"因为…所以…\" (The Pair of Conjunctions 因为…所以…)",
+        "explanation": "因为…所以…表示因果关系。因为…所以… indicates a cause-effect relationship.",
+        "examples": [
+          {"chinese": "因为下雨，所以我不去。\", \"pinyin\": \"Yīnwèi xiàyǔ, suǒyǐ wǒ bú qù.\", \"english\": \"Because it's raining, I'm not going."},
+          {"chinese": "因为他很忙，所以没时间。\", \"pinyin\": \"Yīnwèi tā hěn máng, suǒyǐ méi shíjiān.\", \"english\": \"Because he's busy, he has no time."}
+        ]
+      }
+    ]
+  },
+  "4": {
+    "lesson": 4,
+    "title": "我可以坐这儿吗",
+    "grammar_points": [
+      {
+        "name": "语气副词\"还\"(2) (Modal Adverb 还(2))",
+        "explanation": "还表示除此之外，另有补充。还 indicates addition, meaning 'also' or 'in addition'.",
+        "examples": [
+          {"chinese": "他还会说日语。\", \"pinyin\": \"Tā hái huì shuō Rìyǔ.\", \"english\": \"He can also speak Japanese."},
+          {"chinese": "我还有一个问题。\", \"pinyin\": \"Wǒ hái yǒu yí ge wèntí.\", \"english\": \"I have one more question."}
+        ]
+      },
+      {
+        "name": "时间副词\"就\" (Adverb of Time 就)",
+        "explanation": "就表示事情发生得早或快。就 indicates that something happened early or quickly.",
+        "examples": [
+          {"chinese": "我八点就来了。\", \"pinyin\": \"Wǒ bā diǎn jiù lái le.\", \"english\": \"I came as early as eight o'clock."},
+          {"chinese": "他很快就回来了。\", \"pinyin\": \"Tā hěn kuài jiù huílái le.\", \"english\": \"He'll be back very soon."}
+        ]
+      },
+      {
+        "name": "动词\"过\" (The Verb 过)",
+        "explanation": "过表示经过某个地点。过 indicates passing through a location.",
+        "examples": [
+          {"chinese": "我每天路过那个商店。\", \"pinyin\": \"Wǒ měitiān lùguò nàge shāngdiàn.\", \"english\": \"I pass by that store every day."},
+          {"chinese": "你走过那座桥吗？\", \"pinyin\": \"Nǐ zǒuguò nà zuò qiáo ma?\", \"english\": \"Have you walked across that bridge?"}
+        ]
+      },
+      {
+        "name": "语气助词\"呢\" (Modal Particle 呢)",
+        "explanation": "呢用在特指问句后，表示疑问语气。呢 is used at the end of special questions to indicate an interrogative tone.",
+        "examples": [
+          {"chinese": "他在哪儿呢？\", \"pinyin\": \"Tā zài nǎr ne?\", \"english\": \"Where is he?"},
+          {"chinese": "你吃什么呢？\", \"pinyin\": \"Nǐ chī shénme ne?\", \"english\": \"What are you eating?"}
+        ]
+      }
+    ]
+  },
+  "5": {
+    "lesson": 5,
+    "title": "让我想想再告诉你",
+    "grammar_points": [
+      {
+        "name": "疑问句\"…，好吗？\" (Interrogative Sentence …，好吗？)",
+        "explanation": "好吗用在陈述句后，表示征求对方意见。好吗 is added after a statement to ask for agreement.",
+        "examples": [
+          {"chinese": "我们一起去，好吗？\", \"pinyin\": \"Wǒmen yīqǐ qù, hǎo ma?\", \"english\": \"Let's go together, okay?"},
+          {"chinese": "你帮我，好吗？\", \"pinyin\": \"Nǐ bāng wǒ, hǎo ma?\", \"english\": \"Will you help me, okay?"}
+        ]
+      },
+      {
+        "name": "副词\"再\" (The Adverb 再)",
+        "explanation": "再表示一个动作或状态将在下个时间发生或重复。再 indicates an action will happen or repeat in the future.",
+        "examples": [
+          {"chinese": "我明天再来。\", \"pinyin\": \"Wǒ míngtiān zài lái.\", \"english\": \"I'll come again tomorrow."},
+          {"chinese": "让我想想再说。\", \"pinyin\": \"Ràng wǒ xiǎngxiang zài shuō.\", \"english\": \"Let me think before I speak."},
+          {"chinese": "再见！\", \"pinyin\": \"Zàijiàn!\", \"english\": \"See you again!"}
+        ]
+      },
+      {
+        "name": "兼语句 (Pivotal Sentences)",
+        "explanation": "兼语句中，前一个动词的宾语同时是后一个动词的主语。In a pivotal sentence, the object of the first verb is also the subject of the second verb.",
+        "examples": [
+          {"chinese": "让我想想。\", \"pinyin\": \"Ràng wǒ xiǎngxiang.\", \"english\": \"Let me think."},
+          {"chinese": "请你说慢一点。\", \"pinyin\": \"Qǐng nǐ shuō màn yīdiǎn.\", \"english\": \"Please speak slower."},
+          {"chinese": "老师让我们学习。\", \"pinyin\": \"Lǎoshī ràng wǒmen xuéxí.\", \"english\": \"The teacher let us study."}
+        ]
+      },
+      {
+        "name": "动词的重叠 (Reduplication of Verbs)",
+        "explanation": "单音节动词重叠表示动作时间短或尝试。Reduplication of single-syllable verbs indicates brief or trial action.",
+        "examples": [
+          {"chinese": "我想想。\", \"pinyin\": \"Wǒ xiǎngxiang.\", \"english\": \"Let me think."},
+          {"chinese": "你看看。\", \"pinyin\": \"Nǐ kànkan.\", \"english\": \"Take a look."},
+          {"chinese": "我试试这件衣服。\", \"pinyin\": \"Wǒ shìshi zhè jiàn yīfu.\", \"english\": \"Let me try on this clothes."}
+        ]
+      }
+    ]
+  },
+  "6": {
+    "lesson": 6,
+    "title": "题太多，我没做完",
+    "grammar_points": [
+      {
+        "name": "结果补语 (Complements of Result)",
+        "explanation": "结果补语表示动作的结果。常用的有：完、到、见、好等。A result complement indicates the result of an action. Common ones include: 完 (finished), 到 (obtained), 见 (perceived), 好 (done well).",
+        "examples": [
+          {"chinese": "我做完了作业。\", \"pinyin\": \"Wǒ zuòwán le zuòyè.\", \"english\": \"I finished my homework."},
+          {"chinese": "我买到了一本书。\", \"pinyin\": \"Wǒ mǎidào le yì běn shū.\", \"english\": \"I bought a book."},
+          {"chinese": "我看见了他。\", \"pinyin\": \"Wǒ kànjiàn le tā.\", \"english\": \"I saw him."},
+          {"chinese": "饭做好了。\", \"pinyin\": \"Fàn zuòhǎo le.\", \"english\": \"The food is ready."}
+        ]
+      },
+      {
+        "name": "介词\"从\" (Preposition 从)",
+        "explanation": "从表示时间或空间的起点。从 indicates the starting point in time or space.",
+        "examples": [
+          {"chinese": "我从北京来。\", \"pinyin\": \"Wǒ cóng Běijīng lái.\", \"english\": \"I come from Beijing."},
+          {"chinese": "从九点到十点。\", \"pinyin\": \"Cóng jiǔ diǎn dào shí diǎn.\", \"english\": \"From nine to ten."},
+          {"chinese": "从今天开始。\", \"pinyin\": \"Cóng jīntiān kāishǐ.\", \"english\": \"Starting from today."}
+        ]
+      },
+      {
+        "name": "\"第~\"表示顺序 (第~ Indicating Order)",
+        "explanation": "第加数词表示顺序。第 plus a number indicates order.",
+        "examples": [
+          {"chinese": "第一课\", \"pinyin\": \"dì yī kè\", \"english\": \"Lesson 1"},
+          {"chinese": "我是第二名。\", \"pinyin\": \"Wǒ shì dì èr míng.\", \"english\": \"I'm in second place."},
+          {"chinese": "第一次\", \"pinyin\": \"dì yī cì\", \"english\": \"the first time"}
+        ]
+      }
+    ]
+  },
+  "7": {
+    "lesson": 7,
+    "title": "别找了，手机在桌子上",
+    "grammar_points": [
+      {
+        "name": "祈使句: 不要…了 (Imperative Sentence: 不要…了)",
+        "explanation": "不要表示禁止或劝阻，了表示变化。不要 indicates prohibition or dissuasion, and 了 indicates change.",
+        "examples": [
+          {"chinese": "不要找了。\", \"pinyin\": \"Búyào zhǎo le.\", \"english\": \"Stop looking."},
+          {"chinese": "不要哭了。\", \"pinyin\": \"Búyào kū le.\", \"english\": \"Don't cry anymore."},
+          {"chinese": "不要说了。\", \"pinyin\": \"Búyào shuō le.\", \"english\": \"Stop talking."}
+        ]
+      },
+      {
+        "name": "动态助词\"了\" (Aspect Particle 了)",
+        "explanation": "了表示动作完成或状态变化。了 indicates completion of an action or change of state.",
+        "examples": [
+          {"chinese": "我买了一个手机。\", \"pinyin\": \"Wǒ mǎi le yí ge shǒujī.\", \"english\": \"I bought a phone."},
+          {"chinese": "下雨了。\", \"pinyin\": \"Xià yǔ le.\", \"english\": \"It's raining now."},
+          {"chinese": "他走了。\", \"pinyin\": \"Tā zǒu le.\", \"english\": \"He left."}
+        ]
+      },
+      {
+        "name": "介词\"对\" (Preposition 对)",
+        "explanation": "对引进动作的对象。对 introduces the target or object of an action.",
+        "examples": [
+          {"chinese": "他对我说。\", \"pinyin\": \"Tā duì wǒ shuō.\", \"english\": \"He said to me."},
+          {"chinese": "他对汉语很感兴趣。\", \"pinyin\": \"Tā duì Hànyǔ hěn gǎn xìngqù.\", \"english\": \"He's very interested in Chinese."},
+          {"chinese": "这个问题对他来说很难。\", \"pinyin\": \"Zhège wèntí duì tā lái shuō hěn nán.\", \"english\": \"This question is very hard for him."}
+        ]
+      }
+    ]
+  },
+  "8": {
+    "lesson": 8,
+    "title": "他比我大三岁",
+    "grammar_points": [
+      {
+        "name": "动词结构做定语 (Verb Structure as Attributive Modifier)",
+        "explanation": "动词或动词结构可以作定语修饰名词。A verb or verb phrase can serve as an attributive modifier for a noun.",
+        "examples": [
+          {"chinese": "买书的人\", \"pinyin\": \"mǎi shū de rén\", \"english\": \"the person buying books"},
+          {"chinese": "学习汉语的方法\", \"pinyin\": \"xuéxí Hànyǔ de fāngfǎ\", \"english\": \"the method of learning Chinese"},
+          {"chinese": "来中国的朋友\", \"pinyin\": \"lái Zhōngguó de péngyou\", \"english\": \"the friend coming to China"}
+        ]
+      },
+      {
+        "name": "\"比\"字句(1) (The 比 Sentence (1))",
+        "explanation": "比字句用于比较，基本结构是A比B + 形容词。比 sentence is used for comparison, basic structure is A比B + adjective.",
+        "examples": [
+          {"chinese": "他比我大。\", \"pinyin\": \"Tā bǐ wǒ dà.\", \"english\": \"He is older than me."},
+          {"chinese": "今天比昨天冷。\", \"pinyin\": \"Jīntiān bǐ zuótiān lěng.\", \"english\": \"Today is colder than yesterday."},
+          {"chinese": "他比我大三岁。\", \"pinyin\": \"Tā bǐ wǒ dà sān suì.\", \"english\": \"He is three years older than me."}
+        ]
+      },
+      {
+        "name": "助动词\"可能\" (Auxiliary Verb 可能)",
+        "explanation": "可能表示估计或可能。可能 indicates estimation or possibility.",
+        "examples": [
+          {"chinese": "他可能来。\", \"pinyin\": \"Tā kěnéng lái.\", \"english\": \"He might come."},
+          {"chinese": "明天可能下雨。\", \"pinyin\": \"Míngtiān kěnéng xiàyǔ.\", \"english\": \"It might rain tomorrow."},
+          {"chinese": "这是可能的。\", \"pinyin\": \"Zhè shì kěnéng de.\", \"english\": \"This is possible."}
+        ]
+      }
+    ]
+  },
+  "9": {
+    "lesson": 9,
+    "title": "我今天穿这套衣服",
+    "grammar_points": [
+      {
+        "name": "动词\"穿\" (Verb 穿)",
+        "explanation": "穿表示穿戴衣物。穿 means to wear or put on clothes.",
+        "examples": [
+          {"chinese": "我穿这件衣服。\", \"pinyin\": \"Wǒ chuān zhè jiàn yīfu.\", \"english\": \"I'm wearing this clothes."},
+          {"chinese": "他穿着新鞋。\", \"pinyin\": \"Tā chuānzhe xīn xié.\", \"english\": \"He's wearing new shoes."},
+          {"chinese": "今天你穿什么？\", \"pinyin\": \"Jīntiān nǐ chuān shénme?\", \"english\": \"What are you wearing today?"}
+        ]
+      },
+      {
+        "name": "\"把\"字句(1) (The 把 Sentence (1))",
+        "explanation": "把字句把宾语提到动词前，强调对宾语的处置。把 sentence moves the object before the verb, emphasizing the handling of the object.",
+        "examples": [
+          {"chinese": "请把门打开。\", \"pinyin\": \"Qǐng bǎ mén dǎkāi.\", \"english\": \"Please open the door."},
+          {"chinese": "我把作业做完了。\", \"pinyin\": \"Wǒ bǎ zuòyè zuòwán le.\", \"english\": \"I finished my homework."},
+          {"chinese": "把书放在桌子上。\", \"pinyin\": \"Bǎ shū fàng zài zhuōzi shàng.\", \"english\": \"Put the book on the table."}
+        ]
+      },
+      {
+        "name": "程度补语 (Complement of Degree)",
+        "explanation": "程度补语表示动作达到的程度，用得连接。A complement of degree indicates the extent of an action, connected by 得.",
+        "examples": [
+          {"chinese": "他说得很好。\", \"pinyin\": \"Tā shuō de hěn hǎo.\", \"english\": \"He spoke very well."},
+          {"chinese": "她跑得很快。\", \"pinyin\": \"Tā pǎo de hěn kuài.\", \"english\": \"She runs very fast."},
+          {"chinese": "我累得睡不着。\", \"pinyin\": \"Wǒ lèi de shuì bù zháo.\", \"english\": \"I'm so tired I can't sleep."}
+        ]
+      }
+    ]
+  },
+  "10": {
+    "lesson": 10,
+    "title": "你看这个房子怎么样",
+    "grammar_points": [
+      {
+        "name": "形容词重叠 (Reduplication of Adjectives)",
+        "explanation": "单音节形容词重叠表示程度加深。双音节形容词用AABB形式。Single-syllable adjective reduplication indicates deeper degree. Two-syllable adjectives use AABB form.",
+        "examples": [
+          {"chinese": "高高的楼房\", \"pinyin\": \"gāogāo de lóufáng\", \"english\": \"very tall building"},
+          {"chinese": "漂漂亮亮的衣服\", \"pinyin\": \"piàopiàoliangliang de yīfu\", \"english\": \"very beautiful clothes"},
+          {"chinese": "大大的眼睛\", \"pinyin\": \"dàdà de yǎnjing\", \"english\": \"big eyes"}
+        ]
+      },
+      {
+        "name": "\"有点儿\"和\"一点儿\" (有点儿 and 一点儿)",
+        "explanation": "有点儿+形容词表示消极意义。形容词+一点儿表示比较或希望。有点儿 + adjective indicates negative meaning. Adjective + 一点儿 indicates comparison or hope.",
+        "examples": [
+          {"chinese": "今天有点儿冷。\", \"pinyin\": \"Jīntiān yǒudiǎnr lěng.\", \"english\": \"Today is a bit cold."},
+          {"chinese": "这件衣服有点儿大。\", \"pinyin\": \"Zhè jiàn yīfu yǒudiǎnr dà.\", \"english\": \"This clothes is a bit too big."},
+          {"chinese": "请慢一点儿。\", \"pinyin\": \"Qǐng màn yīdiǎnr.\", \"english\": \"Please go a bit slower."},
+          {"chinese": "我想买便宜一点儿的。\", \"pinyin\": \"Wǒ xiǎng mǎi piányi yīdiǎnr de.\", \"english\": \"I want to buy a cheaper one."}
+        ]
+      },
+      {
+        "name": "主谓谓语句 (Subject-Predicate Predicate Sentence)",
+        "explanation": "大主语和小主语有领属关系。The large subject and small subject have a possessive relationship.",
+        "examples": [
+          {"chinese": "我身体很好。\", \"pinyin\": \"Wǒ shēntǐ hěn hǎo.\", \"english\": \"My health is very good."},
+          {"chinese": "这个房子房间很多。\", \"pinyin\": \"Zhège fángzi fángjiān hěn duō.\", \"english\": \"This house has many rooms."},
+          {"chinese": "他眼睛很大。\", \"pinyin\": \"Tā yǎnjing hěn dà.\", \"english\": \"His eyes are big."}
+        ]
+      }
+    ]
+  },
+  "11": {
+    "lesson": 11,
+    "title": "这儿的水果真新鲜",
+    "grammar_points": [
+      {
+        "name": "语气副词\"真\" (Modal Adverb 真)",
+        "explanation": "真表示程度很高，带有感叹语气。真 indicates high degree with an exclamatory tone.",
+        "examples": [
+          {"chinese": "这儿的水果真新鲜！\", \"pinyin\": \"Zhèr de shuǐguǒ zhēn xīnxiān!\", \"english\": \"The fruit here is really fresh!"},
+          {"chinese": "他真聪明！\", \"pinyin\": \"Tā zhēn cōngming!\", \"english\": \"He's really smart!"},
+          {"chinese": "今天真冷！\", \"pinyin\": \"Jīntiān zhēn lěng!\", \"english\": \"Today is really cold!"}
+        ]
+      },
+      {
+        "name": "动态助词\"着\" (Aspect Particle 着)",
+        "explanation": "着表示动作或状态的持续。着 indicates the continuation of an action or state.",
+        "examples": [
+          {"chinese": "门开着。\", \"pinyin\": \"Mén kāizhe.\", \"english\": \"The door is open."},
+          {"chinese": "他站着说话。\", \"pinyin\": \"Tā zhànzhe shuōhuà.\", \"english\": \"He's standing and talking."},
+          {"chinese": "墙上挂着一幅画。\", \"pinyin\": \"Qiáng shàng guàzhe yì fú huà.\", \"english\": \"A painting hangs on the wall."}
+        ]
+      },
+      {
+        "name": "存现句 (Existential Sentences)",
+        "explanation": "存现句表示某处存在、出现或消失某人/某物。Existential sentences indicate the existence, appearance, or disappearance of someone/something at a location.",
+        "examples": [
+          {"chinese": "桌子上有一本书。\", \"pinyin\": \"Zhuōzi shàng yǒu yì běn shū.\", \"english\": \"There's a book on the table."},
+          {"chinese": "门口站着一个人。\", \"pinyin\": \"Ménkǒu zhànzhe yí ge rén.\", \"english\": \"Someone is standing at the door."},
+          {"chinese": "家里来了客人。\", \"pinyin\": \"Jiāli lái le kèrén.\", \"english\": \"Guests came to the house."}
+        ]
+      }
+    ]
+  },
+  "12": {
+    "lesson": 12,
+    "title": "我们学习汉语已经两年了",
+    "grammar_points": [
+      {
+        "name": "介词\"跟\"和\"和\" (Prepositions 跟 and 和)",
+        "explanation": "跟和和都可以表示\"with\"。Both 跟 and 和 can mean 'with'.",
+        "examples": [
+          {"chinese": "我和朋友一起去。\", \"pinyin\": \"Wǒ hé péngyou yīqǐ qù.\", \"english\": \"I'm going with my friend."},
+          {"chinese": "你跟谁去？\", \"pinyin\": \"Nǐ gēn shéi qù?\", \"english\": \"Who are you going with?"},
+          {"chinese": "我和他都是学生。\", \"pinyin\": \"Wǒ hé tā dōu shì xuésheng.\", \"english\": \"Both he and I are students."}
+        ]
+      },
+      {
+        "name": "副词\"已经\" (Adverb 已经)",
+        "explanation": "已经表示动作完成或状态持续了一段时间。已经 indicates an action is completed or a state has continued for some time.",
+        "examples": [
+          {"chinese": "我们已经学习两年了。\", \"pinyin\": \"Wǒmen yǐjīng xuéxí liǎng nián le.\", \"english\": \"We've been studying for two years."},
+          {"chinese": "他已经走了。\", \"pinyin\": \"Tā yǐjīng zǒu le.\", \"english\": \"He has already left."},
+          {"chinese": "已经十二点了。\", \"pinyin\": \"Yǐjīng shí'èr diǎn le.\", \"english\": \"It's already 12 o'clock."}
+        ]
+      },
+      {
+        "name": "时段表达 (Duration Expressions)",
+        "explanation": "时段表示动作持续的时间。在动词后或句末使用。Duration indicates how long an action lasts. It's used after the verb or at the end of a sentence.",
+        "examples": [
+          {"chinese": "我学了一个小时。\", \"pinyin\": \"Wǒ xué le yí ge xiǎoshí.\", \"english\": \"I studied for an hour."},
+          {"chinese": "他在北京住了三年。\", \"pinyin\": \"Tā zài Běijīng zhù le sān nián.\", \"english\": \"He lived in Beijing for three years."},
+          {"chinese": "等一会儿。\", \"pinyin\": \"Děng yīhuìr.\", \"english\": \"Wait a moment."}
+        ]
+      }
+    ]
+  },
+  "13": {
+    "lesson": 13,
+    "title": "我以为你在宿舍",
+    "grammar_points": [
+      {
+        "name": "动词\"以为\" (Verb 以为)",
+        "explanation": "以为表示错误的看法，实际结果与想法不同。以为 indicates a mistaken belief; the actual result differs from what was thought.",
+        "examples": [
+          {"chinese": "我以为你在宿舍。\", \"pinyin\": \"Wǒ yǐwéi nǐ zài sùshè.\", \"english\": \"I thought you were in the dormitory (but you weren't)."},
+          {"chinese": "我以为他是老师。\", \"pinyin\": \"Wǒ yǐwéi tā shì lǎoshī.\", \"english\": \"I thought he was a teacher (but he wasn't)."},
+          {"chinese": "我以为今天不上课。\", \"pinyin\": \"Wǒ yǐwéi jīntiān bú shàngkè.\", \"english\": \"I thought there was no class today (but there was)."}
+        ]
+      },
+      {
+        "name": "\"把\"字句(2) (The 把 Sentence (2))",
+        "explanation": "把字句中，动词后有结果补语或趋向补语。In 把 sentences, the verb is followed by a result or directional complement.",
+        "examples": [
+          {"chinese": "我把作业交给了老师。\", \"pinyin\": \"Wǒ bǎ zuòyè jiāogěi le lǎoshī.\", \"english\": \"I handed in my homework to the teacher."},
+          {"chinese": "请把窗户打开。\", \"pinyin\": \"Qǐng bǎ chuānghu dǎkāi.\", \"english\": \"Please open the window."},
+          {"chinese": "我把书拿回来了。\", \"pinyin\": \"Wǒ bǎ shū ná huílái le.\", \"english\": \"I brought the book back."}
+        ]
+      },
+      {
+        "name": "趋向补语(1) (Directional Complements (1))",
+        "explanation": "趋向补语表示动作的方向，常用有：来、去、上来、下去等。Directional complements indicate the direction of an action. Common ones: 来, 去, 上来, 下去, etc.",
+        "examples": [
+          {"chinese": "他进来了。\", \"pinyin\": \"Tā jìnlái le.\", \"english\": \"He came in."},
+          {"chinese": "我跑下去了。\", \"pinyin\": \"Wǒ pǎo xiàqù le.\", \"english\": \"I ran down."},
+          {"chinese": "请站起来。\", \"pinyin\": \"Qǐng zhàn qǐlái.\", \"english\": \"Please stand up."}
+        ]
+      }
+    ]
+  },
+  "14": {
+    "lesson": 14,
+    "title": "你学到哪儿了",
+    "grammar_points": [
+      {
+        "name": "助词\"的话\" (Particle 的话)",
+        "explanation": "的话用在从句末，表示假设条件。的话 is used at the end of a clause to indicate a hypothetical condition.",
+        "examples": [
+          {"chinese": "如果明天不下雨的话，我去。\", \"pinyin\": \"Rúguǒ míngtiān bú xiàyǔ de huà, wǒ qù.\", \"english\": \"If it doesn't rain tomorrow, I'll go."},
+          {"chinese": "你有时间的话，请来我家。\", \"pinyin\": \"Nǐ yǒu shíjiān de huà, qǐng lái wǒ jiā.\", \"english\": \"If you have time, please come to my house."},
+          {"chinese": "不想去的话，别去。\", \"pinyin\": \"Bù xiǎng qù de huà, bié qù.\", \"english\": \"If you don't want to go, don't go."}
+        ]
+      },
+      {
+        "name": "趋向补语(2) (Directional Complements (2))",
+        "explanation": "复合趋向补语：上来、下去、进来、出去等。Compound directional complements: 上来, 下去, 进来, 出去, etc.",
+        "examples": [
+          {"chinese": "他跑上来了。\", \"pinyin\": \"Tā pǎo shànglái le.\", \"english\": \"He ran up."},
+          {"chinese": "请把书拿出去。\", \"pinyin\": \"Qǐng bǎ shū ná chūqù.\", \"english\": \"Please take the book out."},
+          {"chinese": "我想走进去看看。\", \"pinyin\": \"Wǒ xiǎng zǒu jìnlái kànkan.\", \"english\": \"I want to walk in and take a look."}
+        ]
+      },
+      {
+        "name": "程度补语\"极\"了 (Degree Complement 极了)",
+        "explanation": "极了表示程度非常高，带有感叹语气。极了 indicates very high degree with an exclamatory tone.",
+        "examples": [
+          {"chinese": "好看极了！\", \"pinyin\": \"Hǎokàn jí le!\", \"english\": \"Extremely good-looking!"},
+          {"chinese": "高兴极了！\", \"pinyin\": \"Gāoxìng jí le!\", \"english\": \"Extremely happy!"},
+          {"chinese": "累极了！\", \"pinyin\": \"Lèi jí le!\", \"english\": \"Extremely tired!"}
+        ]
+      }
+    ]
+  },
+  "15": {
+    "lesson": 15,
+    "title": "我想买一条裙子",
+    "grammar_points": [
+      {
+        "name": "量词\"条\" (Measure Word 条)",
+        "explanation": "条用于长条形物体或裤子、裙子等。条 is used for long, narrow objects or pants, skirts, etc.",
+        "examples": [
+          {"chinese": "一条裙子\", \"pinyin\": \"yì tiáo qúnzi\", \"english\": \"a skirt"},
+          {"chinese": "一条裤子\", \"pinyin\": \"yì tiáo kùzi\", \"english\": \"a pair of pants"},
+          {"chinese": "一条河\", \"pinyin\": \"yì tiáo hé\", \"english\": \"a river"},
+          {"chinese": "一条鱼\", \"pinyin\": \"yì tiáo yú\", \"english\": \"a fish"}
+        ]
+      },
+      {
+        "name": "结果补语\"好\" (Result Complement 好)",
+        "explanation": "好作结果补语，表示动作完成并达到满意程度。好 as a result complement indicates the action is completed satisfactorily.",
+        "examples": [
+          {"chinese": "饭做好了。\", \"pinyin\": \"Fàn zuòhǎo le.\", \"english\": \"The food is ready."},
+          {"chinese": "作业写好了。\", \"pinyin\": \"Zuòyè xiěhǎo le.\", \"english\": \"The homework is written."},
+          {"chinese": "准备好了吗？\", \"pinyin\": \"Zhǔnbèi hǎo le ma?\", \"english\": \"Are you ready?"}
+        ]
+      },
+      {
+        "name": "介词\"向\" (Preposition 向)",
+        "explanation": "向表示动作的方向或对象。向 indicates the direction or target of an action.",
+        "examples": [
+          {"chinese": "向南走。\", \"pinyin\": \"Xiàng nán zǒu.\", \"english\": \"Walk south."},
+          {"chinese": "向我学习。\", \"pinyin\": \"Xiàng wǒ xuéxí.\", \"english\": \"Learn from me."},
+          {"chinese": "向前看。\", \"pinyin\": \"Xiàng qián kàn.\", \"english\": \"Look forward."}
+        ]
+      }
+    ]
+  }
+}

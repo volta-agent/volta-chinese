@@ -1,17 +1,18 @@
 <script>
- /**
- * DialoguePlayer.svelte - Plays through a lesson's dialogue
- * Shows each line with audio playback, pinyin, and translation
- */
+/**
+* DialoguePlayer.svelte - Plays through a lesson's dialogue
+* Shows each line with audio playback, pinyin, and translation
+*/
 
- import { speakDialogueLine, speakWord } from '../utils/audio-service.js';
+import { speakDialogueLine, speakWord } from '../utils/audio-service.js';
 
- let { dialogue, showPinyin = true, initialLine = 0 } = $props();
+let { dialogue, showPinyin = true, initialLine = 0, grammar = null } = $props();
  
- let currentLineIndex = $state(initialLine);
- let showTranslation = $state(false);
- let isPlaying = $state(false);
- let audioStatus = $state('');
+let currentLineIndex = $state(initialLine);
+let showTranslation = $state(false);
+let isPlaying = $state(false);
+let audioStatus = $state('');
+let showGrammarPanel = $state(false);
 
  let currentLine = $derived(dialogue?.lines?.[currentLineIndex] || null);
  let totalLines = $derived(dialogue?.lines?.length || 0);
@@ -182,24 +183,61 @@
     </button>
  </div>
  
- <!-- Vocabulary preview -->
- {#if dialogue?.vocabulary && dialogue.vocabulary.length > 0}
- <div class="vocab-section">
-    <h3>Key Vocabulary</h3>
-    <div class="vocab-grid">
-    {#each dialogue.vocabulary.slice(0, 6) as word}
-      <div class="vocab-item" onclick={() => playAudio(word.hanzi)}>
-      <span class="vocab-hanzi">{word.hanzi}</span>
-      <span class="vocab-pinyin">{word.pinyin}</span>
-      <span class="vocab-def">{word.definition}</span>
-      </div>
-    {/each}
-    </div>
-    {#if dialogue.vocabulary.length > 6}
-    <p class="vocab-more">+{dialogue.vocabulary.length - 6} more words</p>
-    {/if}
- </div>
- {/if}
+<!-- Grammar section -->
+	{#if grammar && grammar.grammar_points && grammar.grammar_points.length > 0}
+	<div class="grammar-section">
+		<button 
+			type="button"
+			class="grammar-toggle"
+			onclick={() => showGrammarPanel = !showGrammarPanel}
+		>
+			<span class="grammar-icon">📚</span>
+			<span>Grammar Points ({grammar.grammar_points.length})</span>
+			<span class="toggle-arrow">{showGrammarPanel ? '▲' : '▼'}</span>
+		</button>
+		
+		{#if showGrammarPanel}
+		<div class="grammar-content">
+			{#each grammar.grammar_points as point, idx}
+			<div class="grammar-point">
+				<h4 class="point-name">{idx + 1}. {point.name}</h4>
+				<p class="point-explanation">{point.explanation}</p>
+				{#if point.examples && point.examples.length > 0}
+				<div class="examples">
+					{#each point.examples as ex}
+					<div class="example" onclick={() => playAudio(ex.chinese)}>
+						<span class="ex-chinese">{ex.chinese}</span>
+						<span class="ex-pinyin">{ex.pinyin}</span>
+						<span class="ex-english">{ex.english}</span>
+					</div>
+					{/each}
+				</div>
+				{/if}
+			</div>
+			{/each}
+		</div>
+		{/if}
+	</div>
+	{/if}
+	
+	<!-- Vocabulary preview -->
+	{#if dialogue?.vocabulary && dialogue.vocabulary.length > 0}
+	<div class="vocab-section">
+		<h3>Key Vocabulary</h3>
+		<div class="vocab-grid">
+			{#each dialogue.vocabulary.slice(0, 6) as word}
+			<div class="vocab-item" onclick={() => playAudio(word.hanzi)}>
+				<span class="vocab-hanzi">{word.hanzi}</span>
+				<span class="vocab-pinyin">{word.pinyin}</span>
+				<span class="vocab-def">{word.definition}</span>
+			</div>
+			{/each}
+		</div>
+		{#if dialogue.vocabulary.length > 6}
+		<p class="vocab-more">+{dialogue.vocabulary.length - 6} more words</p>
+		{/if}
+	</div>
+	{/if}
 </div>
 
 <style>
@@ -483,10 +521,118 @@
     color: #64748b;
  }
  
- .vocab-more {
-    text-align: center;
-    color: #64748b;
-    font-size: 0.8rem;
-    margin-top: 0.75rem;
- }
+.vocab-more {
+	text-align: center;
+	color: #64748b;
+	font-size: 0.8rem;
+	margin-top: 0.75rem;
+}
+
+/* Grammar section styles */
+.grammar-section {
+	background: #0f172a;
+	border: 1px solid #334155;
+	border-radius: 12px;
+	padding: 1rem;
+	margin-top: 1.5rem;
+}
+
+.grammar-toggle {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	background: transparent;
+	border: none;
+	color: #f8fafc;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0.5rem 0;
+	text-align: left;
+}
+
+.grammar-toggle:hover {
+	color: #60a5fa;
+}
+
+.grammar-icon {
+	font-size: 1.25rem;
+}
+
+.toggle-arrow {
+	margin-left: auto;
+	font-size: 0.75rem;
+	color: #94a3b8;
+}
+
+.grammar-content {
+	margin-top: 1rem;
+	border-top: 1px solid #334155;
+	padding-top: 1rem;
+}
+
+.grammar-point {
+	margin-bottom: 1.5rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid #1e293b;
+}
+
+.grammar-point:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.point-name {
+	color: #60a5fa;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin: 0 0 0.75rem;
+}
+
+.point-explanation {
+	color: #cbd5e1;
+	font-size: 0.95rem;
+	line-height: 1.6;
+	margin: 0 0 1rem;
+}
+
+.examples {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.example {
+	background: #1e293b;
+	border-radius: 8px;
+	padding: 0.75rem 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.example:hover {
+	background: #334155;
+}
+
+.ex-chinese {
+	display: block;
+	font-size: 1.1rem;
+	color: #f8fafc;
+	margin-bottom: 0.25rem;
+}
+
+.ex-pinyin {
+	display: block;
+	font-size: 0.85rem;
+	color: #94a3b8;
+	margin-bottom: 0.25rem;
+}
+
+.ex-english {
+	display: block;
+	font-size: 0.85rem;
+	color: #4ade80;
+}
 </style>
