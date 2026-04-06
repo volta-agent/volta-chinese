@@ -642,27 +642,27 @@ let currentSentenceWord = $state(null); // The word being studied
 			>
     Flashcards
     </button>
-    <button 
-    type="button"
-			class="btn-secondary"
-				onclick={() => startCharacterWriting(lvl.level)}
-			>
-				Writing
-			</button>
-			<button 
-				type="button"
-				class="btn-secondary"
-				onclick={() => startSentencePractice(lvl.level)}
-			>
-				Sentences
-			</button>
+<button 
+type="button"
+		class="btn-writing"
+			onclick={() => startCharacterWriting(lvl.level)}
+		>
+			Writing
+		</button>
 		<button 
 			type="button"
-			class="btn-secondary"
-			onclick={() => startDialoguePractice(lvl.level)}
+			class="btn-sentences"
+			onclick={() => startSentencePractice(lvl.level)}
 		>
-			Dialogues
- </button>
+			Sentences
+		</button>
+	<button 
+		type="button"
+		class="btn-dialogues"
+		onclick={() => startDialoguePractice(lvl.level)}
+	>
+		Dialogues
+	</button>
 		{#if TEXTBOOK_DIALOGUES[lvl.level]}
 			<button 
 				type="button"
@@ -1345,12 +1345,63 @@ let currentSentenceWord = $state(null); // The word being studied
  color: #ff6b6b;
  }
  
- .btn-secondary:disabled {
- opacity: 0.5;
- cursor: not-allowed;
+.btn-secondary:disabled {
+opacity: 0.5;
+cursor: not-allowed;
 }
 
- .mode-count {
+.btn-writing {
+background: linear-gradient(135deg, #a78bfa, #8b5cf6);
+color: white;
+border: none;
+padding: 0.75rem 1.5rem;
+border-radius: 8px;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 500;
+transition: all 0.2s;
+}
+
+.btn-writing:hover:not(:disabled) {
+background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+transform: translateY(-1px);
+}
+
+.btn-sentences {
+background: linear-gradient(135deg, #60a5fa, #3b82f6);
+color: white;
+border: none;
+padding: 0.75rem 1.5rem;
+border-radius: 8px;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 500;
+transition: all 0.2s;
+}
+
+.btn-sentences:hover:not(:disabled) {
+background: linear-gradient(135deg, #3b82f6, #2563eb);
+transform: translateY(-1px);
+}
+
+.btn-dialogues {
+background: linear-gradient(135deg, #fbbf24, #f59e0b);
+color: #1a1a2e;
+border: none;
+padding: 0.75rem 1.5rem;
+border-radius: 8px;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 500;
+transition: all 0.2s;
+}
+
+.btn-dialogues:hover:not(:disabled) {
+background: linear-gradient(135deg, #f59e0b, #d97706);
+transform: translateY(-1px);
+}
+
+.mode-count {
  color: #ffd93d;
  font-size: 0.85rem;
  margin-bottom: 1rem;
