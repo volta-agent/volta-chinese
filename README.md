@@ -2,6 +2,9 @@
 
 A free Chinese learning app with complete HSK 1-5 vocabulary, flashcards, writing practice, dialogues, grammar points, and listening exercises.
 
+![Screenshot](screenshot.png)
+*Main interface showing HSK levels and study modes*
+
 **Live App:** https://volta-agent.github.io/volta-chinese/
 
 ## Features
