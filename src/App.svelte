@@ -6,36 +6,41 @@
  import hsk2 from './lib/data/hsk2.json';
  import hsk3 from './lib/data/hsk3.json';
  import hsk4 from './lib/data/hsk4.json';
- import hsk5 from './lib/data/hsk5.json';
- import sentences1 from './lib/data/sentences_hsk1.json';
- import sentences2 from './lib/data/sentences_hsk2.json';
- import sentences3 from './lib/data/sentences_hsk3.json';
- import sentences4 from './lib/data/sentences_hsk4.json';
- import sentences5 from './lib/data/sentences_hsk5.json';
- import dialogues1 from './lib/data/dialogues_hsk1.json';
- import dialogues2 from './lib/data/dialogues_hsk2.json';
- import dialogues3 from './lib/data/dialogues_hsk3.json';
- import dialogues4 from './lib/data/dialogues_hsk4.json';
- import dialogues5 from './lib/data/dialogues_hsk5.json';
+import hsk5 from './lib/data/hsk5.json';
+import hsk6 from './lib/data/hsk6.json';
+import sentences1 from './lib/data/sentences_hsk1.json';
+import sentences2 from './lib/data/sentences_hsk2.json';
+import sentences3 from './lib/data/sentences_hsk3.json';
+import sentences4 from './lib/data/sentences_hsk4.json';
+import sentences5 from './lib/data/sentences_hsk5.json';
+import sentences6 from './lib/data/sentences_hsk6.json';
+import dialogues1 from './lib/data/dialogues_hsk1.json';
+import dialogues2 from './lib/data/dialogues_hsk2.json';
+import dialogues3 from './lib/data/dialogues_hsk3.json';
+import dialogues4 from './lib/data/dialogues_hsk4.json';
+import dialogues5 from './lib/data/dialogues_hsk5.json';
+import dialogues6 from './lib/data/dialogues_hsk6.json';
 import textbookDialogues1 from './lib/data/textbook_dialogues_hsk1.json';
 import textbookDialogues2 from './lib/data/textbook_dialogues_hsk2.json';
 import textbookDialogues3 from './lib/data/textbook_dialogues_hsk3.json';
 import textbookDialogues4 from './lib/data/textbook_dialogues_hsk4.json';
 import textbookDialogues5 from './lib/data/textbook_dialogues_hsk5.json';
+import textbookDialogues6 from './lib/data/textbook_dialogues_hsk6.json';
 import grammarHsk1 from './lib/data/grammar_hsk1.json';
 import grammarHsk2 from './lib/data/grammar_hsk2.json';
 import grammarHsk3 from './lib/data/grammar_hsk3.json';
 import grammarHsk4 from './lib/data/grammar_hsk4.json';
 import grammarHsk5 from './lib/data/grammar_hsk5.json';
+import grammarHsk6 from './lib/data/grammar_hsk6.json';
  
 import LessonCard from './lib/components/LessonCard.svelte';
 import DialoguePlayer from './lib/components/DialoguePlayer.svelte';
  
- const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5 };
- const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5 };
- const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5 };
- const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2, 3: textbookDialogues3, 4: textbookDialogues4, 5: textbookDialogues5 };
-const GRAMMAR_DATA = { 1: grammarHsk1, 2: grammarHsk2, 3: grammarHsk3, 4: grammarHsk4, 5: grammarHsk5 };
+ const HSK_DATA = { 1: hsk1, 2: hsk2, 3: hsk3, 4: hsk4, 5: hsk5, 6: hsk6 };
+ const SENTENCE_DATA = { 1: sentences1, 2: sentences2, 3: sentences3, 4: sentences4, 5: sentences5, 6: sentences6 };
+ const DIALOGUE_DATA = { 1: dialogues1, 2: dialogues2, 3: dialogues3, 4: dialogues4, 5: dialogues5, 6: dialogues6 };
+ const TEXTBOOK_DIALOGUES = { 1: textbookDialogues1, 2: textbookDialogues2, 3: textbookDialogues3, 4: textbookDialogues4, 5: textbookDialogues5, 6: textbookDialogues6 };
+const GRAMMAR_DATA = { 1: grammarHsk1, 2: grammarHsk2, 3: grammarHsk3, 4: grammarHsk4, 5: grammarHsk5, 6: grammarHsk6 };
  
  let currentView = $state('home');
  let currentLevel = $state(1);
@@ -82,7 +87,8 @@ let currentSentenceWord = $state(null); // The word being studied
  { level: 2, name: 'HSK 2', count: hsk2.length, desc: 'Elementary' },
  { level: 3, name: 'HSK 3', count: hsk3.length, desc: 'Intermediate' },
  { level: 4, name: 'HSK 4', count: hsk4.length, desc: 'Upper Intermediate' },
- { level: 5, name: 'HSK 5', count: hsk5.length, desc: 'Advanced' }
+ { level: 5, name: 'HSK 5', count: hsk5.length, desc: 'Advanced' },
+ { level: 6, name: 'HSK 6', count: hsk6.length, desc: 'Proficient' }
  ];
  
  // Separate words by character count
